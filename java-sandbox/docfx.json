@@ -13,7 +13,9 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "java-sandbox"
       }
     ],
     "resource": [
@@ -31,7 +33,7 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/java-sandbox/breadcrumb/toc.json",
+      "breadcrumb_path": "breadcrumb/toc.yml",
       "extendBreadcrumb": true
     },
     "fileMetadata": {},
