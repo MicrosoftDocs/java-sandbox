@@ -2,7 +2,7 @@
     "docsets_to_publish": [
         {
             "docset_name": "java-sandbox",
-            "build_source_folder": "java-sandbox",
+            "build_source_folder": "javadocs",
             "build_output_subfolder": "java-sandbox",
             "locale": "en-us",
             "monikers": [],
@@ -21,11 +21,29 @@
           ],
           "customized_tasks": {
             "docset_prebuild": [
-              "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
+              "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
+              "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
             ]
           },
           "SplitTOC": [
             "java-sandbox/docs-ref-autogen/toc.yml"
+          ],
+          "JoinTOCPlugin": [
+            {
+              "TopLevelTOC": "javadocs/docs-ref-mapping/reference.yml",
+              "ReferenceTOC": "javadocs/docs-ref-autogen/toc.yml",
+              "ConceptualTOC": "javadocs/docs-ref-conceptual/toc.yml",
+              "ReferenceTOCUrl": "/java-sandbox/api/java-sandbox/toc.json",
+              "ConceptualTOCUrl": "/java-sandbox/javasandbox/toc.json",
+              "OutputFolder": "javadocs/docs-ref-autogen/overview",
+              "HideEmptyNode": false,
+              "ContainerPageMetadata": {
+                "langs": [
+                  "java"
+                ],
+                "open_to_public_contributors": false
+              }
+            }
           ]
         }
     ],
