@@ -18,7 +18,15 @@
             "base_path": "java-sandbox",
             "customized_template_paths": [
                 "_dependentPackages/memberpage.plugins/content"
+          ],
+          "customized_tasks": {
+            "docset_prebuild": [
+              "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1"
             ]
+          },
+          "SplitTOC": [
+            "java-sandbox/docs-ref-autogen/toc.yml"
+          ]
         }
     ],
     "notification_subscribers": [],
