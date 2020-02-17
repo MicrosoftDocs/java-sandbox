@@ -2,7 +2,7 @@
     "docsets_to_publish": [
         {
             "docset_name": "java-sandbox",
-            "build_source_folder": "java-sandbox",
+            "build_source_folder": "javadocs",
             "build_output_subfolder": "java-sandbox",
             "locale": "en-us",
             "monikers": [],
@@ -14,10 +14,37 @@
                 "RestApi": "Content"
             },
             "build_entry_point": "docs",
-            "template_folder": "../Template.Docs/drop/_themes",
+            "template_folder": "_themes",
+            "base_path": "java-sandbox",
             "customized_template_paths": [
                 "_dependentPackages/memberpage.plugins/content"
+          ],
+          "customized_tasks": {
+            "docset_prebuild": [
+              "_dependentPackages/CommonPlugins/tools/SplitTOC.ps1",
+              "_dependentPackages/CommonPlugins/tools/JoinTOC.ps1"
             ]
+          },
+          "SplitTOC": [
+            "java-sandbox/docs-ref-autogen/toc.yml"
+          ],
+          "JoinTOCPlugin": [
+            {
+              "TopLevelTOC": "javadocs/docs-ref-mapping/reference.yml",
+              "ReferenceTOC": "javadocs/docs-ref-autogen/toc.yml",
+              "ConceptualTOC": "javadocs/docs-ref-conceptual/toc.yml",
+              "ReferenceTOCUrl": "/java-sandbox/api/java-sandbox/toc.json",
+              "ConceptualTOCUrl": "/java-sandbox/java-sandbox/toc.json",
+              "OutputFolder": "javadocs/docs-ref-autogen/overview",
+              "HideEmptyNode": false,
+              "ContainerPageMetadata": {
+                "langs": [
+                  "java"
+                ],
+                "open_to_public_contributors": false
+              }
+            }
+          ]
         }
     ],
     "notification_subscribers": [],
@@ -25,7 +52,14 @@
     "skip_source_output_uploading": false,
     "need_preview_pull_request": false,
     "contribution_branch_mappings": {},
-    "dependent_repositories": [],
+    "dependent_repositories": [
+        {
+          "path_to_root": "_themes",
+          "url": "https://github.com/Microsoft/templates.docs.msft",
+          "branch": "master",
+          "branch_mapping": {}
+        }
+      ],
     "dependent_packages": [
         {
             "id": "Microsoft.OpenPublishing.CommonPlugins",

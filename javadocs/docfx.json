@@ -1,0 +1,100 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-autogen/overview",
+        "dest": "api/overview/java-sandbox",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml"
+        ],
+        "src": "breadcrumb",
+        "dest": "breadcrumb",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-conceptual",
+        "dest": "java-sandbox"
+      },
+      {
+        "files": [
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices",
+          "docs-ref-autogen"
+        ]
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "**/toc.yml"
+        ]
+      },
+      {
+        "files": [
+          "**/toc.yml"
+        ],
+        "src": "docs-ref-autogen",
+        "dest": "api/java-sandbox",
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "apiPlatform": "java",
+      "breadcrumb_path": "java-sandbox/breadcrumb/toc.json",
+      "extendBreadcrumb": true
+    },
+    "fileMetadata": {},
+    "template": [],
+    "exportRawModel": true,
+    "rawModelOutputFolder": "../_model",
+    "exportViewModel": true,
+    "viewModelOutputFolder": "../_viewmodel"
+  }
+}
