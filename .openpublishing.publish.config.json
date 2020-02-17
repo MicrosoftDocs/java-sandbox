@@ -34,7 +34,7 @@
               "ReferenceTOC": "javadocs/docs-ref-autogen/toc.yml",
               "ConceptualTOC": "javadocs/docs-ref-conceptual/toc.yml",
               "ReferenceTOCUrl": "/java-sandbox/api/java-sandbox/toc.json",
-              "ConceptualTOCUrl": "/java-sandbox/javasandbox/toc.json",
+              "ConceptualTOCUrl": "/java-sandbox/java-sandbox/toc.json",
               "OutputFolder": "javadocs/docs-ref-autogen/overview",
               "HideEmptyNode": false,
               "ContainerPageMetadata": {
