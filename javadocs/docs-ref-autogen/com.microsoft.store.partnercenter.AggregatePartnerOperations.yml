@@ -12,6 +12,13 @@ items:
   nameWithType: "AggregatePartnerOperations"
   fullName: "com.microsoft.store.partnercenter.AggregatePartnerOperations"
   type: "Class"
+  source:
+    remote: &o0
+      path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/AccessCondition.java
+      branch: master
+      repo: https://github.com/Azure/azure-documentdb-java-pr
+    path: DocumentDB/src/main/java/com/microsoft/azure/documentdb/AccessCondition.java
+    startLine: 9
   package: "com.microsoft.store.partnercenter"
   summary: "Aggregate partner implementation."
   syntax:
