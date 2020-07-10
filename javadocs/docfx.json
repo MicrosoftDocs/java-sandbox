@@ -1,100 +1,199 @@
 {
-  "build": {
-    "content": [
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
+    "build": {
+        "content": [
+            {
+                "files": [
+                    "**/*.yml"
+                ],
+                "src": "docs-ref-autogen/overview",
+                "dest": "api/overview/java-sandbox",
+                "group": "latest",
+                "version": "unified-latest",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.yml"
+                ],
+                "src": "preview/docs-ref-autogen/overview",
+                "dest": "api/overview/java-sandbox",
+                "group": "preview",
+                "version": "unified-preview",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            },
+            {
+                "files": [
+                    "toc.yml"
+                ],
+                "src": "breadcrumb",
+                "dest": "breadcrumb",
+                "version": "unified-latest",
+                "group": "latest"
+            },
+            {
+                "files": [
+                    "toc.yml"
+                ],
+                "src": "breadcrumb",
+                "dest": "breadcrumb",
+                "version": "unified-preview",
+                "group": "preview"
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "docs-ref-conceptual",
+                "dest": "java-sandbox",
+                "version": "unified-latest",
+                "group": "latest"
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "docs-ref-conceptual",
+                "dest": "java-sandbox",
+                "version": "unified-preview",
+                "group": "preview"
+            },
+            {
+                "files": [
+                    "**/*.md"
+                ],
+                "group": "latest",
+                "version": "unified-latest",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices",
+                    "docs-ref-autogen"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md"
+                ],
+                "group": "preview",
+                "version": "unified-preview",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "README.md",
+                    "LICENSE",
+                    "LICENSE-CODE",
+                    "ThirdPartyNotices",
+                    "docs-ref-autogen"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "docs-ref-autogen",
+                "dest": "api",
+                "group": "latest",
+                "version": "unified-latest",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/toc.yml"
+                ]
+            },
+            {
+                "files": [
+                    "**/*.md",
+                    "**/*.yml"
+                ],
+                "src": "preview/docs-ref-autogen",
+                "dest": "api",
+                "group": "preview",
+                "version": "unified-preview",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**",
+                    "**/toc.yml"
+                ]
+            },
+            {
+                "files": [
+                    "**/toc.yml"
+                ],
+                "src": "docs-ref-autogen",
+                "dest": "api/java-sandbox",
+                "group": "latest",
+                "version": "unified-latest",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            },
+            {
+                "files": [
+                    "**/toc.yml"
+                ],
+                "src": "preview/docs-ref-autogen",
+                "dest": "api/java-sandbox",
+                "group": "preview",
+                "version": "unified-preview",
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            }
         ],
-        "src": "docs-ref-autogen/overview",
-        "dest": "api/overview/java-sandbox",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "files": [
-          "toc.yml"
+        "resource": [
+            {
+                "files": [
+                    "**/*.png",
+                    "**/*.jpg"
+                ],
+                "exclude": [
+                    "**/obj/**",
+                    "**/includes/**"
+                ]
+            }
         ],
-        "src": "breadcrumb",
-        "dest": "breadcrumb",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "docs-ref-conceptual",
-        "dest": "java-sandbox"
-      },
-      {
-        "files": [
-          "**/*.md"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices",
-          "docs-ref-autogen"
-        ]
-      },
-      {
-        "files": [
-          "**/*.md",
-          "**/*.yml"
-        ],
-        "src": "docs-ref-autogen",
-        "dest": "api",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "**/toc.yml"
-        ]
-      },
-      {
-        "files": [
-          "**/toc.yml"
-        ],
-        "src": "docs-ref-autogen",
-        "dest": "api/java-sandbox",
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "resource": [
-      {
-        "files": [
-          "**/*.png",
-          "**/*.jpg"
-        ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**"
-        ]
-      }
-    ],
-    "overwrite": [],
-    "externalReference": [],
-    "globalMetadata": {
-      "apiPlatform": "java",
-      "breadcrumb_path": "java-sandbox/breadcrumb/toc.json",
-      "extendBreadcrumb": true
-    },
-    "fileMetadata": {},
-    "template": [],
-    "exportRawModel": true,
-    "rawModelOutputFolder": "../_model",
-    "exportViewModel": true,
-    "viewModelOutputFolder": "../_viewmodel"
-  }
+        "groups": {
+            "preview": {
+                "dest": "preview",
+                "moniker_range": "unified-preview"
+            },
+            "latest": {
+                "dest": "latest",
+                "moniker_range": "unified-latest"
+            }
+        },
+        "overwrite": [],
+        "externalReference": [],
+        "globalMetadata": {
+            "apiPlatform": "java",
+            "breadcrumb_path": "java-sandbox/breadcrumb/toc.json",
+            "extendBreadcrumb": true
+        },
+        "langs": {
+            "docs-ref-autogen/**.yml": [
+                "java"
+            ],
+            "preview/docs-ref-autogen/**.yml": [
+                "java"
+            ]
+        },
+        "fileMetadata": {},
+        "template": [],
+        "exportRawModel": true,
+        "exportViewModel": true
+    }
 }

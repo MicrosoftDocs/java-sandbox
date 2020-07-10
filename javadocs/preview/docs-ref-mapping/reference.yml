@@ -1,0 +1,26 @@
+- name: Reference
+  uid: com.microsoft.store.partnercenter.landingpage.reference.pre
+  landingPageType: Root
+  expanded: true
+  items:
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.partnercenter.pre
+      name: Partner Center
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.domains.pre
+      name: Domains
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.domains
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.network.pre
+      name: Network
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.network
+    - uid: com.microsoft.store.partnercenter.landingpage.reference.models.pre
+      name: Models
+      landingPageType: Service
+      children:
+      - com.microsoft.store.partnercenter.models
+      - com.microsoft.store.partnercenter.models.*
