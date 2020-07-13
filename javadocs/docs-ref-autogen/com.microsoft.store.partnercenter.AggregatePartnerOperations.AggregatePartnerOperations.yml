@@ -22,7 +22,7 @@ members:
     description: The partner credentials, `String` type.
   summary: Initializes a new instance of the AggregatePartnerOperations class, with a `String` type parameter as credentials.
   overridden:
-    type: <xref href="com.microsoft.identity.client.IAuthenticationResult.getAccessToken()?alt=com.microsoft.identity.client.IAuthenticationResult.getAccessToken()&text=IAuthenticationResult.getAccessToken()", data-throw-if-not-resolved="False"/>
+    type: <xref href="com.microsoft.identity.client.IAuthenticationResult.getAccessToken()?alt=com.microsoft.identity.client.IAuthenticationResult.getAccessToken()&text=IAuthenticationResult.getAccessToken()" data-throw-if-not-resolved="False"/>
   syntax: public AggregatePartnerOperations(String credentials)
   uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.AggregatePartnerOperations(java.lang.String)
 metadata: {}
