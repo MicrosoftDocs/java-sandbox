@@ -19,8 +19,7 @@ members:
 - fullName: com.microsoft.store.partnercenter.AggregatePartnerOperations.with(String context)
   name: with(String context)
   nameWithType: AggregatePartnerOperations.with(String context)
-  overridden:
-    type: <xref href="com.microsoft.identity.client.IAuthenticationResult.with()?alt=com.microsoft.identity.client.IAuthenticationResult.with()&text=IAuthenticationResult.with()" data-throw-if-not-resolved="False"/>
+  overridden: <xref href="com.microsoft.identity.client.IAuthenticationResult.with()?alt=com.microsoft.identity.client.IAuthenticationResult.with()&text=IAuthenticationResult.with()" data-throw-if-not-resolved="False"/>
   parameters:
   - name: context
     type: <xref href="java.lang.string?alt=java.lang.string&text=String" data-throw-if-not-resolved="False"/>
