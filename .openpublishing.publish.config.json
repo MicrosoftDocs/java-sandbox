@@ -12,7 +12,8 @@
                 "Conceptual": "Content",
                 "ManagedReference": "Content",
                 "RestApi": "Content",
-                "JavaMember": "Content"
+                "JavaMember": "Content",
+                "JavaType": "Content"
             },
             "build_entry_point": "docs",
             "template_folder": "_themes",
@@ -57,7 +58,7 @@
         {
           "path_to_root": "_themes",
           "url": "https://github.com/Microsoft/templates.docs.msft",
-          "branch": "pr-28848",
+          "branch": "pr-29058",
           "branch_mapping": {}
         }
       ],
