@@ -1,0 +1,65 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_ACCOUNT_NOT_FOUND
+  name: ERROR_ACCOUNT_NOT_FOUND
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.ERROR_ACCOUNT_NOT_FOUND
+  summary: <p>The operation failed because the account is not found. This could occur if the account is removed while the operation was in progress. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_ACCOUNT_NOT_FOUND
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_NO_NETWORK
+  name: ERROR_NO_NETWORK
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.ERROR_NO_NETWORK
+  summary: <p>The operation failed because there was no network. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_NO_NETWORK
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  name: ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  summary: <p>The operation failed since the app didn't subscribe to the AccessTokenRequested event. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_TOKEN_REQUEST_FAILED
+  name: ERROR_TOKEN_REQUEST_FAILED
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.ERROR_TOKEN_REQUEST_FAILED
+  summary: <p>The operation failed since the app failed to return a token when requested. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_TOKEN_REQUEST_FAILED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_UNKNOWN
+  name: ERROR_UNKNOWN
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.ERROR_UNKNOWN
+  summary: <p>The operation failed for unknown reasons. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_UNKNOWN
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_WEB_FAILURE
+  name: ERROR_WEB_FAILURE
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.ERROR_WEB_FAILURE
+  summary: <p>The operation failed due to a web service failure. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.ERROR_WEB_FAILURE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.SUCCESS
+  summary: <p>The RemoteSysteamAppRegitration information was successfully published. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.SUCCESS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemAppRegistrationPublishStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus&text=RemoteSystemAppRegistrationPublishStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemAppRegistrationPublishStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemAppRegistrationPublishStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus.getValue()
+nameWithType: RemoteSystemAppRegistrationPublishStatus
+syntax: public enum RemoteSystemAppRegistrationPublishStatus
+summary: <p>Contains the values that describe the publish operation status. The error statuses indicate transient conditions where the app developer may want to retry publishing. </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus
+name: RemoteSystemAppRegistrationPublishStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

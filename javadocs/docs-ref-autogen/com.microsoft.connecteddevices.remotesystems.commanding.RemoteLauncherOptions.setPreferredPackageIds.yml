@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteLauncherOptions.setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+  name: setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+  nameWithType: RemoteLauncherOptions.setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+  parameters:
+  - name: preferredPackageIds
+    type: <xref href="%40Nullable+Collection%3CString%3E?alt=@Nullable Collection<String>&text=%40Nullable+Collection%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the preferred app / package identifiers that should be used to launch the URI on the remote device. These identifiers should be in a format that can be understood on the remote system (i.e. Package Family Name for Windows remote devices). </p>
+  syntax: public void setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setPreferredPackageIds(@Nullable Collection<String>)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setPreferredPackageIds*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+name: setPreferredPackageIds(@Nullable Collection<String> preferredPackageIds)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

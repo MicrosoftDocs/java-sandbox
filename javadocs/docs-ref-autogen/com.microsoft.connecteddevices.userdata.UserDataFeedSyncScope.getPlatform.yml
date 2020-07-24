@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScope.getPlatform()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getPlatform()
+  name: getPlatform()
+  nameWithType: UserDataFeedSyncScope.getPlatform()
+  returns:
+    description: <p>the specified platform (see **UserDataFeedPlatforms**). </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set the platform to restrict incoming activities to apps which support the platform. </p>
+  syntax: public String getPlatform()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getPlatform()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getPlatform*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getPlatform()
+name: getPlatform()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

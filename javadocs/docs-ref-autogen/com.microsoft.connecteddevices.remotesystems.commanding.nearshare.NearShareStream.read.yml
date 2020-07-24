@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: NearShareStream.read(long offset, int size, ByteBuffer byteBuffer)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.read(long offset, int size, ByteBuffer byteBuffer)
+  name: read(long offset, int size, ByteBuffer byteBuffer)
+  nameWithType: NearShareStream.read(long offset, int size, ByteBuffer byteBuffer)
+  parameters:
+  - description: <p>The number of bytes to offset the starting point of the read operation by. </p>
+    name: offset
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
+  - description: <p>The size, in bytes, of the data. </p>
+    name: size
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  - description: <p>A **ByteBuffer** instance into which the data will be written. </p>
+    name: byteBuffer
+    type: <xref href="ByteBuffer?alt=ByteBuffer&text=ByteBuffer" data-throw-if-not-resolved="False"/>
+  summary: <p>Reads the internal file data and writes it to the given **ByteBuffer** reference. </p>
+  syntax: public void read(long offset, int size, ByteBuffer byteBuffer)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.read(long,int,ByteBuffer)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.read*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.read(long offset, int size, ByteBuffer byteBuffer)
+name: read(long offset, int size, ByteBuffer byteBuffer)
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

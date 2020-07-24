@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.ClipboardReaderOptions(@NonNull EnumSet<ClipboardItemOriginFilters>,@NonNull EnumSet<ClipboardItemStateFilters>)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getOriginFilters()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getStateFilters()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters>)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters>)
+nameWithType: ClipboardReaderOptions
+syntax: public class ClipboardReaderOptions
+type: class
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions
+name: ClipboardReaderOptions
+package: com.microsoft.connecteddevices.userdata.clipboard

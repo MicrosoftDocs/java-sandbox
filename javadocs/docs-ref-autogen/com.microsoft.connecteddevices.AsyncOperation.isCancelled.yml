@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.isCancelled()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.isCancelled()
+  name: isCancelled()
+  nameWithType: AsyncOperation<T>.isCancelled()
+  returns:
+    description: <p>if the operation is cancelled </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Checks if the future has been successfully cancelled. </p>
+  syntax: public boolean isCancelled()
+  uid: com.microsoft.connecteddevices.AsyncOperation.isCancelled()
+uid: com.microsoft.connecteddevices.AsyncOperation.isCancelled*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.isCancelled()
+name: isCancelled()
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,50 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+  name: acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+  nameWithType: AsyncOperation<T>.acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+  parameters:
+  - description: <p>the other operation to "OR" together </p>
+    name: other
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;? extends T&gt;'
+  - description: <p>ResultConsumer that will be executed upon completion of either operation </p>
+    name: action
+    type: <xref href="%40NonNull+AsyncOperation.ResultConsumer%3C%3F+super+T%3E?alt=@NonNull AsyncOperation.ResultConsumer<? super T>&text=%40NonNull+AsyncOperation.ResultConsumer%3C%3F+super+T%3E" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A new async operation that will complete based on the outcome of passed in action </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: >-
+    <p>The acceptEither trio of functions run a passed in ResultConsumer when either this operation or the passed in operation completes successfully. If the operation that completes does so exceptionally, the returned operation also completes exceptionally. </p>
+
+    <p></p>
+  syntax: public AsyncOperation<Void> acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+  uid: com.microsoft.connecteddevices.AsyncOperation.acceptEitherAsync(@NonNull AsyncOperation<? extends T>,@NonNull AsyncOperation.ResultConsumer<? super T>)
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, AsyncOperation.ResultConsumer<? super T> action, @NonNull Executor executor)
+  name: acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, AsyncOperation.ResultConsumer<? super T> action, @NonNull Executor executor)
+  nameWithType: AsyncOperation<T>.acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, AsyncOperation.ResultConsumer<? super T> action, @NonNull Executor executor)
+  parameters:
+  - description: <p>the other operation to "OR" together </p>
+    name: other
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;? extends T&gt;'
+  - description: <p>ResultConsumer that will be executed upon completion of either operation </p>
+    name: action
+    type: <xref href="AsyncOperation.ResultConsumer%3C%3F+super+T%3E?alt=AsyncOperation.ResultConsumer<? super T>&text=AsyncOperation.ResultConsumer%3C%3F+super+T%3E" data-throw-if-not-resolved="False"/>
+  - description: <p>Executor with which to execute the function </p>
+    name: executor
+    type: <xref href="%40NonNull+Executor?alt=@NonNull Executor&text=%40NonNull+Executor" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A new async operation that will complete based on the outcome of passed in action </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: >-
+    <p>The acceptEither trio of functions run a passed in ResultConsumer when either this operation or the passed in operation completes successfully. If the operation that completes does so exceptionally, the returned operation also completes exceptionally. </p>
+
+    <p></p>
+  syntax: public AsyncOperation<Void> acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, AsyncOperation.ResultConsumer<? super T> action, @NonNull Executor executor)
+  uid: com.microsoft.connecteddevices.AsyncOperation.acceptEitherAsync(@NonNull AsyncOperation<? extends T>,AsyncOperation.ResultConsumer<? super T>,@NonNull Executor)
+uid: com.microsoft.connecteddevices.AsyncOperation.acceptEitherAsync*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+name: acceptEitherAsync( @NonNull AsyncOperation<? extends T> other, @NonNull AsyncOperation.ResultConsumer<? super T> action)
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.createReaderWithState(@NonNull String serializedState)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithState(@NonNull String serializedState)
+  name: createReaderWithState(@NonNull String serializedState)
+  nameWithType: ClipboardChannel.createReaderWithState(@NonNull String serializedState)
+  parameters:
+  - name: serializedState
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader&text=ClipboardReader" data-throw-if-not-resolved="False"/>
+  syntax: public ClipboardReader createReaderWithState(@NonNull String serializedState)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithState(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithState*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithState(@NonNull String serializedState)
+name: createReaderWithState(@NonNull String serializedState)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

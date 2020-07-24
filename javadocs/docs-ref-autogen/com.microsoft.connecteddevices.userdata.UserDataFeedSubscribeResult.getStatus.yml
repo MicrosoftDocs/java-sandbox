@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSubscribeResult.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getStatus()
+  name: getStatus()
+  nameWithType: UserDataFeedSubscribeResult.getStatus()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus" data-throw-if-not-resolved="false">UserDataFeedSubscribeStatus</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus&text=UserDataFeedSubscribeStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve the subscribe operation status </p>
+  syntax: public UserDataFeedSubscribeStatus getStatus()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getStatus()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getStatus*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

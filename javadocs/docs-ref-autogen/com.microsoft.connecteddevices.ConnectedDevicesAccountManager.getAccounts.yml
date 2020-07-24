@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccountManager.getAccounts()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.getAccounts()
+  name: getAccounts()
+  nameWithType: ConnectedDevicesAccountManager.getAccounts()
+  returns:
+    description: <p>A list of <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref>. </p>
+    type: List&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Return all <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccounts</xref> which are currently tracked by this manager. </p>
+  syntax: public List<ConnectedDevicesAccount> getAccounts()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.getAccounts()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.getAccounts*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.getAccounts()
+name: getAccounts()
+package: com.microsoft.connecteddevices
+metadata: {}

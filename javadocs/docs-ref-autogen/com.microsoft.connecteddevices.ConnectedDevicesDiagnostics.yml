@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread()
+- com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread()
+- com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread(@NonNull String)
+- com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread(@NonNull String)
+nameWithType: ConnectedDevicesDiagnostics
+syntax: public class ConnectedDevicesDiagnostics
+summary: <p>Manages diagnostic information from the Connected Devices platform. Not intended for general use. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics
+fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics
+name: ConnectedDevicesDiagnostics
+package: com.microsoft.connecteddevices

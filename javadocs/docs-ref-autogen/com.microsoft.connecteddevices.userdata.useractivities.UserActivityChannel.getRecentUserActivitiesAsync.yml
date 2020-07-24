@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityChannel.getRecentUserActivitiesAsync(int maxUniqueActivities)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentUserActivitiesAsync(int maxUniqueActivities)
+  name: getRecentUserActivitiesAsync(int maxUniqueActivities)
+  nameWithType: UserActivityChannel.getRecentUserActivitiesAsync(int maxUniqueActivities)
+  parameters:
+  - description: <p>The maximum number of user activities to retrieve. </p>
+    name: maxUniqueActivities
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>An asynchronous operation with an array of **UserActivitySessionHistoryItem** instances. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;List&lt;<xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem&text=UserActivitySessionHistoryItem" data-throw-if-not-resolved="False"/>&gt;&gt;
+  summary: <p>Gets a history of recent user activities. </p>
+  syntax: public AsyncOperation<List<UserActivitySessionHistoryItem>> getRecentUserActivitiesAsync(int maxUniqueActivities)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentUserActivitiesAsync(int)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentUserActivitiesAsync*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentUserActivitiesAsync(int maxUniqueActivities)
+name: getRecentUserActivitiesAsync(int maxUniqueActivities)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

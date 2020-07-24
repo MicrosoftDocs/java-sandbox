@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.setBackgroundColor(@ColorInt int backgroundColor)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setBackgroundColor(@ColorInt int backgroundColor)
+  name: setBackgroundColor(@ColorInt int backgroundColor)
+  nameWithType: UserActivityVisualElements.setBackgroundColor(@ColorInt int backgroundColor)
+  parameters:
+  - description: <p>The background color for the activity visual. </p>
+    name: backgroundColor
+    type: <xref href="%40ColorInt+int?alt=@ColorInt int&text=%40ColorInt+int" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the background color for the activity visual. </p>
+  syntax: public void setBackgroundColor(@ColorInt int backgroundColor)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setBackgroundColor(@ColorInt int)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setBackgroundColor*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setBackgroundColor(@ColorInt int backgroundColor)
+name: setBackgroundColor(@ColorInt int backgroundColor)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

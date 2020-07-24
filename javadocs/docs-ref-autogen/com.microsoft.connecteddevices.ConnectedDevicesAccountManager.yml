@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenInvalidated()
+- com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenRequested()
+- com.microsoft.connecteddevices.ConnectedDevicesAccountManager.addAccountAsync(@NonNull final ConnectedDevicesAccount)
+- com.microsoft.connecteddevices.ConnectedDevicesAccountManager.getAccounts()
+- com.microsoft.connecteddevices.ConnectedDevicesAccountManager.removeAccountAsync(@NonNull final ConnectedDevicesAccount)
+nameWithType: ConnectedDevicesAccountManager
+syntax: public class ConnectedDevicesAccountManager
+summary: <p>Provides a single entrypoint for all account-related features in the SDK. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager
+name: ConnectedDevicesAccountManager
+package: com.microsoft.connecteddevices

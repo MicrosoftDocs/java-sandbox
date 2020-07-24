@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationChannel.createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+  name: createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+  nameWithType: UserNotificationChannel.createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+  parameters:
+  - name: options
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions&text=UserNotificationReaderOptions" data-throw-if-not-resolved="False"/>'
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader&text=UserNotificationReader" data-throw-if-not-resolved="False"/>
+  summary: <p>Create a user notification reader with options </p>
+  syntax: public UserNotificationReader createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithOptions(@NonNull UserNotificationReaderOptions)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithOptions*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+name: createReaderWithOptions(@NonNull UserNotificationReaderOptions options)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

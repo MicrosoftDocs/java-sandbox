@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: ConnectedDevicesRemoveAccountResult
+syntax: public class ConnectedDevicesRemoveAccountResult
+summary: <p>Result of <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccountManager" data-throw-if-not-resolved="false">#removeAccountAsync</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesRemoveAccountResult
+fullName: com.microsoft.connecteddevices.ConnectedDevicesRemoveAccountResult
+name: ConnectedDevicesRemoveAccountResult
+package: com.microsoft.connecteddevices

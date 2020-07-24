@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+nameWithType: Event<T,R>.subscribe(EventListener<? super T, ? super R> listener)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.Event<T, R>.subscribe(EventListener<? super T, ? super R> listener)
+  name: subscribe(EventListener<? super T, ? super R> listener)
+  nameWithType: Event<T,R>.subscribe(EventListener<? super T, ? super R> listener)
+  parameters:
+  - name: listener
+    type: <xref href="com.microsoft.connecteddevices.EventListener?alt=com.microsoft.connecteddevices.EventListener&text=EventListener" data-throw-if-not-resolved="False"/>&lt;? super T, ? super R&gt;
+  returns:
+    description: <p>The subcription for the event </p>
+    type: <xref href="com.microsoft.connecteddevices.EventSubscription?alt=com.microsoft.connecteddevices.EventSubscription&text=EventSubscription" data-throw-if-not-resolved="False"/>
+  summary: <p>This method subscribes the given listener to receive items. </p>
+  syntax: public EventSubscription subscribe(EventListener<? super T, ? super R> listener)
+  uid: com.microsoft.connecteddevices.Event.subscribe(EventListener<? super T, ? super R>)
+uid: com.microsoft.connecteddevices.Event.subscribe*
+fullName: com.microsoft.connecteddevices.Event<T, R>.subscribe(EventListener<? super T, ? super R> listener)
+name: subscribe(EventListener<? super T, ? super R> listener)
+package: com.microsoft.connecteddevices
+metadata: {}

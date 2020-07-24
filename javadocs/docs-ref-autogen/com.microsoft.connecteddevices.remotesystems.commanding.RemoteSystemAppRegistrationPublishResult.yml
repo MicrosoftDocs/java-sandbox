@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult.getStatus()
+nameWithType: RemoteSystemAppRegistrationPublishResult
+syntax: public class RemoteSystemAppRegistrationPublishResult
+summary: <p>Result of <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration" data-throw-if-not-resolved="false">#publishAsync</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult
+name: RemoteSystemAppRegistrationPublishResult
+package: com.microsoft.connecteddevices.remotesystems.commanding

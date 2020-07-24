@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityChannel.deleteActivityAsync(@NonNull String activityId)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteActivityAsync(@NonNull String activityId)
+  name: deleteActivityAsync(@NonNull String activityId)
+  nameWithType: UserActivityChannel.deleteActivityAsync(@NonNull String activityId)
+  parameters:
+  - description: <p>The ID of the activity to delete. </p>
+    name: activityId
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>An **AsyncOperation** representing this operation. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: <p>Deletes the given user activity. </p>
+  syntax: public AsyncOperation<Void> deleteActivityAsync(@NonNull String activityId)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteActivityAsync(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteActivityAsync*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteActivityAsync(@NonNull String activityId)
+name: deleteActivityAsync(@NonNull String activityId)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

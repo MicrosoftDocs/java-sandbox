@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardItem.getSourceFriendlyName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getSourceFriendlyName()
+  name: getSourceFriendlyName()
+  nameWithType: ClipboardItem.getSourceFriendlyName()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public String getSourceFriendlyName()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getSourceFriendlyName()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getSourceFriendlyName*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getSourceFriendlyName()
+name: getSourceFriendlyName()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

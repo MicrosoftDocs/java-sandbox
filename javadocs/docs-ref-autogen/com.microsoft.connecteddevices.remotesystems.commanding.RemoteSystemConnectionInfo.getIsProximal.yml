@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemConnectionInfo.getIsProximal()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.getIsProximal()
+  name: getIsProximal()
+  nameWithType: RemoteSystemConnectionInfo.getIsProximal()
+  returns:
+    description: <p>true if the connection is proximal, otherwise false. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets whether the associated remote system connection is a proximal connection or not. </p>
+  syntax: public boolean getIsProximal()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.getIsProximal()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.getIsProximal*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.getIsProximal()
+name: getIsProximal()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

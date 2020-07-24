@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivitySessionHistoryItem.getStartTime()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getStartTime()
+  name: getStartTime()
+  nameWithType: UserActivitySessionHistoryItem.getStartTime()
+  returns:
+    description: <p>A **Date** instance indicating the start time. </p>
+    type: <xref href="Date?alt=Date&text=Date" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the time when the user started engaging in the associated activity. </p>
+  syntax: public Date getStartTime()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getStartTime()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getStartTime*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getStartTime()
+name: getStartTime()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

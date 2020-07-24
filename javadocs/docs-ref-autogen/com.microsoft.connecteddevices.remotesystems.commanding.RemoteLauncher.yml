@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.RemoteLauncher()
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.launchUriAsync(@NonNull RemoteSystemConnectionRequest,@NonNull String)
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.launchUriAsync(@NonNull RemoteSystemConnectionRequest,@NonNull String,@Nullable RemoteLauncherOptions)
+nameWithType: RemoteLauncher
+syntax: public class RemoteLauncher
+summary: <p>This class handles the launching of an app on a remote device through the use of a URI. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher
+name: RemoteLauncher
+package: com.microsoft.connecteddevices.remotesystems.commanding

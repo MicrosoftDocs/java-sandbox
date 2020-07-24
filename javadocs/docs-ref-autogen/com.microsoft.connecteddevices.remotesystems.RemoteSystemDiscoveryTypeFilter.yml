@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter(@NonNull RemoteSystemDiscoveryType)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemDiscoveryTypeFilter
+syntax: public class RemoteSystemDiscoveryTypeFilter implements RemoteSystemFilter
+summary: <p>A class used to filter remote systems based upon discovery type. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter
+name: RemoteSystemDiscoveryTypeFilter
+package: com.microsoft.connecteddevices.remotesystems

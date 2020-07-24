@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationUpdateResult.getSucceeded()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getSucceeded()
+  name: getSucceeded()
+  nameWithType: UserNotificationUpdateResult.getSucceeded()
+  returns:
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the value of the result - success or fail. </p>
+  syntax: public boolean getSucceeded()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getSucceeded()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getSucceeded*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getSucceeded()
+name: getSucceeded()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

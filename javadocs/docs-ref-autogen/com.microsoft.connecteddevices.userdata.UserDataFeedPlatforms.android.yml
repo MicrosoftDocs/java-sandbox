@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedPlatforms.android()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.android()
+  name: android()
+  nameWithType: UserDataFeedPlatforms.android()
+  returns:
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  syntax: public static native String android()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.android()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.android*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.android()
+name: android()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

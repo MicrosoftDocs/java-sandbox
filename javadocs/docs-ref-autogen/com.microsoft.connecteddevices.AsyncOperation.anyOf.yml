@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.anyOf(@NonNull AsyncOperation<?>... operations)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.anyOf(@NonNull AsyncOperation<?>... operations)
+  name: anyOf(@NonNull AsyncOperation<?>... operations)
+  nameWithType: AsyncOperation<T>.anyOf(@NonNull AsyncOperation<?>... operations)
+  parameters:
+  - description: <p>list of operations to "OR" together </p>
+    name: operations
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;?&gt;...'
+  returns:
+    description: <p>A new async operation that will complete when any operations complete </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Object&gt;
+  summary: >-
+    <p>Creates an operation that will complete when any of the passed operations complete. </p>
+
+    <p></p>
+  syntax: public static AsyncOperation<Object> anyOf(@NonNull AsyncOperation<?>... operations)
+  uid: com.microsoft.connecteddevices.AsyncOperation.anyOf(@NonNull AsyncOperation<?>...)
+uid: com.microsoft.connecteddevices.AsyncOperation.anyOf*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.anyOf(@NonNull AsyncOperation<?>... operations)
+name: anyOf(@NonNull AsyncOperation<?>... operations)
+package: com.microsoft.connecteddevices
+metadata: {}

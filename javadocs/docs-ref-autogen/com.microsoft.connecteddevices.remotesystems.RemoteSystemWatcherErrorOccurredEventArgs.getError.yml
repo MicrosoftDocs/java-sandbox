@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcherErrorOccurredEventArgs.getError()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs.getError()
+  name: getError()
+  nameWithType: RemoteSystemWatcherErrorOccurredEventArgs.getError()
+  returns:
+    description: <p>A **RemoteSystemWatcherError** instance </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError&text=RemoteSystemWatcherError" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the RemoteSystemWatcherError that occurred </p>
+  syntax: public RemoteSystemWatcherError getError()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs.getError()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs.getError*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs.getError()
+name: getError()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

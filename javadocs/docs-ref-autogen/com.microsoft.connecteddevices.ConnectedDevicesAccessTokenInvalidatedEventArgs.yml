@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount()
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes()
+nameWithType: ConnectedDevicesAccessTokenInvalidatedEventArgs
+syntax: public class ConnectedDevicesAccessTokenInvalidatedEventArgs
+summary: <p>Returned by <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">#AccessTokenInvalidated</xref> to inform that the token associated with <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> reported token error for the contained scopes. Token provider needs to either refresh their token cache or potentially pop up UI to ask user to sign in in order to fix their account setup. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs
+name: ConnectedDevicesAccessTokenInvalidatedEventArgs
+package: com.microsoft.connecteddevices

@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.ConnectedDevicesAccount.ConnectedDevicesAccount(@NonNull String,@NonNull ConnectedDevicesAccountType)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesAccount.getAnonymousAccount()
+- com.microsoft.connecteddevices.ConnectedDevicesAccount.getId()
+- com.microsoft.connecteddevices.ConnectedDevicesAccount.getType()
+nameWithType: ConnectedDevicesAccount
+syntax: public class ConnectedDevicesAccount
+summary: <p>This class represents a single user account known by an app. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccount
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount
+name: ConnectedDevicesAccount
+package: com.microsoft.connecteddevices

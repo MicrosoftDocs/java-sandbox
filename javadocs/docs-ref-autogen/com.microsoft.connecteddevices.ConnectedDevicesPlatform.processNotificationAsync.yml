@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatform.processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+  name: processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+  nameWithType: ConnectedDevicesPlatform.processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+  parameters:
+  - description: <p>The ConnectedDevicesNotification to process. </p>
+    name: notification
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotification?alt=com.microsoft.connecteddevices.ConnectedDevicesNotification&text=ConnectedDevicesNotification" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>An AsyncOperation operation indicating when the ConnectedDevicesPlatform is done processing this notification. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: <p>Process incoming notification. If the notification is not for the ConnectedDevicesPlatform, the returned AsyncOperation will be completed in an asynchronous fashion as soon as possible. </p>
+  syntax: public AsyncOperation<Void> processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotificationAsync(@NonNull ConnectedDevicesNotification)
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotificationAsync*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+name: processNotificationAsync(@NonNull ConnectedDevicesNotification notification)
+package: com.microsoft.connecteddevices
+metadata: {}

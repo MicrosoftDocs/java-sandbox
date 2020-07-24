@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotification.getCorrelationVectors()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotification.getCorrelationVectors()
+  name: getCorrelationVectors()
+  nameWithType: ConnectedDevicesNotification.getCorrelationVectors()
+  returns:
+    description: <p>A List of correlation vectors </p>
+    type: <xref href="List%3CString%3E?alt=List<String>&text=List%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the correlation vectors, if any, associated with this notification. </p>
+  syntax: public List<String> getCorrelationVectors()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotification.getCorrelationVectors()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotification.getCorrelationVectors*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotification.getCorrelationVectors()
+name: getCorrelationVectors()
+package: com.microsoft.connecteddevices
+metadata: {}

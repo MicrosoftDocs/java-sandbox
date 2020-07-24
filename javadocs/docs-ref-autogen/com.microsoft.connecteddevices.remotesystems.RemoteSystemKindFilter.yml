@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter.RemoteSystemKindFilter(@Nullable Collection<String>)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemKindFilter
+syntax: public class RemoteSystemKindFilter implements RemoteSystemFilter
+summary: <p>A class used to filter remote systems based upon device kind. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter
+name: RemoteSystemKindFilter
+package: com.microsoft.connecteddevices.remotesystems

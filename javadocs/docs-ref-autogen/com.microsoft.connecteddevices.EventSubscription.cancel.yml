@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: EventSubscription.cancel()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.EventSubscription.cancel()
+  name: cancel()
+  nameWithType: EventSubscription.cancel()
+  summary: <p>Cancels an event subscription. After making this call, the attached EventListener will not receive any more events (Already in flight events may still be delivered). Because much of the ConnectedDevices functionality is done in native code, it is important to either always ensure cancel is called or WeakReferences are used to ensure proper clean up of resources held by the EventListener. </p>
+  syntax: public void cancel()
+  uid: com.microsoft.connecteddevices.EventSubscription.cancel()
+uid: com.microsoft.connecteddevices.EventSubscription.cancel*
+fullName: com.microsoft.connecteddevices.EventSubscription.cancel()
+name: cancel()
+package: com.microsoft.connecteddevices
+metadata: {}

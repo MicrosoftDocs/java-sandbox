@@ -1,0 +1,23 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions(NativeObject)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getReadStateFilter()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getStartPosition()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getUserActionStateFilter()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setReadStateFilter(@NonNull UserNotificationReadStateFilter)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStartPosition(@NonNull UserNotificationReaderStartPosition)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStatusFilter(@NonNull UserNotificationStatusFilter)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter)
+nameWithType: UserNotificationReaderOptions
+syntax: public class UserNotificationReaderOptions
+summary: <p>This class allows the app to provide options on the notification reader, such as only receiving new user notifications and not existing notification updates. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions
+name: UserNotificationReaderOptions
+package: com.microsoft.connecteddevices.userdata.usernotifications

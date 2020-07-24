@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Tablet()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Tablet()
+  name: Tablet()
+  nameWithType: RemoteSystemKinds.Tablet()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the tablet device type. </p>
+  syntax: public static native String Tablet()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Tablet()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Tablet*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Tablet()
+name: Tablet()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

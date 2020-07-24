@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystem.getModelDisplayName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getModelDisplayName()
+  name: getModelDisplayName()
+  nameWithType: RemoteSystem.getModelDisplayName()
+  returns:
+    description: <p>The model name of the given remote system. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the model name of the given remote system. </p>
+  syntax: public String getModelDisplayName()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getModelDisplayName()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getModelDisplayName*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getModelDisplayName()
+name: getModelDisplayName()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

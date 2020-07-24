@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.UserNotificationReaderOptions
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions()
+  name: UserNotificationReaderOptions()
+  nameWithType: UserNotificationReaderOptions.UserNotificationReaderOptions()
+  summary: <p>Creates and initializes a new instance of UserNotificationReaderOptions with default filters. </p>
+  syntax: public UserNotificationReaderOptions()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions()
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions(NativeObject nativeObject)
+  name: UserNotificationReaderOptions(NativeObject nativeObject)
+  nameWithType: UserNotificationReaderOptions.UserNotificationReaderOptions(NativeObject nativeObject)
+  parameters:
+  - name: nativeObject
+    type: <xref href="NativeObject?alt=NativeObject&text=NativeObject" data-throw-if-not-resolved="False"/>
+  syntax: protected UserNotificationReaderOptions(NativeObject nativeObject)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions(NativeObject)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions
+name: UserNotificationReaderOptions
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

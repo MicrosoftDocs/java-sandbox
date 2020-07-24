@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.saveAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.saveAsync()
+  name: saveAsync()
+  nameWithType: UserActivity.saveAsync()
+  returns:
+    description: <p>An **AsyncOperation** representing this operation. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: <p>Publishes the user activity. The UserActivity must have an activation URI and a VisualElements member with set display text before this method is called. This method should be called whenever the app modifies a property of the UserActivity (in order to publish the update). </p>
+  syntax: public AsyncOperation<Void> saveAsync()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.saveAsync()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.saveAsync*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.saveAsync()
+name: saveAsync()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

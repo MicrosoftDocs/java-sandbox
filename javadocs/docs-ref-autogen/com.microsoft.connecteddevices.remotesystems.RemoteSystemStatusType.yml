@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.ANY
+  name: ANY
+  nameWithType: RemoteSystemStatusType.ANY
+  summary: <p>Include all remote systems. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.ANY
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.AVAILABLE
+  name: AVAILABLE
+  nameWithType: RemoteSystemStatusType.AVAILABLE
+  summary: <p>Include only remote systems that are available. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.AVAILABLE
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemStatusType&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemStatusType.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType&text=RemoteSystemStatusType" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemStatusType fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemStatusType.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType.getValue()
+nameWithType: RemoteSystemStatusType
+syntax: public enum RemoteSystemStatusType
+summary: <p>Contains values that categorize the availability type of a remote system. Only Windows systems can show a status of **AVAILABLE**, so a filter with this setting will block devices on other platforms. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType
+name: RemoteSystemStatusType
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

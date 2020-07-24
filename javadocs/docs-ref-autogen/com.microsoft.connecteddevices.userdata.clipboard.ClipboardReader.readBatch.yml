@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReader.readBatch(@IntRange(from=0) int maxBatchSize)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatch(@IntRange(from=0) int maxBatchSize)
+  name: readBatch(@IntRange(from=0) int maxBatchSize)
+  nameWithType: ClipboardReader.readBatch(@IntRange(from=0) int maxBatchSize)
+  parameters:
+  - name: maxBatchSize
+    type: <xref href="%40IntRange(from%3D0)+int?alt=@IntRange(from=0) int&text=%40IntRange(from%3D0)+int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: List&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem&text=ClipboardItem" data-throw-if-not-resolved="False"/>&gt;
+  syntax: public List<ClipboardItem> readBatch(@IntRange(from=0) int maxBatchSize)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatch(@IntRange(from=0) int)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatch*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatch(@IntRange(from=0) int maxBatchSize)
+name: readBatch(@IntRange(from=0) int maxBatchSize)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

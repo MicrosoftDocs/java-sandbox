@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getStatus()
+  name: getStatus()
+  nameWithType: UserNotification.getStatus()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus&text=UserNotificationStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the value of the status for this user notification that indicates whether the notification is marked as permanently deleted or not. </p>
+  syntax: public UserNotificationStatus getStatus()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getStatus()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getStatus*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

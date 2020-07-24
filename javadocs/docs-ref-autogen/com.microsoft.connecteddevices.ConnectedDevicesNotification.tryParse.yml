@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotification.tryParse(@NonNull Map map)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotification.tryParse(@NonNull Map map)
+  name: tryParse(@NonNull Map map)
+  nameWithType: ConnectedDevicesNotification.tryParse(@NonNull Map map)
+  parameters:
+  - description: <p>The map received from FirebaseMessagingService.onMessageReceived </p>
+    name: map
+    type: <xref href="%40NonNull+Map?alt=@NonNull Map&text=%40NonNull+Map" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A ConnectedDevicesNotification. If the FCM notification is not a ConnectedDevicesNotification, this will return null. </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotification?alt=com.microsoft.connecteddevices.ConnectedDevicesNotification&text=ConnectedDevicesNotification" data-throw-if-not-resolved="False"/>
+  summary: <p>Attempts to parse a ConnectedDevicesNotification from an FCM formatted map formatted as an FCM notification. </p>
+  syntax: public static ConnectedDevicesNotification tryParse(@NonNull Map map)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotification.tryParse(@NonNull Map)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotification.tryParse*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotification.tryParse(@NonNull Map map)
+name: tryParse(@NonNull Map map)
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getState()
+nameWithType: ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+syntax: public class ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+summary: <p>Event Args class for the RemoteSystemAppRegistration State Changed event. This is used as part of the <xref uid="com.microsoft.connecteddevices.ConnectedDevicesPlatform" data-throw-if-not-resolved="false">ConnectedDevicesPlatform</xref> to ensure that the application gets informed about new ConnectedDevices messages via the correct notification mechanism. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+name: ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+package: com.microsoft.connecteddevices

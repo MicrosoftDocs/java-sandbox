@@ -1,0 +1,41 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.AsyncOperation
+- com.microsoft.connecteddevices.AsyncOperationWithProgress
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs
+- com.microsoft.connecteddevices.ConnectedDevicesAccount
+- com.microsoft.connecteddevices.ConnectedDevicesAccountManager
+- com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult
+- com.microsoft.connecteddevices.ConnectedDevicesDiagnostics
+- com.microsoft.connecteddevices.ConnectedDevicesNotification
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform
+- com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings
+- com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation
+- com.microsoft.connecteddevices.ConnectedDevicesRemoveAccountResult
+- com.microsoft.connecteddevices.SdkException
+- com.microsoft.connecteddevices.AsyncOperation.CompletionException
+enums:
+- com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus
+- com.microsoft.connecteddevices.ConnectedDevicesAccountType
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationType
+interfaces:
+- com.microsoft.connecteddevices.Event
+- com.microsoft.connecteddevices.EventListener
+- com.microsoft.connecteddevices.EventSubscription
+- com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer
+- com.microsoft.connecteddevices.AsyncOperation.ResultBiFunction
+- com.microsoft.connecteddevices.AsyncOperation.ResultConsumer
+- com.microsoft.connecteddevices.AsyncOperation.ResultFunction
+- com.microsoft.connecteddevices.AsyncOperation.Supplier
+uid: com.microsoft.connecteddevices
+fullName: com.microsoft.connecteddevices
+name: com.microsoft.connecteddevices
+metadata: {}

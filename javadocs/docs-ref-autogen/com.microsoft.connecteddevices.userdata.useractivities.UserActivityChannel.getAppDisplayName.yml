@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityChannel.getAppDisplayName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getAppDisplayName()
+  name: getAppDisplayName()
+  nameWithType: UserActivityChannel.getAppDisplayName()
+  returns:
+    description: <p>The app display name. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the app display name for this activity. </p>
+  syntax: public String getAppDisplayName()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getAppDisplayName()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getAppDisplayName*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getAppDisplayName()
+name: getAppDisplayName()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

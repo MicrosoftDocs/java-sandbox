@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceResponse.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getStatus()
+  name: getStatus()
+  nameWithType: AppServiceResponse.getStatus()
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus" data-throw-if-not-resolved="false">AppServiceResponseStatus</xref> value describing the status of the response. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus&text=AppServiceResponseStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the status of the response from the remote app service. </p>
+  syntax: public AppServiceResponseStatus getStatus()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getStatus()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getStatus*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

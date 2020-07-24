@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystem.getKind()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getKind()
+  name: getKind()
+  nameWithType: RemoteSystem.getKind()
+  returns:
+    description: <p>A String of the canonical name of the device type. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets a String representation of the device type of the given remote system (desktop, Xbox, ...)</p>
+
+    <p></p>
+  syntax: public String getKind()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getKind()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getKind*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getKind()
+name: getKind()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,45 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.HIGH
+  name: HIGH
+  nameWithType: UserNotificationPriority.HIGH
+  summary: <p>High priority. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.HIGH
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.LOW
+  name: LOW
+  nameWithType: UserNotificationPriority.LOW
+  summary: <p>Low priority. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.LOW
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.NONE
+  name: NONE
+  nameWithType: UserNotificationPriority.NONE
+  summary: <p>Priority is not set. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.NONE
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationPriority&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationPriority.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority&text=UserNotificationPriority" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationPriority fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.getValue()
+  name: getValue()
+  nameWithType: UserNotificationPriority.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority.getValue()
+nameWithType: UserNotificationPriority
+syntax: public enum UserNotificationPriority
+summary: <p>Contains values that describe the priority of a notification. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority
+name: UserNotificationPriority
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

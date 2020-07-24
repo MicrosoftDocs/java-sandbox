@@ -1,0 +1,24 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.UserActivityChannel(@NonNull UserDataFeed)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteActivityAsync(@NonNull String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteAllActivitiesAsync()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getAppDisplayName()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getOrCreateUserActivityAsync(@NonNull String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentSessionHistoryItemsForTimeRangeAsync(@NonNull Date,@NonNull Date,int)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentUserActivitiesAsync(int)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSessionHistoryItemsForUserActivityAsync(@NonNull String,@NonNull Date)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSyncScope()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.setAppDisplayName(@Nullable String)
+nameWithType: UserActivityChannel
+syntax: public class UserActivityChannel
+summary: <p>This class handles the adding and querying of user activities for the application. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel
+name: UserActivityChannel
+package: com.microsoft.connecteddevices.userdata.useractivities

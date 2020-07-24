@@ -1,0 +1,38 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.get()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.get()
+  name: get()
+  nameWithType: AsyncOperation<T>.get()
+  returns:
+    description: <p>The result of the operation, or null for a successful but empty result. </p>
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the future value, waiting if necessary until the future is done.</p>
+
+    <p></p>
+  syntax: public T get()
+  uid: com.microsoft.connecteddevices.AsyncOperation.get()
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.get(long timeout, @NonNull TimeUnit unit)
+  name: get(long timeout, @NonNull TimeUnit unit)
+  nameWithType: AsyncOperation<T>.get(long timeout, @NonNull TimeUnit unit)
+  parameters:
+  - name: timeout
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
+  - name: unit
+    type: <xref href="%40NonNull+TimeUnit?alt=@NonNull TimeUnit&text=%40NonNull+TimeUnit" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>The result, or null for a successful but empty result. </p>
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Attempts to get the future value, waiting if necessary until the future is done or until a timeout.</p>
+
+    <p></p>
+  syntax: public T get(long timeout, @NonNull TimeUnit unit)
+  uid: com.microsoft.connecteddevices.AsyncOperation.get(long,@NonNull TimeUnit)
+uid: com.microsoft.connecteddevices.AsyncOperation.get*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.get()
+name: get()
+package: com.microsoft.connecteddevices
+metadata: {}

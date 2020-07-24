@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread(@NonNull String correlationVector)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread(@NonNull String correlationVector)
+  name: setNextCorrelationVectorForThread(@NonNull String correlationVector)
+  nameWithType: ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread(@NonNull String correlationVector)
+  parameters:
+  - name: correlationVector
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set the correlation vector of the next operation to be performed on this thread </p>
+  syntax: public static void setNextCorrelationVectorForThread(@NonNull String correlationVector)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread(@NonNull String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread(@NonNull String correlationVector)
+name: setNextCorrelationVectorForThread(@NonNull String correlationVector)
+package: com.microsoft.connecteddevices
+metadata: {}

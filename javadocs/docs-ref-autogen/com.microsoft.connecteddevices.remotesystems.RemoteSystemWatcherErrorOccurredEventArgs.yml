@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs.getError()
+nameWithType: RemoteSystemWatcherErrorOccurredEventArgs
+syntax: public class RemoteSystemWatcherErrorOccurredEventArgs
+summary: <p>Event arguments for the RemoteSystemWatcher RemoteSystemErrorOccurred event. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs
+name: RemoteSystemWatcherErrorOccurredEventArgs
+package: com.microsoft.connecteddevices.remotesystems

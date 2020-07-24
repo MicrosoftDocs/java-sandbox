@@ -1,0 +1,14 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements
+enums:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityState
+uid: com.microsoft.connecteddevices.userdata.useractivities
+fullName: com.microsoft.connecteddevices.userdata.useractivities
+name: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,19 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.NearShareSender()
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.isNearShareSupported(RemoteSystemConnectionRequest)
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFileAsync(RemoteSystemConnectionRequest,NearShareFileProvider)
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFilesAsync(RemoteSystemConnectionRequest,NearShareFileProvider [])
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendUriAsync(RemoteSystemConnectionRequest,String)
+nameWithType: NearShareSender
+syntax: public class NearShareSender
+summary: <p>This class is responsible for sending URIs and/or files from one device to another through the nearby sharing feature. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender
+name: NearShareSender
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare

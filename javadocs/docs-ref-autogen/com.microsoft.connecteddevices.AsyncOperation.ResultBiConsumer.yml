@@ -1,0 +1,19 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer.accept(T,U)
+nameWithType: AsyncOperation.ResultBiConsumer<T,U>
+syntax: public interface ResultBiConsumer<T,U>
+summary: >-
+  <p>Represents an action to be invoked after an AsyncOperation is done. Notably, this functional interface is used when two invocation arguments are used like with AsyncOperation.whenComplete. </p>
+
+  <p>This is a functional interface equivalent to android's BiConsumer interface </p>
+type: interface
+typeParameters:
+- description: <p>First argument type </p>
+  name: T
+- description: <p>Second argument type </p>
+  name: U
+uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer
+fullName: com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer<T,U>
+name: AsyncOperation.ResultBiConsumer<T,U>
+package: com.microsoft.connecteddevices

@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getEndTime()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getRemoteSystemId()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getStartTime()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getUserActivity()
+nameWithType: UserActivitySessionHistoryItem
+syntax: public class UserActivitySessionHistoryItem
+summary: <p>This class provides the start and end time that a user was engaged in a particular activity. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem
+name: UserActivitySessionHistoryItem
+package: com.microsoft.connecteddevices.userdata.useractivities

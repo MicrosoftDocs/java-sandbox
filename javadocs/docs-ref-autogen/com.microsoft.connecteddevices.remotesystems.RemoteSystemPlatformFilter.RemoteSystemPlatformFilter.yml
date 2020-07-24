@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemPlatformFilter.RemoteSystemPlatformFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter.RemoteSystemPlatformFilter(@NonNull RemoteSystemPlatform platform)
+  name: RemoteSystemPlatformFilter(@NonNull RemoteSystemPlatform platform)
+  nameWithType: RemoteSystemPlatformFilter.RemoteSystemPlatformFilter(@NonNull RemoteSystemPlatform platform)
+  parameters:
+  - description: <p>A **RemoteSystemPlatform** value indicating the platform to filter for. </p>
+    name: platform
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform&text=RemoteSystemPlatform" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creats and initializes a new instance of this class. </p>
+  syntax: public RemoteSystemPlatformFilter(@NonNull RemoteSystemPlatform platform)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter.RemoteSystemPlatformFilter(@NonNull RemoteSystemPlatform)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter.RemoteSystemPlatformFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter.RemoteSystemPlatformFilter
+name: RemoteSystemPlatformFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteLauncherOptions.getPreferredPackageIds()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getPreferredPackageIds()
+  name: getPreferredPackageIds()
+  nameWithType: RemoteLauncherOptions.getPreferredPackageIds()
+  returns:
+    description: <p>The array of preferred app identifiers. </p>
+    type: <xref href="List%3CString%3E?alt=List<String>&text=List%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Returns an array of app / package identifiers that should be used to launch the URI on the remote device. These identifiers should be in a format that can be understood on the remote system (i.e. Package Family Name for Windows remote devices). </p>
+  syntax: public List<String> getPreferredPackageIds()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getPreferredPackageIds()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getPreferredPackageIds*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getPreferredPackageIds()
+name: getPreferredPackageIds()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

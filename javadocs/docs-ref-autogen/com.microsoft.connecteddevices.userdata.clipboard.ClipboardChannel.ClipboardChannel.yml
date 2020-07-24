@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.ClipboardChannel
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.ClipboardChannel(@NonNull UserDataFeed userDataFeed)
+  name: ClipboardChannel(@NonNull UserDataFeed userDataFeed)
+  nameWithType: ClipboardChannel.ClipboardChannel(@NonNull UserDataFeed userDataFeed)
+  parameters:
+  - name: userDataFeed
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.UserDataFeed?alt=com.microsoft.connecteddevices.userdata.UserDataFeed&text=UserDataFeed" data-throw-if-not-resolved="False"/>'
+  syntax: public ClipboardChannel(@NonNull UserDataFeed userDataFeed)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.ClipboardChannel(@NonNull UserDataFeed)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.ClipboardChannel*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.ClipboardChannel
+name: ClipboardChannel
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

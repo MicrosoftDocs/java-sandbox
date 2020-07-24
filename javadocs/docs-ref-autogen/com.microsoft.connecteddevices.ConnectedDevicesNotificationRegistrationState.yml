@@ -1,0 +1,50 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.EXPIRED
+  name: EXPIRED
+  nameWithType: ConnectedDevicesNotificationRegistrationState.EXPIRED
+  summary: <p>Registration has expired and so the app must perform registration again. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.EXPIRED
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.EXPIRING
+  name: EXPIRING
+  nameWithType: ConnectedDevicesNotificationRegistrationState.EXPIRING
+  summary: <p>Registration is about to expire and so the app should perform registration again. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.EXPIRING
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.REGISTERED
+  name: REGISTERED
+  nameWithType: ConnectedDevicesNotificationRegistrationState.REGISTERED
+  summary: <p>Registration has finished. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.REGISTERED
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.UNREGISTERED
+  name: UNREGISTERED
+  nameWithType: ConnectedDevicesNotificationRegistrationState.UNREGISTERED
+  summary: <p>Registration has never been started. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.UNREGISTERED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ConnectedDevicesNotificationRegistrationState&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: ConnectedDevicesNotificationRegistrationState.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState&text=ConnectedDevicesNotificationRegistrationState" data-throw-if-not-resolved="False"/>
+  syntax: public static ConnectedDevicesNotificationRegistrationState fromInt(int value)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.fromInt(int)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.getValue()
+  name: getValue()
+  nameWithType: ConnectedDevicesNotificationRegistrationState.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState.getValue()
+nameWithType: ConnectedDevicesNotificationRegistrationState
+syntax: public enum ConnectedDevicesNotificationRegistrationState
+summary: <p>Values used to communicate the status of cloud registration. </p>
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState
+name: ConnectedDevicesNotificationRegistrationState
+package: com.microsoft.connecteddevices
+metadata: {}

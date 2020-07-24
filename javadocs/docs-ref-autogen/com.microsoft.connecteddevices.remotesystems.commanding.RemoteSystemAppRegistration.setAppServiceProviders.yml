@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+  name: setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+  nameWithType: RemoteSystemAppRegistration.setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+  parameters:
+  - name: providers
+    type: '@Nullable List&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider&text=AppServiceProvider" data-throw-if-not-resolved="False"/>&gt;'
+  summary: <p>Sets the app service providers associated with the registration. New values are made available to discovering apps and devices via the **saveAsync** call. </p>
+  syntax: public void setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAppServiceProviders(@Nullable List<AppServiceProvider>)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAppServiceProviders*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+name: setAppServiceProviders(@Nullable List<AppServiceProvider> providers)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

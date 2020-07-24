@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScope.setPlatform(@Nullable String platform)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setPlatform(@Nullable String platform)
+  name: setPlatform(@Nullable String platform)
+  nameWithType: UserDataFeedSyncScope.setPlatform(@Nullable String platform)
+  parameters:
+  - description: <p>the specified platform (see **UserDataFeedPlatforms**). </p>
+    name: platform
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set the platform to restrict incoming activities to apps which support the platform. Note, it is only useful for applications which can subscribe to a user's entire data feed, not just for the current app. </p>
+  syntax: public void setPlatform(@Nullable String platform)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setPlatform(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setPlatform*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setPlatform(@Nullable String platform)
+name: setPlatform(@Nullable String platform)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

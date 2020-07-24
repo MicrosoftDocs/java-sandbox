@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: RemoteLauncher.RemoteLauncher
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.RemoteLauncher()
+  name: RemoteLauncher()
+  nameWithType: RemoteLauncher.RemoteLauncher()
+  summary: <p>Creates an instance of this class. </p>
+  syntax: public RemoteLauncher()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.RemoteLauncher()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.RemoteLauncher*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.RemoteLauncher
+name: RemoteLauncher
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

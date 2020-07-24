@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivitySessionHistoryItem.getEndTime()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getEndTime()
+  name: getEndTime()
+  nameWithType: UserActivitySessionHistoryItem.getEndTime()
+  returns:
+    description: <p>A **Date** instance indicating the stop time. </p>
+    type: <xref href="Date?alt=Date&text=Date" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the time when the user stopped engaging in the associated activity. </p>
+  syntax: public Date getEndTime()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getEndTime()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getEndTime*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getEndTime()
+name: getEndTime()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

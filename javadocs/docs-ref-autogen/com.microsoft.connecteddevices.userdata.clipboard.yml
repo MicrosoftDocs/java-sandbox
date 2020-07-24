@@ -1,0 +1,17 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatusChangedEventArgs
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderDataChangedEventArgs
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions
+enums:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus
+uid: com.microsoft.connecteddevices.userdata.clipboard
+fullName: com.microsoft.connecteddevices.userdata.clipboard
+name: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

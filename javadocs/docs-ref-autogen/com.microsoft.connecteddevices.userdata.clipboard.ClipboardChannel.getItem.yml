@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.getItem(@NonNull String itemId)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItem(@NonNull String itemId)
+  name: getItem(@NonNull String itemId)
+  nameWithType: ClipboardChannel.getItem(@NonNull String itemId)
+  parameters:
+  - name: itemId
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem&text=ClipboardItem" data-throw-if-not-resolved="False"/>
+  syntax: public ClipboardItem getItem(@NonNull String itemId)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItem(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItem*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItem(@NonNull String itemId)
+name: getItem(@NonNull String itemId)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

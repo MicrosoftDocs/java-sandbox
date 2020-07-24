@@ -1,0 +1,21 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.UserDataFeed.getDaysToSync()
+- com.microsoft.connecteddevices.userdata.UserDataFeed.getForAccount(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesPlatform,@NonNull String)
+- com.microsoft.connecteddevices.userdata.UserDataFeed.getSyncStatus()
+- com.microsoft.connecteddevices.userdata.UserDataFeed.setDaysToSync(@IntRange(from=0) int)
+- com.microsoft.connecteddevices.userdata.UserDataFeed.startSync()
+- com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope>)
+- com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesWithResultAsync(@NonNull Collection<UserDataFeedSyncScope>)
+- com.microsoft.connecteddevices.userdata.UserDataFeed.syncStatusChanged()
+nameWithType: UserDataFeed
+syntax: public class UserDataFeed
+summary: <p>This class is responsible for synchronizing user-specific data with the Connected Devices Platform backend. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed
+name: UserDataFeed
+package: com.microsoft.connecteddevices.userdata

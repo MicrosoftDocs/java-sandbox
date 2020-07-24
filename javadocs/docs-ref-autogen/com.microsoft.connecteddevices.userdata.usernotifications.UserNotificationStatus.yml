@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.ACTIVE
+  name: ACTIVE
+  nameWithType: UserNotificationStatus.ACTIVE
+  summary: <p>Active status. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.ACTIVE
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.DELETED
+  name: DELETED
+  nameWithType: UserNotificationStatus.DELETED
+  summary: <p>Deleted status. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.DELETED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus&text=UserNotificationStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.getValue()
+  name: getValue()
+  nameWithType: UserNotificationStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus.getValue()
+nameWithType: UserNotificationStatus
+syntax: public enum UserNotificationStatus
+summary: <p>Contains values that determines whether the notification is deleted or not. Deleted notifications will still be in the notification store and be returned by the reader before the platform cleanup happens. A corresponding reader filter *UserNotificationStatusFilter* can be applied to prevent these notifications from showing up in notification reader. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus
+name: UserNotificationStatus
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

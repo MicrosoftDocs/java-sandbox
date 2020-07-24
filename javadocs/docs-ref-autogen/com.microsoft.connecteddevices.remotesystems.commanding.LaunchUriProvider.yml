@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider.getSupportedUriSchemes()
+- com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider.onLaunchUriAsync(@NonNull String,@Nullable RemoteLauncherOptions)
+nameWithType: LaunchUriProvider
+syntax: public interface LaunchUriProvider
+summary: <p>This interface provides methods for handling a URI sent through the ConnectedDevices platform. An application must implement this interface in order to respond to URI launch requests. </p>
+type: interface
+uid: com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider
+name: LaunchUriProvider
+package: com.microsoft.connecteddevices.remotesystems.commanding

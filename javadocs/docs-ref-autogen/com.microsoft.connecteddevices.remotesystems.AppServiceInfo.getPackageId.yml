@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceInfo.getPackageId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getPackageId()
+  name: getPackageId()
+  nameWithType: AppServiceInfo.getPackageId()
+  returns:
+    description: <p>A String of the app service package ID. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the package ID of the app service (equivalent to the package family name on Windows). </p>
+  syntax: public String getPackageId()
+  uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getPackageId()
+uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getPackageId*
+fullName: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getPackageId()
+name: getPackageId()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getGroupId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getGroupId()
+  name: getGroupId()
+  nameWithType: UserNotification.getGroupId()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the developer specified group id for this user notification. </p>
+  syntax: public String getGroupId()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getGroupId()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getGroupId*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getGroupId()
+name: getGroupId()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

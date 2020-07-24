@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystem.getApps()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getApps()
+  name: getApps()
+  nameWithType: RemoteSystem.getApps()
+  returns:
+    description: <p>An array of **RemoteSystemApp** instances. </p>
+    type: List&lt;<xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemApp?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemApp&text=RemoteSystemApp" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Gets an array of the applications on this remote system that have registered with the Connected Devices Platform. </p>
+  syntax: public List<RemoteSystemApp> getApps()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getApps()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getApps*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getApps()
+name: getApps()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

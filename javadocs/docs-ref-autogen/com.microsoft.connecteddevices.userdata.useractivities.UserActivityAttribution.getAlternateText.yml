@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityAttribution.getAlternateText()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAlternateText()
+  name: getAlternateText()
+  nameWithType: UserActivityAttribution.getAlternateText()
+  returns:
+    description: <p>The alternate text String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the text that describes the icon image. </p>
+  syntax: public String getAlternateText()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAlternateText()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAlternateText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAlternateText()
+name: getAlternateText()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

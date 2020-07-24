@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedPlatforms.iOS()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.iOS()
+  name: iOS()
+  nameWithType: UserDataFeedPlatforms.iOS()
+  returns:
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  syntax: public static native String iOS()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.iOS()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.iOS*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.iOS()
+name: iOS()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

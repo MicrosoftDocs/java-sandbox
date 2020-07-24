@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.getDescriptionText()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDescriptionText()
+  name: getDescriptionText()
+  nameWithType: UserActivityVisualElements.getDescriptionText()
+  returns:
+    description: <p>The description text. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>gets the description text for the activity. </p>
+  syntax: public String getDescriptionText()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDescriptionText()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDescriptionText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDescriptionText()
+name: getDescriptionText()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

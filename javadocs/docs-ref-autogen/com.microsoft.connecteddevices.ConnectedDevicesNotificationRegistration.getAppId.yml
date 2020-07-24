@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.getAppId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppId()
+  name: getAppId()
+  nameWithType: ConnectedDevicesNotificationRegistration.getAppId()
+  returns:
+    description: <p>The app ID. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the app ID for push notification registration. </p>
+  syntax: public String getAppId()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppId()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppId*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppId()
+name: getAppId()
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo(@NonNull String)
+- com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo(@NonNull String,@NonNull String)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getName()
+- com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getPackageId()
+nameWithType: AppServiceInfo
+syntax: public class AppServiceInfo
+summary: <p>This class describes an app service that belongs to a remote device or application. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo
+fullName: com.microsoft.connecteddevices.remotesystems.AppServiceInfo
+name: AppServiceInfo
+package: com.microsoft.connecteddevices.remotesystems

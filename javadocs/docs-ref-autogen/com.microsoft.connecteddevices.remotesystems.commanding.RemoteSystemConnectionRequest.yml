@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystem)
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystemApp)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemConnectionRequest
+syntax: public class RemoteSystemConnectionRequest
+summary: <p>Represents an attempt to communicate with a specific remote device or application. This class acts as a bridge between <xref uid="com.microsoft.connecteddevices.remotesystems.RemoteSystem" data-throw-if-not-resolved="false">RemoteSystem</xref> / <xref uid="com.microsoft.connecteddevices.remotesystems.RemoteSystemApp" data-throw-if-not-resolved="false">RemoteSystemApp</xref> and <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher" data-throw-if-not-resolved="false">RemoteLauncher</xref> / <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">AppServiceConnection</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest
+name: RemoteSystemConnectionRequest
+package: com.microsoft.connecteddevices.remotesystems.commanding

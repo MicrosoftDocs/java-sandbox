@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: NearShareHelper.createNearShareFileFromContentUri(Uri contentUri, Context context)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper.createNearShareFileFromContentUri(Uri contentUri, Context context)
+  name: createNearShareFileFromContentUri(Uri contentUri, Context context)
+  nameWithType: NearShareHelper.createNearShareFileFromContentUri(Uri contentUri, Context context)
+  parameters:
+  - description: <p>A content URI pointing to the file to be shared. The returned class will parse this file to deliver the necessary data. </p>
+    name: contentUri
+    type: <xref href="Uri?alt=Uri&text=Uri" data-throw-if-not-resolved="False"/>
+  - description: <p>The application context. </p>
+    name: context
+    type: <xref href="Context?alt=Context&text=Context" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>An implementation of **NearShareFileProvider** to share the file. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider?alt=com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider&text=NearShareFileProvider" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates an implementation of **NearShareFileProvider** to share the given content URI. </p>
+  syntax: public static NearShareFileProvider createNearShareFileFromContentUri(Uri contentUri, Context context)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper.createNearShareFileFromContentUri(Uri,Context)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper.createNearShareFileFromContentUri*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper.createNearShareFileFromContentUri(Uri contentUri, Context context)
+name: createNearShareFileFromContentUri(Uri contentUri, Context context)
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

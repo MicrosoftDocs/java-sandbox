@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedNotificationTypes.notificationOnly()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationOnly()
+  name: notificationOnly()
+  nameWithType: UserDataFeedNotificationTypes.notificationOnly()
+  returns:
+    description: <p>type value </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Demote all push notifications to a notification only telling the system to sync to receive the data, even if the data could be contained in the push notification </p>
+  syntax: public static native String notificationOnly()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationOnly()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationOnly*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationOnly()
+name: notificationOnly()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

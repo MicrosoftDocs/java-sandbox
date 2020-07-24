@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSubscribeResult.getSubscription()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getSubscription()
+  name: getSubscription()
+  nameWithType: UserDataFeedSubscribeResult.getSubscription()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.userdata.UserDataFeedSubscription" data-throw-if-not-resolved="false">UserDataFeedSubscription</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSubscription?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSubscription&text=UserDataFeedSubscription" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve the subscription </p>
+  syntax: public UserDataFeedSubscription getSubscription()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getSubscription()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getSubscription*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getSubscription()
+name: getSubscription()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

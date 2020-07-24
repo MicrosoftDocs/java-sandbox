@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount(@NonNull ConnectedDevicesAccount)
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerAsync(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesNotificationRegistration)
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerForAccountAsync(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesNotificationRegistration)
+nameWithType: ConnectedDevicesNotificationRegistrationManager
+syntax: public class ConnectedDevicesNotificationRegistrationManager
+summary: <p>Manages push notification registration with the ConnectedDevicesPlatform for each account. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager
+name: ConnectedDevicesNotificationRegistrationManager
+package: com.microsoft.connecteddevices

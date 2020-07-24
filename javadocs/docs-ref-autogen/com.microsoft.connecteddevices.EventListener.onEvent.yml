@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: EventListener<T,R>.onEvent(T eventSource, R arg)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.EventListener<T, R>.onEvent(T eventSource, R arg)
+  name: onEvent(T eventSource, R arg)
+  nameWithType: EventListener<T,R>.onEvent(T eventSource, R arg)
+  parameters:
+  - description: <p>The source object of the event. </p>
+    name: eventSource
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  - description: <p>The event argument. </p>
+    name: arg
+    type: <xref href="R?alt=R&text=R" data-throw-if-not-resolved="False"/>
+  summary: <p>This method handles the event that was raised. </p>
+  syntax: public void onEvent(T eventSource, R arg)
+  uid: com.microsoft.connecteddevices.EventListener.onEvent(T,R)
+uid: com.microsoft.connecteddevices.EventListener.onEvent*
+fullName: com.microsoft.connecteddevices.EventListener<T, R>.onEvent(T eventSource, R arg)
+name: onEvent(T eventSource, R arg)
+package: com.microsoft.connecteddevices
+metadata: {}

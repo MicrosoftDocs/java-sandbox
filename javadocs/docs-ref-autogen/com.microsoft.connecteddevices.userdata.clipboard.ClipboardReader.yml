@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.dataChanged()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.getSerializedState()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatch(@IntRange(from=0) int)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatchAsync(@IntRange(from=0) int)
+nameWithType: ClipboardReader
+syntax: public class ClipboardReader
+type: class
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader
+name: ClipboardReader
+package: com.microsoft.connecteddevices.userdata.clipboard

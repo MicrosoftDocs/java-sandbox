@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  name: subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  nameWithType: UserDataFeed.subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  parameters:
+  - description: <p>Collection of **UserDataFeedSyncScope** instances. </p>
+    name: syncScopes
+    type: '@NonNull Collection&lt;<xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope&text=UserDataFeedSyncScope" data-throw-if-not-resolved="False"/>&gt;'
+  returns:
+    description: <p>Result from the async operation </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Boolean&gt;
+  summary: <p>Adds **UserDataFeedSyncScope** instances to this UserDataFeed. This UserDataFeed is synchronized according to the **UserDataFeedSyncScope** instances specified. <xrefsect id="deprecated_1_deprecated000008"><xreftitle>Deprecated</xreftitle><xrefdescription><p>Use subscribeToSyncScopesWithResultAsync instead </p></xrefdescription></xrefsect></p>
+  syntax: public AsyncOperation<Boolean> subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope>)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesAsync*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+name: subscribeToSyncScopesAsync(@NonNull Collection<UserDataFeedSyncScope> syncScopes)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.getNow(T valueIfAbsent)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.getNow(T valueIfAbsent)
+  name: getNow(T valueIfAbsent)
+  nameWithType: AsyncOperation<T>.getNow(T valueIfAbsent)
+  parameters:
+  - description: <p>default value to return if operation isn't complete </p>
+    name: valueIfAbsent
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>The operation result, null for a successful but empty result, or the passed in value if the operation is not yet complete. </p>
+    type: <xref href="final+T?alt=final T&text=final+T" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the value of the operation immediately returning a passed in value if the operation is not yet complete.</p>
+
+    <p></p>
+  syntax: public final T getNow(T valueIfAbsent)
+  uid: com.microsoft.connecteddevices.AsyncOperation.getNow(T)
+uid: com.microsoft.connecteddevices.AsyncOperation.getNow*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.getNow(T valueIfAbsent)
+name: getNow(T valueIfAbsent)
+package: com.microsoft.connecteddevices
+metadata: {}

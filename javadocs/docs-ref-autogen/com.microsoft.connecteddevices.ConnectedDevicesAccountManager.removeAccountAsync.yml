@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccountManager.removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+  name: removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+  nameWithType: ConnectedDevicesAccountManager.removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+  parameters:
+  - description: <p>The <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> to remove. </p>
+    name: account
+    type: '@NonNull final <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>Result of remove account operation </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesRemoveAccountResult?alt=com.microsoft.connecteddevices.ConnectedDevicesRemoveAccountResult&text=ConnectedDevicesRemoveAccountResult" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Removes an <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> from <xref uid="" data-throw-if-not-resolved="false">ConnectedDevicesAccountManager</xref>, callback will be invoked when it completes. </p>
+  syntax: public AsyncOperation<ConnectedDevicesRemoveAccountResult> removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.removeAccountAsync(@NonNull final ConnectedDevicesAccount)
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.removeAccountAsync*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+name: removeAccountAsync(@NonNull final ConnectedDevicesAccount account)
+package: com.microsoft.connecteddevices
+metadata: {}

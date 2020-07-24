@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.remoteSystemUpdated()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemUpdated()
+  name: remoteSystemUpdated()
+  nameWithType: RemoteSystemWatcher.remoteSystemUpdated()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher&text=RemoteSystemWatcher" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemUpdatedEventArgs?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemUpdatedEventArgs&text=RemoteSystemUpdatedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when a remote system that was previously discovered in this discovery session changes from proximally connected to cloud connected, or the reverse. It is also raised when a remote system changes one of its monitored properties (see the `get-` methods of the **RemoteSystem** class). </p>
+  syntax: public Event<RemoteSystemWatcher, RemoteSystemUpdatedEventArgs> remoteSystemUpdated()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemUpdated()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemUpdated*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemUpdated()
+name: remoteSystemUpdated()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

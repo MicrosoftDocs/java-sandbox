@@ -1,0 +1,81 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.APP_UNAVAILABLE
+  name: APP_UNAVAILABLE
+  nameWithType: RemoteLaunchUriStatus.APP_UNAVAILABLE
+  summary: <p>The app is not installed on the remote system. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.APP_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.DENIED_BY_LOCAL_SYSTEM
+  name: DENIED_BY_LOCAL_SYSTEM
+  nameWithType: RemoteLaunchUriStatus.DENIED_BY_LOCAL_SYSTEM
+  summary: <p>The user is not authorized to launch an app on a remote system. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.DENIED_BY_LOCAL_SYSTEM
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.DENIED_BY_REMOTE_SYSTEM
+  name: DENIED_BY_REMOTE_SYSTEM
+  nameWithType: RemoteLaunchUriStatus.DENIED_BY_REMOTE_SYSTEM
+  summary: <p>The user is not signed in on the target device or may be blocked by group policy. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.DENIED_BY_REMOTE_SYSTEM
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.PROTOCOL_UNAVAILABLE
+  name: PROTOCOL_UNAVAILABLE
+  nameWithType: RemoteLaunchUriStatus.PROTOCOL_UNAVAILABLE
+  summary: <p>The application you are trying to activate on the remote system does not support this URI. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.PROTOCOL_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.REMOTE_SYSTEM_UNAVAILABLE
+  name: REMOTE_SYSTEM_UNAVAILABLE
+  nameWithType: RemoteLaunchUriStatus.REMOTE_SYSTEM_UNAVAILABLE
+  summary: <p>The remote system could not be reached. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.REMOTE_SYSTEM_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: RemoteLaunchUriStatus.SUCCESS
+  summary: <p>The URI was successfully launched on the remote system. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.SUCCESS
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: RemoteLaunchUriStatus.UNKNOWN
+  summary: <p>The URI could not be successfully launched on the remote system. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.UNKNOWN
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.VALUE_SET_TOO_LARGE
+  name: VALUE_SET_TOO_LARGE
+  nameWithType: RemoteLaunchUriStatus.VALUE_SET_TOO_LARGE
+  summary: <p>The amount of data you tried to send to the remote system exceeded the limit. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.VALUE_SET_TOO_LARGE
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteLaunchUriStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteLaunchUriStatus.fromInt(int value)
+  parameters:
+  - description: <p>Integer to get the RemoteLaunchUriStatus for </p>
+    name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>RemoteLaunchUriStatus represented by the given integer, or UNKNOWN if no equivalent value exists </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus&text=RemoteLaunchUriStatus" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets an RemoteLaunchUriStatus corresponding to the given integer.</p>
+
+    <p></p>
+  syntax: public static RemoteLaunchUriStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.getValue()
+  name: getValue()
+  nameWithType: RemoteLaunchUriStatus.getValue()
+  returns:
+    description: <p>Integer equivalent of this RemoteLaunchUriStatus </p>
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the integer value of this RemoteLaunchUriStatus.</p>
+
+    <p></p>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus.getValue()
+nameWithType: RemoteLaunchUriStatus
+syntax: public enum RemoteLaunchUriStatus
+summary: <p>Specifies the result of an attempt to launch an application on a remote device using a URI. </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus
+name: RemoteLaunchUriStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

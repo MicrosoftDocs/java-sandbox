@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReader.readBatchAsync(@IntRange(from=0) long maxBatchSize)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.readBatchAsync(@IntRange(from=0) long maxBatchSize)
+  name: readBatchAsync(@IntRange(from=0) long maxBatchSize)
+  nameWithType: UserNotificationReader.readBatchAsync(@IntRange(from=0) long maxBatchSize)
+  parameters:
+  - name: maxBatchSize
+    type: <xref href="%40IntRange(from%3D0)+long?alt=@IntRange(from=0) long&text=%40IntRange(from%3D0)+long" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;List&lt;<xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotification?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotification&text=UserNotification" data-throw-if-not-resolved="False"/>&gt;&gt;
+  summary: <p>Read notification changes including new incoming notifications and updates on existing notifications in batch. </p>
+  syntax: public AsyncOperation<List<UserNotification>> readBatchAsync(@IntRange(from=0) long maxBatchSize)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.readBatchAsync(@IntRange(from=0) long)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.readBatchAsync*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.readBatchAsync(@IntRange(from=0) long maxBatchSize)
+name: readBatchAsync(@IntRange(from=0) long maxBatchSize)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

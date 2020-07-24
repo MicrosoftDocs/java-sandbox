@@ -1,0 +1,21 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- SDKLoader
+methods:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Desktop()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Holographic()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Hub()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Iot()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Laptop()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Phone()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Tablet()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Xbox()
+nameWithType: RemoteSystemKinds
+syntax: public class RemoteSystemKinds
+summary: <p>Contains strings that identify various device types. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds
+name: RemoteSystemKinds
+package: com.microsoft.connecteddevices.remotesystems

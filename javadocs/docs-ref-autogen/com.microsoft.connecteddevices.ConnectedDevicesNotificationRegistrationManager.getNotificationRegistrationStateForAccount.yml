@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+  name: getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+  nameWithType: ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+  parameters:
+  - description: <p>A <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> to get the registration state for. </p>
+    name: account
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>A <xref uid="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState" data-throw-if-not-resolved="false">ConnectedDevicesNotificationRegistrationState</xref> stating what state registration is in. </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState&text=ConnectedDevicesNotificationRegistrationState" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the status of cloud registration for the given account. </p>
+  syntax: public ConnectedDevicesNotificationRegistrationState getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount(@NonNull ConnectedDevicesAccount)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+name: getNotificationRegistrationStateForAccount( @NonNull ConnectedDevicesAccount account)
+package: com.microsoft.connecteddevices
+metadata: {}

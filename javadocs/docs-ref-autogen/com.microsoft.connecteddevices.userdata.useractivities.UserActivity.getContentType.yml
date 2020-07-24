@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getContentType()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentType()
+  name: getContentType()
+  nameWithType: UserActivity.getContentType()
+  returns:
+    description: <p>The content type String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the content type for this activity. </p>
+  syntax: public String getContentType()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentType()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentType*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentType()
+name: getContentType()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

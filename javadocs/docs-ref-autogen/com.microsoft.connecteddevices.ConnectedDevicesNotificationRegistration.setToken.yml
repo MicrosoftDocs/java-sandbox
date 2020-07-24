@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.setToken(@Nullable String token)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setToken(@Nullable String token)
+  name: setToken(@Nullable String token)
+  nameWithType: ConnectedDevicesNotificationRegistration.setToken(@Nullable String token)
+  parameters:
+  - description: <p>The string that the messaging service sends to your registration intent service. </p>
+    name: token
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the registration token. </p>
+  syntax: public void setToken(@Nullable String token)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setToken(@Nullable String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setToken*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setToken(@Nullable String token)
+name: setToken(@Nullable String token)
+package: com.microsoft.connecteddevices
+metadata: {}

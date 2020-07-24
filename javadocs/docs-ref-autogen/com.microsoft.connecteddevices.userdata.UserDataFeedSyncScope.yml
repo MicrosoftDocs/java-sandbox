@@ -1,0 +1,19 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getNotificationType()
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getPlatform()
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getSyncScopeFlags()
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setNotificationType(@Nullable String)
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setPlatform(@Nullable String)
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setSyncScopeFlags(@Nullable Collection<String>)
+nameWithType: UserDataFeedSyncScope
+syntax: public class UserDataFeedSyncScope
+summary: <p>This class represents the scope for synchronizing user-specific data with the Connected Devices Platform backend when the app uses certain functionality, such as useractivities. An instance can be retrieved statically from the class for the specific functionality (e.g. **UserActivityChannel**), and it is used for configuration of **UserDataFeed** behavior for synchronizing data. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope
+name: UserDataFeedSyncScope
+package: com.microsoft.connecteddevices.userdata

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getPriority()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getPriority()
+  name: getPriority()
+  nameWithType: UserNotification.getPriority()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority&text=UserNotificationPriority" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the developer specified priority for this user notification. </p>
+  syntax: public UserNotificationPriority getPriority()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getPriority()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getPriority*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getPriority()
+name: getPriority()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

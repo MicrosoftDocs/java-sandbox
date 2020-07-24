@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationUpdateResult.getNotificationId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getNotificationId()
+  name: getNotificationId()
+  nameWithType: UserNotificationUpdateResult.getNotificationId()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the notification id corresponding to this update result. </p>
+  syntax: public String getNotificationId()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getNotificationId()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getNotificationId*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getNotificationId()
+name: getNotificationId()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

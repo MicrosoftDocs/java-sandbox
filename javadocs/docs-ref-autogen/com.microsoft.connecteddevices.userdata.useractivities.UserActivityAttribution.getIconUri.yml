@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityAttribution.getIconUri()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getIconUri()
+  name: getIconUri()
+  nameWithType: UserActivityAttribution.getIconUri()
+  returns:
+    description: <p>The URI String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the URI for the icon image. </p>
+  syntax: public String getIconUri()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getIconUri()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getIconUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getIconUri()
+name: getIconUri()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

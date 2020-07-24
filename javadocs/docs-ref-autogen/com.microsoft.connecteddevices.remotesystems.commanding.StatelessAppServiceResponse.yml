@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getMessage()
+- com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getStatus()
+nameWithType: StatelessAppServiceResponse
+syntax: public class StatelessAppServiceResponse
+summary: <p>Represents a message passed from a remote app service to the client app in response to a previous call to <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">#sendStatelessMessageAsync</xref>. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse
+name: StatelessAppServiceResponse
+package: com.microsoft.connecteddevices.remotesystems.commanding

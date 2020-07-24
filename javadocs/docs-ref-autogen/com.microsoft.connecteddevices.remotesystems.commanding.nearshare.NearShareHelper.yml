@@ -1,0 +1,13 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper.createNearShareFileFromContentUri(Uri,Context)
+nameWithType: NearShareHelper
+syntax: public class NearShareHelper
+summary: <p>This class generates an implementation of the <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider" data-throw-if-not-resolved="false">NearShareFileProvider</xref> interface, which represents a single file to be shared. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper
+name: NearShareHelper
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare

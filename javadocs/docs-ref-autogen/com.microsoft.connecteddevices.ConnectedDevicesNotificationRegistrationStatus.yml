@@ -1,0 +1,65 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_ACCOUNT_NOT_FOUND
+  name: ERROR_ACCOUNT_NOT_FOUND
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.ERROR_ACCOUNT_NOT_FOUND
+  summary: <p>The operation failed because the account is not found. This could occur if the account is removed while the operation was in progress. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_ACCOUNT_NOT_FOUND
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_NO_NETWORK
+  name: ERROR_NO_NETWORK
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.ERROR_NO_NETWORK
+  summary: <p>The operation failed because there was no network. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_NO_NETWORK
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  name: ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  summary: <p>The operation failed since the app didn't subscribe to the AccessTokenRequested event. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_TOKEN_REQUEST_FAILED
+  name: ERROR_TOKEN_REQUEST_FAILED
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.ERROR_TOKEN_REQUEST_FAILED
+  summary: <p>The operation failed since the app failed to return a token when requested. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_TOKEN_REQUEST_FAILED
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_UNKNOWN
+  name: ERROR_UNKNOWN
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.ERROR_UNKNOWN
+  summary: <p>The operation failed for unknown reasons. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_UNKNOWN
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_WEB_FAILURE
+  name: ERROR_WEB_FAILURE
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.ERROR_WEB_FAILURE
+  summary: <p>The operation failed due to a web service failure. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.ERROR_WEB_FAILURE
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.SUCCESS
+  summary: <p>The notification information was successfully registered. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.SUCCESS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ConnectedDevicesNotificationRegistrationStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus&text=ConnectedDevicesNotificationRegistrationStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static ConnectedDevicesNotificationRegistrationStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.getValue()
+  name: getValue()
+  nameWithType: ConnectedDevicesNotificationRegistrationStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus.getValue()
+nameWithType: ConnectedDevicesNotificationRegistrationStatus
+syntax: public enum ConnectedDevicesNotificationRegistrationStatus
+summary: <p>Contains the values that describe the notifcation registration operation status The error statuses indicate transient conditions where the app developer may want to retry registering. </p>
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus
+name: ConnectedDevicesNotificationRegistrationStatus
+package: com.microsoft.connecteddevices
+metadata: {}

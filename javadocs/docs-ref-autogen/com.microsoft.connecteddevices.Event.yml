@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.Event.subscribe(EventListener<? super T, ? super R>)
+nameWithType: Event<T,R>
+syntax: public interface Event<T,R>
+summary: <p>This interface provides a simple eventing model. Events produce items consumed by EventListeners. The flow of event items is controlled by the EventSubscription. </p>
+type: interface
+typeParameters:
+- description: <p>the event source object type </p>
+  name: T
+- description: <p>the event argument type </p>
+  name: R
+uid: com.microsoft.connecteddevices.Event
+fullName: com.microsoft.connecteddevices.Event<T,R>
+name: Event<T,R>
+package: com.microsoft.connecteddevices

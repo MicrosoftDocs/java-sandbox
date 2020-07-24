@@ -1,0 +1,11 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.EventSubscription.cancel()
+nameWithType: EventSubscription
+syntax: public interface EventSubscription
+summary: <p>This interface provides a simple event subscription </p>
+type: interface
+uid: com.microsoft.connecteddevices.EventSubscription
+fullName: com.microsoft.connecteddevices.EventSubscription
+name: EventSubscription
+package: com.microsoft.connecteddevices

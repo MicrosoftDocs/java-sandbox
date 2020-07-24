@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedPlatforms.all()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.all()
+  name: all()
+  nameWithType: UserDataFeedPlatforms.all()
+  returns:
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  syntax: public static native String all()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.all()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.all*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.all()
+name: all()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

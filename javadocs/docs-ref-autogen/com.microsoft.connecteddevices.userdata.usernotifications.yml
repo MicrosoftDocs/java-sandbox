@@ -1,0 +1,25 @@
+### YamlMime:JavaPackage
+summary: >-
+  <p>The UserNotifications namespace contains APIs that allow an app to receive and manage user-targeted notifications published by your app server via Microsoft Graph Notifications to enable human-centric, cross-device notification experiences.</p>
+
+  <p>**Important**: This namespace is not yet available to 3rd-party app developers. If you'd like to be put on a waiting list to get early access, email us at <a href="mailto:projectrometeam@microsoft.com">ProjectRomeTeam@microsoft.com</a>. </p>
+classes:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderDataChangedEventArgs
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult
+enums:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter
+uid: com.microsoft.connecteddevices.userdata.usernotifications
+fullName: com.microsoft.connecteddevices.userdata.usernotifications
+name: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

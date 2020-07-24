@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemEnumerationCompletedEventArgs
+syntax: public class RemoteSystemEnumerationCompletedEventArgs
+summary: <p>Event arguments for the RemoteSystemWatcher RemoteSystemEnumerationCompleted event. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemEnumerationCompletedEventArgs
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemEnumerationCompletedEventArgs
+name: RemoteSystemEnumerationCompletedEventArgs
+package: com.microsoft.connecteddevices.remotesystems

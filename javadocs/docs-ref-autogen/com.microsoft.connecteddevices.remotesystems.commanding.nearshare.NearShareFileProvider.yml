@@ -1,0 +1,13 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getFileName()
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getSize()
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.open()
+nameWithType: NearShareFileProvider
+syntax: public interface NearShareFileProvider
+summary: <p>Interface implemented by apps to provide information about a file to be shared and create a <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream" data-throw-if-not-resolved="false">NearShareStream</xref> for this data. The <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper" data-throw-if-not-resolved="false">NearShareHelper</xref> class can be used to create the default implementation of this interface. </p>
+type: interface
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider
+name: NearShareFileProvider
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare

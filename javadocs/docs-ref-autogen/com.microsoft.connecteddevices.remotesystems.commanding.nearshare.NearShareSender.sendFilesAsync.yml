@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: NearShareSender.sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+  name: sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+  nameWithType: NearShareSender.sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+  parameters:
+  - description: <p>A **RemoteSystemConnectionRequest** indicating the device or app to connect to. </p>
+    name: remoteSystemConnectionRequest
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest&text=RemoteSystemConnectionRequest" data-throw-if-not-resolved="False"/>
+  - description: <p>A **NearShareFileProvider** array representing the list of files to send. </p>
+    name: files
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider?alt=com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider&text=NearShareFileProvider" data-throw-if-not-resolved="False"/> []
+  returns:
+    description: <p>An asynchronous operation with a **NearShareStatus** value. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperationWithProgress?alt=com.microsoft.connecteddevices.AsyncOperationWithProgress&text=AsyncOperationWithProgress" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus&text=NearShareStatus" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress?alt=com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress&text=NearShareProgress" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Sends multiple files to a remote device or app. </p>
+  syntax: public AsyncOperationWithProgress<NearShareStatus, NearShareProgress> sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFilesAsync(RemoteSystemConnectionRequest,NearShareFileProvider [])
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFilesAsync*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+name: sendFilesAsync(RemoteSystemConnectionRequest remoteSystemConnectionRequest, NearShareFileProvider[] files)
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

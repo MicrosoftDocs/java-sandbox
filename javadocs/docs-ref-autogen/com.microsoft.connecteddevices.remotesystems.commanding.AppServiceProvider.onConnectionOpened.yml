@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceProvider.onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+  name: onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+  nameWithType: AppServiceProvider.onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+  parameters:
+  - description: <p>A <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo" data-throw-if-not-resolved="false">AppServiceConnectionOpenedInfo</xref> instance containing information for remote messaging with the app service. </p>
+    name: openedInfo
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo&text=AppServiceConnectionOpenedInfo" data-throw-if-not-resolved="False"/>'
+  summary: <p>This method is called by the platform when a remote device opens a connection to a local app service. </p>
+  syntax: public void onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.onConnectionOpened*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+name: onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo openedInfo)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

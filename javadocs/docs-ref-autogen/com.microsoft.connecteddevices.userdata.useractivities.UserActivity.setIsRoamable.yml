@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setIsRoamable(boolean roamable)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setIsRoamable(boolean roamable)
+  name: setIsRoamable(boolean roamable)
+  nameWithType: UserActivity.setIsRoamable(boolean roamable)
+  parameters:
+  - description: <p>Boolean whether this activity is roamed to other endpoints. </p>
+    name: roamable
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets whether this activity is roamed to other endpoints. </p>
+  syntax: public void setIsRoamable(boolean roamable)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setIsRoamable(boolean)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setIsRoamable*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setIsRoamable(boolean roamable)
+name: setIsRoamable(boolean roamable)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

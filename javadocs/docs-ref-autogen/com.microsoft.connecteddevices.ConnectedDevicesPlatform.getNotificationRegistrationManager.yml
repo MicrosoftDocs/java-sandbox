@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatform.getNotificationRegistrationManager()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getNotificationRegistrationManager()
+  name: getNotificationRegistrationManager()
+  nameWithType: ConnectedDevicesPlatform.getNotificationRegistrationManager()
+  returns:
+    description: <p>NotificationRegistrationManager </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager&text=ConnectedDevicesNotificationRegistrationManager" data-throw-if-not-resolved="False"/>
+  summary: <p>Get <xref uid="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager" data-throw-if-not-resolved="false">ConnectedDevicesNotificationRegistrationManager</xref> instance held by platform </p>
+  syntax: public ConnectedDevicesNotificationRegistrationManager getNotificationRegistrationManager()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getNotificationRegistrationManager()
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getNotificationRegistrationManager*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getNotificationRegistrationManager()
+name: getNotificationRegistrationManager()
+package: com.microsoft.connecteddevices
+metadata: {}

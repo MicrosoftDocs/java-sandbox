@@ -1,0 +1,20 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions(@Nullable String,@Nullable Collection<String>)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getFallbackUri()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getPreferredPackageIds()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setFallbackUri(@Nullable String)
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setPreferredPackageIds(@Nullable Collection<String>)
+nameWithType: RemoteLauncherOptions
+syntax: public class RemoteLauncherOptions
+summary: <p>This class specifies the options used to launch the default app for URI on a remote device. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions
+name: RemoteLauncherOptions
+package: com.microsoft.connecteddevices.remotesystems.commanding

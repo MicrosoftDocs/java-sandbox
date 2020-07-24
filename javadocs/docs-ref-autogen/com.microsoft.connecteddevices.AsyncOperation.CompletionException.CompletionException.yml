@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation.CompletionException.CompletionException
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.CompletionException.CompletionException()
+  name: CompletionException()
+  nameWithType: AsyncOperation.CompletionException.CompletionException()
+  summary: <p>Constructs a CompletionException with no message. </p>
+  syntax: protected CompletionException()
+  uid: com.microsoft.connecteddevices.AsyncOperation.CompletionException.CompletionException()
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.CompletionException.CompletionException(String message)
+  name: CompletionException(String message)
+  nameWithType: AsyncOperation.CompletionException.CompletionException(String message)
+  parameters:
+  - name: message
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Constructs a CompletionException with an exception message. </p>
+  syntax: protected CompletionException(String message)
+  uid: com.microsoft.connecteddevices.AsyncOperation.CompletionException.CompletionException(String)
+uid: com.microsoft.connecteddevices.AsyncOperation.CompletionException.CompletionException*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.CompletionException.CompletionException
+name: CompletionException
+package: com.microsoft.connecteddevices
+metadata: {}

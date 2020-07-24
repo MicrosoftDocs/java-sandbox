@@ -1,0 +1,53 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.ACTIVE
+  name: ACTIVE
+  nameWithType: ClipboardItemStateFilters.ACTIVE
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.ACTIVE
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.ACTIVE_DELETED
+  name: ACTIVE_DELETED
+  nameWithType: ClipboardItemStateFilters.ACTIVE_DELETED
+  summary: <p>Clipboard item filter to include items which are in an active state or a deleted state. </p>
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.ACTIVE_DELETED
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.ACTIVE_ONLY
+  name: ACTIVE_ONLY
+  nameWithType: ClipboardItemStateFilters.ACTIVE_ONLY
+  summary: <p>Clipboard item filter to only include items which are in an active state. </p>
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.ACTIVE_ONLY
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.DELETED
+  name: DELETED
+  nameWithType: ClipboardItemStateFilters.DELETED
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.DELETED
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.DELETED_ONLY
+  name: DELETED_ONLY
+  nameWithType: ClipboardItemStateFilters.DELETED_ONLY
+  summary: <p>Clipboard item filter to only include items which are in a deleted state. </p>
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.DELETED_ONLY
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ClipboardItemStateFilters&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.fromInt(int state)
+  name: fromInt(int state)
+  nameWithType: ClipboardItemStateFilters.fromInt(int state)
+  parameters:
+  - name: state
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters&text=ClipboardItemStateFilters" data-throw-if-not-resolved="False"/>
+  syntax: public static ClipboardItemStateFilters fromInt(int state)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.getValue()
+  name: getValue()
+  nameWithType: ClipboardItemStateFilters.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters.getValue()
+nameWithType: ClipboardItemStateFilters
+syntax: public enum ClipboardItemStateFilters
+summary: <p>Values used to filter clipboard items by their state. </p>
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters
+name: ClipboardItemStateFilters
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

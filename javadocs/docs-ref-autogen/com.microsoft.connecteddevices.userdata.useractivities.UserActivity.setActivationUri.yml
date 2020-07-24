@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setActivationUri(@NonNull String activationUri)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setActivationUri(@NonNull String activationUri)
+  name: setActivationUri(@NonNull String activationUri)
+  nameWithType: UserActivity.setActivationUri(@NonNull String activationUri)
+  parameters:
+  - description: <p>The primary activation URI String. </p>
+    name: activationUri
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>The URI to follow when this user activity is activated. </p>
+  syntax: public void setActivationUri(@NonNull String activationUri)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setActivationUri(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setActivationUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setActivationUri(@NonNull String activationUri)
+name: setActivationUri(@NonNull String activationUri)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

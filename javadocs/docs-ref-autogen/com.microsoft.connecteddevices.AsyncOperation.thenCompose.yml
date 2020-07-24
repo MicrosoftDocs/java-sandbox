@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+  name: thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+  nameWithType: AsyncOperation<T>.thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+  parameters:
+  - description: <p>Function that will be executed upon completion of both operations </p>
+    name: action
+    type: '@NonNull AsyncOperation.ResultFunction&lt;? super T, ? extends <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;U&gt;&gt;'
+  returns:
+    description: <p>A new async operation that will complete based on the outcome of passed in action </p>
+    type: '&lt;U&gt; <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;U&gt;'
+  summary: >-
+    <p>The thenCompose trio of functions run a passed in ResultFunction when this operation completes successfully. The ResultFunction returns an AsyncOperation&lt;T&gt; and the return operation from this call returns a AsyncOperation&lt;T&gt; as opposed to a AsyncOperation&lt;AsyncOperation&lt;T&gt;&gt; </p>
+
+    <p></p>
+  syntax: public <U> AsyncOperation<U> thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+  uid: com.microsoft.connecteddevices.AsyncOperation.thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>>)
+uid: com.microsoft.connecteddevices.AsyncOperation.thenCompose*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+name: thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>> action)
+package: com.microsoft.connecteddevices
+metadata: {}

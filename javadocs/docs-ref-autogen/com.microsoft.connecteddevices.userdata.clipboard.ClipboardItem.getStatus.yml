@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardItem.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getStatus()
+  name: getStatus()
+  nameWithType: ClipboardItem.getStatus()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus&text=ClipboardItemStatus" data-throw-if-not-resolved="False"/>
+  syntax: public ClipboardItemStatus getStatus()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getStatus()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getStatus*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

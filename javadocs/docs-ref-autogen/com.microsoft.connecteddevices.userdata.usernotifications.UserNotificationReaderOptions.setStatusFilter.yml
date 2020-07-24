@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+  name: setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+  nameWithType: UserNotificationReaderOptions.setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+  parameters:
+  - name: statusFilter
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter&text=UserNotificationStatusFilter" data-throw-if-not-resolved="False"/>'
+  summary: <p>Set the status filter for this user notification reader you desire to create. </p>
+  syntax: public void setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStatusFilter(@NonNull UserNotificationStatusFilter)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStatusFilter*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+name: setStatusFilter(@NonNull UserNotificationStatusFilter statusFilter)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

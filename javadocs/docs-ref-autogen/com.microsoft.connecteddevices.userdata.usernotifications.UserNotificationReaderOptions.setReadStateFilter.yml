@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+  name: setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+  nameWithType: UserNotificationReaderOptions.setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+  parameters:
+  - name: readStateFilter
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter&text=UserNotificationReadStateFilter" data-throw-if-not-resolved="False"/>'
+  summary: <p>Set the read state filter for this user notification reader you desire to create. </p>
+  syntax: public void setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setReadStateFilter(@NonNull UserNotificationReadStateFilter)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setReadStateFilter*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+name: setReadStateFilter(@NonNull UserNotificationReadStateFilter readStateFilter)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

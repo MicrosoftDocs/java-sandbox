@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.publishAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.publishAsync()
+  name: publishAsync()
+  nameWithType: RemoteSystemAppRegistration.publishAsync()
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.AsyncOperation" data-throw-if-not-resolved="false">AsyncOperation</xref> indicating if the registration saved successfully. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult&text=RemoteSystemAppRegistrationPublishResult" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Publishes the registration so that other apps and devices can discover it. </p>
+  syntax: public AsyncOperation<RemoteSystemAppRegistrationPublishResult> publishAsync()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.publishAsync()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.publishAsync*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.publishAsync()
+name: publishAsync()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

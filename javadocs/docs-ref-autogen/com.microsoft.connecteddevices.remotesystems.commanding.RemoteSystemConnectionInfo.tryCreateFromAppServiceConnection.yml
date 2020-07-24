@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+  name: tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+  nameWithType: RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+  parameters:
+  - description: <p>The **AppServiceConnection** instance for which the underlying remote system connection's information should be obtained. </p>
+    name: connection
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection&text=AppServiceConnection" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>An instance of this class corresponding to the app service connection. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo&text=RemoteSystemConnectionInfo" data-throw-if-not-resolved="False"/>
+  summary: <p>Attempts to get connection info from the given <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection</xref>. If the app service connection is an incoming connection, no connection info is currently available. </p>
+  syntax: public static RemoteSystemConnectionInfo tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection(@NonNull AppServiceConnection)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+name: tryCreateFromAppServiceConnection(@NonNull AppServiceConnection connection)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

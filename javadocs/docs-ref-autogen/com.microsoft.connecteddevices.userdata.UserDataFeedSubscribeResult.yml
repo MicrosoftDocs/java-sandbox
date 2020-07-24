@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getStatus()
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getSubscription()
+nameWithType: UserDataFeedSubscribeResult
+syntax: public class UserDataFeedSubscribeResult
+summary: <p>Result of <xref uid="" data-throw-if-not-resolved="false">#subscribeToSyncScopesWithResultAsync</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult
+name: UserDataFeedSubscribeResult
+package: com.microsoft.connecteddevices.userdata

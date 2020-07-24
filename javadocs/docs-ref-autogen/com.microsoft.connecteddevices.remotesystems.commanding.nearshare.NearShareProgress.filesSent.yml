@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: NearShareProgress.filesSent
+type: field
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.filesSent
+  name: filesSent
+  nameWithType: NearShareProgress.filesSent
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  summary: <p>The number of files that have been sent. </p>
+  syntax: public int filesSent
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.filesSent
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.filesSent
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.filesSent
+name: filesSent
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

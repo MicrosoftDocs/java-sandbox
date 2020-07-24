@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccessTokenRequest.getAccount()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getAccount()
+  name: getAccount()
+  nameWithType: ConnectedDevicesAccessTokenRequest.getAccount()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the Account associated with this <xref uid="" data-throw-if-not-resolved="false">ConnectedDevicesAccessTokenRequest</xref>. </p>
+  syntax: public ConnectedDevicesAccount getAccount()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getAccount()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getAccount*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getAccount()
+name: getAccount()
+package: com.microsoft.connecteddevices
+metadata: {}

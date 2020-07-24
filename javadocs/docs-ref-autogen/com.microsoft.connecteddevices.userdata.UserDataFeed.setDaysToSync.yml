@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.setDaysToSync(@IntRange(from=0) int daysToSync)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.setDaysToSync(@IntRange(from=0) int daysToSync)
+  name: setDaysToSync(@IntRange(from=0) int daysToSync)
+  nameWithType: UserDataFeed.setDaysToSync(@IntRange(from=0) int daysToSync)
+  parameters:
+  - description: <p>- Number of days of data to sync, which should be fewer than 30 0 represents the default value, which will be determined by the server </p>
+    name: daysToSync
+    type: <xref href="%40IntRange(from%3D0)+int?alt=@IntRange(from=0) int&text=%40IntRange(from%3D0)+int" data-throw-if-not-resolved="False"/>
+  summary: <p>Set the number of days to sync. </p>
+  syntax: public void setDaysToSync(@IntRange(from=0) int daysToSync)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.setDaysToSync(@IntRange(from=0) int)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.setDaysToSync*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.setDaysToSync(@IntRange(from=0) int daysToSync)
+name: setDaysToSync(@IntRange(from=0) int daysToSync)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+  name: openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+  nameWithType: AppServiceConnection.openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+  parameters:
+  - description: <p>The <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest" data-throw-if-not-resolved="false">RemoteSystemConnectionRequest</xref>, which specifies the device or application to connect to. </p>
+    name: connection
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest&text=RemoteSystemConnectionRequest" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>An asynchronous operation with an <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus" data-throw-if-not-resolved="false">AppServiceConnectionStatus</xref> indicating the status of the attempted connection. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus&text=AppServiceConnectionStatus" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Opens the app service connection on the specified remote device or application. If the connection fails to open, an exception is thrown. </p>
+  syntax: public AsyncOperation<AppServiceConnectionStatus> openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.openRemoteAsync(@NonNull RemoteSystemConnectionRequest)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.openRemoteAsync*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+name: openRemoteAsync(@NonNull RemoteSystemConnectionRequest connection)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

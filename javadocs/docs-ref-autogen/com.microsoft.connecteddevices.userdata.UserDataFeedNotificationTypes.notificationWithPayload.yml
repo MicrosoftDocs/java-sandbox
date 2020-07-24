@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedNotificationTypes.notificationWithPayload()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationWithPayload()
+  name: notificationWithPayload()
+  nameWithType: UserDataFeedNotificationTypes.notificationWithPayload()
+  returns:
+    description: <p>type value </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>No restrictions to incoming push notifications, other than domain/server restrictions </p>
+  syntax: public static native String notificationWithPayload()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationWithPayload()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationWithPayload*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationWithPayload()
+name: notificationWithPayload()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

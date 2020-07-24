@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+  name: setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+  nameWithType: UserNotificationReaderOptions.setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+  parameters:
+  - name: startPosition
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition&text=UserNotificationReaderStartPosition" data-throw-if-not-resolved="False"/>'
+  summary: <p>Set the start position for this user notification reader you desire to create. </p>
+  syntax: public void setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStartPosition(@NonNull UserNotificationReaderStartPosition)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStartPosition*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+name: setStartPosition(@NonNull UserNotificationReaderStartPosition startPosition)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

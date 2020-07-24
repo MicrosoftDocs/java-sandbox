@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.requestReceived()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.requestReceived()
+  name: requestReceived()
+  nameWithType: AppServiceConnection.requestReceived()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection&text=AppServiceConnection" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs&text=AppServiceRequestReceivedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when a service request is received from a remote app. </p>
+  syntax: public Event<AppServiceConnection, AppServiceRequestReceivedEventArgs> requestReceived()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.requestReceived()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.requestReceived*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.requestReceived()
+name: requestReceived()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

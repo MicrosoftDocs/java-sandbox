@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityChannel.setAppDisplayName(@Nullable String appDisplayName)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.setAppDisplayName(@Nullable String appDisplayName)
+  name: setAppDisplayName(@Nullable String appDisplayName)
+  nameWithType: UserActivityChannel.setAppDisplayName(@Nullable String appDisplayName)
+  parameters:
+  - description: <p>The String to set as App Display Name. </p>
+    name: appDisplayName
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the display name of the app for all activities </p>
+  syntax: public void setAppDisplayName(@Nullable String appDisplayName)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.setAppDisplayName(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.setAppDisplayName*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.setAppDisplayName(@Nullable String appDisplayName)
+name: setAppDisplayName(@Nullable String appDisplayName)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

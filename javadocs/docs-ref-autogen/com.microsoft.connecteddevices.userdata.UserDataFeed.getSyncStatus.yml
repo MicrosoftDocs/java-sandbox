@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.getSyncStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.getSyncStatus()
+  name: getSyncStatus()
+  nameWithType: UserDataFeed.getSyncStatus()
+  returns:
+    description: <p>A **UserDataFeedSyncStatus** instance describing the status. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus&text=UserDataFeedSyncStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the current status of user data synchronization. </p>
+  syntax: public UserDataFeedSyncStatus getSyncStatus()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getSyncStatus()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getSyncStatus*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.getSyncStatus()
+name: getSyncStatus()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

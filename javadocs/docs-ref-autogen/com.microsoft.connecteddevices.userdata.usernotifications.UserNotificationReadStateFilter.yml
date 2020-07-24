@@ -1,0 +1,45 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.ANY
+  name: ANY
+  nameWithType: UserNotificationReadStateFilter.ANY
+  summary: <p>Any state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.ANY
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.READ
+  name: READ
+  nameWithType: UserNotificationReadStateFilter.READ
+  summary: <p>Read state only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.READ
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.UNREAD
+  name: UNREAD
+  nameWithType: UserNotificationReadStateFilter.UNREAD
+  summary: <p>Unread state only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.UNREAD
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationReadStateFilter&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationReadStateFilter.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter&text=UserNotificationReadStateFilter" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationReadStateFilter fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.getValue()
+  name: getValue()
+  nameWithType: UserNotificationReadStateFilter.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter.getValue()
+nameWithType: UserNotificationReadStateFilter
+syntax: public enum UserNotificationReadStateFilter
+summary: <p>Contains values that indicates a read state filter when creating a notification reader. This determines whether the app wants to receive all notifications, only read ones, or only unread ones. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter
+name: UserNotificationReadStateFilter
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

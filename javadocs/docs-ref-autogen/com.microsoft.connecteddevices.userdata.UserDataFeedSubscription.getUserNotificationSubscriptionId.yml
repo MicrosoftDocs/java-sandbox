@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSubscription.getUserNotificationSubscriptionId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getUserNotificationSubscriptionId()
+  name: getUserNotificationSubscriptionId()
+  nameWithType: UserDataFeedSubscription.getUserNotificationSubscriptionId()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the developer specified group id for this user notification. </p>
+  syntax: public String getUserNotificationSubscriptionId()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getUserNotificationSubscriptionId()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getUserNotificationSubscriptionId*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getUserNotificationSubscriptionId()
+name: getUserNotificationSubscriptionId()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

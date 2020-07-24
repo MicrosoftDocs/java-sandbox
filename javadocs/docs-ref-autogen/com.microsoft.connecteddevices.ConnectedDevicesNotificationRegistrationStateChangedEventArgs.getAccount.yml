@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount()
+  name: getAccount()
+  nameWithType: ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the Account for which the notification registration state has changed for. </p>
+  syntax: public ConnectedDevicesAccount getAccount()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount()
+name: getAccount()
+package: com.microsoft.connecteddevices
+metadata: {}

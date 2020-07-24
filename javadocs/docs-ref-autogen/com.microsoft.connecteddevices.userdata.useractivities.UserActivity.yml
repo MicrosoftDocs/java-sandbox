@@ -1,0 +1,34 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.UserActivity(@NonNull String)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.createSession()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivationUri()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivityId()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getAppDisplayName()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentInfoJson()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentType()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentUri()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getFallbackUri()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getIsRoamable()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getState()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getVisualElements()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.saveAsync()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setActivationUri(@NonNull String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentInfoJson(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentType(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentUri(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setFallbackUri(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setIsRoamable(boolean)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setVisualElements(@NonNull UserActivityVisualElements)
+nameWithType: UserActivity
+syntax: public class UserActivity
+summary: <p>This class represents a single user activity instance. A user activity is created by an app during its execution to notify the system of a user work stream that can be continued on another device or at another time on the same device. It provides information about a task the user is engaged in. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity
+name: UserActivity
+package: com.microsoft.connecteddevices.userdata.useractivities

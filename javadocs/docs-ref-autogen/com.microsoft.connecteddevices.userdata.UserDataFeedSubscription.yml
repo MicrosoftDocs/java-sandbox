@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getExpirationTime()
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getSyncScopes()
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getUserNotificationSubscriptionId()
+nameWithType: UserDataFeedSubscription
+syntax: public class UserDataFeedSubscription
+summary: <p>Result of <xref uid="" data-throw-if-not-resolved="false">#subscribeToSyncScopesWithResultAsync</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription
+name: UserDataFeedSubscription
+package: com.microsoft.connecteddevices.userdata

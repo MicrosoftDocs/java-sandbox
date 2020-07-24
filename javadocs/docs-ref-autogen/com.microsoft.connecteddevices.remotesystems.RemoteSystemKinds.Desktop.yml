@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Desktop()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Desktop()
+  name: Desktop()
+  nameWithType: RemoteSystemKinds.Desktop()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the desktop device type. </p>
+  syntax: public static native String Desktop()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Desktop()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Desktop*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Desktop()
+name: Desktop()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

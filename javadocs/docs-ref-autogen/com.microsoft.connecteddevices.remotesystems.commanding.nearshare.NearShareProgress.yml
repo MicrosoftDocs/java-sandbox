@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+fields:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.bytesSent
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.filesSent
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalBytesToSend
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalFilesToSend
+inheritances:
+- java.lang.Object
+nameWithType: NearShareProgress
+syntax: public class NearShareProgress
+summary: <p>Progress of a nearby sharing operation at a single moment in time. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress
+name: NearShareProgress
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare

@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.completedFuture(U value)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.completedFuture(U value)
+  name: completedFuture(U value)
+  nameWithType: AsyncOperation<T>.completedFuture(U value)
+  parameters:
+  - description: <p>value with which to complete the operation </p>
+    name: value
+    type: <xref href="U?alt=U&text=U" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A new async operation that is already completed </p>
+    type: static&lt;U&gt; <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;U&gt;
+  summary: >-
+    <p>Creates an operation that is already completed with the given value </p>
+
+    <p></p>
+  syntax: public static static<U> AsyncOperation<U> completedFuture(U value)
+  uid: com.microsoft.connecteddevices.AsyncOperation.completedFuture(U)
+uid: com.microsoft.connecteddevices.AsyncOperation.completedFuture*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.completedFuture(U value)
+name: completedFuture(U value)
+package: com.microsoft.connecteddevices
+metadata: {}

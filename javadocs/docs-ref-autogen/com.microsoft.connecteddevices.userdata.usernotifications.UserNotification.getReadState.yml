@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getReadState()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getReadState()
+  name: getReadState()
+  nameWithType: UserNotification.getReadState()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState&text=UserNotificationReadState" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the value of the read state for this user notification that indicates the notification is read or unread. </p>
+  syntax: public UserNotificationReadState getReadState()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getReadState()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getReadState*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getReadState()
+name: getReadState()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

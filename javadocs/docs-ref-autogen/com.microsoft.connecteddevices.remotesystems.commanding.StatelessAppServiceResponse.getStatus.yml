@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: StatelessAppServiceResponse.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getStatus()
+  name: getStatus()
+  nameWithType: StatelessAppServiceResponse.getStatus()
+  returns:
+    description: <p>A <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus" data-throw-if-not-resolved="false">StatelessAppServiceResponseStatus</xref> value describing the status of the response. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus&text=StatelessAppServiceResponseStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the status of the response from the remote app service. </p>
+  syntax: public StatelessAppServiceResponseStatus getStatus()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getStatus()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getStatus*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

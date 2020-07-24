@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystem.getManufacturerDisplayName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getManufacturerDisplayName()
+  name: getManufacturerDisplayName()
+  nameWithType: RemoteSystem.getManufacturerDisplayName()
+  returns:
+    description: <p>The name of the given remote system's manufacturer. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the manufacturer name of the given remote system. </p>
+  syntax: public String getManufacturerDisplayName()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getManufacturerDisplayName()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getManufacturerDisplayName*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getManufacturerDisplayName()
+name: getManufacturerDisplayName()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

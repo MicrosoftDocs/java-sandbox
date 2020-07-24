@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceRequestReceivedEventArgs.getRequest()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs.getRequest()
+  name: getRequest()
+  nameWithType: AppServiceRequestReceivedEventArgs.getRequest()
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest" data-throw-if-not-resolved="false">AppServiceRequest</xref> instance representing the app service request. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest&text=AppServiceRequest" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the app service request corresponding to this event. </p>
+  syntax: public AppServiceRequest getRequest()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs.getRequest()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs.getRequest*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs.getRequest()
+name: getRequest()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

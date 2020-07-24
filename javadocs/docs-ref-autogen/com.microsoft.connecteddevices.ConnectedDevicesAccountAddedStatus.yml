@@ -1,0 +1,60 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_NO_NETWORK
+  name: ERROR_NO_NETWORK
+  nameWithType: ConnectedDevicesAccountAddedStatus.ERROR_NO_NETWORK
+  summary: <p>The account operation failed because there was no network. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_NO_NETWORK
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  name: ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  nameWithType: ConnectedDevicesAccountAddedStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+  summary: <p>The account operation failed since the app didn't subscribe to the AccessTokenRequested event. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_NO_TOKEN_REQUEST_SUBSCRIBER
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_SERVICE_FAILED
+  name: ERROR_SERVICE_FAILED
+  nameWithType: ConnectedDevicesAccountAddedStatus.ERROR_SERVICE_FAILED
+  summary: <p>The account operation failed due to a web service error. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_SERVICE_FAILED
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_TOKEN_REQUEST_FAILED
+  name: ERROR_TOKEN_REQUEST_FAILED
+  nameWithType: ConnectedDevicesAccountAddedStatus.ERROR_TOKEN_REQUEST_FAILED
+  summary: <p>The account operation failed since the app failed to return a token when requested. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_TOKEN_REQUEST_FAILED
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_UNKNOWN
+  name: ERROR_UNKNOWN
+  nameWithType: ConnectedDevicesAccountAddedStatus.ERROR_UNKNOWN
+  summary: <p>The account operation failed for unknown reasons. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.ERROR_UNKNOWN
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: ConnectedDevicesAccountAddedStatus.SUCCESS
+  summary: <p>The account was successfully added to the platform. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.SUCCESS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ConnectedDevicesAccountAddedStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: ConnectedDevicesAccountAddedStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus&text=ConnectedDevicesAccountAddedStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static ConnectedDevicesAccountAddedStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.getValue()
+  name: getValue()
+  nameWithType: ConnectedDevicesAccountAddedStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus.getValue()
+nameWithType: ConnectedDevicesAccountAddedStatus
+syntax: public enum ConnectedDevicesAccountAddedStatus
+summary: <p>Contains the values that describe the add account operation status </p>
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus
+name: ConnectedDevicesAccountAddedStatus
+package: com.microsoft.connecteddevices
+metadata: {}

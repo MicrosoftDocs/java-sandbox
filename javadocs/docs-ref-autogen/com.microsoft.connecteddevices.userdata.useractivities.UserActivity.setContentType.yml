@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setContentType(@Nullable String contentType)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentType(@Nullable String contentType)
+  name: setContentType(@Nullable String contentType)
+  nameWithType: UserActivity.setContentType(@Nullable String contentType)
+  parameters:
+  - description: <p>The content type String. </p>
+    name: contentType
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the MIME (Multipurpose Internet Mail Extensions) type of the content stored with **setContentUri**. For example, "text/plain". </p>
+  syntax: public void setContentType(@Nullable String contentType)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentType(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentType*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentType(@Nullable String contentType)
+name: setContentType(@Nullable String contentType)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

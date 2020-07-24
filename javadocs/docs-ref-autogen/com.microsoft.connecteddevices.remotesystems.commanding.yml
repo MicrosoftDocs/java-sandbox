@@ -1,0 +1,29 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest
+- com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse
+enums:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus
+- com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus
+interfaces:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider
+- com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider
+uid: com.microsoft.connecteddevices.remotesystems.commanding
+fullName: com.microsoft.connecteddevices.remotesystems.commanding
+name: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

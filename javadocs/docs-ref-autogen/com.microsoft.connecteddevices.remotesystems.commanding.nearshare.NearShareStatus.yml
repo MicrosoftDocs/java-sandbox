@@ -1,0 +1,85 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.CANCELLED
+  name: CANCELLED
+  nameWithType: NearShareStatus.CANCELLED
+  summary: <p>The sharing operation was cancelled. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.CANCELLED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.COMPLETED
+  name: COMPLETED
+  nameWithType: NearShareStatus.COMPLETED
+  summary: <p>The sharing operation completed. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.COMPLETED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.CONNECTION_ESTABLISHED
+  name: CONNECTION_ESTABLISHED
+  nameWithType: NearShareStatus.CONNECTION_ESTABLISHED
+  summary: <p>A connection to the receiving device was established. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.CONNECTION_ESTABLISHED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.DENIED_BY_REMOTE_SYSTEM
+  name: DENIED_BY_REMOTE_SYSTEM
+  nameWithType: NearShareStatus.DENIED_BY_REMOTE_SYSTEM
+  summary: <p>The sharing operation was denied by the receiving device. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.DENIED_BY_REMOTE_SYSTEM
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.IN_PROGRESS
+  name: IN_PROGRESS
+  nameWithType: NearShareStatus.IN_PROGRESS
+  summary: <p>The sharing operation is still in progress. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.IN_PROGRESS
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.NETWORK_ERROR
+  name: NETWORK_ERROR
+  nameWithType: NearShareStatus.NETWORK_ERROR
+  summary: <p>The operation could not complete because of a network error. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.NETWORK_ERROR
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.NO_SIGNEDIN_USER
+  name: NO_SIGNEDIN_USER
+  nameWithType: NearShareStatus.NO_SIGNEDIN_USER
+  summary: <p>There is not signed in user on the receiving device. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.NO_SIGNEDIN_USER
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.PLATFORM_ERROR
+  name: PLATFORM_ERROR
+  nameWithType: NearShareStatus.PLATFORM_ERROR
+  summary: <p>The operation could not complete because of a platform error. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.PLATFORM_ERROR
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.TIMED_OUT
+  name: TIMED_OUT
+  nameWithType: NearShareStatus.TIMED_OUT
+  summary: <p>The sharing operation timed out. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.TIMED_OUT
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: NearShareStatus.UNKNOWN
+  summary: <p>The status is unknown. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.UNKNOWN
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.VERSION_MISMATCH
+  name: VERSION_MISMATCH
+  nameWithType: NearShareStatus.VERSION_MISMATCH
+  summary: <p>The operation could not complete because of a version mismatch. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.VERSION_MISMATCH
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;NearShareStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: NearShareStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus&text=NearShareStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static NearShareStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.getValue()
+  name: getValue()
+  nameWithType: NearShareStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus.getValue()
+nameWithType: NearShareStatus
+syntax: public enum NearShareStatus
+summary: <p>Contains values that describe the result of a nearby sharing operation. </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus
+name: NearShareStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.isDone()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.isDone()
+  name: isDone()
+  nameWithType: AsyncOperation<T>.isDone()
+  returns:
+    description: <p>if the operation is done </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Checks if the future is done. The future is done when the result is set or an exception is set. </p>
+  syntax: public boolean isDone()
+  uid: com.microsoft.connecteddevices.AsyncOperation.isDone()
+uid: com.microsoft.connecteddevices.AsyncOperation.isDone*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.isDone()
+name: isDone()
+package: com.microsoft.connecteddevices
+metadata: {}

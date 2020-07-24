@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.AppServiceConnection
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection()
+  name: AppServiceConnection()
+  nameWithType: AppServiceConnection.AppServiceConnection()
+  summary: <p>Creates and initializes an instance of this class. </p>
+  syntax: public AppServiceConnection()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection()
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection(@NonNull AppServiceInfo appServiceInfo)
+  name: AppServiceConnection(@NonNull AppServiceInfo appServiceInfo)
+  nameWithType: AppServiceConnection.AppServiceConnection(@NonNull AppServiceInfo appServiceInfo)
+  parameters:
+  - description: >-
+      <p>
+
+        <xref uid="" data-throw-if-not-resolved="false">AppServiceInfo</xref> to describe the app service to target in this connection. </p>
+    name: appServiceInfo
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.AppServiceInfo?alt=com.microsoft.connecteddevices.remotesystems.AppServiceInfo&text=AppServiceInfo" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes an instance of this class. </p>
+  syntax: public AppServiceConnection(@NonNull AppServiceInfo appServiceInfo)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection(@NonNull AppServiceInfo)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection
+name: AppServiceConnection
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

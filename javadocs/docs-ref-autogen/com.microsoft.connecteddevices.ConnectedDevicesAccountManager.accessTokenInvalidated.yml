@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccountManager.accessTokenInvalidated()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenInvalidated()
+  name: accessTokenInvalidated()
+  nameWithType: ConnectedDevicesAccountManager.accessTokenInvalidated()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountManager?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountManager&text=ConnectedDevicesAccountManager" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs?alt=com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs&text=ConnectedDevicesAccessTokenInvalidatedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>This event is fired when a token consumer reports a token error. The token request subscriber needs to either refresh their token cache or request a new user login to fix their account setup. </p>
+  syntax: public Event<ConnectedDevicesAccountManager, ConnectedDevicesAccessTokenInvalidatedEventArgs> accessTokenInvalidated()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenInvalidated()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenInvalidated*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenInvalidated()
+name: accessTokenInvalidated()
+package: com.microsoft.connecteddevices
+metadata: {}

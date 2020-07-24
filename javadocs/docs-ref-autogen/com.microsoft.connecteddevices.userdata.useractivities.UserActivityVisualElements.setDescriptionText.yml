@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.setDescriptionText(@Nullable String description)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDescriptionText(@Nullable String description)
+  name: setDescriptionText(@Nullable String description)
+  nameWithType: UserActivityVisualElements.setDescriptionText(@Nullable String description)
+  parameters:
+  - description: <p>The description text. </p>
+    name: description
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the description text for the "details" tile of the activity. </p>
+  syntax: public void setDescriptionText(@Nullable String description)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDescriptionText(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDescriptionText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDescriptionText(@Nullable String description)
+name: setDescriptionText(@Nullable String description)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

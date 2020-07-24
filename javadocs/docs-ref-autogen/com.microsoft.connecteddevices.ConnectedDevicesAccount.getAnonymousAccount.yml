@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccount.getAnonymousAccount()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount.getAnonymousAccount()
+  name: getAnonymousAccount()
+  nameWithType: ConnectedDevicesAccount.getAnonymousAccount()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>
+  summary: <p>Returns the singleton instance of the Anonymous account. </p>
+  syntax: public static ConnectedDevicesAccount getAnonymousAccount()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getAnonymousAccount()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getAnonymousAccount*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount.getAnonymousAccount()
+name: getAnonymousAccount()
+package: com.microsoft.connecteddevices
+metadata: {}

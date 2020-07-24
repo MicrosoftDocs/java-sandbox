@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccountManager.accessTokenRequested()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenRequested()
+  name: accessTokenRequested()
+  nameWithType: ConnectedDevicesAccountManager.accessTokenRequested()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountManager?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountManager&text=ConnectedDevicesAccountManager" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs?alt=com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs&text=ConnectedDevicesAccessTokenRequestedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>This event is fired when there is a need to request a token. This event should be subscribed and ready to respond before any request is sent out. </p>
+  syntax: public Event<ConnectedDevicesAccountManager, ConnectedDevicesAccessTokenRequestedEventArgs> accessTokenRequested()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenRequested()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenRequested*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenRequested()
+name: accessTokenRequested()
+package: com.microsoft.connecteddevices
+metadata: {}

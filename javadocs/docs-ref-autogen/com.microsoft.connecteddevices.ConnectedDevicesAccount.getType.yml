@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccount.getType()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount.getType()
+  name: getType()
+  nameWithType: ConnectedDevicesAccount.getType()
+  returns:
+    description: <p>A **ConnectedDevicesAccountType** value describing the type of account. </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountType?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountType&text=ConnectedDevicesAccountType" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the type of account. </p>
+  syntax: public ConnectedDevicesAccountType getType()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getType()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getType*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount.getType()
+name: getType()
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatform.start()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.start()
+  name: start()
+  nameWithType: ConnectedDevicesPlatform.start()
+  summary: <p>Start the platform </p>
+  syntax: public void start()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.start()
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.start*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.start()
+name: start()
+package: com.microsoft.connecteddevices
+metadata: {}

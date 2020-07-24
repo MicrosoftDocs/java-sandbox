@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReader.readBatchAsync(@IntRange(from=0) int maxBatchSize)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatchAsync(@IntRange(from=0) int maxBatchSize)
+  name: readBatchAsync(@IntRange(from=0) int maxBatchSize)
+  nameWithType: ClipboardReader.readBatchAsync(@IntRange(from=0) int maxBatchSize)
+  parameters:
+  - name: maxBatchSize
+    type: <xref href="%40IntRange(from%3D0)+int?alt=@IntRange(from=0) int&text=%40IntRange(from%3D0)+int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;List&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem&text=ClipboardItem" data-throw-if-not-resolved="False"/>&gt;&gt;
+  syntax: public AsyncOperation<List<ClipboardItem>> readBatchAsync(@IntRange(from=0) int maxBatchSize)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatchAsync(@IntRange(from=0) int)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatchAsync*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatchAsync(@IntRange(from=0) int maxBatchSize)
+name: readBatchAsync(@IntRange(from=0) int maxBatchSize)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

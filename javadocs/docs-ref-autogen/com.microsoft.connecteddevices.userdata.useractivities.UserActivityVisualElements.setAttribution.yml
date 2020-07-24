@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.setAttribution(@Nullable UserActivityAttribution attribution)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttribution(@Nullable UserActivityAttribution attribution)
+  name: setAttribution(@Nullable UserActivityAttribution attribution)
+  nameWithType: UserActivityVisualElements.setAttribution(@Nullable UserActivityAttribution attribution)
+  parameters:
+  - description: <p>The **UserActivityAttribution** to set. </p>
+    name: attribution
+    type: '@Nullable <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution&text=UserActivityAttribution" data-throw-if-not-resolved="False"/>'
+  summary: <p>Sets graphical information about the activity. </p>
+  syntax: public void setAttribution(@Nullable UserActivityAttribution attribution)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttribution(@Nullable UserActivityAttribution)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttribution*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttribution(@Nullable UserActivityAttribution attribution)
+name: setAttribution(@Nullable UserActivityAttribution attribution)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.getBackgroundColor()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getBackgroundColor()
+  name: getBackgroundColor()
+  nameWithType: UserActivityVisualElements.getBackgroundColor()
+  returns:
+    description: <p>The background color for the activity visual. </p>
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  summary: <p>gets the background color for the activity visual </p>
+  syntax: public int getBackgroundColor()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getBackgroundColor()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getBackgroundColor*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getBackgroundColor()
+name: getBackgroundColor()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

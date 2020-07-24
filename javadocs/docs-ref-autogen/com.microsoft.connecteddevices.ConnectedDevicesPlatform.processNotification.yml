@@ -1,0 +1,35 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatform.processNotification(@NonNull Bundle bundle)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Bundle bundle)
+  name: processNotification(@NonNull Bundle bundle)
+  nameWithType: ConnectedDevicesPlatform.processNotification(@NonNull Bundle bundle)
+  parameters:
+  - description: <p>The bundle received from GcmListenerService.onMessageReceived </p>
+    name: bundle
+    type: <xref href="%40NonNull+Bundle?alt=@NonNull Bundle&text=%40NonNull+Bundle" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>Result of processing a notification </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation?alt=com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation&text=ConnectedDevicesProcessNotificationOperation" data-throw-if-not-resolved="False"/>
+  summary: <p>Process incoming GCM notification <xrefsect id="deprecated_1_deprecated000004"><xreftitle>Deprecated</xreftitle><xrefdescription><p>Use the processNotificationAsync method instead </p></xrefdescription></xrefsect></p>
+  syntax: public ConnectedDevicesProcessNotificationOperation processNotification(@NonNull Bundle bundle)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Bundle)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Map map)
+  name: processNotification(@NonNull Map map)
+  nameWithType: ConnectedDevicesPlatform.processNotification(@NonNull Map map)
+  parameters:
+  - description: <p>The bundle received from FirebaseMessagingService.onMessageReceived </p>
+    name: map
+    type: <xref href="%40NonNull+Map?alt=@NonNull Map&text=%40NonNull+Map" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>Result of processing a notification </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation?alt=com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation&text=ConnectedDevicesProcessNotificationOperation" data-throw-if-not-resolved="False"/>
+  summary: <p>Process incoming FCM notification <xrefsect id="deprecated_1_deprecated000005"><xreftitle>Deprecated</xreftitle><xrefdescription><p>Use the processNotificationAsync method instead </p></xrefdescription></xrefsect></p>
+  syntax: public ConnectedDevicesProcessNotificationOperation processNotification(@NonNull Map map)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Map)
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Bundle bundle)
+name: processNotification(@NonNull Bundle bundle)
+package: com.microsoft.connecteddevices
+metadata: {}

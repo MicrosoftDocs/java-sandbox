@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getContentInfoJson()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentInfoJson()
+  name: getContentInfoJson()
+  nameWithType: UserActivity.getContentInfoJson()
+  returns:
+    description: <p>The content info json string. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the basic content info for this activity. </p>
+  syntax: public String getContentInfoJson()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentInfoJson()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentInfoJson*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentInfoJson()
+name: getContentInfoJson()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

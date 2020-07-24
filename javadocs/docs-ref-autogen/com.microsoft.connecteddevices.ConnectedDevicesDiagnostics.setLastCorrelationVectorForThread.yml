@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread(@NonNull String correlationVector)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread(@NonNull String correlationVector)
+  name: setLastCorrelationVectorForThread(@NonNull String correlationVector)
+  nameWithType: ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread(@NonNull String correlationVector)
+  parameters:
+  - name: correlationVector
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set the correlation vector of the last operation handled on this thread <xrefsect id="deprecated_1_deprecated000001"><xreftitle>Deprecated</xreftitle><xrefdescription></xrefdescription></xrefsect></p>
+  syntax: public static void setLastCorrelationVectorForThread(@NonNull String correlationVector)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread(@NonNull String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread(@NonNull String correlationVector)
+name: setLastCorrelationVectorForThread(@NonNull String correlationVector)
+package: com.microsoft.connecteddevices
+metadata: {}

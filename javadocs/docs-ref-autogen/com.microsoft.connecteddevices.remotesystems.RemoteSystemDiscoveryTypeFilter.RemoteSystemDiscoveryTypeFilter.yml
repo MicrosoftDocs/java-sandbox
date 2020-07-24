@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter(@NonNull RemoteSystemDiscoveryType discoveryType)
+  name: RemoteSystemDiscoveryTypeFilter(@NonNull RemoteSystemDiscoveryType discoveryType)
+  nameWithType: RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter(@NonNull RemoteSystemDiscoveryType discoveryType)
+  parameters:
+  - description: <p>A **RemoteSystemDiscoveryType** value indicating the discovery type to filter for. </p>
+    name: discoveryType
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType&text=RemoteSystemDiscoveryType" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes an instance of this class. </p>
+  syntax: public RemoteSystemDiscoveryTypeFilter(@NonNull RemoteSystemDiscoveryType discoveryType)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter(@NonNull RemoteSystemDiscoveryType)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter
+name: RemoteSystemDiscoveryTypeFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

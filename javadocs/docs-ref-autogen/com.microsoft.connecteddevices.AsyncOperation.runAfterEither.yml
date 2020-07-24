@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+  name: runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+  nameWithType: AsyncOperation<T>.runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+  parameters:
+  - description: <p>the other operation to "OR" together </p>
+    name: other
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;?&gt;'
+  - description: <p>Runnable that will be executed upon completion of either operation </p>
+    name: action
+    type: <xref href="%40NonNull+Runnable?alt=@NonNull Runnable&text=%40NonNull+Runnable" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A new async operation that will complete based on the outcome of passed in action </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: >-
+    <p>The runAfterEither trio of functions run a passed in Runnable when either this operation or the passed in operation completes successfully. If the operation that completes does so exceptionally, the returned operation also completes exceptionally. </p>
+
+    <p></p>
+  syntax: public AsyncOperation<Void> runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+  uid: com.microsoft.connecteddevices.AsyncOperation.runAfterEither(@NonNull AsyncOperation<?>,@NonNull Runnable)
+uid: com.microsoft.connecteddevices.AsyncOperation.runAfterEither*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+name: runAfterEither(@NonNull AsyncOperation<?> other, @NonNull Runnable action)
+package: com.microsoft.connecteddevices
+metadata: {}

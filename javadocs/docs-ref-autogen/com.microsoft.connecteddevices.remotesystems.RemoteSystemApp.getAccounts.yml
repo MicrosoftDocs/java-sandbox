@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemApp.getAccounts()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAccounts()
+  name: getAccounts()
+  nameWithType: RemoteSystemApp.getAccounts()
+  returns:
+    description: <p>List of <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccounts</xref> which are associated with that App. </p>
+    type: List&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Return a list of all accounts associated with the <xref uid="" data-throw-if-not-resolved="false">RemoteSystemApp</xref> that you have permissions to know about. What determines permissions is if the <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> exists in <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccountManager" data-throw-if-not-resolved="false">ConnectedDevicesAccountManager</xref> when the <xref uid="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher" data-throw-if-not-resolved="false">RemoteSystemWatcher</xref> is started. </p>
+  syntax: public List<ConnectedDevicesAccount> getAccounts()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAccounts()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAccounts*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAccounts()
+name: getAccounts()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter(@NonNull RemoteSystemStatusType statusType)
+  name: RemoteSystemStatusTypeFilter(@NonNull RemoteSystemStatusType statusType)
+  nameWithType: RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter(@NonNull RemoteSystemStatusType statusType)
+  parameters:
+  - description: <p>A value indicating the availability status type to filter for. </p>
+    name: statusType
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType&text=RemoteSystemStatusType" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creats and initializes a new instance of this class. </p>
+  syntax: public RemoteSystemStatusTypeFilter(@NonNull RemoteSystemStatusType statusType)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter(@NonNull RemoteSystemStatusType)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter
+name: RemoteSystemStatusTypeFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

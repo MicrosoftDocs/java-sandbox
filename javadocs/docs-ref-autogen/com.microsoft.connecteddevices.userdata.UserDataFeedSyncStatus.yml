@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.QUEUED
+  name: QUEUED
+  nameWithType: UserDataFeedSyncStatus.QUEUED
+  summary: <p>The data is not yet synchronized. </p>
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.QUEUED
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.SYNCHRONIZED
+  name: SYNCHRONIZED
+  nameWithType: UserDataFeedSyncStatus.SYNCHRONIZED
+  summary: <p>The data has been synchronized. </p>
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.SYNCHRONIZED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserDataFeedSyncStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserDataFeedSyncStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus&text=UserDataFeedSyncStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static UserDataFeedSyncStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.getValue()
+  name: getValue()
+  nameWithType: UserDataFeedSyncStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus.getValue()
+nameWithType: UserDataFeedSyncStatus
+syntax: public enum UserDataFeedSyncStatus
+summary: <p>Contains values that describe the state of a **UserDataFeed**' synchronization with the Connected Devices Platform backend. </p>
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus
+name: UserDataFeedSyncStatus
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

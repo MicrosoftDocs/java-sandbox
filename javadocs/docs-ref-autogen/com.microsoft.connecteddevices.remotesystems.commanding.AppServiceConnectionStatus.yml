@@ -1,0 +1,70 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.APP_NOT_INSTALLED
+  name: APP_NOT_INSTALLED
+  nameWithType: AppServiceConnectionStatus.APP_NOT_INSTALLED
+  summary: <p>The package for the app service to which a connection was attempted is not installed on the device. Check that the package is installed before trying to open a connection to the app service. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.APP_NOT_INSTALLED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.APP_SERVICE_UNAVAILABLE
+  name: APP_SERVICE_UNAVAILABLE
+  nameWithType: AppServiceConnectionStatus.APP_SERVICE_UNAVAILABLE
+  summary: <p>The app with the specified package ID is installed and available, but the app does not declare support for the specified app service. Check that the name of the app service and the version of the app are correct. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.APP_SERVICE_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.APP_UNAVAILABLE
+  name: APP_UNAVAILABLE
+  nameWithType: AppServiceConnectionStatus.APP_UNAVAILABLE
+  summary: <p>The package for the app service to which a connection was attempted is temporarily unavailable. Try to connect again later. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.APP_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.NOT_AUTHORIZED
+  name: NOT_AUTHORIZED
+  nameWithType: AppServiceConnectionStatus.NOT_AUTHORIZED
+  summary: <p>The app service is not authorized to communicate with the remote device. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.NOT_AUTHORIZED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+  name: REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+  nameWithType: AppServiceConnectionStatus.REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+  summary: <p>The remote app is not configured to support remote connectivity. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.REMOTE_SYSTEM_UNAVAILABLE
+  name: REMOTE_SYSTEM_UNAVAILABLE
+  nameWithType: AppServiceConnectionStatus.REMOTE_SYSTEM_UNAVAILABLE
+  summary: <p>The target remote device or application is no longer available for connection. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.REMOTE_SYSTEM_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: AppServiceConnectionStatus.SUCCESS
+  summary: <p>The connection to the app service was opened successfully. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.SUCCESS
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: AppServiceConnectionStatus.UNKNOWN
+  summary: <p>The connection could not be established for an unknown reason. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.UNKNOWN
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;AppServiceConnectionStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: AppServiceConnectionStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus&text=AppServiceConnectionStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static AppServiceConnectionStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.getValue()
+  name: getValue()
+  nameWithType: AppServiceConnectionStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus.getValue()
+nameWithType: AppServiceConnectionStatus
+syntax: public enum AppServiceConnectionStatus
+summary: <p>Contains the values that describe a connection to a remote app service. </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus
+name: AppServiceConnectionStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

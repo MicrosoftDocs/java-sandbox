@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+  name: setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+  nameWithType: UserActivityVisualElements.setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+  parameters:
+  - description: <p>The adaptive card json String. </p>
+    name: adaptiveCardJson
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the content text for the "details" tile of the activity. </p>
+  syntax: public void setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAdaptiveCardJson(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAdaptiveCardJson*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+name: setAdaptiveCardJson(@Nullable String adaptiveCardJson)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

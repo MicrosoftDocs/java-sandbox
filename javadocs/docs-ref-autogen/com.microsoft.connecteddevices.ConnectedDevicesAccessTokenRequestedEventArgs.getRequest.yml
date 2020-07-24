@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccessTokenRequestedEventArgs.getRequest()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs.getRequest()
+  name: getRequest()
+  nameWithType: ConnectedDevicesAccessTokenRequestedEventArgs.getRequest()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest" data-throw-if-not-resolved="false">ConnectedDevicesAccessTokenRequest</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest?alt=com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest&text=ConnectedDevicesAccessTokenRequest" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the request associated with this <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest" data-throw-if-not-resolved="false">ConnectedDevicesAccessTokenRequest</xref>. </p>
+  syntax: public ConnectedDevicesAccessTokenRequest getRequest()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs.getRequest()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs.getRequest*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs.getRequest()
+name: getRequest()
+package: com.microsoft.connecteddevices
+metadata: {}

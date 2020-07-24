@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.getToken()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getToken()
+  name: getToken()
+  nameWithType: ConnectedDevicesNotificationRegistration.getToken()
+  returns:
+    description: <p>The registration token. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the registration token. </p>
+  syntax: public String getToken()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getToken()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getToken*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getToken()
+name: getToken()
+package: com.microsoft.connecteddevices
+metadata: {}

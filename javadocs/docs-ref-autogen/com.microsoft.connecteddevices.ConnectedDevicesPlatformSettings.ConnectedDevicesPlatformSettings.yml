@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings()
+  name: ConnectedDevicesPlatformSettings()
+  nameWithType: ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings()
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public ConnectedDevicesPlatformSettings()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings()
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings
+name: ConnectedDevicesPlatformSettings
+package: com.microsoft.connecteddevices
+metadata: {}

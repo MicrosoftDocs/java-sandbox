@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setContentUri(@Nullable String contentUri)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentUri(@Nullable String contentUri)
+  name: setContentUri(@Nullable String contentUri)
+  nameWithType: UserActivity.setContentUri(@Nullable String contentUri)
+  parameters:
+  - description: <p>The String to set as content URI. </p>
+    name: contentUri
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the content URI for this activity (the URI of the image that will be used to represent the activity on another device). </p>
+  syntax: public void setContentUri(@Nullable String contentUri)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentUri(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentUri(@Nullable String contentUri)
+name: setContentUri(@Nullable String contentUri)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

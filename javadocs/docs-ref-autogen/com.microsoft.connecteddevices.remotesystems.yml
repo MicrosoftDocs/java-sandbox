@@ -1,0 +1,33 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.remotesystems.AppServiceInfo
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemEnumerationCompletedEventArgs
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemRemovedEventArgs
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemUpdatedEventArgs
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs
+enums:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError
+interfaces:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemFilter
+uid: com.microsoft.connecteddevices.remotesystems
+fullName: com.microsoft.connecteddevices.remotesystems
+name: com.microsoft.connecteddevices.remotesystems
+metadata: {}

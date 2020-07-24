@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: NearShareFileProvider.getSize()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getSize()
+  name: getSize()
+  nameWithType: NearShareFileProvider.getSize()
+  returns:
+    description: <p>The file size in bytes. </p>
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the size in bytes of the file to be shared. </p>
+  syntax: public long getSize()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getSize()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getSize*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getSize()
+name: getSize()
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

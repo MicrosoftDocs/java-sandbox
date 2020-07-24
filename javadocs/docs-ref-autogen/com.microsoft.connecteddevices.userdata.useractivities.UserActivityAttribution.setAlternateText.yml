@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityAttribution.setAlternateText(@Nullable String alternateText)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAlternateText(@Nullable String alternateText)
+  name: setAlternateText(@Nullable String alternateText)
+  nameWithType: UserActivityAttribution.setAlternateText(@Nullable String alternateText)
+  parameters:
+  - description: <p>The alternate text String. </p>
+    name: alternateText
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the text that describes the icon image (for use with screen readers). </p>
+  syntax: public void setAlternateText(@Nullable String alternateText)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAlternateText(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAlternateText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAlternateText(@Nullable String alternateText)
+name: setAlternateText(@Nullable String alternateText)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String error)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String error)
+  name: completeWithErrorMessage(@NonNull final String error)
+  nameWithType: ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String error)
+  parameters:
+  - description: <p>A message describing why the token was unsuccessful. </p>
+    name: error
+    type: <xref href="%40NonNull+final+String?alt=@NonNull final String&text=%40NonNull+final+String" data-throw-if-not-resolved="False"/>
+  summary: <p>If a token with the requested scopes was not successfully generated for any reason, call this method with a message to be used for logging. </p>
+  syntax: public void completeWithErrorMessage(@NonNull final String error)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String error)
+name: completeWithErrorMessage(@NonNull final String error)
+package: com.microsoft.connecteddevices
+metadata: {}

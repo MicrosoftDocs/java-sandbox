@@ -1,0 +1,17 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.userdata.UserDataFeed
+- com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscription
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatusChangedEventArgs
+enums:
+- com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus
+- com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus
+uid: com.microsoft.connecteddevices.userdata
+fullName: com.microsoft.connecteddevices.userdata
+name: com.microsoft.connecteddevices.userdata
+metadata: {}

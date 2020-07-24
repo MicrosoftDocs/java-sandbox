@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: NearShareFileProvider.open()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.open()
+  name: open()
+  nameWithType: NearShareFileProvider.open()
+  returns:
+    description: <p>A **NearShareStream** instance representing the data. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream?alt=com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream&text=NearShareStream" data-throw-if-not-resolved="False"/>
+  summary: <p>Opens a stream to the file so that it can be shared. </p>
+  syntax: public NearShareStream open()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.open()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.open*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.open()
+name: open()
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

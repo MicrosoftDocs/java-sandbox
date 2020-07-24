@@ -1,0 +1,11 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: ClipboardItemStatusChangedEventArgs
+syntax: public class ClipboardItemStatusChangedEventArgs
+type: class
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatusChangedEventArgs
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatusChangedEventArgs
+name: ClipboardItemStatusChangedEventArgs
+package: com.microsoft.connecteddevices.userdata.clipboard

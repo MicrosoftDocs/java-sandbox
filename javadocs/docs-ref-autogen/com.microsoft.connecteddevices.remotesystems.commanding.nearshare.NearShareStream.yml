@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.close()
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.read(long,int,ByteBuffer)
+nameWithType: NearShareStream
+syntax: public interface NearShareStream
+summary: <p>This interface contains methods for reading file data to be transferred through nearby sharing. It is used by the platform during a share operation. </p>
+type: interface
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream
+name: NearShareStream
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare

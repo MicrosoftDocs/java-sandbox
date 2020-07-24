@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged()
+  name: notificationRegistrationStateChanged()
+  nameWithType: ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged()
+  returns:
+    description: <p>Event Subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager&text=ConnectedDevicesNotificationRegistrationManager" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs&text=ConnectedDevicesNotificationRegistrationStateChangedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when the registration state changes for a given account. (from **IN_PROGRESS** to **SUCCEEDED**, for example). </p>
+  syntax: public Event<ConnectedDevicesNotificationRegistrationManager, ConnectedDevicesNotificationRegistrationStateChangedEventArgs> notificationRegistrationStateChanged()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged()
+name: notificationRegistrationStateChanged()
+package: com.microsoft.connecteddevices
+metadata: {}

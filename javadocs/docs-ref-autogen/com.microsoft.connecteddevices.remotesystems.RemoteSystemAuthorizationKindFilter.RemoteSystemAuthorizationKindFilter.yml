@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter(@NonNull RemoteSystemAuthorizationKind authorizationKind)
+  name: RemoteSystemAuthorizationKindFilter(@NonNull RemoteSystemAuthorizationKind authorizationKind)
+  nameWithType: RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter(@NonNull RemoteSystemAuthorizationKind authorizationKind)
+  parameters:
+  - description: <p>A **RemoteSystemAuthorizationKind** value indicating the authorization type to filter for. </p>
+    name: authorizationKind
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind&text=RemoteSystemAuthorizationKind" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes an instance of this class. </p>
+  syntax: public RemoteSystemAuthorizationKindFilter(@NonNull RemoteSystemAuthorizationKind authorizationKind)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter(@NonNull RemoteSystemAuthorizationKind)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter
+name: RemoteSystemAuthorizationKindFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

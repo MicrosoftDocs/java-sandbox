@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setFallbackUri(@Nullable String fallbackUri)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setFallbackUri(@Nullable String fallbackUri)
+  name: setFallbackUri(@Nullable String fallbackUri)
+  nameWithType: UserActivity.setFallbackUri(@Nullable String fallbackUri)
+  parameters:
+  - description: <p>The fallback URI String. </p>
+    name: fallbackUri
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the web-friendly URI for this activity, to be used if the primary URI fails. </p>
+  syntax: public void setFallbackUri(@Nullable String fallbackUri)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setFallbackUri(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setFallbackUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setFallbackUri(@Nullable String fallbackUri)
+name: setFallbackUri(@Nullable String fallbackUri)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

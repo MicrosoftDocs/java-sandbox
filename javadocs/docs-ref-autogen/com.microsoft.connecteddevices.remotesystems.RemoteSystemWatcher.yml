@@ -1,0 +1,23 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher(@NonNull Collection<RemoteSystemFilter>)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.enumerationCompleted()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.errorOccurred()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemAdded()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemRemoved()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemUpdated()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.start()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.stop()
+nameWithType: RemoteSystemWatcher
+syntax: public class RemoteSystemWatcher
+summary: <p>A class used to discover remote systems. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher
+name: RemoteSystemWatcher
+package: com.microsoft.connecteddevices.remotesystems

@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.getIsProximal()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection(@NonNull AppServiceConnection)
+nameWithType: RemoteSystemConnectionInfo
+syntax: public class RemoteSystemConnectionInfo
+summary: <p>Provides information about a connection to a remote system, for example, the type of connection. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo
+name: RemoteSystemConnectionInfo
+package: com.microsoft.connecteddevices.remotesystems.commanding

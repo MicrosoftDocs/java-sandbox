@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.deleteItemAsync(@NonNull String itemId)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItemAsync(@NonNull String itemId)
+  name: deleteItemAsync(@NonNull String itemId)
+  nameWithType: ClipboardChannel.deleteItemAsync(@NonNull String itemId)
+  parameters:
+  - name: itemId
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  syntax: public AsyncOperation<Void> deleteItemAsync(@NonNull String itemId)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItemAsync(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItemAsync*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItemAsync(@NonNull String itemId)
+name: deleteItemAsync(@NonNull String itemId)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatformSettings.getStoragePath()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.getStoragePath()
+  name: getStoragePath()
+  nameWithType: ConnectedDevicesPlatformSettings.getStoragePath()
+  returns:
+    description: <p>Path as a String </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the storage path for storing the ConnectedDevices platform persisted files. </p>
+  syntax: public String getStoragePath()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.getStoragePath()
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.getStoragePath*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.getStoragePath()
+name: getStoragePath()
+package: com.microsoft.connecteddevices
+metadata: {}

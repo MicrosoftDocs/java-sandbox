@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.getMessage()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.sendResponseAsync(@Nullable Map<String, Object>)
+nameWithType: AppServiceRequest
+syntax: public class AppServiceRequest
+summary: <p>Represents an incoming message from a remote app/device to this <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">AppServiceConnection</xref>. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest
+name: AppServiceRequest
+package: com.microsoft.connecteddevices.remotesystems.commanding

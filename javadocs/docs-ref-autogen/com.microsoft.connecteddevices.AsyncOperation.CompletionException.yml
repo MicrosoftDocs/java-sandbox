@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.AsyncOperation.CompletionException.CompletionException()
+- com.microsoft.connecteddevices.AsyncOperation.CompletionException.CompletionException(String)
+inheritances:
+- java.lang.Object
+- RuntimeException
+nameWithType: AsyncOperation.CompletionException
+syntax: public class CompletionException
+summary: >-
+  <p>Unchecked exception that holds the exception that caused the operation to complete exceptionally. </p>
+
+  <p>Used like <xref uid="" data-throw-if-not-resolved="false">ExecutionException</xref> except that it is unchecked so that it can propagate to dependent operations without needing to know the full set of exceptions / requiring all exception observing continuations to declare that they may throw the ExecutionException. </p>
+type: class
+uid: com.microsoft.connecteddevices.AsyncOperation.CompletionException
+fullName: com.microsoft.connecteddevices.AsyncOperation.CompletionException
+name: AsyncOperation.CompletionException
+package: com.microsoft.connecteddevices

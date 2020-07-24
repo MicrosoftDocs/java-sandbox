@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReader.getSerializedState()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.getSerializedState()
+  name: getSerializedState()
+  nameWithType: ClipboardReader.getSerializedState()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public String getSerializedState()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.getSerializedState()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.getSerializedState*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.getSerializedState()
+name: getSerializedState()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

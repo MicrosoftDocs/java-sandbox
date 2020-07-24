@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.setAttributes(@Nullable Map<String, String> values)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAttributes(@Nullable Map<String, String> values)
+  name: setAttributes(@Nullable Map<String, String> values)
+  nameWithType: RemoteSystemAppRegistration.setAttributes(@Nullable Map<String, String> values)
+  parameters:
+  - description: <p>A **Map** of attributes to set in the registration </p>
+    name: values
+    type: <xref href="%40Nullable+Map%3CString%2C+String%3E?alt=@Nullable Map<String, String>&text=%40Nullable+Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Sets the key/value attributes of the application registration. For example, an app could define a set of supported protocols and share it with discovering devices and apps. New values are made available to discovering apps and devices via the **saveAsync** call.</p>
+
+    <p></p>
+  syntax: public void setAttributes(@Nullable Map<String, String> values)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAttributes(@Nullable Map<String, String>)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAttributes*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAttributes(@Nullable Map<String, String> values)
+name: setAttributes(@Nullable Map<String, String> values)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

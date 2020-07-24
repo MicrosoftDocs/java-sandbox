@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSubscription.getSyncScopes()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getSyncScopes()
+  name: getSyncScopes()
+  nameWithType: UserDataFeedSubscription.getSyncScopes()
+  returns:
+    description: <p>A list of <xref uid="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope" data-throw-if-not-resolved="false">UserDataFeedSyncScope</xref>. </p>
+    type: List&lt;<xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope&text=UserDataFeedSyncScope" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Return all <xref uid="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope" data-throw-if-not-resolved="false">UserDataFeedSyncScope</xref> for the current subscription </p>
+  syntax: public List<UserDataFeedSyncScope> getSyncScopes()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getSyncScopes()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getSyncScopes*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getSyncScopes()
+name: getSyncScopes()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.join()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.join()
+  name: join()
+  nameWithType: AsyncOperation<T>.join()
+  returns:
+    description: <p>The operation result, or null for a successful but empty result. </p>
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets the future value, waiting if necessary until the future is done. Unlike get() join throws a CompletionException if any exception occured in the process of completing this operation</p>
+
+    <p></p>
+  syntax: public T join()
+  uid: com.microsoft.connecteddevices.AsyncOperation.join()
+uid: com.microsoft.connecteddevices.AsyncOperation.join*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.join()
+name: join()
+package: com.microsoft.connecteddevices
+metadata: {}

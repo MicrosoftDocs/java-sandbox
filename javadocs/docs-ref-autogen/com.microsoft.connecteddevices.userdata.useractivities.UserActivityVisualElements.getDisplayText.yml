@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.getDisplayText()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDisplayText()
+  name: getDisplayText()
+  nameWithType: UserActivityVisualElements.getDisplayText()
+  returns:
+    description: <p>The display text. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the display text for the activity. </p>
+  syntax: public String getDisplayText()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDisplayText()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDisplayText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDisplayText()
+name: getDisplayText()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,20 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAccounts()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAppServices()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAttributes()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getDisplayName()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getId()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableByProximity()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableBySpatialProximity()
+nameWithType: RemoteSystemApp
+syntax: public class RemoteSystemApp
+summary: <p>Represents an application on a remote system. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp
+name: RemoteSystemApp
+package: com.microsoft.connecteddevices.remotesystems

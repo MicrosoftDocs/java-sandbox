@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteLauncherOptions.setFallbackUri(@Nullable String fallbackUri)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setFallbackUri(@Nullable String fallbackUri)
+  name: setFallbackUri(@Nullable String fallbackUri)
+  nameWithType: RemoteLauncherOptions.setFallbackUri(@Nullable String fallbackUri)
+  parameters:
+  - description: <p>The fallback URI string. </p>
+    name: fallbackUri
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the URI of the website to open in the event that the original URI cannot be handled by the intended app. </p>
+  syntax: public void setFallbackUri(@Nullable String fallbackUri)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setFallbackUri(@Nullable String)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setFallbackUri*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setFallbackUri(@Nullable String fallbackUri)
+name: setFallbackUri(@Nullable String fallbackUri)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

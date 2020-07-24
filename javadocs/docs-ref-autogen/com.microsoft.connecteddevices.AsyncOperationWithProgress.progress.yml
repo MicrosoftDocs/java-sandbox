@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperationWithProgress<T,P>.progress()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperationWithProgress<T, P>.progress()
+  name: progress()
+  nameWithType: AsyncOperationWithProgress<T,P>.progress()
+  returns:
+    description: <p>The event subscription </p>
+    type: abstract <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.AsyncOperationWithProgress?alt=com.microsoft.connecteddevices.AsyncOperationWithProgress&text=AsyncOperationWithProgress" data-throw-if-not-resolved="False"/>&lt;T, P&gt;, P&gt;
+  summary: <p>This event is fired when there is progress towards the completion of the asynchronous operation. </p>
+  syntax: public abstract Event<AsyncOperationWithProgress<T, P>, P> progress()
+  uid: com.microsoft.connecteddevices.AsyncOperationWithProgress.progress()
+uid: com.microsoft.connecteddevices.AsyncOperationWithProgress.progress*
+fullName: com.microsoft.connecteddevices.AsyncOperationWithProgress<T, P>.progress()
+name: progress()
+package: com.microsoft.connecteddevices
+metadata: {}

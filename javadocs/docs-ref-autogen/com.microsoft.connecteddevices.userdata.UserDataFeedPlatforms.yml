@@ -1,0 +1,19 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- SDKLoader
+methods:
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.all()
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.android()
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.iOS()
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.linux()
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windows32()
+- com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windowsUWP()
+nameWithType: UserDataFeedPlatforms
+syntax: public class UserDataFeedPlatforms
+summary: <p>Provide platforms valid for UserDataFeedSyncScope.setPlatform </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms
+name: UserDataFeedPlatforms
+package: com.microsoft.connecteddevices.userdata

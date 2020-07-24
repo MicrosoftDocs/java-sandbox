@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync()
+  name: waitForCompletionAsync()
+  nameWithType: ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync()
+  returns:
+    description: <p>Result of wait for notification completion. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: <p>Wait for the notification to finish being handled. </p>
+  syntax: public AsyncOperation<Void> waitForCompletionAsync()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync()
+uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync()
+name: waitForCompletionAsync()
+package: com.microsoft.connecteddevices
+metadata: {}

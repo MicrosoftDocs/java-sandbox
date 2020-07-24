@@ -11,7 +11,11 @@
             "type_mapping": {
                 "Conceptual": "Content",
                 "ManagedReference": "Content",
-                "RestApi": "Content"
+                "RestApi": "Content",
+                "JavaMember": "Content",
+                "JavaType": "Content",
+                "JavaEnum": "Content",
+                "JavaPackage": "Content"
             },
             "build_entry_point": "docs",
             "template_folder": "_themes",
@@ -56,7 +60,7 @@
         {
           "path_to_root": "_themes",
           "url": "https://github.com/Microsoft/templates.docs.msft",
-          "branch": "master",
+          "branch": "develop",
           "branch_mapping": {}
         }
       ],

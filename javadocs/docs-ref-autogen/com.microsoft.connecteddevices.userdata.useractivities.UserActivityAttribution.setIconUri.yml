@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityAttribution.setIconUri(@Nullable String iconUri)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setIconUri(@Nullable String iconUri)
+  name: setIconUri(@Nullable String iconUri)
+  nameWithType: UserActivityAttribution.setIconUri(@Nullable String iconUri)
+  parameters:
+  - description: <p>The URI String. </p>
+    name: iconUri
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the URI for the icon image. </p>
+  syntax: public void setIconUri(@Nullable String iconUri)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setIconUri(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setIconUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setIconUri(@Nullable String iconUri)
+name: setIconUri(@Nullable String iconUri)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

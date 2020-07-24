@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getId()
+  name: getId()
+  nameWithType: UserNotification.getId()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the developer specified unique id for this user notification. </p>
+  syntax: public String getId()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getId()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getId*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getId()
+name: getId()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

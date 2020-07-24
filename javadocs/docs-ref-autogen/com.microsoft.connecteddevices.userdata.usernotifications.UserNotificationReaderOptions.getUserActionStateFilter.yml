@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.getUserActionStateFilter()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getUserActionStateFilter()
+  name: getUserActionStateFilter()
+  nameWithType: UserNotificationReaderOptions.getUserActionStateFilter()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter&text=UserNotificationUserActionStateFilter" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the user action state filter that’s set for this instance of UserNotificationReaderOptions. </p>
+  syntax: public UserNotificationUserActionStateFilter getUserActionStateFilter()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getUserActionStateFilter()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getUserActionStateFilter*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getUserActionStateFilter()
+name: getUserActionStateFilter()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

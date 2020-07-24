@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemApp.getAppServices()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAppServices()
+  name: getAppServices()
+  nameWithType: RemoteSystemApp.getAppServices()
+  returns:
+    description: <p>An array of **AppServiceInfo instances** describing the registered services. </p>
+    type: List&lt;<xref href="com.microsoft.connecteddevices.remotesystems.AppServiceInfo?alt=com.microsoft.connecteddevices.remotesystems.AppServiceInfo&text=AppServiceInfo" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Gets the app services that this application has registered. </p>
+  syntax: public List<AppServiceInfo> getAppServices()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAppServices()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAppServices*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAppServices()
+name: getAppServices()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

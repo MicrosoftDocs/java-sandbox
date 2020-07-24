@@ -1,0 +1,46 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.DELETED
+  name: DELETED
+  nameWithType: ClipboardItemStatus.DELETED
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.DELETED
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.NEW
+  name: NEW
+  nameWithType: ClipboardItemStatus.NEW
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.NEW
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.PUBLISHED
+  name: PUBLISHED
+  nameWithType: ClipboardItemStatus.PUBLISHED
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.PUBLISHED
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.QUEUED
+  name: QUEUED
+  nameWithType: ClipboardItemStatus.QUEUED
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.QUEUED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ClipboardItemStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.fromInt(int status)
+  name: fromInt(int status)
+  nameWithType: ClipboardItemStatus.fromInt(int status)
+  parameters:
+  - name: status
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus&text=ClipboardItemStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static ClipboardItemStatus fromInt(int status)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.getValue()
+  name: getValue()
+  nameWithType: ClipboardItemStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus.getValue()
+nameWithType: ClipboardItemStatus
+syntax: public enum ClipboardItemStatus
+summary: <p>Values used to communicate the publication status of a Clipboard Item </p>
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus
+name: ClipboardItemStatus
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

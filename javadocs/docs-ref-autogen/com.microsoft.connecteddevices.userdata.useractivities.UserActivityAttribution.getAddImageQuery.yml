@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityAttribution.getAddImageQuery()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAddImageQuery()
+  name: getAddImageQuery()
+  nameWithType: UserActivityAttribution.getAddImageQuery()
+  returns:
+    description: <p>**true** if the attribution is set to use query strings, otherwise **false**. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the image query setting. </p>
+  syntax: public boolean getAddImageQuery()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAddImageQuery()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAddImageQuery*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAddImageQuery()
+name: getAddImageQuery()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

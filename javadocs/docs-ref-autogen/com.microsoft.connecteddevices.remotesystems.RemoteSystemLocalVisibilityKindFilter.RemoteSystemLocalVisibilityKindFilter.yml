@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter(@NonNull RemoteSystemLocalVisibilityKind localVisbibilityKind)
+  name: RemoteSystemLocalVisibilityKindFilter(@NonNull RemoteSystemLocalVisibilityKind localVisbibilityKind)
+  nameWithType: RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter(@NonNull RemoteSystemLocalVisibilityKind localVisbibilityKind)
+  parameters:
+  - description: <p>A **RemoteSystemLocalVisibilityKind** value indicating the local app visibility setting to filter with. </p>
+    name: localVisbibilityKind
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind&text=RemoteSystemLocalVisibilityKind" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes an instance of this class. </p>
+  syntax: public RemoteSystemLocalVisibilityKindFilter(@NonNull RemoteSystemLocalVisibilityKind localVisbibilityKind)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter(@NonNull RemoteSystemLocalVisibilityKind)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter
+name: RemoteSystemLocalVisibilityKindFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

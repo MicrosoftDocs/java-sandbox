@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReader.dataChanged()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.dataChanged()
+  name: dataChanged()
+  nameWithType: ClipboardReader.dataChanged()
+  returns:
+    description: <p>Event Subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader&text=ClipboardReader" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderDataChangedEventArgs?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderDataChangedEventArgs&text=ClipboardReaderDataChangedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when data changes in the ClipboardReader. </p>
+  syntax: public Event<ClipboardReader, ClipboardReaderDataChangedEventArgs> dataChanged()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.dataChanged()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.dataChanged*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.dataChanged()
+name: dataChanged()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

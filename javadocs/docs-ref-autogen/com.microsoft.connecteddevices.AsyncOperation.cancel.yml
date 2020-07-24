@@ -1,0 +1,27 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.cancel(boolean mayInterruptIfRunning)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.cancel(boolean mayInterruptIfRunning)
+  name: cancel(boolean mayInterruptIfRunning)
+  nameWithType: AsyncOperation<T>.cancel(boolean mayInterruptIfRunning)
+  parameters:
+  - description: <p>ignored because operations cannot be interrupted. </p>
+    name: mayInterruptIfRunning
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>true if the future was cancelled before it was completed; false if the future could not be cancelled because it was already completed. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Attempts to cancel the future and stop waiting for a result. </p>
+
+    <p>Cancelling an AsyncOperation causes any threads waiting for the future via get() to immediately receive a CancellationException. The operation execution is not interrupted, but any eventual result from a cancelled call will be ignored.</p>
+
+    <p></p>
+  syntax: public boolean cancel(boolean mayInterruptIfRunning)
+  uid: com.microsoft.connecteddevices.AsyncOperation.cancel(boolean)
+uid: com.microsoft.connecteddevices.AsyncOperation.cancel*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.cancel(boolean mayInterruptIfRunning)
+name: cancel(boolean mayInterruptIfRunning)
+package: com.microsoft.connecteddevices
+metadata: {}

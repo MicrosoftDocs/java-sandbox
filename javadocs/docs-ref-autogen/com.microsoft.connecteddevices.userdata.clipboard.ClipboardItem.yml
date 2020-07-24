@@ -1,0 +1,19 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getCreationTime()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getData()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getItemId()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getSourceFriendlyName()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getStatus()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.saveAsync()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.statusChanged()
+nameWithType: ClipboardItem
+syntax: public class ClipboardItem
+type: class
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem
+name: ClipboardItem
+package: com.microsoft.connecteddevices.userdata.clipboard

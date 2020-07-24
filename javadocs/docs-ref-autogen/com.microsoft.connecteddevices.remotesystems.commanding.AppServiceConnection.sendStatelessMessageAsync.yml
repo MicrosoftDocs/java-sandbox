@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+  name: sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+  nameWithType: AppServiceConnection.sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+  parameters:
+  - description: <p>An <xref uid="" data-throw-if-not-resolved="false">AppServiceInfo</xref> that identifies the app service to activate. </p>
+    name: appServiceInfo
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.AppServiceInfo?alt=com.microsoft.connecteddevices.remotesystems.AppServiceInfo&text=AppServiceInfo" data-throw-if-not-resolved="False"/>'
+  - description: <p>A <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest" data-throw-if-not-resolved="false">RemoteSystemConnectionRequest</xref> identifying the remote system to connect to. </p>
+    name: connectionRequest
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest&text=RemoteSystemConnectionRequest" data-throw-if-not-resolved="False"/>'
+  - description: <p>A **Map** of the keys and values to send. For the supported value types, </p>
+    name: message
+    type: <xref href="%40NonNull+Map%3CString%2C+Object%3E?alt=@NonNull Map<String, Object>&text=%40NonNull+Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>An asynchronous operation with a <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse" data-throw-if-not-resolved="false">StatelessAppServiceResponse</xref> object, which represents the remote app service's response to the message being sent. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse?alt=com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse&text=StatelessAppServiceResponse" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Sends a message to the remote app service and listens for a response. This method does not establish a persistent connection and will throw an exception if called when the connection is already open. </p>
+  syntax: public static AsyncOperation<StatelessAppServiceResponse> sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendStatelessMessageAsync(@NonNull AppServiceInfo,@NonNull RemoteSystemConnectionRequest,@NonNull Map<String, Object>)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendStatelessMessageAsync*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+name: sendStatelessMessageAsync(@NonNull AppServiceInfo appServiceInfo, @NonNull RemoteSystemConnectionRequest connectionRequest, @NonNull Map<String, Object> message)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

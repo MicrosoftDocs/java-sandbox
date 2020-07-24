@@ -1,0 +1,45 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.ACTIVE
+  name: ACTIVE
+  nameWithType: UserNotificationStatusFilter.ACTIVE
+  summary: <p>Active status only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.ACTIVE
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.ANY
+  name: ANY
+  nameWithType: UserNotificationStatusFilter.ANY
+  summary: <p>Any status. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.ANY
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.DELETED
+  name: DELETED
+  nameWithType: UserNotificationStatusFilter.DELETED
+  summary: <p>Deleted status only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.DELETED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationStatusFilter&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationStatusFilter.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter&text=UserNotificationStatusFilter" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationStatusFilter fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.getValue()
+  name: getValue()
+  nameWithType: UserNotificationStatusFilter.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter.getValue()
+nameWithType: UserNotificationStatusFilter
+syntax: public enum UserNotificationStatusFilter
+summary: <p>Contains values that indicates a status filter when creating a notification reader. This determines whether the app wants to receive all notifications, only active ones, or only deleted ones. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter
+name: UserNotificationStatusFilter
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

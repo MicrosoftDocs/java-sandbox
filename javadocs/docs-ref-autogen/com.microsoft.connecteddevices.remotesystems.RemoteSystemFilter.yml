@@ -1,0 +1,9 @@
+### YamlMime:JavaType
+nameWithType: RemoteSystemFilter
+syntax: public interface RemoteSystemFilter
+summary: <p>Interface for objects acting as remote system discovery filters. </p>
+type: interface
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemFilter
+name: RemoteSystemFilter
+package: com.microsoft.connecteddevices.remotesystems

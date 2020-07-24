@@ -1,0 +1,23 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration()
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppDisplayName()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppId()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getToken()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getType()
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppDisplayName(@Nullable String)
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppId(@Nullable String)
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setToken(@Nullable String)
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setType(@NonNull ConnectedDevicesNotificationType)
+nameWithType: ConnectedDevicesNotificationRegistration
+syntax: public class ConnectedDevicesNotificationRegistration
+summary: <p>This class represents the app's registration with a push notification service (necessary for some Connected Devices scenarios). It conveys this information to the Connected Devices Platform. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration
+name: ConnectedDevicesNotificationRegistration
+package: com.microsoft.connecteddevices

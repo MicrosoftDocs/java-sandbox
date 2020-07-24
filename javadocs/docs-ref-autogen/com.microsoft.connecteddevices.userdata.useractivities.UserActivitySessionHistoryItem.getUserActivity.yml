@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivitySessionHistoryItem.getUserActivity()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getUserActivity()
+  name: getUserActivity()
+  nameWithType: UserActivitySessionHistoryItem.getUserActivity()
+  returns:
+    description: <p>A **UserActivity** instance representing the activity. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivity?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivity&text=UserActivity" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the user activity whose history this class instance represents. </p>
+  syntax: public UserActivity getUserActivity()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getUserActivity()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getUserActivity*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getUserActivity()
+name: getUserActivity()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

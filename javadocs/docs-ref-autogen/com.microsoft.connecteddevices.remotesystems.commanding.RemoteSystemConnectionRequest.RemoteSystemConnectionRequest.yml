@@ -1,0 +1,29 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemConnectionRequest.RemoteSystemConnectionRequest
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystem remoteSystem)
+  name: RemoteSystemConnectionRequest(@NonNull RemoteSystem remoteSystem)
+  nameWithType: RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystem remoteSystem)
+  parameters:
+  - description: <p>The (Windows) RemoteSystem object to attempt to connect to. </p>
+    name: remoteSystem
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystem?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystem&text=RemoteSystem" data-throw-if-not-resolved="False"/>'
+  summary: <p>Initializes a new instance of the RemoteSystemConnectionRequest class for a particular remote system. </p>
+  syntax: public RemoteSystemConnectionRequest(@NonNull RemoteSystem remoteSystem)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystem)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystemApp remoteSystemApplication)
+  name: RemoteSystemConnectionRequest(@NonNull RemoteSystemApp remoteSystemApplication)
+  nameWithType: RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystemApp remoteSystemApplication)
+  parameters:
+  - description: <p>The remote application to attempt to connect to. </p>
+    name: remoteSystemApplication
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemApp?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemApp&text=RemoteSystemApp" data-throw-if-not-resolved="False"/>'
+  summary: <p>Initializes a new instance of the RemoteSystemConnectionRequest class for a particular application on a remote system. </p>
+  syntax: public RemoteSystemConnectionRequest(@NonNull RemoteSystemApp remoteSystemApplication)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest(@NonNull RemoteSystemApp)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest
+name: RemoteSystemConnectionRequest
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

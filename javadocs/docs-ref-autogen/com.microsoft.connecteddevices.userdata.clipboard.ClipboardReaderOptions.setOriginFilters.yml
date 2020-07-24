@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReaderOptions.setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+  name: setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+  nameWithType: ClipboardReaderOptions.setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+  parameters:
+  - name: originFilters
+    type: '@NonNull EnumSet&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters&text=ClipboardItemOriginFilters" data-throw-if-not-resolved="False"/>&gt;'
+  syntax: public void setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters>)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setOriginFilters*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+name: setOriginFilters(@NonNull EnumSet<ClipboardItemOriginFilters> originFilters)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

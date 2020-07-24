@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter(@NonNull RemoteSystemStatusType)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemStatusTypeFilter
+syntax: public class RemoteSystemStatusTypeFilter implements RemoteSystemFilter
+summary: <p>A class used to filter remote systems based on availability status type. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter
+name: RemoteSystemStatusTypeFilter
+package: com.microsoft.connecteddevices.remotesystems

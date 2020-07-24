@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.deleteAllItemsAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItemsAsync()
+  name: deleteAllItemsAsync()
+  nameWithType: ClipboardChannel.deleteAllItemsAsync()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  syntax: public AsyncOperation<Void> deleteAllItemsAsync()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItemsAsync()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItemsAsync*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItemsAsync()
+name: deleteAllItemsAsync()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

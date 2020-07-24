@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReaderOptions.ClipboardReaderOptions
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.ClipboardReaderOptions( @NonNull EnumSet<ClipboardItemOriginFilters> originFilters, @NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  name: ClipboardReaderOptions( @NonNull EnumSet<ClipboardItemOriginFilters> originFilters, @NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  nameWithType: ClipboardReaderOptions.ClipboardReaderOptions( @NonNull EnumSet<ClipboardItemOriginFilters> originFilters, @NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  parameters:
+  - name: originFilters
+    type: '@NonNull EnumSet&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters&text=ClipboardItemOriginFilters" data-throw-if-not-resolved="False"/>&gt;'
+  - name: stateFilters
+    type: '@NonNull EnumSet&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters&text=ClipboardItemStateFilters" data-throw-if-not-resolved="False"/>&gt;'
+  syntax: public ClipboardReaderOptions( @NonNull EnumSet<ClipboardItemOriginFilters> originFilters, @NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.ClipboardReaderOptions(@NonNull EnumSet<ClipboardItemOriginFilters>,@NonNull EnumSet<ClipboardItemStateFilters>)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.ClipboardReaderOptions*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.ClipboardReaderOptions
+name: ClipboardReaderOptions
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

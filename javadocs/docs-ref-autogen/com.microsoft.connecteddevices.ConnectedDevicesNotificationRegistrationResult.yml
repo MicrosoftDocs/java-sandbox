@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult.getStatus()
+nameWithType: ConnectedDevicesNotificationRegistrationResult
+syntax: public class ConnectedDevicesNotificationRegistrationResult
+summary: <p>Result of <xref uid="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager" data-throw-if-not-resolved="false">#registerAsync</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult
+name: ConnectedDevicesNotificationRegistrationResult
+package: com.microsoft.connecteddevices

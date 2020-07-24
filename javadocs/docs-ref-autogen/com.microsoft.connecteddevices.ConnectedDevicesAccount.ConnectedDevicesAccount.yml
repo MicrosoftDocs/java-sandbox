@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccount.ConnectedDevicesAccount
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount.ConnectedDevicesAccount(@NonNull String id, @NonNull ConnectedDevicesAccountType type)
+  name: ConnectedDevicesAccount(@NonNull String id, @NonNull ConnectedDevicesAccountType type)
+  nameWithType: ConnectedDevicesAccount.ConnectedDevicesAccount(@NonNull String id, @NonNull ConnectedDevicesAccountType type)
+  parameters:
+  - description: <p>A unique identifier string for this user account. </p>
+    name: id
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The **ConnectedDevicesAccountType** of the account (depends on which ID provider the account is from). </p>
+    name: type
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountType?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountType&text=ConnectedDevicesAccountType" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes a new instance of this class with an ID string and account type definition. </p>
+  syntax: public ConnectedDevicesAccount(@NonNull String id, @NonNull ConnectedDevicesAccountType type)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.ConnectedDevicesAccount(@NonNull String,@NonNull ConnectedDevicesAccountType)
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.ConnectedDevicesAccount*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccount.ConnectedDevicesAccount
+name: ConnectedDevicesAccount
+package: com.microsoft.connecteddevices
+metadata: {}

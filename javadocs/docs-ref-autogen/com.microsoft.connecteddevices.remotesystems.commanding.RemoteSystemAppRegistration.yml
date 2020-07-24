@@ -1,0 +1,23 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAccount()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAppServiceProviders()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAttributes()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getForAccount(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesPlatform)
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getLaunchUriProvider()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.publishAsync()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.saveAsync()
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAppServiceProviders(@Nullable List<AppServiceProvider>)
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAttributes(@Nullable Map<String, String>)
+- com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setLaunchUriProvider(@Nullable LaunchUriProvider)
+nameWithType: RemoteSystemAppRegistration
+syntax: public class RemoteSystemAppRegistration
+summary: <p>This class represents an application that is to be registered with the ConnectedDevices platform. Registration is required (SaveAsync must have successfully completed) to receive responses from commands as well as to allow other applications to discover this application and its attributes and capabilities. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration
+name: RemoteSystemAppRegistration
+package: com.microsoft.connecteddevices.remotesystems.commanding

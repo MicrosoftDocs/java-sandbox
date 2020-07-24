@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.AsyncOperation
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.AsyncOperation()
+  name: AsyncOperation()
+  nameWithType: AsyncOperation<T>.AsyncOperation()
+  summary: <p>Creates a new AsyncOperation </p>
+  syntax: public AsyncOperation()
+  uid: com.microsoft.connecteddevices.AsyncOperation.AsyncOperation()
+uid: com.microsoft.connecteddevices.AsyncOperation.AsyncOperation*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.AsyncOperation
+name: AsyncOperation
+package: com.microsoft.connecteddevices
+metadata: {}

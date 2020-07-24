@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Hub()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Hub()
+  name: Hub()
+  nameWithType: RemoteSystemKinds.Hub()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the Hub device type. </p>
+  syntax: public static native String Hub()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Hub()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Hub*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Hub()
+name: Hub()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

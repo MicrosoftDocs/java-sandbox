@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getContentUri()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentUri()
+  name: getContentUri()
+  nameWithType: UserActivity.getContentUri()
+  returns:
+    description: <p>The content URI String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the content URI for this activity. </p>
+  syntax: public String getContentUri()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentUri()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentUri()
+name: getContentUri()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getIsRoamable()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getIsRoamable()
+  name: getIsRoamable()
+  nameWithType: UserActivity.getIsRoamable()
+  returns:
+    description: <p>Boolean whether this activity is roamed to other endpoints. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets whether this activity is roamed to other endpoints. </p>
+  syntax: public boolean getIsRoamable()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getIsRoamable()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getIsRoamable*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getIsRoamable()
+name: getIsRoamable()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

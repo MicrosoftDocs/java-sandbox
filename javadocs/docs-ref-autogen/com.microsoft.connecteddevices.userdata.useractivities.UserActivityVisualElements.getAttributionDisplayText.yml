@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.getAttributionDisplayText()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttributionDisplayText()
+  name: getAttributionDisplayText()
+  nameWithType: UserActivityVisualElements.getAttributionDisplayText()
+  returns:
+    description: <p>The banner text String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the text for the top banner of the activity card. </p>
+  syntax: public String getAttributionDisplayText()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttributionDisplayText()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttributionDisplayText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttributionDisplayText()
+name: getAttributionDisplayText()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

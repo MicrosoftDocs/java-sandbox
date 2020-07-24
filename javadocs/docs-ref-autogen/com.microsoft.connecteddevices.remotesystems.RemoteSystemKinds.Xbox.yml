@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Xbox()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Xbox()
+  name: Xbox()
+  nameWithType: RemoteSystemKinds.Xbox()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the Xbox device type. </p>
+  syntax: public static native String Xbox()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Xbox()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Xbox*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Xbox()
+name: Xbox()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

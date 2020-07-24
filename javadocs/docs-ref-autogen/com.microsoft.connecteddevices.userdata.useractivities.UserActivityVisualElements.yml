@@ -1,0 +1,25 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAdaptiveCardJson()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttribution()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttributionDisplayText()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getBackgroundColor()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDescriptionText()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDisplayText()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAdaptiveCardJson(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttribution(@Nullable UserActivityAttribution)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttributionDisplayText(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setBackgroundColor(@ColorInt int)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDescriptionText(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDisplayText(@NonNull String)
+nameWithType: UserActivityVisualElements
+syntax: public class UserActivityVisualElements
+summary: <p>This class contains the visual information, such as the description and icon, that can be shown in the "details" tile for a **UserActivity**. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements
+name: UserActivityVisualElements
+package: com.microsoft.connecteddevices.userdata.useractivities

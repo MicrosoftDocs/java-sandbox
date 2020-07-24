@@ -1,0 +1,20 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getApps()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getDisplayName()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getId()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getKind()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getManufacturerDisplayName()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getModelDisplayName()
+- com.microsoft.connecteddevices.remotesystems.RemoteSystem.getStatus()
+nameWithType: RemoteSystem
+syntax: public class RemoteSystem
+summary: <p>This class represents a remote system (device). </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem
+name: RemoteSystem
+package: com.microsoft.connecteddevices.remotesystems

@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.createItem(@NonNull ClipData data)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createItem(@NonNull ClipData data)
+  name: createItem(@NonNull ClipData data)
+  nameWithType: ClipboardChannel.createItem(@NonNull ClipData data)
+  parameters:
+  - name: data
+    type: <xref href="%40NonNull+ClipData?alt=@NonNull ClipData&text=%40NonNull+ClipData" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem&text=ClipboardItem" data-throw-if-not-resolved="False"/>
+  syntax: public ClipboardItem createItem(@NonNull ClipData data)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createItem(@NonNull ClipData)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createItem*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createItem(@NonNull ClipData data)
+name: createItem(@NonNull ClipData data)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

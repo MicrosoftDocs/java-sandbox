@@ -1,0 +1,14 @@
+### YamlMime:JavaMember
+nameWithType: UserActivitySession.close()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.close()
+  name: close()
+  nameWithType: UserActivitySession.close()
+  syntax: public void close()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.close()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.close*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.close()
+name: close()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

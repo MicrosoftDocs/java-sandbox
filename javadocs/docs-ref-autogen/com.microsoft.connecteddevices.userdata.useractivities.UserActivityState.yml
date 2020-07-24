@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.NEW
+  name: NEW
+  nameWithType: UserActivityState.NEW
+  summary: <p>The activity is new and unpublished. </p>
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.NEW
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.PUBLISHED
+  name: PUBLISHED
+  nameWithType: UserActivityState.PUBLISHED
+  summary: <p>The activity has been published on this (or another) device. </p>
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.PUBLISHED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserActivityState&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserActivityState.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivityState?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivityState&text=UserActivityState" data-throw-if-not-resolved="False"/>
+  syntax: public static UserActivityState fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.getValue()
+  name: getValue()
+  nameWithType: UserActivityState.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState.getValue()
+nameWithType: UserActivityState
+syntax: public enum UserActivityState
+summary: <p>Contains values that describe the state of a user activity. </p>
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState
+name: UserActivityState
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

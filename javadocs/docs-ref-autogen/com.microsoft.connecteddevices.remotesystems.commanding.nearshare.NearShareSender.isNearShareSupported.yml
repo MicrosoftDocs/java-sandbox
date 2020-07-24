@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: NearShareSender.isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+  name: isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+  nameWithType: NearShareSender.isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+  parameters:
+  - description: <p>A **RemoteSystemConnectionRequest** indicating the device or app that this app is intending to share with. </p>
+    name: remoteSystemConnectionRequest
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest&text=RemoteSystemConnectionRequest" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>**true** if the conditions are met to initiate nearby sharing, **false** if not. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Reports whether all conditions are satisfied for the app to begin sharing with the intended remote device or app (for example, Windows devices must be on the Windows 10 April 2018 Update or later). </p>
+  syntax: public boolean isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.isNearShareSupported(RemoteSystemConnectionRequest)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.isNearShareSupported*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+name: isNearShareSupported(RemoteSystemConnectionRequest remoteSystemConnectionRequest)
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

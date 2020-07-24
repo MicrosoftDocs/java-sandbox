@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Holographic()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Holographic()
+  name: Holographic()
+  nameWithType: RemoteSystemKinds.Holographic()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the Holographic device type. </p>
+  syntax: public static native String Holographic()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Holographic()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Holographic*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Holographic()
+name: Holographic()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

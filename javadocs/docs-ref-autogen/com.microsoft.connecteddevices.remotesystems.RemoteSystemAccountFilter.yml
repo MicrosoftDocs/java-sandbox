@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter.RemoteSystemAccountFilter(@NonNull ConnectedDevicesAccount)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemAccountFilter
+syntax: public class RemoteSystemAccountFilter implements RemoteSystemFilter
+summary: <p>A RemoteSystemFilter that limits the set of discoverable remote systems to only those which are signed in with a certain account. Multiple filters of this type can be used for discovering across multiple accounts </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter
+name: RemoteSystemAccountFilter
+package: com.microsoft.connecteddevices.remotesystems

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivitySessionHistoryItem.getRemoteSystemId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getRemoteSystemId()
+  name: getRemoteSystemId()
+  nameWithType: UserActivitySessionHistoryItem.getRemoteSystemId()
+  returns:
+    description: <p>A **String** indicating the remote system id. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the RemoteSystemId of the device the user engaged this activity on. </p>
+  syntax: public String getRemoteSystemId()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getRemoteSystemId()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getRemoteSystemId*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getRemoteSystemId()
+name: getRemoteSystemId()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

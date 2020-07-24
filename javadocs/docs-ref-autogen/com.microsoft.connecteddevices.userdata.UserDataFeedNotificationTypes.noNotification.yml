@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedNotificationTypes.noNotification()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.noNotification()
+  name: noNotification()
+  nameWithType: UserDataFeedNotificationTypes.noNotification()
+  returns:
+    description: <p>type value </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Prevent any notifications for new user data, only receive new data when UserDataFeed.startSync is called, or when interacting with the server in other ways </p>
+  syntax: public static native String noNotification()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.noNotification()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.noNotification*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.noNotification()
+name: noNotification()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration()
+  name: getRegistration()
+  nameWithType: ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration" data-throw-if-not-resolved="false">ConnectedDevicesNotificationRegistration</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration&text=ConnectedDevicesNotificationRegistration" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the information for registration instance whose state has changed. </p>
+  syntax: public ConnectedDevicesNotificationRegistration getRegistration()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration()
+name: getRegistration()
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification()
+  name: getIsConnectedDevicesNotification()
+  nameWithType: ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification()
+  returns:
+    description: <p>This notification will be handled by Rome. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Return whether this is notification that will be handled by Rome. </p>
+  syntax: public boolean getIsConnectedDevicesNotification()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification()
+uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification()
+name: getIsConnectedDevicesNotification()
+package: com.microsoft.connecteddevices
+metadata: {}

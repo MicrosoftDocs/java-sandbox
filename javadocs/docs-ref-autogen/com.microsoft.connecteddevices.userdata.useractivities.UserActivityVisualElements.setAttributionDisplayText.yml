@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.setAttributionDisplayText(@Nullable String attributionDisplayText)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttributionDisplayText(@Nullable String attributionDisplayText)
+  name: setAttributionDisplayText(@Nullable String attributionDisplayText)
+  nameWithType: UserActivityVisualElements.setAttributionDisplayText(@Nullable String attributionDisplayText)
+  parameters:
+  - description: <p>The banner text String. </p>
+    name: attributionDisplayText
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the text that is shown in the top banner of the activity card. </p>
+  syntax: public void setAttributionDisplayText(@Nullable String attributionDisplayText)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttributionDisplayText(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttributionDisplayText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttributionDisplayText(@Nullable String attributionDisplayText)
+name: setAttributionDisplayText(@Nullable String attributionDisplayText)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

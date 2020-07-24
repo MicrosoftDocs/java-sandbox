@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardItem.saveAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.saveAsync()
+  name: saveAsync()
+  nameWithType: ClipboardItem.saveAsync()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult&text=ClipboardItemSaveResult" data-throw-if-not-resolved="False"/>&gt;
+  syntax: public AsyncOperation<ClipboardItemSaveResult> saveAsync()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.saveAsync()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.saveAsync*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.saveAsync()
+name: saveAsync()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

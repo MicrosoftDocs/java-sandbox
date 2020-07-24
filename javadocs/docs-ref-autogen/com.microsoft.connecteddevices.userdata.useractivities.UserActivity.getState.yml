@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getState()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getState()
+  name: getState()
+  nameWithType: UserActivity.getState()
+  returns:
+    description: <p>A **UserActivityState** value describing the state. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivityState?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivityState&text=UserActivityState" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the state of this activity. </p>
+  syntax: public UserActivityState getState()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getState()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getState*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getState()
+name: getState()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

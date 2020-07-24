@@ -1,0 +1,45 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountType.AAD
+  name: AAD
+  nameWithType: ConnectedDevicesAccountType.AAD
+  summary: <p>Azure Active Directory workplace account. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType.AAD
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountType.ANONYMOUS
+  name: ANONYMOUS
+  nameWithType: ConnectedDevicesAccountType.ANONYMOUS
+  summary: <p>Anonymous (local, non-authenticated) ConnectedDevicesAccount. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType.ANONYMOUS
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountType.MSA
+  name: MSA
+  nameWithType: ConnectedDevicesAccountType.MSA
+  summary: <p>Microsoft personal account. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType.MSA
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ConnectedDevicesAccountType&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountType.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: ConnectedDevicesAccountType.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountType?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountType&text=ConnectedDevicesAccountType" data-throw-if-not-resolved="False"/>
+  syntax: public static ConnectedDevicesAccountType fromInt(int value)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType.fromInt(int)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccountType.getValue()
+  name: getValue()
+  nameWithType: ConnectedDevicesAccountType.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType.getValue()
+nameWithType: ConnectedDevicesAccountType
+syntax: public enum ConnectedDevicesAccountType
+summary: <p>Contains values that describe the type of Microsoft-provided user account. </p>
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType
+name: ConnectedDevicesAccountType
+package: com.microsoft.connecteddevices
+metadata: {}

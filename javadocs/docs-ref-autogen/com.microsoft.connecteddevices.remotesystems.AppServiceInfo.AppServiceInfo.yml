@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceInfo.AppServiceInfo
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo(@NonNull String name)
+  name: AppServiceInfo(@NonNull String name)
+  nameWithType: AppServiceInfo.AppServiceInfo(@NonNull String name)
+  parameters:
+  - description: <p>The name of the app service being described. </p>
+    name: name
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates a new instance of this class. This constructor uses the local package ID and should be used for implementing an app service provider. </p>
+  syntax: public AppServiceInfo(@NonNull String name)
+  uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo(@NonNull String)
+- fullName: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo(@NonNull String name, @NonNull String packageId)
+  name: AppServiceInfo(@NonNull String name, @NonNull String packageId)
+  nameWithType: AppServiceInfo.AppServiceInfo(@NonNull String name, @NonNull String packageId)
+  parameters:
+  - description: <p>The name of the app service being described. </p>
+    name: name
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  - description: <p>The package ID of the app service being described. </p>
+    name: packageId
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates a new instance of this class. </p>
+  syntax: public AppServiceInfo(@NonNull String name, @NonNull String packageId)
+  uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo(@NonNull String,@NonNull String)
+uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo*
+fullName: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo
+name: AppServiceInfo
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

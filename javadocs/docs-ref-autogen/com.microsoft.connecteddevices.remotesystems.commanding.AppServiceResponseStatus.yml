@@ -1,0 +1,65 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.APPSERVICE_CONNECTION_CLOSED
+  name: APPSERVICE_CONNECTION_CLOSED
+  nameWithType: AppServiceResponseStatus.APPSERVICE_CONNECTION_CLOSED
+  summary: <p>The message was not delivered because the connection to the remote app service was closed. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.APPSERVICE_CONNECTION_CLOSED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.FAILURE
+  name: FAILURE
+  nameWithType: AppServiceResponseStatus.FAILURE
+  summary: <p>The message was not delivered due to network failure. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.FAILURE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.MESSAGE_SIZE_TOO_LARGE
+  name: MESSAGE_SIZE_TOO_LARGE
+  nameWithType: AppServiceResponseStatus.MESSAGE_SIZE_TOO_LARGE
+  summary: <p>The message was not delivered because it exceeded the allowed size. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.MESSAGE_SIZE_TOO_LARGE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.REMOTE_SYSTEM_UNAVAILABLE
+  name: REMOTE_SYSTEM_UNAVAILABLE
+  nameWithType: AppServiceResponseStatus.REMOTE_SYSTEM_UNAVAILABLE
+  summary: <p>The message was not delivered because the connection to the remote device was lost. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.REMOTE_SYSTEM_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.RESOURCE_LIMITS_EXCEEDED
+  name: RESOURCE_LIMITS_EXCEEDED
+  nameWithType: AppServiceResponseStatus.RESOURCE_LIMITS_EXCEEDED
+  summary: <p>The message was not delivered because it exceeded the program memory limits of the remote app service. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.RESOURCE_LIMITS_EXCEEDED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: AppServiceResponseStatus.SUCCESS
+  summary: <p>The message was delivered successfully. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.SUCCESS
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: AppServiceResponseStatus.UNKNOWN
+  summary: <p>The messaged was not delivered for an unknown reason. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.UNKNOWN
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;AppServiceResponseStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: AppServiceResponseStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus&text=AppServiceResponseStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static AppServiceResponseStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.getValue()
+  name: getValue()
+  nameWithType: AppServiceResponseStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus.getValue()
+nameWithType: AppServiceResponseStatus
+syntax: public enum AppServiceResponseStatus
+summary: <p>Contains values that describe the status of a message sent from one app service to another (whether the message data was successfully delivered). </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus
+name: AppServiceResponseStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+  name: setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+  nameWithType: UserNotificationReaderOptions.setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+  parameters:
+  - name: userActionStateFilter
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter&text=UserNotificationUserActionStateFilter" data-throw-if-not-resolved="False"/>'
+  summary: <p>Set the action state filter for this user notification reader you desire to create. </p>
+  syntax: public void setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setUserActionStateFilter*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+name: setUserActionStateFilter(@NonNull UserNotificationUserActionStateFilter userActionStateFilter)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

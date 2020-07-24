@@ -1,0 +1,27 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.UserNotification(NativeObject)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getChangeTime()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getContent()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getExpirationTime()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getGroupId()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getId()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getPriority()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getReadState()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getStatus()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getUserActionState()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.saveAsync()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setReadState(@NonNull UserNotificationReadState)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setUserActionState(@NonNull UserNotificationUserActionState)
+nameWithType: UserNotification
+syntax: public class UserNotification
+summary: <p>This class represents a single user notification instance. A user notification is created and published by your app server targeted at a user, distributed to all device endpoints of the same logged in user. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification
+name: UserNotification
+package: com.microsoft.connecteddevices.userdata.usernotifications

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.setType(@NonNull ConnectedDevicesNotificationType notificationType)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setType(@NonNull ConnectedDevicesNotificationType notificationType)
+  name: setType(@NonNull ConnectedDevicesNotificationType notificationType)
+  nameWithType: ConnectedDevicesNotificationRegistration.setType(@NonNull ConnectedDevicesNotificationType notificationType)
+  parameters:
+  - name: notificationType
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationType?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationType&text=ConnectedDevicesNotificationType" data-throw-if-not-resolved="False"/>'
+  summary: <p>Sets the type of notifications in this setup. </p>
+  syntax: public void setType(@NonNull ConnectedDevicesNotificationType notificationType)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setType(@NonNull ConnectedDevicesNotificationType)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setType*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setType(@NonNull ConnectedDevicesNotificationType notificationType)
+name: setType(@NonNull ConnectedDevicesNotificationType notificationType)
+package: com.microsoft.connecteddevices
+metadata: {}

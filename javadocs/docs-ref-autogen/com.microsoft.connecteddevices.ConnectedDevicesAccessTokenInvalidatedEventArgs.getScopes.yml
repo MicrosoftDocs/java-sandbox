@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes()
+  name: getScopes()
+  nameWithType: ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes()
+  returns:
+    description: <p>List of scopes in the format of strings </p>
+    type: <xref href="List%3CString%3E?alt=List<String>&text=List%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the list of scopes for which the token must cover when generated. </p>
+  syntax: public List<String> getScopes()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes()
+name: getScopes()
+package: com.microsoft.connecteddevices
+metadata: {}

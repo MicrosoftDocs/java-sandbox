@@ -1,0 +1,18 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.UserNotificationReader(NativeObject)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.dataChanged()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.getSerializedState()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.readBatchAsync(@IntRange(from=0) long)
+nameWithType: UserNotificationReader
+syntax: public class UserNotificationReader
+summary: <p>This class provides new incoming user notifications and user notification updates. It also provides access to the collection of user notifications persisted in the Connected Device Platform. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader
+name: UserNotificationReader
+package: com.microsoft.connecteddevices.userdata.usernotifications

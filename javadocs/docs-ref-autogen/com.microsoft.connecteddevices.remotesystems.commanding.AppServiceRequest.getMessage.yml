@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceRequest.getMessage()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.getMessage()
+  name: getMessage()
+  nameWithType: AppServiceRequest.getMessage()
+  returns:
+    description: <p>A **Map** object containing String keys mapped to values of variable types. </p>
+    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the message that was sent, consisting of key/value pairs. </p>
+  syntax: public Map<String, Object> getMessage()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.getMessage()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.getMessage*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.getMessage()
+name: getMessage()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

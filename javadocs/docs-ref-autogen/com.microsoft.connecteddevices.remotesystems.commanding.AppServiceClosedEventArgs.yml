@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs.getStatus()
+nameWithType: AppServiceClosedEventArgs
+syntax: public class AppServiceClosedEventArgs
+summary: <p>Returned by <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">#ServiceClosed</xref> to inform that the <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">AppServiceConnection</xref> has been closed and provide a reason behind the close event. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs
+name: AppServiceClosedEventArgs
+package: com.microsoft.connecteddevices.remotesystems.commanding

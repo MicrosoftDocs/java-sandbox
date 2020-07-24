@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: UserDataFeedSyncStatusChangedEventArgs
+syntax: public class UserDataFeedSyncStatusChangedEventArgs
+summary: <p>EventArgs class for when the sync status changes for the **UserDataFeed** instance. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatusChangedEventArgs
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatusChangedEventArgs
+name: UserDataFeedSyncStatusChangedEventArgs
+package: com.microsoft.connecteddevices.userdata

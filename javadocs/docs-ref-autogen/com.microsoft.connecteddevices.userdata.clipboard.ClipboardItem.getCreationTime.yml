@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardItem.getCreationTime()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getCreationTime()
+  name: getCreationTime()
+  nameWithType: ClipboardItem.getCreationTime()
+  returns:
+    type: <xref href="Date?alt=Date&text=Date" data-throw-if-not-resolved="False"/>
+  syntax: public Date getCreationTime()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getCreationTime()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getCreationTime*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getCreationTime()
+name: getCreationTime()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

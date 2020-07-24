@@ -1,0 +1,42 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.EXCEEDS_SIZE
+  name: EXCEEDS_SIZE
+  nameWithType: ClipboardItemSaveResult.EXCEEDS_SIZE
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.EXCEEDS_SIZE
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.NOT_ELIGIBLE
+  name: NOT_ELIGIBLE
+  nameWithType: ClipboardItemSaveResult.NOT_ELIGIBLE
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.NOT_ELIGIBLE
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.SUCCESS
+  name: SUCCESS
+  nameWithType: ClipboardItemSaveResult.SUCCESS
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.SUCCESS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ClipboardItemSaveResult&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.fromInt(int saveResult)
+  name: fromInt(int saveResult)
+  nameWithType: ClipboardItemSaveResult.fromInt(int saveResult)
+  parameters:
+  - name: saveResult
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult&text=ClipboardItemSaveResult" data-throw-if-not-resolved="False"/>
+  syntax: public static ClipboardItemSaveResult fromInt(int saveResult)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.getValue()
+  name: getValue()
+  nameWithType: ClipboardItemSaveResult.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult.getValue()
+nameWithType: ClipboardItemSaveResult
+syntax: public enum ClipboardItemSaveResult
+summary: <p>Values used to communicate the result of a saving a Clipboard Item </p>
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult
+name: ClipboardItemSaveResult
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

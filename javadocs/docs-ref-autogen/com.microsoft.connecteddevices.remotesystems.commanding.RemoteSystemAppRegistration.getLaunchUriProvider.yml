@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.getLaunchUriProvider()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getLaunchUriProvider()
+  name: getLaunchUriProvider()
+  nameWithType: RemoteSystemAppRegistration.getLaunchUriProvider()
+  returns:
+    description: <p>A **LaunchUriProvider** instance. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider?alt=com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider&text=LaunchUriProvider" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the URI launcher for this application. </p>
+  syntax: public LaunchUriProvider getLaunchUriProvider()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getLaunchUriProvider()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getLaunchUriProvider*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getLaunchUriProvider()
+name: getLaunchUriProvider()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

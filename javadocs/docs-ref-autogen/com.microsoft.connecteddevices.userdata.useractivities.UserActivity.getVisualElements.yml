@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getVisualElements()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getVisualElements()
+  name: getVisualElements()
+  nameWithType: UserActivity.getVisualElements()
+  returns:
+    description: <p>The **UserActivityVisualElements** containing the visual element data. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements&text=UserActivityVisualElements" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the visual elements for this activity. </p>
+  syntax: public UserActivityVisualElements getVisualElements()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getVisualElements()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getVisualElements*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getVisualElements()
+name: getVisualElements()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.EventListener.onEvent(T,R)
+nameWithType: EventListener<T,R>
+syntax: public interface EventListener<T,R>
+summary: <p>This interface provides a simple event-handling method. It allows listeners to be registered to methods through the use of lambda expressions (available in Java 8). Because lambda expressions and anonymous classes allow implicit capture of variables in the enclosing scope, it is important to remember to either use WeakReferences or always ensure to call EventSubscription.cancel to ensure proper cleanup of resources. </p>
+type: interface
+typeParameters:
+- description: <p>the event source object type </p>
+  name: T
+- description: <p>the event argument type </p>
+  name: R
+uid: com.microsoft.connecteddevices.EventListener
+fullName: com.microsoft.connecteddevices.EventListener<T,R>
+name: EventListener<T,R>
+package: com.microsoft.connecteddevices

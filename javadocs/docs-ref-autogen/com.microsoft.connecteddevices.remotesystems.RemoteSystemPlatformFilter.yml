@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter.RemoteSystemPlatformFilter(@NonNull RemoteSystemPlatform)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemPlatformFilter
+syntax: public class RemoteSystemPlatformFilter implements RemoteSystemFilter
+summary: <p>A class used to filter remote systems based on the OS platform they are running. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter
+name: RemoteSystemPlatformFilter
+package: com.microsoft.connecteddevices.remotesystems

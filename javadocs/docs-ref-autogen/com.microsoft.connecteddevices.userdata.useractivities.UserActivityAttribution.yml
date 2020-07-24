@@ -1,0 +1,22 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution(@NonNull String)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAddImageQuery()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAlternateText()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getIconUri()
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAddImageQuery(boolean)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAlternateText(@Nullable String)
+- com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setIconUri(@Nullable String)
+nameWithType: UserActivityAttribution
+syntax: public class UserActivityAttribution
+summary: <p>This class manages the graphical elements of a user activity. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution
+name: UserActivityAttribution
+package: com.microsoft.connecteddevices.userdata.useractivities

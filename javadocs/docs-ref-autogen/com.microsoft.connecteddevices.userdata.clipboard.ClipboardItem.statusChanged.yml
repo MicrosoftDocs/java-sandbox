@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardItem.statusChanged()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.statusChanged()
+  name: statusChanged()
+  nameWithType: ClipboardItem.statusChanged()
+  returns:
+    description: <p>Event Subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem&text=ClipboardItem" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatusChangedEventArgs?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatusChangedEventArgs&text=ClipboardItemStatusChangedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when the status of a ClipboardItem changes. </p>
+  syntax: public Event<ClipboardItem, ClipboardItemStatusChangedEventArgs> statusChanged()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.statusChanged()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.statusChanged*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.statusChanged()
+name: statusChanged()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

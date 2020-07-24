@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationChannel.UserNotificationChannel
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.UserNotificationChannel(@NonNull UserDataFeed userDataFeed)
+  name: UserNotificationChannel(@NonNull UserDataFeed userDataFeed)
+  nameWithType: UserNotificationChannel.UserNotificationChannel(@NonNull UserDataFeed userDataFeed)
+  parameters:
+  - name: userDataFeed
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.UserDataFeed?alt=com.microsoft.connecteddevices.userdata.UserDataFeed&text=UserDataFeed" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes a new instance of UserNotificationChannel </p>
+  syntax: public UserNotificationChannel(@NonNull UserDataFeed userDataFeed)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.UserNotificationChannel(@NonNull UserDataFeed)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.UserNotificationChannel*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.UserNotificationChannel
+name: UserNotificationChannel
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

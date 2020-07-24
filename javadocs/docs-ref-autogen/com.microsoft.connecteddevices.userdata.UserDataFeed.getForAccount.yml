@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+  name: getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+  nameWithType: UserDataFeed.getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+  parameters:
+  - description: <p>The user accound that this data will be associated with. </p>
+    name: userConnectedDevicesAccount
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>'
+  - description: <p>The **ConnectedDevicesPlatform** instance that has been initialized for this app's Connected Devices functionality. </p>
+    name: platform
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesPlatform?alt=com.microsoft.connecteddevices.ConnectedDevicesPlatform&text=ConnectedDevicesPlatform" data-throw-if-not-resolved="False"/>'
+  - description: <p>The cross-platform app ID. This is retrieved through the Microsoft Developer Dashboard registration (see <xref uid="" data-throw-if-not-resolved="false">Hosting cross-device experiences (Android)</xref>). </p>
+    name: activitySourceHost
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A new instance of this class. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeed?alt=com.microsoft.connecteddevices.userdata.UserDataFeed&text=UserDataFeed" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates and initializes a new instance of this class with a user account, platform instance, and the cross-platform app ID. </p>
+  syntax: public static UserDataFeed getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getForAccount(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesPlatform,@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getForAccount*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+name: getForAccount(@NonNull ConnectedDevicesAccount userConnectedDevicesAccount, @NonNull ConnectedDevicesPlatform platform, @NonNull String activitySourceHost)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

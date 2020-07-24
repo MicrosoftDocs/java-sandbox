@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.HIDE_LOCAL_APPLICATION
+  name: HIDE_LOCAL_APPLICATION
+  nameWithType: RemoteSystemLocalVisibilityKind.HIDE_LOCAL_APPLICATION
+  summary: <p>Hide the calling application. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.HIDE_LOCAL_APPLICATION
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.SHOW_ALL
+  name: SHOW_ALL
+  nameWithType: RemoteSystemLocalVisibilityKind.SHOW_ALL
+  summary: <p>Show all discoverable applications, including the calling app. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.SHOW_ALL
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemLocalVisibilityKind&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemLocalVisibilityKind.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind&text=RemoteSystemLocalVisibilityKind" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemLocalVisibilityKind fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemLocalVisibilityKind.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind.getValue()
+nameWithType: RemoteSystemLocalVisibilityKind
+syntax: public enum RemoteSystemLocalVisibilityKind
+summary: <p>Contains values that describe the local application visibility preference when discovering remote systems. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind
+name: RemoteSystemLocalVisibilityKind
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

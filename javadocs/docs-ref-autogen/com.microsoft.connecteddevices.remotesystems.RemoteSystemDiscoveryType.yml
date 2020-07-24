@@ -1,0 +1,50 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.ANY
+  name: ANY
+  nameWithType: RemoteSystemDiscoveryType.ANY
+  summary: <p>Remote systems are discoverable through any connection. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.ANY
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.CLOUD
+  name: CLOUD
+  nameWithType: RemoteSystemDiscoveryType.CLOUD
+  summary: <p>Remote systems are only discoverable through cloud connection. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.CLOUD
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.PROXIMAL
+  name: PROXIMAL
+  nameWithType: RemoteSystemDiscoveryType.PROXIMAL
+  summary: <p>Remote systems are only discoverable through a proximal connection, such as a local network or Bluetooth connection. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.PROXIMAL
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.SPATIALLY_PROXIMAL
+  name: SPATIALLY_PROXIMAL
+  nameWithType: RemoteSystemDiscoveryType.SPATIALLY_PROXIMAL
+  summary: <p>Remote systems are discoverable through a proximal connection and are expected to be spatially near to the client device (in Bluetooth range, for example). </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.SPATIALLY_PROXIMAL
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemDiscoveryType&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemDiscoveryType.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType&text=RemoteSystemDiscoveryType" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemDiscoveryType fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemDiscoveryType.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType.getValue()
+nameWithType: RemoteSystemDiscoveryType
+syntax: public enum RemoteSystemDiscoveryType
+summary: <p>Contains values that describe how remote systems are able to be discovered. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType
+name: RemoteSystemDiscoveryType
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

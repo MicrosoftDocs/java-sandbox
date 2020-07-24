@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getActivationUri()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivationUri()
+  name: getActivationUri()
+  nameWithType: UserActivity.getActivationUri()
+  returns:
+    description: <p>The primary activation URI String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the primary URI for this activity. </p>
+  syntax: public String getActivationUri()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivationUri()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivationUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivationUri()
+name: getActivationUri()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

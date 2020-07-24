@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>._handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>._handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+  name: _handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+  nameWithType: AsyncOperation<T>._handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+  parameters:
+  - description: <p>Function that will be executed upon completion of this operation </p>
+    name: action
+    type: <xref href="AsyncOperation.ResultBiFunction%3C%3F+super+T%2C+%3F+super+Throwable%2C+%3F+extends+U%3E?alt=AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U>&text=AsyncOperation.ResultBiFunction%3C%3F+super+T%2C+%3F+super+Throwable%2C+%3F+extends+U%3E" data-throw-if-not-resolved="False"/>
+  - description: <p>Executor with which to execute the function </p>
+    name: executor
+    type: <xref href="Executor?alt=Executor&text=Executor" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>A new async operation that will complete based on the outcome of passed in action </p>
+    type: '&lt;U&gt; <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;U&gt;'
+  summary: >-
+    <p>The handle trio of functions (handle(action), handleAsync(action), and handleAsync(action,Executor)) are the most basic continuation functions upon which the others are built. Upon successful or exceptional completion of this operation, the passed in action will be executed allowing both antecedent results and antecedent exceptions to be observed. </p>
+
+    <p></p>
+  syntax: protected <U> AsyncOperation<U> _handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+  uid: com.microsoft.connecteddevices.AsyncOperation._handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U>,Executor)
+uid: com.microsoft.connecteddevices.AsyncOperation._handleAsyncInternal*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>._handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+name: _handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U> action, Executor executor)
+package: com.microsoft.connecteddevices
+metadata: {}

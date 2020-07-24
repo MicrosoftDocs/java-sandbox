@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread()
+  name: getNextCorrelationVectorForThread()
+  nameWithType: ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve the correlation vector of the next operation to be performed on this thread </p>
+  syntax: public static String getNextCorrelationVectorForThread()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread()
+uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread()
+name: getNextCorrelationVectorForThread()
+package: com.microsoft.connecteddevices
+metadata: {}

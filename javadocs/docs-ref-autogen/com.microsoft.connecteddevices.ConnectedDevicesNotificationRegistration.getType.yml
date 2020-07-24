@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.getType()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getType()
+  name: getType()
+  nameWithType: ConnectedDevicesNotificationRegistration.getType()
+  returns:
+    description: <p>The type of notifications in this setup. </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationType?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationType&text=ConnectedDevicesNotificationType" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the type of notifications in this setup. </p>
+  syntax: public ConnectedDevicesNotificationType getType()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getType()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getType*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getType()
+name: getType()
+package: com.microsoft.connecteddevices
+metadata: {}

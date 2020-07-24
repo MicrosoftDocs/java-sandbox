@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getContent()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getContent()
+  name: getContent()
+  nameWithType: UserNotification.getContent()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the content payload for this notification which is developer defined arbitrary data. </p>
+  syntax: public String getContent()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getContent()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getContent*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getContent()
+name: getContent()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

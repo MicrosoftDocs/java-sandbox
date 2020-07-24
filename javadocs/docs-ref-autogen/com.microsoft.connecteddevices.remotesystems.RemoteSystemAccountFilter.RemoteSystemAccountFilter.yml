@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAccountFilter.RemoteSystemAccountFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter.RemoteSystemAccountFilter(@NonNull ConnectedDevicesAccount account)
+  name: RemoteSystemAccountFilter(@NonNull ConnectedDevicesAccount account)
+  nameWithType: RemoteSystemAccountFilter.RemoteSystemAccountFilter(@NonNull ConnectedDevicesAccount account)
+  parameters:
+  - name: account
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>'
+  syntax: public RemoteSystemAccountFilter(@NonNull ConnectedDevicesAccount account)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter.RemoteSystemAccountFilter(@NonNull ConnectedDevicesAccount)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter.RemoteSystemAccountFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter.RemoteSystemAccountFilter
+name: RemoteSystemAccountFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

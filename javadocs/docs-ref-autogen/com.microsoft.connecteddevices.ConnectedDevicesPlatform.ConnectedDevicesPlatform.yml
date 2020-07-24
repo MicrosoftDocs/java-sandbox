@@ -1,0 +1,32 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatform.ConnectedDevicesPlatform
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context context)
+  name: ConnectedDevicesPlatform(@NonNull Context context)
+  nameWithType: ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context context)
+  parameters:
+  - description: <p>The context of the calling application. This is needed to expose app-specific resources to the <xref uid="" data-throw-if-not-resolved="false">ConnectedDevicesPlatform</xref>. </p>
+    name: context
+    type: <xref href="%40NonNull+Context?alt=@NonNull Context&text=%40NonNull+Context" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public ConnectedDevicesPlatform(@NonNull Context context)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context context, @NonNull ConnectedDevicesPlatformSettings settings)
+  name: ConnectedDevicesPlatform(@NonNull Context context, @NonNull ConnectedDevicesPlatformSettings settings)
+  nameWithType: ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context context, @NonNull ConnectedDevicesPlatformSettings settings)
+  parameters:
+  - description: <p>The context of the calling application. This is needed to expose app-specific resources to the Connected Devices ConnectedDevicesPlatform. </p>
+    name: context
+    type: <xref href="%40NonNull+Context?alt=@NonNull Context&text=%40NonNull+Context" data-throw-if-not-resolved="False"/>
+  - description: <p>The PlatformSettings to construct the Platform object with </p>
+    name: settings
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings?alt=com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings&text=ConnectedDevicesPlatformSettings" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public ConnectedDevicesPlatform(@NonNull Context context, @NonNull ConnectedDevicesPlatformSettings settings)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context,@NonNull ConnectedDevicesPlatformSettings)
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform
+name: ConnectedDevicesPlatform
+package: com.microsoft.connecteddevices
+metadata: {}

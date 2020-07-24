@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setContentInfoJson(@Nullable String contentInfoJson)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentInfoJson(@Nullable String contentInfoJson)
+  name: setContentInfoJson(@Nullable String contentInfoJson)
+  nameWithType: UserActivity.setContentInfoJson(@Nullable String contentInfoJson)
+  parameters:
+  - description: <p>The content info json string. </p>
+    name: contentInfoJson
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the basic content info for this activity. For example, if your activity was reading an RSS feed, the content might include the name of the article and its author. </p>
+  syntax: public void setContentInfoJson(@Nullable String contentInfoJson)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentInfoJson(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentInfoJson*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentInfoJson(@Nullable String contentInfoJson)
+name: setContentInfoJson(@Nullable String contentInfoJson)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

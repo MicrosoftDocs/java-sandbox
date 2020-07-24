@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystem.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getStatus()
+  name: getStatus()
+  nameWithType: RemoteSystem.getStatus()
+  returns:
+    description: <p>A **RemoteSystemStatus** value describing the status. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus&text=RemoteSystemStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the status of this remote system's availability. </p>
+  syntax: public RemoteSystemStatus getStatus()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getStatus()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getStatus*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

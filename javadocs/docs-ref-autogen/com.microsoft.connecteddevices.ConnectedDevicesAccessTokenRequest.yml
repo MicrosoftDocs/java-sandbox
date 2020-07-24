@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String)
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String)
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getAccount()
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getScopes()
+nameWithType: ConnectedDevicesAccessTokenRequest
+syntax: public class ConnectedDevicesAccessTokenRequest
+summary: <p>Request for an access token for the contained <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> which satisfies the contained scopes. This request needs to completed by calling either <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String)" data-throw-if-not-resolved="false">completeWithAccessToken</xref> or <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage(@NonNull final String)" data-throw-if-not-resolved="false">completeWithErrorMessage</xref>. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest
+name: ConnectedDevicesAccessTokenRequest
+package: com.microsoft.connecteddevices

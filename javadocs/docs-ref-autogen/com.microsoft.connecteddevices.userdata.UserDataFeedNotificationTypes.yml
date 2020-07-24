@@ -1,0 +1,16 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- SDKLoader
+methods:
+- com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.noNotification()
+- com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationOnly()
+- com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationWithPayload()
+nameWithType: UserDataFeedNotificationTypes
+syntax: public class UserDataFeedNotificationTypes
+summary: <p>Provide notification types valid for UserDataFeedSyncScope.setNotificationType </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes
+name: UserDataFeedNotificationTypes
+package: com.microsoft.connecteddevices.userdata

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.saveAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.saveAsync()
+  name: saveAsync()
+  nameWithType: RemoteSystemAppRegistration.saveAsync()
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.AsyncOperation" data-throw-if-not-resolved="false">AsyncOperation</xref> for if the registration saved successfully. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Boolean&gt;
+  summary: <p>Saves the registration so that other apps and devices can discover it. <xrefsect id="deprecated_1_deprecated000007"><xreftitle>Deprecated</xreftitle><xrefdescription><p>Use the publishAsync method instead </p></xrefdescription></xrefsect></p>
+  syntax: public AsyncOperation<Boolean> saveAsync()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.saveAsync()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.saveAsync*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.saveAsync()
+name: saveAsync()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

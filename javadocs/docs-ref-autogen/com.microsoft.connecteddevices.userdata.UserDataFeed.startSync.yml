@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.startSync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.startSync()
+  name: startSync()
+  nameWithType: UserDataFeed.startSync()
+  summary: <p>Starts the synchronization process with the Connected Devices Platform. During this operation, change events will be raised. </p>
+  syntax: public void startSync()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.startSync()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.startSync*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.startSync()
+name: startSync()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

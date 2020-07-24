@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation.ResultConsumer<T>.accept(T t)
+type: method
+members:
+- fullName: void com.microsoft.connecteddevices.AsyncOperation<T>.ResultConsumer<T>.accept(T t)
+  name: accept(T t)
+  nameWithType: AsyncOperation.ResultConsumer<T>.accept(T t)
+  parameters:
+  - description: <p>Input argument to the consumer </p>
+    name: t
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  summary: <p>Performs the operation on the given argument </p>
+  syntax: public void accept(T t)
+  uid: com.microsoft.connecteddevices.AsyncOperation.ResultConsumer.accept(T)
+uid: com.microsoft.connecteddevices.AsyncOperation.ResultConsumer.accept*
+fullName: void com.microsoft.connecteddevices.AsyncOperation<T>.ResultConsumer<T>.accept(T t)
+name: accept(T t)
+package: com.microsoft.connecteddevices
+metadata: {}

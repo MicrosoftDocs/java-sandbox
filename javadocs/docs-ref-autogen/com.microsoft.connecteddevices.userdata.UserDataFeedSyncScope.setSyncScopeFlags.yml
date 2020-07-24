@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScope.setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+  name: setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+  nameWithType: UserDataFeedSyncScope.setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+  parameters:
+  - description: <p>set of flags for sync scope (see **UserDataFeedSyncScopeFlags**). </p>
+    name: syncScopeFlags
+    type: <xref href="%40Nullable+Collection%3CString%3E?alt=@Nullable Collection<String>&text=%40Nullable+Collection%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Set any optional flags for filtering incoming activities. </p>
+  syntax: public void setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setSyncScopeFlags(@Nullable Collection<String>)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setSyncScopeFlags*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+name: setSyncScopeFlags(@Nullable Collection<String> syncScopeFlags)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

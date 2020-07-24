@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceProvider.getAppServiceInfo()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.getAppServiceInfo()
+  name: getAppServiceInfo()
+  nameWithType: AppServiceProvider.getAppServiceInfo()
+  returns:
+    description: <p>An <xref uid="" data-throw-if-not-resolved="false">AppServiceInfo</xref> instance. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.AppServiceInfo?alt=com.microsoft.connecteddevices.remotesystems.AppServiceInfo&text=AppServiceInfo" data-throw-if-not-resolved="False"/>
+  summary: <p>This method provides info (containing the name string) about the app service. </p>
+  syntax: public AppServiceInfo getAppServiceInfo()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.getAppServiceInfo()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.getAppServiceInfo*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.getAppServiceInfo()
+name: getAppServiceInfo()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

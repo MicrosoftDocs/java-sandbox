@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.setVisualElements(@NonNull UserActivityVisualElements visualElements)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setVisualElements(@NonNull UserActivityVisualElements visualElements)
+  name: setVisualElements(@NonNull UserActivityVisualElements visualElements)
+  nameWithType: UserActivity.setVisualElements(@NonNull UserActivityVisualElements visualElements)
+  parameters:
+  - description: <p>The **UserActivityVisualElements** containing the visual element data. </p>
+    name: visualElements
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements&text=UserActivityVisualElements" data-throw-if-not-resolved="False"/>'
+  summary: <p>Sets the visual elements for this activity (information that can be used for the "details" tile of the activity). </p>
+  syntax: public void setVisualElements(@NonNull UserActivityVisualElements visualElements)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setVisualElements(@NonNull UserActivityVisualElements)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setVisualElements*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setVisualElements(@NonNull UserActivityVisualElements visualElements)
+name: setVisualElements(@NonNull UserActivityVisualElements visualElements)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

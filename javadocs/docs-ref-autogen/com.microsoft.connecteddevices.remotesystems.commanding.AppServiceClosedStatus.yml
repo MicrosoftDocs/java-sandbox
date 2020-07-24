@@ -1,0 +1,50 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.CANCELED
+  name: CANCELED
+  nameWithType: AppServiceClosedStatus.CANCELED
+  summary: <p>The app service connection was closed due to network failure. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.CANCELED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.COMPLETED
+  name: COMPLETED
+  nameWithType: AppServiceClosedStatus.COMPLETED
+  summary: <p>The app service connection was closed intentionally by the client app. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.COMPLETED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.RESOURCE_LIMITS_EXCEEDED
+  name: RESOURCE_LIMITS_EXCEEDED
+  nameWithType: AppServiceClosedStatus.RESOURCE_LIMITS_EXCEEDED
+  summary: <p>The app service connection exceeded its allotted program memory. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.RESOURCE_LIMITS_EXCEEDED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: AppServiceClosedStatus.UNKNOWN
+  summary: <p>The app service connection closed for an unknown reason. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.UNKNOWN
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;AppServiceClosedStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: AppServiceClosedStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus&text=AppServiceClosedStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static AppServiceClosedStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.getValue()
+  name: getValue()
+  nameWithType: AppServiceClosedStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus.getValue()
+nameWithType: AppServiceClosedStatus
+syntax: public enum AppServiceClosedStatus
+summary: <p>Contains the values that describe the reason that an app service connection was closed. </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus
+name: AppServiceClosedStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

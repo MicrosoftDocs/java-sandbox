@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.remoteSystemAdded()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemAdded()
+  name: remoteSystemAdded()
+  nameWithType: RemoteSystemWatcher.remoteSystemAdded()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher&text=RemoteSystemWatcher" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs&text=RemoteSystemAddedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when a new remote system is discovered. </p>
+  syntax: public Event<RemoteSystemWatcher, RemoteSystemAddedEventArgs> remoteSystemAdded()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemAdded()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemAdded*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemAdded()
+name: remoteSystemAdded()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

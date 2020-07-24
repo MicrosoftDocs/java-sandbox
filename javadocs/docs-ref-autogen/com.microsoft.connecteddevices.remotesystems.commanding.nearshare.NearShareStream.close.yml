@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: NearShareStream.close()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.close()
+  name: close()
+  nameWithType: NearShareStream.close()
+  summary: <p>This method is called when the system is finished transferring files or the operation failed. It should close any internal file streams or channels that were open. </p>
+  syntax: public void close()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.close()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.close*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.close()
+name: close()
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

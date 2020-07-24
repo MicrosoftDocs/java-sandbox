@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.saveAsync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.saveAsync()
+  name: saveAsync()
+  nameWithType: UserNotification.saveAsync()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult&text=UserNotificationUpdateResult" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>This should be called when publishing user notification changes. This method should be called whenever the app modifies an updatable property of the UserNotification. </p>
+  syntax: public AsyncOperation<UserNotificationUpdateResult> saveAsync()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.saveAsync()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.saveAsync*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.saveAsync()
+name: saveAsync()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

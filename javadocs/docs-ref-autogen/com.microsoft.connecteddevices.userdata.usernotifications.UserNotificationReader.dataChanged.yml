@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReader.dataChanged()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.dataChanged()
+  name: dataChanged()
+  nameWithType: UserNotificationReader.dataChanged()
+  returns:
+    description: <p>Event Subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader&text=UserNotificationReader" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderDataChangedEventArgs?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderDataChangedEventArgs&text=UserNotificationReaderDataChangedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when data changes in the UserNotificationReader. </p>
+  syntax: public Event<UserNotificationReader, UserNotificationReaderDataChangedEventArgs> dataChanged()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.dataChanged()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.dataChanged*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.dataChanged()
+name: dataChanged()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

@@ -1,0 +1,79 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.AsyncOperation.AsyncOperation()
+inheritances:
+- java.lang.Object
+- java.util.concurrent.Future&lt;T&gt;
+methods:
+- com.microsoft.connecteddevices.AsyncOperation._handleAsyncInternal(AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U>,Executor)
+- com.microsoft.connecteddevices.AsyncOperation._whenCompleteAsyncInternal(AsyncOperation.ResultBiConsumer<? super T, ? super Throwable>,Executor)
+- com.microsoft.connecteddevices.AsyncOperation.acceptEither(@NonNull AsyncOperation<? extends T>,@NonNull AsyncOperation.ResultConsumer<? super T>)
+- com.microsoft.connecteddevices.AsyncOperation.acceptEitherAsync(@NonNull AsyncOperation<? extends T>,@NonNull AsyncOperation.ResultConsumer<? super T>)
+- com.microsoft.connecteddevices.AsyncOperation.acceptEitherAsync(@NonNull AsyncOperation<? extends T>,AsyncOperation.ResultConsumer<? super T>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.allOf(@NonNull AsyncOperation<?>...)
+- com.microsoft.connecteddevices.AsyncOperation.anyOf(@NonNull AsyncOperation<?>...)
+- com.microsoft.connecteddevices.AsyncOperation.applyToEither(@NonNull AsyncOperation<? extends T>,@NonNull AsyncOperation.ResultFunction<? super T, U>)
+- com.microsoft.connecteddevices.AsyncOperation.applyToEitherAsync(@NonNull AsyncOperation<? extends T>,@NonNull AsyncOperation.ResultFunction<? super T, U>)
+- com.microsoft.connecteddevices.AsyncOperation.applyToEitherAsync(@NonNull AsyncOperation<? extends T>,@NonNull AsyncOperation.ResultFunction<? super T, U>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.cancel(boolean)
+- com.microsoft.connecteddevices.AsyncOperation.complete(T)
+- com.microsoft.connecteddevices.AsyncOperation.completedFuture(U)
+- com.microsoft.connecteddevices.AsyncOperation.completeExceptionally(@NonNull Throwable)
+- com.microsoft.connecteddevices.AsyncOperation.exceptionally(@NonNull AsyncOperation.ResultFunction<Throwable, ? extends T>)
+- com.microsoft.connecteddevices.AsyncOperation.get()
+- com.microsoft.connecteddevices.AsyncOperation.get(long,@NonNull TimeUnit)
+- com.microsoft.connecteddevices.AsyncOperation.getNow(T)
+- com.microsoft.connecteddevices.AsyncOperation.getNumberOfDependents()
+- com.microsoft.connecteddevices.AsyncOperation.handle(@NonNull AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U>)
+- com.microsoft.connecteddevices.AsyncOperation.handleAsync(@NonNull AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.handleAsync(@NonNull AsyncOperation.ResultBiFunction<? super T, ? super Throwable, ? extends U>)
+- com.microsoft.connecteddevices.AsyncOperation.isCancelled()
+- com.microsoft.connecteddevices.AsyncOperation.isCompletedExceptionally()
+- com.microsoft.connecteddevices.AsyncOperation.isDone()
+- com.microsoft.connecteddevices.AsyncOperation.join()
+- com.microsoft.connecteddevices.AsyncOperation.runAfterBoth(@NonNull AsyncOperation<?>,@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.runAfterBothAsync(@NonNull AsyncOperation<?>,@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.runAfterBothAsync(@NonNull AsyncOperation<?>,@NonNull Runnable,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.runAfterEither(@NonNull AsyncOperation<?>,@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.runAfterEitherAsync(@NonNull AsyncOperation<?>,@NonNull Runnable,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.runAfterEitherAsync(@NonNull AsyncOperation<?>,@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.runAsync(@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.runAsync(@NonNull Runnable,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.supplyAsync(@NonNull AsyncOperation.Supplier<U>)
+- com.microsoft.connecteddevices.AsyncOperation.supplyAsync(@NonNull AsyncOperation.Supplier<U>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.thenAccept(@NonNull ResultConsumer<? super T>)
+- com.microsoft.connecteddevices.AsyncOperation.thenAcceptAsync(@NonNull ResultConsumer<? super T>)
+- com.microsoft.connecteddevices.AsyncOperation.thenAcceptAsync(@NonNull ResultConsumer<? super T>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.thenAcceptBoth(@NonNull AsyncOperation<? extends U>,@NonNull AsyncOperation.ResultBiConsumer<? super T, ? super U>)
+- com.microsoft.connecteddevices.AsyncOperation.thenAcceptBothAsync(@NonNull AsyncOperation<? extends U>,@NonNull AsyncOperation.ResultBiConsumer<? super T, ? super U>)
+- com.microsoft.connecteddevices.AsyncOperation.thenAcceptBothAsync(@NonNull AsyncOperation<? extends U>,@NonNull AsyncOperation.ResultBiConsumer<? super T, ? super U>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.thenApply(@NonNull ResultFunction<? super T, ? extends U>)
+- com.microsoft.connecteddevices.AsyncOperation.thenApplyAsync(@NonNull ResultFunction<? super T, ? extends U>)
+- com.microsoft.connecteddevices.AsyncOperation.thenApplyAsync(@NonNull ResultFunction<? super T, ? extends U>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.thenCombine(@NonNull AsyncOperation<? extends U>,@NonNull AsyncOperation.ResultBiFunction<? super T, ? super U, ? extends V>)
+- com.microsoft.connecteddevices.AsyncOperation.thenCombineAsync(@NonNull AsyncOperation<? extends U>,@NonNull AsyncOperation.ResultBiFunction<? super T, ? super U, ? extends V>)
+- com.microsoft.connecteddevices.AsyncOperation.thenCombineAsync(@NonNull AsyncOperation<? extends U>,@NonNull AsyncOperation.ResultBiFunction<? super T, ? super U, ? extends V>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.thenCompose(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>>)
+- com.microsoft.connecteddevices.AsyncOperation.thenComposeAsync(@NonNull AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>>)
+- com.microsoft.connecteddevices.AsyncOperation.thenComposeAsync(AsyncOperation.ResultFunction<? super T, ? extends AsyncOperation<U>>,Executor)
+- com.microsoft.connecteddevices.AsyncOperation.thenRun(@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.thenRunAsync(@NonNull Runnable)
+- com.microsoft.connecteddevices.AsyncOperation.thenRunAsync(@NonNull Runnable,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.whenComplete(@NonNull AsyncOperation.ResultBiConsumer<? super T, ? super Throwable>)
+- com.microsoft.connecteddevices.AsyncOperation.whenCompleteAsync(@NonNull AsyncOperation.ResultBiConsumer<? super T, ? super Throwable>,@NonNull Executor)
+- com.microsoft.connecteddevices.AsyncOperation.whenCompleteAsync(@NonNull AsyncOperation.ResultBiConsumer<? super T, ? super Throwable>)
+nameWithType: AsyncOperation<T>
+syntax: public class AsyncOperation<T>
+summary: >-
+  <p>An operation that has a future result of type T or a possible exception. This class is a slightly simplified version of the android api level 24 CompletableFuture class </p>
+
+  <p>Implements the standard <a href="https://docs.oracle.com/javase/8/docs/api/?java/util/concurrent/Future.html">Future</a> interface, and also provides basic continuation functionality. Please see <a href="https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/CompletableFuture.html">CompletableFuture</a> for detailed information on the how to use this class.</p>
+
+  <p>The important differences between CompletableFuture and AsyncOperation are as follows: 1. AsyncOperation's default asynchronous executor is Executors.newCachedThreadPool() whereas CompletableFuture uses ForkJoinPool.commonPool(). 2. AsyncOperation lacks obtrudeException and obtrudeValue methods. </p>
+type: class
+typeParameters:
+- name: T
+uid: com.microsoft.connecteddevices.AsyncOperation
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>
+name: AsyncOperation<T>
+package: com.microsoft.connecteddevices

@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.BEGINNING
+  name: BEGINNING
+  nameWithType: UserNotificationReaderStartPosition.BEGINNING
+  summary: <p>Read from beginning. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.BEGINNING
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.END
+  name: END
+  nameWithType: UserNotificationReaderStartPosition.END
+  summary: <p>Read from end. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.END
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationReaderStartPosition&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationReaderStartPosition.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition&text=UserNotificationReaderStartPosition" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationReaderStartPosition fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.getValue()
+  name: getValue()
+  nameWithType: UserNotificationReaderStartPosition.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition.getValue()
+nameWithType: UserNotificationReaderStartPosition
+syntax: public enum UserNotificationReaderStartPosition
+summary: <p>Contains values that determines the position where any new change in the reader starts – new incoming user notification or new incoming state updates. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition
+name: UserNotificationReaderStartPosition
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

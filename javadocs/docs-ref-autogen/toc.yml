@@ -1,63 +1,1431 @@
-### YamlMime:TableOfContent
-- uid: "com.microsoft.store.partnercenter"
-  name: "com.microsoft.store.partnercenter"
+- uid: com.microsoft.connecteddevices
+  name: com.microsoft.connecteddevices
   items:
-  - uid: "com.microsoft.store.partnercenter.AggregatePartnerOperations"
-    name: "AggregatePartnerOperations"
-  - uid: "com.microsoft.store.partnercenter.AuthenticationToken"
-    name: "AuthenticationToken"
-  - uid: "com.microsoft.store.partnercenter.BasePartnerComponent"
-    name: "BasePartnerComponent"
-  - uid: "com.microsoft.store.partnercenter.BasePartnerComponentString"
-    name: "BasePartnerComponentString"
-  - uid: "com.microsoft.store.partnercenter.IAadLoginHandler"
-    name: "IAadLoginHandler"
-  - uid: "com.microsoft.store.partnercenter.IAggregatePartner"
-    name: "IAggregatePartner"
-  - uid: "com.microsoft.store.partnercenter.IPartner"
-    name: "IPartner"
-  - uid: "com.microsoft.store.partnercenter.IPartnerComponent"
-    name: "IPartnerComponent"
-  - uid: "com.microsoft.store.partnercenter.IPartnerComponentString"
-    name: "IPartnerComponentString"
-  - uid: "com.microsoft.store.partnercenter.IPartnerCredentials"
-    name: "IPartnerCredentials"
-  - uid: "com.microsoft.store.partnercenter.PartnerOperations"
-    name: "PartnerOperations"
-  - uid: "com.microsoft.store.partnercenter.PartnerService"
-    name: "PartnerService"
-- uid: "com.microsoft.store.partnercenter.domains"
-  name: "com.microsoft.store.partnercenter.domains"
+  - uid: com.microsoft.connecteddevices.AsyncOperation
+    name: AsyncOperation
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.AsyncOperation*
+      name: AsyncOperation
+      type: constructor
+    - uid: com.microsoft.connecteddevices.AsyncOperation._handleAsyncInternal*
+      name: _handleAsyncInternal
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation._whenCompleteAsyncInternal*
+      name: _whenCompleteAsyncInternal
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.acceptEither*
+      name: acceptEither
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.acceptEitherAsync*
+      name: acceptEitherAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.allOf*
+      name: allOf
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.anyOf*
+      name: anyOf
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.applyToEither*
+      name: applyToEither
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.applyToEitherAsync*
+      name: applyToEitherAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.cancel*
+      name: cancel
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.complete*
+      name: complete
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.completedFuture*
+      name: completedFuture
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.completeExceptionally*
+      name: completeExceptionally
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.exceptionally*
+      name: exceptionally
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.get*
+      name: get
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.getNow*
+      name: getNow
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.getNumberOfDependents*
+      name: getNumberOfDependents
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.handle*
+      name: handle
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.handleAsync*
+      name: handleAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.isCancelled*
+      name: isCancelled
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.isCompletedExceptionally*
+      name: isCompletedExceptionally
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.isDone*
+      name: isDone
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.join*
+      name: join
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.runAfterBoth*
+      name: runAfterBoth
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.runAfterBothAsync*
+      name: runAfterBothAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.runAfterEither*
+      name: runAfterEither
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.runAfterEitherAsync*
+      name: runAfterEitherAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.runAsync*
+      name: runAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.supplyAsync*
+      name: supplyAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenAccept*
+      name: thenAccept
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenAcceptAsync*
+      name: thenAcceptAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenAcceptBoth*
+      name: thenAcceptBoth
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenAcceptBothAsync*
+      name: thenAcceptBothAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenApply*
+      name: thenApply
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenApplyAsync*
+      name: thenApplyAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenCombine*
+      name: thenCombine
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenCombineAsync*
+      name: thenCombineAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenCompose*
+      name: thenCompose
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenComposeAsync*
+      name: thenComposeAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenRun*
+      name: thenRun
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.thenRunAsync*
+      name: thenRunAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.whenComplete*
+      name: whenComplete
+      type: method
+    - uid: com.microsoft.connecteddevices.AsyncOperation.whenCompleteAsync*
+      name: whenCompleteAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.AsyncOperation.CompletionException
+    name: AsyncOperation.CompletionException
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.CompletionException.CompletionException*
+      name: CompletionException
+      type: constructor
+  - uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer
+    name: AsyncOperation.ResultBiConsumer
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer.accept*
+      name: accept
+      type: method
+  - uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiFunction
+    name: AsyncOperation.ResultBiFunction
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiFunction.apply*
+      name: apply
+      type: method
+  - uid: com.microsoft.connecteddevices.AsyncOperation.ResultConsumer
+    name: AsyncOperation.ResultConsumer
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.ResultConsumer.accept*
+      name: accept
+      type: method
+  - uid: com.microsoft.connecteddevices.AsyncOperation.ResultFunction
+    name: AsyncOperation.ResultFunction
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.ResultFunction.apply*
+      name: apply
+      type: method
+  - uid: com.microsoft.connecteddevices.AsyncOperation.Supplier
+    name: AsyncOperation.Supplier
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperation.Supplier.get*
+      name: get
+      type: method
+  - uid: com.microsoft.connecteddevices.AsyncOperationWithProgress
+    name: AsyncOperationWithProgress
+    items:
+    - uid: com.microsoft.connecteddevices.AsyncOperationWithProgress.progress*
+      name: progress
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs
+    name: ConnectedDevicesAccessTokenInvalidatedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount*
+      name: getAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getScopes*
+      name: getScopes
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest
+    name: ConnectedDevicesAccessTokenRequest
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken*
+      name: completeWithAccessToken
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithErrorMessage*
+      name: completeWithErrorMessage
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getAccount*
+      name: getAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.getScopes*
+      name: getScopes
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs
+    name: ConnectedDevicesAccessTokenRequestedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs.getRequest*
+      name: getRequest
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccount
+    name: ConnectedDevicesAccount
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.ConnectedDevicesAccount*
+      name: ConnectedDevicesAccount
+      type: constructor
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getAnonymousAccount*
+      name: getAnonymousAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getId*
+      name: getId
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccount.getType*
+      name: getType
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus
+    name: ConnectedDevicesAccountAddedStatus
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager
+    name: ConnectedDevicesAccountManager
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenInvalidated*
+      name: accessTokenInvalidated
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.accessTokenRequested*
+      name: accessTokenRequested
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.addAccountAsync*
+      name: addAccountAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.getAccounts*
+      name: getAccounts
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountManager.removeAccountAsync*
+      name: removeAccountAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAccountType
+    name: ConnectedDevicesAccountType
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult
+    name: ConnectedDevicesAddAccountResult
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics
+    name: ConnectedDevicesDiagnostics
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread*
+      name: getLastCorrelationVectorForThread
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getNextCorrelationVectorForThread*
+      name: getNextCorrelationVectorForThread
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setLastCorrelationVectorForThread*
+      name: setLastCorrelationVectorForThread
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.setNextCorrelationVectorForThread*
+      name: setNextCorrelationVectorForThread
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotification
+    name: ConnectedDevicesNotification
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotification.getCorrelationVectors*
+      name: getCorrelationVectors
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotification.tryParse*
+      name: tryParse
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration
+    name: ConnectedDevicesNotificationRegistration
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration*
+      name: ConnectedDevicesNotificationRegistration
+      type: constructor
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppDisplayName*
+      name: getAppDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppId*
+      name: getAppId
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getToken*
+      name: getToken
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getType*
+      name: getType
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppDisplayName*
+      name: setAppDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppId*
+      name: setAppId
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setToken*
+      name: setToken
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setType*
+      name: setType
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager
+    name: ConnectedDevicesNotificationRegistrationManager
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.getNotificationRegistrationStateForAccount*
+      name: getNotificationRegistrationStateForAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.notificationRegistrationStateChanged*
+      name: notificationRegistrationStateChanged
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerAsync*
+      name: registerAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerForAccountAsync*
+      name: registerForAccountAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult
+    name: ConnectedDevicesNotificationRegistrationResult
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationState
+    name: ConnectedDevicesNotificationRegistrationState
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+    name: ConnectedDevicesNotificationRegistrationStateChangedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getAccount*
+      name: getAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getRegistration*
+      name: getRegistration
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStateChangedEventArgs.getState*
+      name: getState
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus
+    name: ConnectedDevicesNotificationRegistrationStatus
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType
+    name: ConnectedDevicesNotificationType
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform
+    name: ConnectedDevicesPlatform
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform*
+      name: ConnectedDevicesPlatform
+      type: constructor
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getAccountManager*
+      name: getAccountManager
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getNotificationRegistrationManager*
+      name: getNotificationRegistrationManager
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification*
+      name: processNotification
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotificationAsync*
+      name: processNotificationAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.shutdownAsync*
+      name: shutdownAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.start*
+      name: start
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings
+    name: ConnectedDevicesPlatformSettings
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings*
+      name: ConnectedDevicesPlatformSettings
+      type: constructor
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.getStoragePath*
+      name: getStoragePath
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.setStoragePath*
+      name: setStoragePath
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation
+    name: ConnectedDevicesProcessNotificationOperation
+    items:
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification*
+      name: getIsConnectedDevicesNotification
+      type: method
+    - uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync*
+      name: waitForCompletionAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.ConnectedDevicesRemoveAccountResult
+    name: ConnectedDevicesRemoveAccountResult
+  - uid: com.microsoft.connecteddevices.Event
+    name: Event
+    items:
+    - uid: com.microsoft.connecteddevices.Event.subscribe*
+      name: subscribe
+      type: method
+  - uid: com.microsoft.connecteddevices.EventListener
+    name: EventListener
+    items:
+    - uid: com.microsoft.connecteddevices.EventListener.onEvent*
+      name: onEvent
+      type: method
+  - uid: com.microsoft.connecteddevices.EventSubscription
+    name: EventSubscription
+    items:
+    - uid: com.microsoft.connecteddevices.EventSubscription.cancel*
+      name: cancel
+      type: method
+  - uid: com.microsoft.connecteddevices.SdkException
+    name: SdkException
+- uid: com.microsoft.connecteddevices.remotesystems
+  name: com.microsoft.connecteddevices.remotesystems
   items:
-  - uid: "com.microsoft.store.partnercenter.domains.DomainCollectionOperations"
-    name: "DomainCollectionOperations"
-  - uid: "com.microsoft.store.partnercenter.domains.DomainOperations"
-    name: "DomainOperations"
-  - uid: "com.microsoft.store.partnercenter.domains.IDomain"
-    name: "IDomain"
-  - uid: "com.microsoft.store.partnercenter.domains.IDomainCollection"
-    name: "IDomainCollection"
-- uid: "com.microsoft.store.partnercenter.network"
-  name: "com.microsoft.store.partnercenter.network"
+  - uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo
+    name: AppServiceInfo
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.AppServiceInfo*
+      name: AppServiceInfo
+      type: constructor
+    - uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getName*
+      name: getName
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.AppServiceInfo.getPackageId*
+      name: getPackageId
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem
+    name: RemoteSystem
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getApps*
+      name: getApps
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getDisplayName*
+      name: getDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getId*
+      name: getId
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getKind*
+      name: getKind
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getManufacturerDisplayName*
+      name: getManufacturerDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getModelDisplayName*
+      name: getModelDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter
+    name: RemoteSystemAccountFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAccountFilter.RemoteSystemAccountFilter*
+      name: RemoteSystemAccountFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs
+    name: RemoteSystemAddedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs.getRemoteSystem*
+      name: getRemoteSystem
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp
+    name: RemoteSystemApp
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAccounts*
+      name: getAccounts
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAppServices*
+      name: getAppServices
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getAttributes*
+      name: getAttributes
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getDisplayName*
+      name: getDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getId*
+      name: getId
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableByProximity*
+      name: getIsAvailableByProximity
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableBySpatialProximity*
+      name: getIsAvailableBySpatialProximity
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind
+    name: RemoteSystemAuthorizationKind
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter
+    name: RemoteSystemAuthorizationKindFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter*
+      name: RemoteSystemAuthorizationKindFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryType
+    name: RemoteSystemDiscoveryType
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter
+    name: RemoteSystemDiscoveryTypeFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemDiscoveryTypeFilter.RemoteSystemDiscoveryTypeFilter*
+      name: RemoteSystemDiscoveryTypeFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemEnumerationCompletedEventArgs
+    name: RemoteSystemEnumerationCompletedEventArgs
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemFilter
+    name: RemoteSystemFilter
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter
+    name: RemoteSystemKindFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter.RemoteSystemKindFilter*
+      name: RemoteSystemKindFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds
+    name: RemoteSystemKinds
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Desktop*
+      name: Desktop
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Holographic*
+      name: Holographic
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Hub*
+      name: Hub
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Iot*
+      name: Iot
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Laptop*
+      name: Laptop
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Phone*
+      name: Phone
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Tablet*
+      name: Tablet
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Xbox*
+      name: Xbox
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKind
+    name: RemoteSystemLocalVisibilityKind
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter
+    name: RemoteSystemLocalVisibilityKindFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter*
+      name: RemoteSystemLocalVisibilityKindFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform
+    name: RemoteSystemPlatform
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter
+    name: RemoteSystemPlatformFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatformFilter.RemoteSystemPlatformFilter*
+      name: RemoteSystemPlatformFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemRemovedEventArgs
+    name: RemoteSystemRemovedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemRemovedEventArgs.getRemoteSystem*
+      name: getRemoteSystem
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus
+    name: RemoteSystemStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusType
+    name: RemoteSystemStatusType
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter
+    name: RemoteSystemStatusTypeFilter
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatusTypeFilter.RemoteSystemStatusTypeFilter*
+      name: RemoteSystemStatusTypeFilter
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemUpdatedEventArgs
+    name: RemoteSystemUpdatedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemUpdatedEventArgs.getRemoteSystem*
+      name: getRemoteSystem
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher
+    name: RemoteSystemWatcher
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher*
+      name: RemoteSystemWatcher
+      type: constructor
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.enumerationCompleted*
+      name: enumerationCompleted
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.errorOccurred*
+      name: errorOccurred
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemAdded*
+      name: remoteSystemAdded
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemRemoved*
+      name: remoteSystemRemoved
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemUpdated*
+      name: remoteSystemUpdated
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.start*
+      name: start
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.stop*
+      name: stop
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError
+    name: RemoteSystemWatcherError
+  - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs
+    name: RemoteSystemWatcherErrorOccurredEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherErrorOccurredEventArgs.getError*
+      name: getError
+      type: method
+- uid: com.microsoft.connecteddevices.remotesystems.commanding
+  name: com.microsoft.connecteddevices.remotesystems.commanding
   items:
-  - uid: "com.microsoft.store.partnercenter.network.HttpStatusCode"
-    name: "HttpStatusCode"
-  - uid: "com.microsoft.store.partnercenter.network.IPartnerServiceClient"
-    name: "IPartnerServiceClient"
-  - uid: "com.microsoft.store.partnercenter.network.PartnerServiceClient"
-    name: "PartnerServiceClient"
-  - uid: "com.microsoft.store.partnercenter.network.PartnerServiceRetryStrategy"
-    name: "PartnerServiceRetryStrategy"
-- uid: "com.microsoft.store.partnercenter.models.query.filters"
-  name: "com.microsoft.store.partnercenter.models.query.filters"
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs
+    name: AppServiceClosedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus
+    name: AppServiceClosedStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection
+    name: AppServiceConnection
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection*
+      name: AppServiceConnection
+      type: constructor
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.close*
+      name: close
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.getAppServiceInfo*
+      name: getAppServiceInfo
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.openRemoteAsync*
+      name: openRemoteAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.requestReceived*
+      name: requestReceived
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendMessageAsync*
+      name: sendMessageAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendStatelessMessageAsync*
+      name: sendStatelessMessageAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.serviceClosed*
+      name: serviceClosed
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.setAppServiceInfo*
+      name: setAppServiceInfo
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo
+    name: AppServiceConnectionOpenedInfo
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getAppServiceConnection*
+      name: getAppServiceConnection
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getRemoteSystemApp*
+      name: getRemoteSystemApp
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionStatus
+    name: AppServiceConnectionStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider
+    name: AppServiceProvider
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.getAppServiceInfo*
+      name: getAppServiceInfo
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.onConnectionOpened*
+      name: onConnectionOpened
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest
+    name: AppServiceRequest
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.getMessage*
+      name: getMessage
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.sendResponseAsync*
+      name: sendResponseAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs
+    name: AppServiceRequestReceivedEventArgs
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs.getRequest*
+      name: getRequest
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse
+    name: AppServiceResponse
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getMessage*
+      name: getMessage
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus
+    name: AppServiceResponseStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider
+    name: LaunchUriProvider
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider.getSupportedUriSchemes*
+      name: getSupportedUriSchemes
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider.onLaunchUriAsync*
+      name: onLaunchUriAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher
+    name: RemoteLauncher
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.RemoteLauncher*
+      name: RemoteLauncher
+      type: constructor
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncher.launchUriAsync*
+      name: launchUriAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions
+    name: RemoteLauncherOptions
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions*
+      name: RemoteLauncherOptions
+      type: constructor
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getFallbackUri*
+      name: getFallbackUri
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getPreferredPackageIds*
+      name: getPreferredPackageIds
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setFallbackUri*
+      name: setFallbackUri
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.setPreferredPackageIds*
+      name: setPreferredPackageIds
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLaunchUriStatus
+    name: RemoteLaunchUriStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration
+    name: RemoteSystemAppRegistration
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAccount*
+      name: getAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAppServiceProviders*
+      name: getAppServiceProviders
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAttributes*
+      name: getAttributes
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getForAccount*
+      name: getForAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getLaunchUriProvider*
+      name: getLaunchUriProvider
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.publishAsync*
+      name: publishAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.saveAsync*
+      name: saveAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAppServiceProviders*
+      name: setAppServiceProviders
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setAttributes*
+      name: setAttributes
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setLaunchUriProvider*
+      name: setLaunchUriProvider
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult
+    name: RemoteSystemAppRegistrationPublishResult
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus
+    name: RemoteSystemAppRegistrationPublishStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo
+    name: RemoteSystemConnectionInfo
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.getIsProximal*
+      name: getIsProximal
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionInfo.tryCreateFromAppServiceConnection*
+      name: tryCreateFromAppServiceConnection
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest
+    name: RemoteSystemConnectionRequest
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemConnectionRequest.RemoteSystemConnectionRequest*
+      name: RemoteSystemConnectionRequest
+      type: constructor
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse
+    name: StatelessAppServiceResponse
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getMessage*
+      name: getMessage
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getStatus*
+      name: getStatus
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus
+    name: StatelessAppServiceResponseStatus
+- uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+  name: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
   items:
-  - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilter"
-    name: "FieldFilter"
-  - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldFilterOperation"
-    name: "FieldFilterOperation"
-  - uid: "com.microsoft.store.partnercenter.models.query.filters.FieldType"
-    name: "FieldType"
-  - uid: "com.microsoft.store.partnercenter.models.query.filters.IFilterExpressionGenerator"
-    name: "IFilterExpressionGenerator"
-  - uid: "com.microsoft.store.partnercenter.models.query.filters.SimpleFieldFilter"
-    name: "SimpleFieldFilter"
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider
+    name: NearShareFileProvider
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getFileName*
+      name: getFileName
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getSize*
+      name: getSize
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.open*
+      name: open
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper
+    name: NearShareHelper
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper.createNearShareFileFromContentUri*
+      name: createNearShareFileFromContentUri
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress
+    name: NearShareProgress
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.bytesSent
+      name: bytesSent
+      type: field
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.filesSent
+      name: filesSent
+      type: field
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalBytesToSend
+      name: totalBytesToSend
+      type: field
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalFilesToSend
+      name: totalFilesToSend
+      type: field
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender
+    name: NearShareSender
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.NearShareSender*
+      name: NearShareSender
+      type: constructor
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.isNearShareSupported*
+      name: isNearShareSupported
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFileAsync*
+      name: sendFileAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendFilesAsync*
+      name: sendFilesAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.sendUriAsync*
+      name: sendUriAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus
+    name: NearShareStatus
+  - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream
+    name: NearShareStream
+    items:
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.close*
+      name: close
+      type: method
+    - uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream.read*
+      name: read
+      type: method
+- uid: com.microsoft.connecteddevices.userdata
+  name: com.microsoft.connecteddevices.userdata
+  items:
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeed
+    name: UserDataFeed
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getDaysToSync*
+      name: getDaysToSync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getForAccount*
+      name: getForAccount
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getSyncStatus*
+      name: getSyncStatus
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.setDaysToSync*
+      name: setDaysToSync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.startSync*
+      name: startSync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesAsync*
+      name: subscribeToSyncScopesAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesWithResultAsync*
+      name: subscribeToSyncScopesWithResultAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeed.syncStatusChanged*
+      name: syncStatusChanged
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes
+    name: UserDataFeedNotificationTypes
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.noNotification*
+      name: noNotification
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationOnly*
+      name: notificationOnly
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedNotificationTypes.notificationWithPayload*
+      name: notificationWithPayload
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms
+    name: UserDataFeedPlatforms
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.all*
+      name: all
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.android*
+      name: android
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.iOS*
+      name: iOS
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.linux*
+      name: linux
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windows32*
+      name: windows32
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windowsUWP*
+      name: windowsUWP
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult
+    name: UserDataFeedSubscribeResult
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getStatus*
+      name: getStatus
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult.getSubscription*
+      name: getSubscription
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus
+    name: UserDataFeedSubscribeStatus
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription
+    name: UserDataFeedSubscription
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getExpirationTime*
+      name: getExpirationTime
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getSyncScopes*
+      name: getSyncScopes
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscription.getUserNotificationSubscriptionId*
+      name: getUserNotificationSubscriptionId
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope
+    name: UserDataFeedSyncScope
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getNotificationType*
+      name: getNotificationType
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getPlatform*
+      name: getPlatform
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getSyncScopeFlags*
+      name: getSyncScopeFlags
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setNotificationType*
+      name: setNotificationType
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setPlatform*
+      name: setPlatform
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setSyncScopeFlags*
+      name: setSyncScopeFlags
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags
+    name: UserDataFeedSyncScopeFlags
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags.excludeAutoGenerated*
+      name: excludeAutoGenerated
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags.includeWebActionable*
+      name: includeWebActionable
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatus
+    name: UserDataFeedSyncStatus
+  - uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncStatusChangedEventArgs
+    name: UserDataFeedSyncStatusChangedEventArgs
+- uid: com.microsoft.connecteddevices.userdata.clipboard
+  name: com.microsoft.connecteddevices.userdata.clipboard
+  items:
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel
+    name: ClipboardChannel
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.ClipboardChannel*
+      name: ClipboardChannel
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createItem*
+      name: createItem
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReader*
+      name: createReader
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithOptions*
+      name: createReaderWithOptions
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithState*
+      name: createReaderWithState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItems*
+      name: deleteAllItems
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItemsAsync*
+      name: deleteAllItemsAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItem*
+      name: deleteItem
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItemAsync*
+      name: deleteItemAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItem*
+      name: getItem
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItemAsync*
+      name: getItemAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getSyncScope*
+      name: getSyncScope
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem
+    name: ClipboardItem
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getCreationTime*
+      name: getCreationTime
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getData*
+      name: getData
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getItemId*
+      name: getItemId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getSourceFriendlyName*
+      name: getSourceFriendlyName
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getStatus*
+      name: getStatus
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.saveAsync*
+      name: saveAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.statusChanged*
+      name: statusChanged
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters
+    name: ClipboardItemOriginFilters
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemSaveResult
+    name: ClipboardItemSaveResult
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters
+    name: ClipboardItemStateFilters
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatus
+    name: ClipboardItemStatus
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStatusChangedEventArgs
+    name: ClipboardItemStatusChangedEventArgs
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader
+    name: ClipboardReader
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.dataChanged*
+      name: dataChanged
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.getSerializedState*
+      name: getSerializedState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatch*
+      name: readBatch
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader.readBatchAsync*
+      name: readBatchAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderDataChangedEventArgs
+    name: ClipboardReaderDataChangedEventArgs
+  - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions
+    name: ClipboardReaderOptions
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.ClipboardReaderOptions*
+      name: ClipboardReaderOptions
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getOriginFilters*
+      name: getOriginFilters
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getStateFilters*
+      name: getStateFilters
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setOriginFilters*
+      name: setOriginFilters
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setStateFilters*
+      name: setStateFilters
+      type: method
+- uid: com.microsoft.connecteddevices.userdata.useractivities
+  name: com.microsoft.connecteddevices.userdata.useractivities
+  items:
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity
+    name: UserActivity
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.UserActivity*
+      name: UserActivity
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.createSession*
+      name: createSession
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivationUri*
+      name: getActivationUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivityId*
+      name: getActivityId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getAppDisplayName*
+      name: getAppDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentInfoJson*
+      name: getContentInfoJson
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentType*
+      name: getContentType
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getContentUri*
+      name: getContentUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getFallbackUri*
+      name: getFallbackUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getIsRoamable*
+      name: getIsRoamable
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getState*
+      name: getState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getVisualElements*
+      name: getVisualElements
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.saveAsync*
+      name: saveAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setActivationUri*
+      name: setActivationUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentInfoJson*
+      name: setContentInfoJson
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentType*
+      name: setContentType
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setContentUri*
+      name: setContentUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setFallbackUri*
+      name: setFallbackUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setIsRoamable*
+      name: setIsRoamable
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.setVisualElements*
+      name: setVisualElements
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution
+    name: UserActivityAttribution
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution*
+      name: UserActivityAttribution
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAddImageQuery*
+      name: getAddImageQuery
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getAlternateText*
+      name: getAlternateText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.getIconUri*
+      name: getIconUri
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAddImageQuery*
+      name: setAddImageQuery
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setAlternateText*
+      name: setAlternateText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.setIconUri*
+      name: setIconUri
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel
+    name: UserActivityChannel
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.UserActivityChannel*
+      name: UserActivityChannel
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteActivityAsync*
+      name: deleteActivityAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.deleteAllActivitiesAsync*
+      name: deleteAllActivitiesAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getAppDisplayName*
+      name: getAppDisplayName
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getOrCreateUserActivityAsync*
+      name: getOrCreateUserActivityAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentSessionHistoryItemsForTimeRangeAsync*
+      name: getRecentSessionHistoryItemsForTimeRangeAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getRecentUserActivitiesAsync*
+      name: getRecentUserActivitiesAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSessionHistoryItemsForUserActivityAsync*
+      name: getSessionHistoryItemsForUserActivityAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSyncScope*
+      name: getSyncScope
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.setAppDisplayName*
+      name: setAppDisplayName
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession
+    name: UserActivitySession
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.close*
+      name: close
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.getActivityId*
+      name: getActivityId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession.stop*
+      name: stop
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem
+    name: UserActivitySessionHistoryItem
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getEndTime*
+      name: getEndTime
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getRemoteSystemId*
+      name: getRemoteSystemId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getStartTime*
+      name: getStartTime
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivitySessionHistoryItem.getUserActivity*
+      name: getUserActivity
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityState
+    name: UserActivityState
+  - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements
+    name: UserActivityVisualElements
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAdaptiveCardJson*
+      name: getAdaptiveCardJson
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttribution*
+      name: getAttribution
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttributionDisplayText*
+      name: getAttributionDisplayText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getBackgroundColor*
+      name: getBackgroundColor
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDescriptionText*
+      name: getDescriptionText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getDisplayText*
+      name: getDisplayText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAdaptiveCardJson*
+      name: setAdaptiveCardJson
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttribution*
+      name: setAttribution
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setAttributionDisplayText*
+      name: setAttributionDisplayText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setBackgroundColor*
+      name: setBackgroundColor
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDescriptionText*
+      name: setDescriptionText
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDisplayText*
+      name: setDisplayText
+      type: method
+- uid: com.microsoft.connecteddevices.userdata.usernotifications
+  name: com.microsoft.connecteddevices.userdata.usernotifications
+  items:
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification
+    name: UserNotification
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.UserNotification*
+      name: UserNotification
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getChangeTime*
+      name: getChangeTime
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getContent*
+      name: getContent
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getExpirationTime*
+      name: getExpirationTime
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getGroupId*
+      name: getGroupId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getId*
+      name: getId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getPriority*
+      name: getPriority
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getReadState*
+      name: getReadState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getStatus*
+      name: getStatus
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getUserActionState*
+      name: getUserActionState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.saveAsync*
+      name: saveAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setReadState*
+      name: setReadState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setUserActionState*
+      name: setUserActionState
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel
+    name: UserNotificationChannel
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.UserNotificationChannel*
+      name: UserNotificationChannel
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReader*
+      name: createReader
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithOptions*
+      name: createReaderWithOptions
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithState*
+      name: createReaderWithState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.deleteUserNotificationAsync*
+      name: deleteUserNotificationAsync
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.getSyncScope*
+      name: getSyncScope
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.getUserNotificationAsync*
+      name: getUserNotificationAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationPriority
+    name: UserNotificationPriority
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader
+    name: UserNotificationReader
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.UserNotificationReader*
+      name: UserNotificationReader
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.dataChanged*
+      name: dataChanged
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.getSerializedState*
+      name: getSerializedState
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.readBatchAsync*
+      name: readBatchAsync
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderDataChangedEventArgs
+    name: UserNotificationReaderDataChangedEventArgs
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions
+    name: UserNotificationReaderOptions
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.UserNotificationReaderOptions*
+      name: UserNotificationReaderOptions
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getReadStateFilter*
+      name: getReadStateFilter
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getStartPosition*
+      name: getStartPosition
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getUserActionStateFilter*
+      name: getUserActionStateFilter
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setReadStateFilter*
+      name: setReadStateFilter
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStartPosition*
+      name: setStartPosition
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setStatusFilter*
+      name: setStatusFilter
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.setUserActionStateFilter*
+      name: setUserActionStateFilter
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition
+    name: UserNotificationReaderStartPosition
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState
+    name: UserNotificationReadState
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter
+    name: UserNotificationReadStateFilter
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatus
+    name: UserNotificationStatus
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationStatusFilter
+    name: UserNotificationStatusFilter
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult
+    name: UserNotificationUpdateResult
+    items:
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.UserNotificationUpdateResult*
+      name: UserNotificationUpdateResult
+      type: constructor
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getNotificationId*
+      name: getNotificationId
+      type: method
+    - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getSucceeded*
+      name: getSucceeded
+      type: method
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState
+    name: UserNotificationUserActionState
+  - uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter
+    name: UserNotificationUserActionStateFilter

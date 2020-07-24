@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScope.getSyncScopeFlags()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getSyncScopeFlags()
+  name: getSyncScopeFlags()
+  nameWithType: UserDataFeedSyncScope.getSyncScopeFlags()
+  returns:
+    description: <p>set of flags for sync scope (see **UserDataFeedSyncScopeFlags**). </p>
+    type: <xref href="List%3CString%3E?alt=List<String>&text=List%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Set any optional flags for filtering incoming activities. </p>
+  syntax: public List<String> getSyncScopeFlags()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getSyncScopeFlags()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getSyncScopeFlags*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getSyncScopeFlags()
+name: getSyncScopeFlags()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

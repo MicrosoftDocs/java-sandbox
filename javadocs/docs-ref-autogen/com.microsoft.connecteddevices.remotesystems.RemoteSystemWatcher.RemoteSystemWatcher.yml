@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.RemoteSystemWatcher
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher()
+  name: RemoteSystemWatcher()
+  nameWithType: RemoteSystemWatcher.RemoteSystemWatcher()
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public RemoteSystemWatcher()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher()
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher(@NonNull Collection<RemoteSystemFilter> filters)
+  name: RemoteSystemWatcher(@NonNull Collection<RemoteSystemFilter> filters)
+  nameWithType: RemoteSystemWatcher.RemoteSystemWatcher(@NonNull Collection<RemoteSystemFilter> filters)
+  parameters:
+  - description: <p>An array of **RemoteSystemFilter** instances to use in the device discovery process. </p>
+    name: filters
+    type: '@NonNull Collection&lt;<xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemFilter?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemFilter&text=RemoteSystemFilter" data-throw-if-not-resolved="False"/>&gt;'
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public RemoteSystemWatcher(@NonNull Collection<RemoteSystemFilter> filters)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher(@NonNull Collection<RemoteSystemFilter>)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.RemoteSystemWatcher
+name: RemoteSystemWatcher
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

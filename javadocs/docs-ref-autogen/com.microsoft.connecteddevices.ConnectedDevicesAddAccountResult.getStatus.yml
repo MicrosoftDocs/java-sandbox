@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAddAccountResult.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult.getStatus()
+  name: getStatus()
+  nameWithType: ConnectedDevicesAddAccountResult.getStatus()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus" data-throw-if-not-resolved="false">ConnectedDevicesAccountAddedStatus</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountAddedStatus&text=ConnectedDevicesAccountAddedStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve add account operation status </p>
+  syntax: public ConnectedDevicesAccountAddedStatus getStatus()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult.getStatus()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult.getStatus*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices
+metadata: {}

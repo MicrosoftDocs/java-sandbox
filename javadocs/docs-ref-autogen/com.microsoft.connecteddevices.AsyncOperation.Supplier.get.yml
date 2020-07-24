@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation.Supplier<T>.get()
+type: method
+members:
+- fullName: T com.microsoft.connecteddevices.AsyncOperation<T>.Supplier<T>.get()
+  name: get()
+  nameWithType: AsyncOperation.Supplier<T>.get()
+  returns:
+    description: <p>Value that the interface supplies. </p>
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  summary: <p>Get a value </p>
+  syntax: public T get()
+  uid: com.microsoft.connecteddevices.AsyncOperation.Supplier.get()
+uid: com.microsoft.connecteddevices.AsyncOperation.Supplier.get*
+fullName: T com.microsoft.connecteddevices.AsyncOperation<T>.Supplier<T>.get()
+name: get()
+package: com.microsoft.connecteddevices
+metadata: {}

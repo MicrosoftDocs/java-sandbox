@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnectionOpenedInfo.getAppServiceConnection()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getAppServiceConnection()
+  name: getAppServiceConnection()
+  nameWithType: AppServiceConnectionOpenedInfo.getAppServiceConnection()
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection" data-throw-if-not-resolved="false">AppServiceConnection</xref> instance representing the connection between the local app service and the remote device. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection&text=AppServiceConnection" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the remote app service connection. </p>
+  syntax: public AppServiceConnection getAppServiceConnection()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getAppServiceConnection()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getAppServiceConnection*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getAppServiceConnection()
+name: getAppServiceConnection()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

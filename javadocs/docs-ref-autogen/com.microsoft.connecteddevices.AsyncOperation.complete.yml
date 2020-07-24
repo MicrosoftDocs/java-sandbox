@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.complete(T value)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.complete(T value)
+  name: complete(T value)
+  nameWithType: AsyncOperation<T>.complete(T value)
+  parameters:
+  - description: <p>The result of the operation, or null for a successful but empty result. </p>
+    name: value
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Completes this operate with a given value.</p>
+
+    <p></p>
+  syntax: public final void complete(T value)
+  uid: com.microsoft.connecteddevices.AsyncOperation.complete(T)
+uid: com.microsoft.connecteddevices.AsyncOperation.complete*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.complete(T value)
+name: complete(T value)
+package: com.microsoft.connecteddevices
+metadata: {}

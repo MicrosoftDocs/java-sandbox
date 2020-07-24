@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesNotification.getCorrelationVectors()
+- com.microsoft.connecteddevices.ConnectedDevicesNotification.tryParse(@NonNull Map)
+nameWithType: ConnectedDevicesNotification
+syntax: public class ConnectedDevicesNotification
+summary: <p>Object that represents an incoming notification to be processed by the Connected Devices Platform </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotification
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotification
+name: ConnectedDevicesNotification
+package: com.microsoft.connecteddevices

@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getAppServiceConnection()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo.getRemoteSystemApp()
+nameWithType: AppServiceConnectionOpenedInfo
+syntax: public class AppServiceConnectionOpenedInfo
+summary: <p>This class provides data for the <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider" data-throw-if-not-resolved="false">#onConnectionOpened</xref> event, which is raised when a remote device opens a connection to a local app service. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnectionOpenedInfo
+name: AppServiceConnectionOpenedInfo
+package: com.microsoft.connecteddevices.remotesystems.commanding

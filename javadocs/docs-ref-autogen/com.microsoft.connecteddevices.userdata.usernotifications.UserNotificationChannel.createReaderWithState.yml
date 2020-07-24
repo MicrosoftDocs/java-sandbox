@@ -1,0 +1,20 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationChannel.createReaderWithState(@NonNull String serializedState)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithState(@NonNull String serializedState)
+  name: createReaderWithState(@NonNull String serializedState)
+  nameWithType: UserNotificationChannel.createReaderWithState(@NonNull String serializedState)
+  parameters:
+  - name: serializedState
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader&text=UserNotificationReader" data-throw-if-not-resolved="False"/>
+  summary: <p>Create a user notification reader to receive and manage user notifications published by app server. The reader will start at the provided tracking state. </p>
+  syntax: public UserNotificationReader createReaderWithState(@NonNull String serializedState)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithState(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithState*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithState(@NonNull String serializedState)
+name: createReaderWithState(@NonNull String serializedState)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

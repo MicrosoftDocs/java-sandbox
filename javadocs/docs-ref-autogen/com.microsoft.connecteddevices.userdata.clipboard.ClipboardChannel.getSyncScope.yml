@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.getSyncScope()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getSyncScope()
+  name: getSyncScope()
+  nameWithType: ClipboardChannel.getSyncScope()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope&text=UserDataFeedSyncScope" data-throw-if-not-resolved="False"/>
+  syntax: public static UserDataFeedSyncScope getSyncScope()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getSyncScope()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getSyncScope*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getSyncScope()
+name: getSyncScope()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

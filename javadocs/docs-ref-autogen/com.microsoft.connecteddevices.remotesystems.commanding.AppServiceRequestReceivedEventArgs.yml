@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs.getRequest()
+nameWithType: AppServiceRequestReceivedEventArgs
+syntax: public class AppServiceRequestReceivedEventArgs
+summary: <p>Contains data associated with a "request received" event. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequestReceivedEventArgs
+name: AppServiceRequestReceivedEventArgs
+package: com.microsoft.connecteddevices.remotesystems.commanding

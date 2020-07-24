@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.getNumberOfDependents()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.getNumberOfDependents()
+  name: getNumberOfDependents()
+  nameWithType: AsyncOperation<T>.getNumberOfDependents()
+  returns:
+    description: <p>number of operations currently awaiting this operation to complete. </p>
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Gets an estimated number of operations that are dependent on this operation. This is not intended to be used for synchronization / scheduling purposes.</p>
+
+    <p></p>
+  syntax: public int getNumberOfDependents()
+  uid: com.microsoft.connecteddevices.AsyncOperation.getNumberOfDependents()
+uid: com.microsoft.connecteddevices.AsyncOperation.getNumberOfDependents*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.getNumberOfDependents()
+name: getNumberOfDependents()
+package: com.microsoft.connecteddevices
+metadata: {}

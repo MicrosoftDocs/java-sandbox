@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.start()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.start()
+  name: start()
+  nameWithType: RemoteSystemWatcher.start()
+  summary: <p>Start the discovery process until stop is called. </p>
+  syntax: public void start()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.start()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.start*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.start()
+name: start()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

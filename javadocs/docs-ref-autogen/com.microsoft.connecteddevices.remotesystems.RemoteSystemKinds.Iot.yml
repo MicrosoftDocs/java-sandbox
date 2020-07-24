@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Iot()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Iot()
+  name: Iot()
+  nameWithType: RemoteSystemKinds.Iot()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the IoT device type. </p>
+  syntax: public static native String Iot()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Iot()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Iot*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Iot()
+name: Iot()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs.getRequest()
+nameWithType: ConnectedDevicesAccessTokenRequestedEventArgs
+syntax: public class ConnectedDevicesAccessTokenRequestedEventArgs
+summary: <p>Returned by <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">#AccessTokenRequested</xref> fired when there is a need to request a token. Contains the <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest" data-throw-if-not-resolved="false">ConnectedDevicesAccessTokenRequest</xref>. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequestedEventArgs
+name: ConnectedDevicesAccessTokenRequestedEventArgs
+package: com.microsoft.connecteddevices

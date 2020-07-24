@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.getStartPosition()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getStartPosition()
+  name: getStartPosition()
+  nameWithType: UserNotificationReaderOptions.getStartPosition()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderStartPosition&text=UserNotificationReaderStartPosition" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the start position for this instance of UserNotificationReaderOptions. </p>
+  syntax: public UserNotificationReaderStartPosition getStartPosition()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getStartPosition()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getStartPosition*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getStartPosition()
+name: getStartPosition()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

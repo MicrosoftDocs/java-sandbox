@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Laptop()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Laptop()
+  name: Laptop()
+  nameWithType: RemoteSystemKinds.Laptop()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the laptop device type.&gt;[!NOTE] All Microsoft Surface devices, including the Surface Book, are considered tablet devices. </p>
+  syntax: public static native String Laptop()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Laptop()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Laptop*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Laptop()
+name: Laptop()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

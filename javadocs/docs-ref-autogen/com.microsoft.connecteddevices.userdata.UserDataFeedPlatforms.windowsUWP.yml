@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedPlatforms.windowsUWP()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windowsUWP()
+  name: windowsUWP()
+  nameWithType: UserDataFeedPlatforms.windowsUWP()
+  returns:
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  syntax: public static native String windowsUWP()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windowsUWP()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windowsUWP*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windowsUWP()
+name: windowsUWP()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

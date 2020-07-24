@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration()
+  name: ConnectedDevicesNotificationRegistration()
+  nameWithType: ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration()
+  summary: <p>Creates a new instance of this class with the given notification type, token, app ID, and app name.&gt;[!NOTE] Refer to the documentation of your chosen notification service to understand the limitations of said service, such as incompatibility in certain regions of the world. </p>
+  syntax: public ConnectedDevicesNotificationRegistration()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.ConnectedDevicesNotificationRegistration
+name: ConnectedDevicesNotificationRegistration
+package: com.microsoft.connecteddevices
+metadata: {}

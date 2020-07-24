@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs.getRemoteSystem()
+nameWithType: RemoteSystemAddedEventArgs
+syntax: public class RemoteSystemAddedEventArgs
+summary: <p>Event arguments for the RemoteSystemWatcher RemoteSystemAdded event. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs
+name: RemoteSystemAddedEventArgs
+package: com.microsoft.connecteddevices.remotesystems

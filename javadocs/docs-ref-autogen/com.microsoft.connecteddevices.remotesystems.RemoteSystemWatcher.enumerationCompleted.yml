@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.enumerationCompleted()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.enumerationCompleted()
+  name: enumerationCompleted()
+  nameWithType: RemoteSystemWatcher.enumerationCompleted()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher&text=RemoteSystemWatcher" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemEnumerationCompletedEventArgs?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemEnumerationCompletedEventArgs&text=RemoteSystemEnumerationCompletedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when the initial discovery of currently-discoverable devices has finished. The discovery process will continue to run and will raise additional events if the set of existing remote systems changes. </p>
+  syntax: public Event<RemoteSystemWatcher, RemoteSystemEnumerationCompletedEventArgs> enumerationCompleted()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.enumerationCompleted()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.enumerationCompleted*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.enumerationCompleted()
+name: enumerationCompleted()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKinds.Phone()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Phone()
+  name: Phone()
+  nameWithType: RemoteSystemKinds.Phone()
+  returns:
+    description: <p>A String for the canonical name. </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the canonical name for the phone device type. </p>
+  syntax: public static native String Phone()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Phone()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Phone*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKinds.Phone()
+name: Phone()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

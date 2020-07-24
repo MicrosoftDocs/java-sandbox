@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.UserNotificationUpdateResult(NativeObject)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getNotificationId()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult.getSucceeded()
+nameWithType: UserNotificationUpdateResult
+syntax: public class UserNotificationUpdateResult
+summary: <p>This class provides the success and failure status for attempts to update a notification’s state. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUpdateResult
+name: UserNotificationUpdateResult
+package: com.microsoft.connecteddevices.userdata.usernotifications

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationChannel.createReader()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReader()
+  name: createReader()
+  nameWithType: UserNotificationChannel.createReader()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader&text=UserNotificationReader" data-throw-if-not-resolved="False"/>
+  summary: <p>Create a user notification reader to receive and manage user notifications published by app server. </p>
+  syntax: public UserNotificationReader createReader()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReader()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReader*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReader()
+name: createReader()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

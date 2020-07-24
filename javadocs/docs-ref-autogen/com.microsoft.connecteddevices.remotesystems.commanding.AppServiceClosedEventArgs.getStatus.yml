@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceClosedEventArgs.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs.getStatus()
+  name: getStatus()
+  nameWithType: AppServiceClosedEventArgs.getStatus()
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus" data-throw-if-not-resolved="false">AppServiceClosedStatus</xref></p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedStatus&text=AppServiceClosedStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the status of how the app service closed </p>
+  syntax: public AppServiceClosedStatus getStatus()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs.getStatus()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs.getStatus*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

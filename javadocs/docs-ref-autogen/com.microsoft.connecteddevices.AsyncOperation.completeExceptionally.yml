@@ -1,0 +1,24 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.completeExceptionally(@NonNull Throwable ex)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.completeExceptionally(@NonNull Throwable ex)
+  name: completeExceptionally(@NonNull Throwable ex)
+  nameWithType: AsyncOperation<T>.completeExceptionally(@NonNull Throwable ex)
+  parameters:
+  - description: <p>Throwable with which to complete the operation. </p>
+    name: ex
+    type: <xref href="%40NonNull+Throwable?alt=@NonNull Throwable&text=%40NonNull+Throwable" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="final+void?alt=final void&text=final+void" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Sets the exception that will be thrown when the future value is retrieved, and marks the future done.</p>
+
+    <p></p>
+  syntax: public final void completeExceptionally(@NonNull Throwable ex)
+  uid: com.microsoft.connecteddevices.AsyncOperation.completeExceptionally(@NonNull Throwable)
+uid: com.microsoft.connecteddevices.AsyncOperation.completeExceptionally*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.completeExceptionally(@NonNull Throwable ex)
+name: completeExceptionally(@NonNull Throwable ex)
+package: com.microsoft.connecteddevices
+metadata: {}

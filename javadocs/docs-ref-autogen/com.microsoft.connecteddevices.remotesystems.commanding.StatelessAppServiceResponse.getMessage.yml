@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: StatelessAppServiceResponse.getMessage()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getMessage()
+  name: getMessage()
+  nameWithType: StatelessAppServiceResponse.getMessage()
+  returns:
+    description: <p>A **Map** object containing String keys mapped to values of variable types. For the value types in the retured map, </p>
+    type: <xref href="Map%3CString%2C+Object%3E?alt=Map<String, Object>&text=Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the message sent by the remote app service, consisting of key/value pairs. </p>
+  syntax: public Map<String, Object> getMessage()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getMessage()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getMessage*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponse.getMessage()
+name: getMessage()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

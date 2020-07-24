@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityAttribution.UserActivityAttribution
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution()
+  name: UserActivityAttribution()
+  nameWithType: UserActivityAttribution.UserActivityAttribution()
+  summary: <p>Create an instance of attribution. </p>
+  syntax: public UserActivityAttribution()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution()
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution(@NonNull String iconUri)
+  name: UserActivityAttribution(@NonNull String iconUri)
+  nameWithType: UserActivityAttribution.UserActivityAttribution(@NonNull String iconUri)
+  parameters:
+  - description: <p>The URI String. </p>
+    name: iconUri
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Create an instance of attribution </p>
+  syntax: public UserActivityAttribution(@NonNull String iconUri)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution.UserActivityAttribution
+name: UserActivityAttribution
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

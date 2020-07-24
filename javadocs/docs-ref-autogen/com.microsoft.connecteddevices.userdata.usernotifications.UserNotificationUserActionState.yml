@@ -1,0 +1,50 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.ACTIVATED
+  name: ACTIVATED
+  nameWithType: UserNotificationUserActionState.ACTIVATED
+  summary: <p>Activated state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.ACTIVATED
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.DISMISSED
+  name: DISMISSED
+  nameWithType: UserNotificationUserActionState.DISMISSED
+  summary: <p>Dismissed state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.DISMISSED
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.NO_INTERACTION
+  name: NO_INTERACTION
+  nameWithType: UserNotificationUserActionState.NO_INTERACTION
+  summary: <p>NoInteraction state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.NO_INTERACTION
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.SNOOZED
+  name: SNOOZED
+  nameWithType: UserNotificationUserActionState.SNOOZED
+  summary: <p>Snoozed state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.SNOOZED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationUserActionState&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationUserActionState.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState&text=UserNotificationUserActionState" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationUserActionState fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.getValue()
+  name: getValue()
+  nameWithType: UserNotificationUserActionState.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState.getValue()
+nameWithType: UserNotificationUserActionState
+syntax: public enum UserNotificationUserActionState
+summary: <p>Contains values that determines the user action state of each UserNotification. Notifications can be marked as Activated, Dismissed, or Snoozed by the app. The app gets to define the corresponding user experience. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState
+name: UserNotificationUserActionState
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

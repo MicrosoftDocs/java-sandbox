@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.setReadState(@NonNull UserNotificationReadState readState)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setReadState(@NonNull UserNotificationReadState readState)
+  name: setReadState(@NonNull UserNotificationReadState readState)
+  nameWithType: UserNotification.setReadState(@NonNull UserNotificationReadState readState)
+  parameters:
+  - name: readState
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState&text=UserNotificationReadState" data-throw-if-not-resolved="False"/>'
+  summary: <p>Sets the read state for this user notification, the change once made and saved will be published to all devices. </p>
+  syntax: public void setReadState(@NonNull UserNotificationReadState readState)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setReadState(@NonNull UserNotificationReadState)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setReadState*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.setReadState(@NonNull UserNotificationReadState readState)
+name: setReadState(@NonNull UserNotificationReadState readState)
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

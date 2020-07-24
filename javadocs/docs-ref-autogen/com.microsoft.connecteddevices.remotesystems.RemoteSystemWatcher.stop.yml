@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.stop()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.stop()
+  name: stop()
+  nameWithType: RemoteSystemWatcher.stop()
+  summary: <p>Stops the active discovery. </p>
+  syntax: public void stop()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.stop()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.stop*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.stop()
+name: stop()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

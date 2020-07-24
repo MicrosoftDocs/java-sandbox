@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation.ResultFunction<T,R>.apply(T t)
+type: method
+members:
+- fullName: R com.microsoft.connecteddevices.AsyncOperation<T>.ResultFunction<T, R>.apply(T t)
+  name: apply(T t)
+  nameWithType: AsyncOperation.ResultFunction<T,R>.apply(T t)
+  parameters:
+  - description: <p>First input argument to the consumer </p>
+    name: t
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>result of the operation </p>
+    type: <xref href="R?alt=R&text=R" data-throw-if-not-resolved="False"/>
+  summary: <p>Performs the operation on the given argument and produces a result </p>
+  syntax: public R apply(T t)
+  uid: com.microsoft.connecteddevices.AsyncOperation.ResultFunction.apply(T)
+uid: com.microsoft.connecteddevices.AsyncOperation.ResultFunction.apply*
+fullName: R com.microsoft.connecteddevices.AsyncOperation<T>.ResultFunction<T, R>.apply(T t)
+name: apply(T t)
+package: com.microsoft.connecteddevices
+metadata: {}

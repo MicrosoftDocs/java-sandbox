@@ -1,0 +1,50 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.ERROR_NO_NETWORK
+  name: ERROR_NO_NETWORK
+  nameWithType: UserDataFeedSubscribeStatus.ERROR_NO_NETWORK
+  summary: <p>The account operation failed because there was no network. </p>
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.ERROR_NO_NETWORK
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.ERROR_UNKNOWN
+  name: ERROR_UNKNOWN
+  nameWithType: UserDataFeedSubscribeStatus.ERROR_UNKNOWN
+  summary: <p>The account operation failed for unknown reasons. </p>
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.ERROR_UNKNOWN
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.ERROR_WEB_FAILURE
+  name: ERROR_WEB_FAILURE
+  nameWithType: UserDataFeedSubscribeStatus.ERROR_WEB_FAILURE
+  summary: <p>The account operation failed due to a web service error. </p>
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.ERROR_WEB_FAILURE
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: UserDataFeedSubscribeStatus.SUCCESS
+  summary: <p>The account was successfully added to the platform. </p>
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.SUCCESS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserDataFeedSubscribeStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserDataFeedSubscribeStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus&text=UserDataFeedSubscribeStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static UserDataFeedSubscribeStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.getValue()
+  name: getValue()
+  nameWithType: UserDataFeedSubscribeStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus.getValue()
+nameWithType: UserDataFeedSubscribeStatus
+syntax: public enum UserDataFeedSubscribeStatus
+summary: <p>Contains the values that describe the add account operation status </p>
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeStatus
+name: UserDataFeedSubscribeStatus
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

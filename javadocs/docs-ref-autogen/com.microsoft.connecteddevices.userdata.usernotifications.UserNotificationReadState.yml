@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.READ
+  name: READ
+  nameWithType: UserNotificationReadState.READ
+  summary: <p>Read state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.READ
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.UNREAD
+  name: UNREAD
+  nameWithType: UserNotificationReadState.UNREAD
+  summary: <p>Unread state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.UNREAD
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationReadState&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationReadState.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState&text=UserNotificationReadState" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationReadState fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.getValue()
+  name: getValue()
+  nameWithType: UserNotificationReadState.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState.getValue()
+nameWithType: UserNotificationReadState
+syntax: public enum UserNotificationReadState
+summary: <p>Contains values that determines the read state of each UserNotification. Notifications can be marked as Read or Unread by the app. The app gets to define the corresponding user experience. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadState
+name: UserNotificationReadState
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

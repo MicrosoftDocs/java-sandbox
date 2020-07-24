@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getActivityId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivityId()
+  name: getActivityId()
+  nameWithType: UserActivity.getActivityId()
+  returns:
+    description: <p>The ID String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the unique ID for this activity. </p>
+  syntax: public String getActivityId()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivityId()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivityId*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getActivityId()
+name: getActivityId()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

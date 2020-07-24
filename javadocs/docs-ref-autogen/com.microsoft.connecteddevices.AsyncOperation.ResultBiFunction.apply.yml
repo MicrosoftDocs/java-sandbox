@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation.ResultBiFunction<T,U,R>.apply(T t, U u)
+type: method
+members:
+- fullName: R com.microsoft.connecteddevices.AsyncOperation<T>.ResultBiFunction<T, U, R>.apply(T t, U u)
+  name: apply(T t, U u)
+  nameWithType: AsyncOperation.ResultBiFunction<T,U,R>.apply(T t, U u)
+  parameters:
+  - description: <p>First input argument to the consumer </p>
+    name: t
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  - description: <p>Second input argument to the consumer </p>
+    name: u
+    type: <xref href="U?alt=U&text=U" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>result of the operation </p>
+    type: <xref href="R?alt=R&text=R" data-throw-if-not-resolved="False"/>
+  summary: <p>Performs the operation on the given arguments and produces a result </p>
+  syntax: public R apply(T t, U u)
+  uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiFunction.apply(T,U)
+uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiFunction.apply*
+fullName: R com.microsoft.connecteddevices.AsyncOperation<T>.ResultBiFunction<T, U, R>.apply(T t, U u)
+name: apply(T t, U u)
+package: com.microsoft.connecteddevices
+metadata: {}

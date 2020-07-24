@@ -1,0 +1,28 @@
+### YamlMime:JavaMember
+nameWithType: RemoteLauncherOptions.RemoteLauncherOptions
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions()
+  name: RemoteLauncherOptions()
+  nameWithType: RemoteLauncherOptions.RemoteLauncherOptions()
+  summary: <p>Initializes an instance of this class with default values. </p>
+  syntax: public RemoteLauncherOptions()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions()
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions(@Nullable String fallbackUri, @Nullable Collection<String> preferredPackageIds)
+  name: RemoteLauncherOptions(@Nullable String fallbackUri, @Nullable Collection<String> preferredPackageIds)
+  nameWithType: RemoteLauncherOptions.RemoteLauncherOptions(@Nullable String fallbackUri, @Nullable Collection<String> preferredPackageIds)
+  parameters:
+  - description: <p>The URI of the website to open in the event that the original URI cannot be handled by the intended app. </p>
+    name: fallbackUri
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  - description: <p>A list of package IDs of apps that should be used to launch the URI on the remote device. The first string on the list should correspond to the preferred application. </p>
+    name: preferredPackageIds
+    type: <xref href="%40Nullable+Collection%3CString%3E?alt=@Nullable Collection<String>&text=%40Nullable+Collection%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Initializes an instance of this class with the specified values. </p>
+  syntax: public RemoteLauncherOptions(@Nullable String fallbackUri, @Nullable Collection<String> preferredPackageIds)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions(@Nullable String,@Nullable Collection<String>)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.RemoteLauncherOptions
+name: RemoteLauncherOptions
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

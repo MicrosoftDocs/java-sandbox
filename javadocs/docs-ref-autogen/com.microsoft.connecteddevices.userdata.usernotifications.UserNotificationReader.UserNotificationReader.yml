@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReader.UserNotificationReader
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.UserNotificationReader(NativeObject nativeObject)
+  name: UserNotificationReader(NativeObject nativeObject)
+  nameWithType: UserNotificationReader.UserNotificationReader(NativeObject nativeObject)
+  parameters:
+  - name: nativeObject
+    type: <xref href="NativeObject?alt=NativeObject&text=NativeObject" data-throw-if-not-resolved="False"/>
+  syntax: protected UserNotificationReader(NativeObject nativeObject)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.UserNotificationReader(NativeObject)
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.UserNotificationReader*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.UserNotificationReader
+name: UserNotificationReader
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

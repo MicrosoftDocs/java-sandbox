@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getChangeTime()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getChangeTime()
+  name: getChangeTime()
+  nameWithType: UserNotification.getChangeTime()
+  returns:
+    type: <xref href="Date?alt=Date&text=Date" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets timestamp of when the latest change was applied to this notification. </p>
+  syntax: public Date getChangeTime()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getChangeTime()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getChangeTime*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getChangeTime()
+name: getChangeTime()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

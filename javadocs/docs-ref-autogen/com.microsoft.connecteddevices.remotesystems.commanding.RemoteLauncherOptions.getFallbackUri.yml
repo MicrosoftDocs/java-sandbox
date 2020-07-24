@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteLauncherOptions.getFallbackUri()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getFallbackUri()
+  name: getFallbackUri()
+  nameWithType: RemoteLauncherOptions.getFallbackUri()
+  returns:
+    description: <p>The fallback URI String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Returns the URI of the website to open in the event that the original URI cannot be handled by the intended app. </p>
+  syntax: public String getFallbackUri()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getFallbackUri()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getFallbackUri*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteLauncherOptions.getFallbackUri()
+name: getFallbackUri()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

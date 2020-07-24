@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReaderOptions.getOriginFilters()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getOriginFilters()
+  name: getOriginFilters()
+  nameWithType: ClipboardReaderOptions.getOriginFilters()
+  returns:
+    type: EnumSet&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters&text=ClipboardItemOriginFilters" data-throw-if-not-resolved="False"/>&gt;
+  syntax: public EnumSet<ClipboardItemOriginFilters> getOriginFilters()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getOriginFilters()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getOriginFilters*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.getOriginFilters()
+name: getOriginFilters()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

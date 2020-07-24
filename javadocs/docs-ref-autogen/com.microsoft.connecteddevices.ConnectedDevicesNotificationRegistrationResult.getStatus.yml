@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistrationResult.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult.getStatus()
+  name: getStatus()
+  nameWithType: ConnectedDevicesNotificationRegistrationResult.getStatus()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus" data-throw-if-not-resolved="false">status</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationStatus&text=ConnectedDevicesNotificationRegistrationStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve status of the registration operation. </p>
+  syntax: public ConnectedDevicesNotificationRegistrationStatus getStatus()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult.getStatus()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult.getStatus*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices
+metadata: {}

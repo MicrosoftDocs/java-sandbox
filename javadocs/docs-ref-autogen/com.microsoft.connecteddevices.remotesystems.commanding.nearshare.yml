@@ -1,0 +1,14 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareHelper
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender
+enums:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStatus
+interfaces:
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider
+- com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareStream
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+name: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

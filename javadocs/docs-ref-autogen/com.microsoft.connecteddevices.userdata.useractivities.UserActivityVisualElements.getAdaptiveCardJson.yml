@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.getAdaptiveCardJson()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAdaptiveCardJson()
+  name: getAdaptiveCardJson()
+  nameWithType: UserActivityVisualElements.getAdaptiveCardJson()
+  returns:
+    description: <p>The adaptive card json String. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the content text for the activity. </p>
+  syntax: public String getAdaptiveCardJson()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAdaptiveCardJson()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAdaptiveCardJson*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAdaptiveCardJson()
+name: getAdaptiveCardJson()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

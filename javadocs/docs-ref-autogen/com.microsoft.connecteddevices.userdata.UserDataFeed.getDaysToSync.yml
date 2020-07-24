@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.getDaysToSync()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.getDaysToSync()
+  name: getDaysToSync()
+  nameWithType: UserDataFeed.getDaysToSync()
+  returns:
+    description: <p>- Number of days of data to sync, which should be fewer than 30 0 represents the default value, which will be determined by the server </p>
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the number of days to sync. </p>
+  syntax: public int getDaysToSync()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getDaysToSync()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.getDaysToSync*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.getDaysToSync()
+name: getDaysToSync()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

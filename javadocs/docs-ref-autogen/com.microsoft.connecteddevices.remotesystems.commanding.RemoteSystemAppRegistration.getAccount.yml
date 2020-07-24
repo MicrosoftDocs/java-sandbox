@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.getAccount()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAccount()
+  name: getAccount()
+  nameWithType: RemoteSystemAppRegistration.getAccount()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the Account associated with this RemoteSystemAppRegistration. </p>
+  syntax: public ConnectedDevicesAccount getAccount()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAccount()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAccount*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAccount()
+name: getAccount()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

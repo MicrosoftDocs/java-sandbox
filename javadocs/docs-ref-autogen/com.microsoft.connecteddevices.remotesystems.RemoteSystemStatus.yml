@@ -1,0 +1,50 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.AVAILABLE
+  name: AVAILABLE
+  nameWithType: RemoteSystemStatus.AVAILABLE
+  summary: <p>The remote system is reported as available. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.AVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.DISCOVERING_AVAILABILITY
+  name: DISCOVERING_AVAILABILITY
+  nameWithType: RemoteSystemStatus.DISCOVERING_AVAILABILITY
+  summary: <p>The status of the remote system is being determined (occurs during the discovery process). </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.DISCOVERING_AVAILABILITY
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.UNAVAILABLE
+  name: UNAVAILABLE
+  nameWithType: RemoteSystemStatus.UNAVAILABLE
+  summary: <p>The remote system is reported as unavailable. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: RemoteSystemStatus.UNKNOWN
+  summary: <p>The status is unknown. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.UNKNOWN
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus&text=RemoteSystemStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus.getValue()
+nameWithType: RemoteSystemStatus
+syntax: public enum RemoteSystemStatus
+summary: <p>Contains values that describe the availability of a remote system. Since WNS presence is used to report availability, Android and iOS apps will always have value of **UNKNOWN** unless they use WNS as their notification type; Windows will correctly report availability as one of the remaining values. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemStatus
+name: RemoteSystemStatus
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

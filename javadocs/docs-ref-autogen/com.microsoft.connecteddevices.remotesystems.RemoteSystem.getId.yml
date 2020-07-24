@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystem.getId()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getId()
+  name: getId()
+  nameWithType: RemoteSystem.getId()
+  returns:
+    description: <p>The string identifier for the remote system. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the unique string identifier for the remote system. </p>
+  syntax: public String getId()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getId()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getId*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystem.getId()
+name: getId()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

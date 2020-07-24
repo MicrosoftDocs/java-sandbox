@@ -1,0 +1,40 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.ANONYMOUS
+  name: ANONYMOUS
+  nameWithType: RemoteSystemAuthorizationKind.ANONYMOUS
+  summary: <p>The system can discover and connect with other users' devices, provided they are in proximity and allow anonymous discovery. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.ANONYMOUS
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.SAME_USER
+  name: SAME_USER
+  nameWithType: RemoteSystemAuthorizationKind.SAME_USER
+  summary: <p>The system can only discover and connect with devices signed onto by the same user account. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.SAME_USER
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemAuthorizationKind&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemAuthorizationKind.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind&text=RemoteSystemAuthorizationKind" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemAuthorizationKind fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemAuthorizationKind.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind.getValue()
+nameWithType: RemoteSystemAuthorizationKind
+syntax: public enum RemoteSystemAuthorizationKind
+summary: <p>Contains values that describe the potential authorization kinds (user-account-based authorization scopes) for remote system discovery. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKind
+name: RemoteSystemAuthorizationKind
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

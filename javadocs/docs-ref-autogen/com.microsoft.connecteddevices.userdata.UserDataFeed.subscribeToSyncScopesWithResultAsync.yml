@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeed.subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  name: subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  nameWithType: UserDataFeed.subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  parameters:
+  - description: <p>Collection of **UserDataFeedSyncScope** instances. </p>
+    name: syncScopes
+    type: '@NonNull Collection&lt;<xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope&text=UserDataFeedSyncScope" data-throw-if-not-resolved="False"/>&gt;'
+  returns:
+    description: <p>Result from the async operation </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSubscribeResult&text=UserDataFeedSubscribeResult" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Adds **UserDataFeedSyncScope** instances to this UserDataFeed. This UserDataFeed is synchronized according to the **UserDataFeedSyncScope** instances specified. </p>
+  syntax: public AsyncOperation<UserDataFeedSubscribeResult> subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesWithResultAsync(@NonNull Collection<UserDataFeedSyncScope>)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesWithResultAsync*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeed.subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+name: subscribeToSyncScopesWithResultAsync( @NonNull Collection<UserDataFeedSyncScope> syncScopes)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread()
+  name: getLastCorrelationVectorForThread()
+  nameWithType: ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve the correlation vector of the last operation handled on this thread </p>
+  syntax: public static String getLastCorrelationVectorForThread()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread()
+uid: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesDiagnostics.getLastCorrelationVectorForThread()
+name: getLastCorrelationVectorForThread()
+package: com.microsoft.connecteddevices
+metadata: {}

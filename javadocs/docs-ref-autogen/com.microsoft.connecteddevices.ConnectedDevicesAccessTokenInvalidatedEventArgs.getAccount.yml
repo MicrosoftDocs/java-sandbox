@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount()
+  name: getAccount()
+  nameWithType: ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the Account associated with this <xref uid="" data-throw-if-not-resolved="false">ConnectedDevicesAccessTokenInvalidatedEventArgs</xref>. </p>
+  syntax: public ConnectedDevicesAccount getAccount()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount()
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenInvalidatedEventArgs.getAccount()
+name: getAccount()
+package: com.microsoft.connecteddevices
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.getAppDisplayName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppDisplayName()
+  name: getAppDisplayName()
+  nameWithType: ConnectedDevicesNotificationRegistration.getAppDisplayName()
+  returns:
+    description: <p>The app display name. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the app display name. This should be the name of the app that was used for registration on the Microsoft dev portal. </p>
+  syntax: public String getAppDisplayName()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppDisplayName()
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppDisplayName*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.getAppDisplayName()
+name: getAppDisplayName()
+package: com.microsoft.connecteddevices
+metadata: {}

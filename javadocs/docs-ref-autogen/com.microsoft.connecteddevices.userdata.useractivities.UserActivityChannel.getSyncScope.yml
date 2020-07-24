@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityChannel.getSyncScope()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSyncScope()
+  name: getSyncScope()
+  nameWithType: UserActivityChannel.getSyncScope()
+  returns:
+    description: <p>A **SyncScope** instance. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope?alt=com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope&text=UserDataFeedSyncScope" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the sync scope for this activity channel. </p>
+  syntax: public static UserDataFeedSyncScope getSyncScope()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSyncScope()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSyncScope*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.getSyncScope()
+name: getSyncScope()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAddedEventArgs.getRemoteSystem()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs.getRemoteSystem()
+  name: getRemoteSystem()
+  nameWithType: RemoteSystemAddedEventArgs.getRemoteSystem()
+  returns:
+    description: <p>A **RemoteSystem** instance </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystem?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystem&text=RemoteSystem" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieves the remote system that was added </p>
+  syntax: public RemoteSystem getRemoteSystem()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs.getRemoteSystem()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs.getRemoteSystem*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAddedEventArgs.getRemoteSystem()
+name: getRemoteSystem()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

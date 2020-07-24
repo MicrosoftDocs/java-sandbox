@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemKindFilter.RemoteSystemKindFilter
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter.RemoteSystemKindFilter(@Nullable Collection<String> systemKinds)
+  name: RemoteSystemKindFilter(@Nullable Collection<String> systemKinds)
+  nameWithType: RemoteSystemKindFilter.RemoteSystemKindFilter(@Nullable Collection<String> systemKinds)
+  parameters:
+  - description: <p>An array of Strings giving the canonical names of device types to filter for. These should be provided by the **RemoteSystemKinds** class. </p>
+    name: systemKinds
+    type: <xref href="%40Nullable+Collection%3CString%3E?alt=@Nullable Collection<String>&text=%40Nullable+Collection%3CString%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates and initializes an instance of this class. </p>
+  syntax: public RemoteSystemKindFilter(@Nullable Collection<String> systemKinds)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter.RemoteSystemKindFilter(@Nullable Collection<String>)
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter.RemoteSystemKindFilter*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemKindFilter.RemoteSystemKindFilter
+name: RemoteSystemKindFilter
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

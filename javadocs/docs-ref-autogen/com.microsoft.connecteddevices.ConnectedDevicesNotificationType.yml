@@ -1,0 +1,60 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.APN
+  name: APN
+  nameWithType: ConnectedDevicesNotificationType.APN
+  summary: <p>Apple Push Notification Service. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.APN
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.FCM
+  name: FCM
+  nameWithType: ConnectedDevicesNotificationType.FCM
+  summary: <p>Firebase Cloud Messaging. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.FCM
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.GCM
+  name: GCM
+  nameWithType: ConnectedDevicesNotificationType.GCM
+  summary: <p>Google Cloud Messaging. <xrefsect id="deprecated_1_deprecated000003"><xreftitle>Deprecated</xreftitle><xrefdescription><p>As Google will offically shut down their GCM servers on April 11 2019 </p></xrefdescription></xrefsect></p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.GCM
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.POLLING
+  name: POLLING
+  nameWithType: ConnectedDevicesNotificationType.POLLING
+  summary: <p>No cloud notification service; instead poll for incoming responses. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.POLLING
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.UNKNOWN
+  name: UNKNOWN
+  nameWithType: ConnectedDevicesNotificationType.UNKNOWN
+  summary: <p>ConnectedDevicesNotificationType is unknown (consistent with core). </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.UNKNOWN
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.WNS
+  name: WNS
+  nameWithType: ConnectedDevicesNotificationType.WNS
+  summary: <p>Windows Push Notification Services. </p>
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.WNS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ConnectedDevicesNotificationType&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: ConnectedDevicesNotificationType.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationType?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationType&text=ConnectedDevicesNotificationType" data-throw-if-not-resolved="False"/>
+  syntax: public static ConnectedDevicesNotificationType fromInt(int value)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.fromInt(int)
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.getValue()
+  name: getValue()
+  nameWithType: ConnectedDevicesNotificationType.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType.getValue()
+nameWithType: ConnectedDevicesNotificationType
+syntax: public enum ConnectedDevicesNotificationType
+summary: <p>Contains values that describe the type (service) of a notification. </p>
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationType
+name: ConnectedDevicesNotificationType
+package: com.microsoft.connecteddevices
+metadata: {}

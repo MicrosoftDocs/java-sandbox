@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistrationPublishResult.getStatus()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult.getStatus()
+  name: getStatus()
+  nameWithType: RemoteSystemAppRegistrationPublishResult.getStatus()
+  returns:
+    description: >-
+      <p>
+
+        <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus" data-throw-if-not-resolved="false">status</xref>
+
+      </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishStatus&text=RemoteSystemAppRegistrationPublishStatus" data-throw-if-not-resolved="False"/>
+  summary: <p>Retrieve status of the publish operation. </p>
+  syntax: public RemoteSystemAppRegistrationPublishStatus getStatus()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult.getStatus()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult.getStatus*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistrationPublishResult.getStatus()
+name: getStatus()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

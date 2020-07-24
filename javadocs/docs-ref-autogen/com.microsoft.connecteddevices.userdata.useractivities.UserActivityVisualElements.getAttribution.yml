@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.getAttribution()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttribution()
+  name: getAttribution()
+  nameWithType: UserActivityVisualElements.getAttribution()
+  returns:
+    description: <p>The associated **UserActivityAttribution**. </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivityAttribution&text=UserActivityAttribution" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the graphical information for the activity. </p>
+  syntax: public UserActivityAttribution getAttribution()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttribution()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttribution*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.getAttribution()
+name: getAttribution()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

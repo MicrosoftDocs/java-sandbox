@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.createSession()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.createSession()
+  name: createSession()
+  nameWithType: UserActivity.createSession()
+  returns:
+    description: <p>The created **UserActivitySession** </p>
+    type: <xref href="com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession?alt=com.microsoft.connecteddevices.userdata.useractivities.UserActivitySession&text=UserActivitySession" data-throw-if-not-resolved="False"/>
+  summary: <p>Creates a user activity session that this UserActivity will be associated with. An associated **UserActivitySession** indicates that the user is currently engaged in the activity. </p>
+  syntax: public UserActivitySession createSession()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.createSession()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.createSession*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.createSession()
+name: createSession()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

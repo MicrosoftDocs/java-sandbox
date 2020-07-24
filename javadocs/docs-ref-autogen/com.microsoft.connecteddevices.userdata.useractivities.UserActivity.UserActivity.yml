@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.UserActivity
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.UserActivity(@NonNull String activityId)
+  name: UserActivity(@NonNull String activityId)
+  nameWithType: UserActivity.UserActivity(@NonNull String activityId)
+  parameters:
+  - description: <p>The unique ID for this activity. </p>
+    name: activityId
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Create activity with specified ID. </p>
+  syntax: public UserActivity(@NonNull String activityId)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.UserActivity(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.UserActivity*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.UserActivity
+name: UserActivity
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

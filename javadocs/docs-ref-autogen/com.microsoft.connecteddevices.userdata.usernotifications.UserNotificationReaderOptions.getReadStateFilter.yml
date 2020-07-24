@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReaderOptions.getReadStateFilter()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getReadStateFilter()
+  name: getReadStateFilter()
+  nameWithType: UserNotificationReaderOptions.getReadStateFilter()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReadStateFilter&text=UserNotificationReadStateFilter" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the read state filter that’s set for this instance of UserNotificationReaderOptions. </p>
+  syntax: public UserNotificationReadStateFilter getReadStateFilter()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getReadStateFilter()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getReadStateFilter*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderOptions.getReadStateFilter()
+name: getReadStateFilter()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter.RemoteSystemAuthorizationKindFilter(@NonNull RemoteSystemAuthorizationKind)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemAuthorizationKindFilter
+syntax: public class RemoteSystemAuthorizationKindFilter implements RemoteSystemFilter
+summary: <p>A class used to filter remote systems based on authorization type. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemAuthorizationKindFilter
+name: RemoteSystemAuthorizationKindFilter
+package: com.microsoft.connecteddevices.remotesystems

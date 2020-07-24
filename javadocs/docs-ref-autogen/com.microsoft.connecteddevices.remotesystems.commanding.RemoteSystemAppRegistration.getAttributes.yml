@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.getAttributes()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAttributes()
+  name: getAttributes()
+  nameWithType: RemoteSystemAppRegistration.getAttributes()
+  returns:
+    description: <p>A **Map** of key/value pairs defining the attributes of this registration. </p>
+    type: <xref href="Map%3CString%2C+String%3E?alt=Map<String, String>&text=Map%3CString%2C+String%3E" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the attributes associated with this registration. </p>
+  syntax: public Map<String, String> getAttributes()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAttributes()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAttributes*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getAttributes()
+name: getAttributes()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

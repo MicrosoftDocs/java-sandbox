@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceRequest.sendResponseAsync(@Nullable Map<String, Object> response)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.sendResponseAsync(@Nullable Map<String, Object> response)
+  name: sendResponseAsync(@Nullable Map<String, Object> response)
+  nameWithType: AppServiceRequest.sendResponseAsync(@Nullable Map<String, Object> response)
+  parameters:
+  - description: <p>A **Map** of the keys and values to send. For the supported value types, </p>
+    name: response
+    type: <xref href="%40Nullable+Map%3CString%2C+Object%3E?alt=@Nullable Map<String, Object>&text=%40Nullable+Map%3CString%2C+Object%3E" data-throw-if-not-resolved="False"/>
+  returns:
+    description: <p>An asynchronous operation with an <xref uid="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus" data-throw-if-not-resolved="false">AppServiceResponseStatus</xref> value indicating the status of the send operation. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponseStatus&text=AppServiceResponseStatus" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Sends a response message to the remote app service that sent the request. </p>
+  syntax: public AsyncOperation<AppServiceResponseStatus> sendResponseAsync(@Nullable Map<String, Object> response)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.sendResponseAsync(@Nullable Map<String, Object>)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.sendResponseAsync*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceRequest.sendResponseAsync(@Nullable Map<String, Object> response)
+name: sendResponseAsync(@Nullable Map<String, Object> response)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

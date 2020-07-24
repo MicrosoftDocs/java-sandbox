@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getMessage()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse.getStatus()
+nameWithType: AppServiceResponse
+syntax: public class AppServiceResponse
+summary: <p>Represents a message passed from a remote app service to the client app in response to a previously sent message. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceResponse
+name: AppServiceResponse
+package: com.microsoft.connecteddevices.remotesystems.commanding

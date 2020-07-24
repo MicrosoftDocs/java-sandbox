@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotificationReader.getSerializedState()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.getSerializedState()
+  name: getSerializedState()
+  nameWithType: UserNotificationReader.getSerializedState()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Get the state of the reader that corresponds to the latest notification changes. </p>
+  syntax: public String getSerializedState()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.getSerializedState()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.getSerializedState*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReader.getSerializedState()
+name: getSerializedState()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.setAppId(@Nullable String token)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppId(@Nullable String token)
+  name: setAppId(@Nullable String token)
+  nameWithType: ConnectedDevicesNotificationRegistration.setAppId(@Nullable String token)
+  parameters:
+  - name: token
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the app ID for push notification registration. </p>
+  syntax: public void setAppId(@Nullable String token)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppId(@Nullable String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppId*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppId(@Nullable String token)
+name: setAppId(@Nullable String token)
+package: com.microsoft.connecteddevices
+metadata: {}

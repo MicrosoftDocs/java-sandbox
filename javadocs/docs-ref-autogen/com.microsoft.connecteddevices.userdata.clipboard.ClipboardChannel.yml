@@ -1,0 +1,25 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.ClipboardChannel(@NonNull UserDataFeed)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createItem(@NonNull ClipData)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReader()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithOptions(@NonNull ClipboardReaderOptions)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithState(@NonNull String)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItems()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItemsAsync()
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItem(@NonNull String)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteItemAsync(@NonNull String)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItem(@NonNull String)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getItemAsync(@NonNull String)
+- com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.getSyncScope()
+nameWithType: ClipboardChannel
+syntax: public class ClipboardChannel
+type: class
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel
+name: ClipboardChannel
+package: com.microsoft.connecteddevices.userdata.clipboard

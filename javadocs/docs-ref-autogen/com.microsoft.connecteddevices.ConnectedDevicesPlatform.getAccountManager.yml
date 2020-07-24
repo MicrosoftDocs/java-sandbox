@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatform.getAccountManager()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getAccountManager()
+  name: getAccountManager()
+  nameWithType: ConnectedDevicesPlatform.getAccountManager()
+  returns:
+    description: <p>AccountManager </p>
+    type: <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccountManager?alt=com.microsoft.connecteddevices.ConnectedDevicesAccountManager&text=ConnectedDevicesAccountManager" data-throw-if-not-resolved="False"/>
+  summary: <p>Get <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccountManager" data-throw-if-not-resolved="false">ConnectedDevicesAccountManager</xref> instance held by the platform </p>
+  syntax: public ConnectedDevicesAccountManager getAccountManager()
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getAccountManager()
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getAccountManager*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform.getAccountManager()
+name: getAccountManager()
+package: com.microsoft.connecteddevices
+metadata: {}

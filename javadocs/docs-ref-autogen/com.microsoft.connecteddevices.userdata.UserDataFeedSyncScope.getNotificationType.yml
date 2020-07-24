@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScope.getNotificationType()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getNotificationType()
+  name: getNotificationType()
+  nameWithType: UserDataFeedSyncScope.getNotificationType()
+  returns:
+    description: <p>type of notification to receive (see **UserDataFeedNotificationTypes**) </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set type of change notifications for **UserDataFeed** sync scope </p>
+  syntax: public String getNotificationType()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getNotificationType()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getNotificationType*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.getNotificationType()
+name: getNotificationType()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

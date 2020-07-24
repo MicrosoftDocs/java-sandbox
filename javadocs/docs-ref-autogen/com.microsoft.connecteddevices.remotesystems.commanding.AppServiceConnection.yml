@@ -1,0 +1,24 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.AppServiceConnection(@NonNull AppServiceInfo)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.close()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.getAppServiceInfo()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.openRemoteAsync(@NonNull RemoteSystemConnectionRequest)
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.requestReceived()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendMessageAsync(@NonNull Map<String, Object>)
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.sendStatelessMessageAsync(@NonNull AppServiceInfo,@NonNull RemoteSystemConnectionRequest,@NonNull Map<String, Object>)
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.serviceClosed()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.setAppServiceInfo(@NonNull AppServiceInfo)
+nameWithType: AppServiceConnection
+syntax: public class AppServiceConnection
+summary: <p>This class manages a connection to a particular remote app service. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection
+name: AppServiceConnection
+package: com.microsoft.connecteddevices.remotesystems.commanding

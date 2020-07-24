@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedPlatforms.windows32()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windows32()
+  name: windows32()
+  nameWithType: UserDataFeedPlatforms.windows32()
+  returns:
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  syntax: public static native String windows32()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windows32()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windows32*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedPlatforms.windows32()
+name: windows32()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

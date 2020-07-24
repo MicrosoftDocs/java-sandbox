@@ -1,0 +1,21 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.UserNotificationChannel(@NonNull UserDataFeed)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReader()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithOptions(@NonNull UserNotificationReaderOptions)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.createReaderWithState(@NonNull String)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.deleteUserNotificationAsync(@NonNull String)
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.getSyncScope()
+- com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel.getUserNotificationAsync(@NonNull String)
+nameWithType: UserNotificationChannel
+syntax: public class UserNotificationChannel
+summary: <p>This class provides the notification change reader which handles the receiving and management of user notifications for the application. </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationChannel
+name: UserNotificationChannel
+package: com.microsoft.connecteddevices.userdata.usernotifications

@@ -1,0 +1,23 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context)
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.ConnectedDevicesPlatform(@NonNull Context,@NonNull ConnectedDevicesPlatformSettings)
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.getAccountManager()
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.getNotificationRegistrationManager()
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Bundle)
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotification(@NonNull Map)
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.processNotificationAsync(@NonNull ConnectedDevicesNotification)
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.shutdownAsync()
+- com.microsoft.connecteddevices.ConnectedDevicesPlatform.start()
+nameWithType: ConnectedDevicesPlatform
+syntax: public class ConnectedDevicesPlatform
+summary: <p>A class to represent the Connected Devices Platform and manage the app's connection to it. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatform
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatform
+name: ConnectedDevicesPlatform
+package: com.microsoft.connecteddevices

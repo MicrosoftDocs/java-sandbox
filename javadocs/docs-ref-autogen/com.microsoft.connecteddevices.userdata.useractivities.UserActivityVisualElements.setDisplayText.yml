@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityVisualElements.setDisplayText(@NonNull String displayText)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDisplayText(@NonNull String displayText)
+  name: setDisplayText(@NonNull String displayText)
+  nameWithType: UserActivityVisualElements.setDisplayText(@NonNull String displayText)
+  parameters:
+  - description: <p>The display text. </p>
+    name: displayText
+    type: <xref href="%40NonNull+String?alt=@NonNull String&text=%40NonNull+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the display text for the "details" tile of the activity. </p>
+  syntax: public void setDisplayText(@NonNull String displayText)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDisplayText(@NonNull String)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDisplayText*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityVisualElements.setDisplayText(@NonNull String displayText)
+name: setDisplayText(@NonNull String displayText)
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

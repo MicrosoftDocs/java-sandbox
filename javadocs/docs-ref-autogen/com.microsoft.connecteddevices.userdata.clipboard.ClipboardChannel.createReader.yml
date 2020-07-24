@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.createReader()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReader()
+  name: createReader()
+  nameWithType: ClipboardChannel.createReader()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader&text=ClipboardReader" data-throw-if-not-resolved="False"/>
+  syntax: public ClipboardReader createReader()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReader()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReader*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReader()
+name: createReader()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

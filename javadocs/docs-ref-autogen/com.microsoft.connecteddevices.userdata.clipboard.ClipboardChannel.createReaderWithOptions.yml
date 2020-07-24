@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+  name: createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+  nameWithType: ClipboardChannel.createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+  parameters:
+  - name: options
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions&text=ClipboardReaderOptions" data-throw-if-not-resolved="False"/>'
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardReader&text=ClipboardReader" data-throw-if-not-resolved="False"/>
+  syntax: public ClipboardReader createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithOptions(@NonNull ClipboardReaderOptions)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithOptions*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+name: createReaderWithOptions(@NonNull ClipboardReaderOptions options)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

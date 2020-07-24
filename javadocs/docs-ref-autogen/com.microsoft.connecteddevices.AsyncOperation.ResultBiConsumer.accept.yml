@@ -1,0 +1,22 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation.ResultBiConsumer<T,U>.accept(T t, U u)
+type: method
+members:
+- fullName: void com.microsoft.connecteddevices.AsyncOperation<T>.ResultBiConsumer<T, U>.accept(T t, U u)
+  name: accept(T t, U u)
+  nameWithType: AsyncOperation.ResultBiConsumer<T,U>.accept(T t, U u)
+  parameters:
+  - description: <p>First input argument </p>
+    name: t
+    type: <xref href="T?alt=T&text=T" data-throw-if-not-resolved="False"/>
+  - description: <p>Second input argument </p>
+    name: u
+    type: <xref href="U?alt=U&text=U" data-throw-if-not-resolved="False"/>
+  summary: <p>Performs this operation on the given arguments </p>
+  syntax: public void accept(T t, U u)
+  uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer.accept(T,U)
+uid: com.microsoft.connecteddevices.AsyncOperation.ResultBiConsumer.accept*
+fullName: void com.microsoft.connecteddevices.AsyncOperation<T>.ResultBiConsumer<T, U>.accept(T t, U u)
+name: accept(T t, U u)
+package: com.microsoft.connecteddevices
+metadata: {}

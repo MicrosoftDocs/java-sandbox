@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardReaderOptions.setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  name: setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  nameWithType: ClipboardReaderOptions.setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  parameters:
+  - name: stateFilters
+    type: '@NonNull EnumSet&lt;<xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemStateFilters&text=ClipboardItemStateFilters" data-throw-if-not-resolved="False"/>&gt;'
+  syntax: public void setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters>)
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setStateFilters*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderOptions.setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+name: setStateFilters(@NonNull EnumSet<ClipboardItemStateFilters> stateFilters)
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

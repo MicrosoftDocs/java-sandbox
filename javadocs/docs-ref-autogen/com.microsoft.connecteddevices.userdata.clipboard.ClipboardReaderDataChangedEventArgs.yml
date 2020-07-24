@@ -1,0 +1,11 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: ClipboardReaderDataChangedEventArgs
+syntax: public class ClipboardReaderDataChangedEventArgs
+type: class
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderDataChangedEventArgs
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardReaderDataChangedEventArgs
+name: ClipboardReaderDataChangedEventArgs
+package: com.microsoft.connecteddevices.userdata.clipboard

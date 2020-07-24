@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScopeFlags.includeWebActionable()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags.includeWebActionable()
+  name: includeWebActionable()
+  nameWithType: UserDataFeedSyncScopeFlags.includeWebActionable()
+  returns:
+    description: <p>flag value </p>
+    type: <xref href="native+String?alt=native String&text=native+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Always include activities that can be activated via Web app </p>
+  syntax: public static native String includeWebActionable()
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags.includeWebActionable()
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags.includeWebActionable*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScopeFlags.includeWebActionable()
+name: includeWebActionable()
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,85 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.APP_NOT_INSTALLED
+  name: APP_NOT_INSTALLED
+  nameWithType: StatelessAppServiceResponseStatus.APP_NOT_INSTALLED
+  summary: <p>The package for the app service to which a connection was attempted is not installed on the device. Check that the package is installed before trying to open a connection to the app service. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.APP_NOT_INSTALLED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.APP_SERVICE_UNAVAILABLE
+  name: APP_SERVICE_UNAVAILABLE
+  nameWithType: StatelessAppServiceResponseStatus.APP_SERVICE_UNAVAILABLE
+  summary: <p>The app with the specified package ID is installed and available, but the app does not declare support for the specified app service. Check that the name of the app service and the version of the app are correct. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.APP_SERVICE_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.APP_UNAVAILABLE
+  name: APP_UNAVAILABLE
+  nameWithType: StatelessAppServiceResponseStatus.APP_UNAVAILABLE
+  summary: <p>The package for the app service to which a connection was attempted is temporarily unavailable. Try to connect again later. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.APP_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.FAILURE
+  name: FAILURE
+  nameWithType: StatelessAppServiceResponseStatus.FAILURE
+  summary: <p>The message was not delivered due to network failure. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.FAILURE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.MESSAGE_SIZE_TOO_LARGE
+  name: MESSAGE_SIZE_TOO_LARGE
+  nameWithType: StatelessAppServiceResponseStatus.MESSAGE_SIZE_TOO_LARGE
+  summary: <p>The message was not delivered because it exceeded the allowed size. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.MESSAGE_SIZE_TOO_LARGE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.NOT_AUTHORIZED
+  name: NOT_AUTHORIZED
+  nameWithType: StatelessAppServiceResponseStatus.NOT_AUTHORIZED
+  summary: <p>The app service is not authorized to communicate with the remote device. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.NOT_AUTHORIZED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+  name: REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+  nameWithType: StatelessAppServiceResponseStatus.REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+  summary: <p>The remote app is not configured to support remote connectivity. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.REMOTE_SYSTEM_NOT_SUPPORTED_BY_APP
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.REMOTE_SYSTEM_UNAVAILABLE
+  name: REMOTE_SYSTEM_UNAVAILABLE
+  nameWithType: StatelessAppServiceResponseStatus.REMOTE_SYSTEM_UNAVAILABLE
+  summary: <p>The message was not delivered because a connection to the remote device could not be established. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.REMOTE_SYSTEM_UNAVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.RESOURCE_LIMITS_EXCEEDED
+  name: RESOURCE_LIMITS_EXCEEDED
+  nameWithType: StatelessAppServiceResponseStatus.RESOURCE_LIMITS_EXCEEDED
+  summary: <p>The message was not delivered because it exceeded the program memory limits of the remote app service. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.RESOURCE_LIMITS_EXCEEDED
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.SUCCESS
+  name: SUCCESS
+  nameWithType: StatelessAppServiceResponseStatus.SUCCESS
+  summary: <p>The message was delivered successfully. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.SUCCESS
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.UNKNOWN
+  name: UNKNOWN
+  nameWithType: StatelessAppServiceResponseStatus.UNKNOWN
+  summary: <p>The messaged was not delivered for an unknown reason. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.UNKNOWN
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;StatelessAppServiceResponseStatus&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: StatelessAppServiceResponseStatus.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus?alt=com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus&text=StatelessAppServiceResponseStatus" data-throw-if-not-resolved="False"/>
+  syntax: public static StatelessAppServiceResponseStatus fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.getValue()
+  name: getValue()
+  nameWithType: StatelessAppServiceResponseStatus.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus.getValue()
+nameWithType: StatelessAppServiceResponseStatus
+syntax: public enum StatelessAppServiceResponseStatus
+summary: <p>Contains values that describe the status of a message sent from one app service to another (whether the message data was successfully delivered). </p>
+uid: com.microsoft.connecteddevices.remotesystems.commanding.StatelessAppServiceResponseStatus
+name: StatelessAppServiceResponseStatus
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

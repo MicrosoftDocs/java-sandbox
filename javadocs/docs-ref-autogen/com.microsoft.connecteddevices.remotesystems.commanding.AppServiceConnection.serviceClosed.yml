@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.serviceClosed()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.serviceClosed()
+  name: serviceClosed()
+  nameWithType: AppServiceConnection.serviceClosed()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection&text=AppServiceConnection" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs?alt=com.microsoft.connecteddevices.remotesystems.commanding.AppServiceClosedEventArgs&text=AppServiceClosedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Event for when connection to the app service closes. </p>
+
+    <p>&gt; **Note:** On the client app, the "app service closed" event is not raised when the `close` method is called (by either the client or the host); it is only raised on the client app for unexpected connection interruptions. On the host app, the event _is_ raised when the client calls `close` (as well as for unexpected interruptions). </p>
+
+    <p></p>
+  syntax: public Event<AppServiceConnection, AppServiceClosedEventArgs> serviceClosed()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.serviceClosed()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.serviceClosed*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.serviceClosed()
+name: serviceClosed()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

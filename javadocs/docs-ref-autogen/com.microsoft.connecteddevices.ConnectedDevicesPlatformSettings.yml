@@ -1,0 +1,17 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.ConnectedDevicesPlatformSettings()
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.getStoragePath()
+- com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.setStoragePath(@Nullable String)
+nameWithType: ConnectedDevicesPlatformSettings
+syntax: public class ConnectedDevicesPlatformSettings
+summary: <p>Allows application developers to provide initial settings to the ConnectedDevices platform. </p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings
+name: ConnectedDevicesPlatformSettings
+package: com.microsoft.connecteddevices

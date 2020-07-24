@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getExpirationTime()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getExpirationTime()
+  name: getExpirationTime()
+  nameWithType: UserNotification.getExpirationTime()
+  returns:
+    type: <xref href="Date?alt=Date&text=Date" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the expiration time for this user notification. </p>
+  syntax: public Date getExpirationTime()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getExpirationTime()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getExpirationTime*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getExpirationTime()
+name: getExpirationTime()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: NearShareProgress.totalBytesToSend
+type: field
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalBytesToSend
+  name: totalBytesToSend
+  nameWithType: NearShareProgress.totalBytesToSend
+  returns:
+    type: <xref href="long?alt=long&text=long" data-throw-if-not-resolved="False"/>
+  summary: <p>The total number of bytes being sent. </p>
+  syntax: public long totalBytesToSend
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalBytesToSend
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalBytesToSend
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareProgress.totalBytesToSend
+name: totalBytesToSend
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

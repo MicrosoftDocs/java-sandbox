@@ -1,0 +1,45 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.AUTHENTICATION_ERROR
+  name: AUTHENTICATION_ERROR
+  nameWithType: RemoteSystemWatcherError.AUTHENTICATION_ERROR
+  summary: <p>The error occurred because a ConnectedDevicesAccount being used to run the discovery could not be authenticated. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.AUTHENTICATION_ERROR
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.INTERNET_NOT_AVAILABLE
+  name: INTERNET_NOT_AVAILABLE
+  nameWithType: RemoteSystemWatcherError.INTERNET_NOT_AVAILABLE
+  summary: <p>The error occurred because the Internet connection was lost. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.INTERNET_NOT_AVAILABLE
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.UNKNOWN
+  name: UNKNOWN
+  nameWithType: RemoteSystemWatcherError.UNKNOWN
+  summary: <p>The watcher encountered an unknown error. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.UNKNOWN
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemWatcherError&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemWatcherError.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError&text=RemoteSystemWatcherError" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemWatcherError fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemWatcherError.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError.getValue()
+nameWithType: RemoteSystemWatcherError
+syntax: public enum RemoteSystemWatcherError
+summary: <p>Contains values that describe an error encountered by a remote system watcher object during the discovery process. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcherError
+name: RemoteSystemWatcherError
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemWatcher.remoteSystemRemoved()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemRemoved()
+  name: remoteSystemRemoved()
+  nameWithType: RemoteSystemWatcher.remoteSystemRemoved()
+  returns:
+    description: <p>The event subscription </p>
+    type: <xref href="com.microsoft.connecteddevices.Event?alt=com.microsoft.connecteddevices.Event&text=Event" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher&text=RemoteSystemWatcher" data-throw-if-not-resolved="False"/>, <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemRemovedEventArgs?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemRemovedEventArgs&text=RemoteSystemRemovedEventArgs" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Event for when a remote system is removed. It is raised only after a remote system has stopped being discoverable over all of the categories specified by the **RemoteSystemFilter** instances associated with this discovery. </p>
+  syntax: public Event<RemoteSystemWatcher, RemoteSystemRemovedEventArgs> remoteSystemRemoved()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemRemoved()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemRemoved*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemWatcher.remoteSystemRemoved()
+name: remoteSystemRemoved()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

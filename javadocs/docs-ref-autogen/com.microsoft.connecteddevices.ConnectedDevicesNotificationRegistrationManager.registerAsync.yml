@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistrationManager.registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+  name: registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+  nameWithType: ConnectedDevicesNotificationRegistrationManager.registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+  parameters:
+  - description: <p>The <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccount" data-throw-if-not-resolved="false">ConnectedDevicesAccount</xref> to perform the registration under. </p>
+    name: account
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>'
+  - description: <p>The <xref uid="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration" data-throw-if-not-resolved="false">ConnectedDevicesNotificationRegistration</xref> contains the information required to perform the app's registration with a push notification service. </p>
+    name: notificationRegistration
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration&text=ConnectedDevicesNotificationRegistration" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>An <xref uid="com.microsoft.connecteddevices.AsyncOperation" data-throw-if-not-resolved="false">AsyncOperation</xref> indicating if the registration completed successfully. </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult?alt=com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationResult&text=ConnectedDevicesNotificationRegistrationResult" data-throw-if-not-resolved="False"/>&gt;
+  summary: <p>Register this application for this user with a push notification service so notification can be received by this user. </p>
+  syntax: public AsyncOperation<ConnectedDevicesNotificationRegistrationResult> registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerAsync(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesNotificationRegistration)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerAsync*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistrationManager.registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+name: registerAsync( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesNotificationRegistration notificationRegistration)
+package: com.microsoft.connecteddevices
+metadata: {}

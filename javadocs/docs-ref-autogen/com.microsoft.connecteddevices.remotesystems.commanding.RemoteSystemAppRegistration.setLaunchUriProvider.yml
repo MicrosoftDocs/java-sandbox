@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+  name: setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+  nameWithType: RemoteSystemAppRegistration.setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+  parameters:
+  - description: <p>A **LaunchUriProvider** instance. </p>
+    name: provider
+    type: '@Nullable <xref href="com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider?alt=com.microsoft.connecteddevices.remotesystems.commanding.LaunchUriProvider&text=LaunchUriProvider" data-throw-if-not-resolved="False"/>'
+  summary: <p>Sets the URI launcher for this application. New values are made available to discovering apps and devices via the **saveAsync** call. </p>
+  syntax: public void setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setLaunchUriProvider(@Nullable LaunchUriProvider)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setLaunchUriProvider*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+name: setLaunchUriProvider(@Nullable LaunchUriProvider provider)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

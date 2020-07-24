@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesNotificationRegistration.setAppDisplayName(@Nullable String token)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppDisplayName(@Nullable String token)
+  name: setAppDisplayName(@Nullable String token)
+  nameWithType: ConnectedDevicesNotificationRegistration.setAppDisplayName(@Nullable String token)
+  parameters:
+  - name: token
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Sets the app display name. </p>
+  syntax: public void setAppDisplayName(@Nullable String token)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppDisplayName(@Nullable String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppDisplayName*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesNotificationRegistration.setAppDisplayName(@Nullable String token)
+name: setAppDisplayName(@Nullable String token)
+package: com.microsoft.connecteddevices
+metadata: {}

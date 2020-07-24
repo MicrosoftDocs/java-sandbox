@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: NearShareFileProvider.getFileName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getFileName()
+  name: getFileName()
+  nameWithType: NearShareFileProvider.getFileName()
+  returns:
+    description: <p>The name of the file. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the name of the file to be shared. </p>
+  syntax: public String getFileName()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getFileName()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getFileName*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareFileProvider.getFileName()
+name: getFileName()
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}

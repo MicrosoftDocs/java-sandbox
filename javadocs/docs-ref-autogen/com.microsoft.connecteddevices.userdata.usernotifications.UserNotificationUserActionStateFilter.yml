@@ -1,0 +1,55 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.ACTIVATED
+  name: ACTIVATED
+  nameWithType: UserNotificationUserActionStateFilter.ACTIVATED
+  summary: <p>Activated state only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.ACTIVATED
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.ANY
+  name: ANY
+  nameWithType: UserNotificationUserActionStateFilter.ANY
+  summary: <p>Filter with any action state. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.ANY
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.DISMISSED
+  name: DISMISSED
+  nameWithType: UserNotificationUserActionStateFilter.DISMISSED
+  summary: <p>Dismissed state only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.DISMISSED
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.NO_INTERACTION
+  name: NO_INTERACTION
+  nameWithType: UserNotificationUserActionStateFilter.NO_INTERACTION
+  summary: <p>NoInteraction state only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.NO_INTERACTION
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.SNOOZED
+  name: SNOOZED
+  nameWithType: UserNotificationUserActionStateFilter.SNOOZED
+  summary: <p>Snoozed state only. </p>
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.SNOOZED
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;UserNotificationUserActionStateFilter&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: UserNotificationUserActionStateFilter.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter&text=UserNotificationUserActionStateFilter" data-throw-if-not-resolved="False"/>
+  syntax: public static UserNotificationUserActionStateFilter fromInt(int value)
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.getValue()
+  name: getValue()
+  nameWithType: UserNotificationUserActionStateFilter.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter.getValue()
+nameWithType: UserNotificationUserActionStateFilter
+syntax: public enum UserNotificationUserActionStateFilter
+summary: <p>Contains values that indicates a user action state filter when creating a notification reader. This determines whether the app wants to receive all notifications, dismissed ones only, activated ones only, or etc. </p>
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionStateFilter
+name: UserNotificationUserActionStateFilter
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

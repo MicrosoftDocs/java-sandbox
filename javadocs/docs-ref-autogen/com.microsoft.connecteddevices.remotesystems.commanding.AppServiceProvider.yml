@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+methods:
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.getAppServiceInfo()
+- com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider.onConnectionOpened(@NonNull AppServiceConnectionOpenedInfo)
+nameWithType: AppServiceProvider
+syntax: public interface AppServiceProvider
+summary: <p>This interface contains methods for making a local app service accessible to remote devices. Developers must implement this interface to make their app services available for remote connectivity. </p>
+type: interface
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceProvider
+name: AppServiceProvider
+package: com.microsoft.connecteddevices.remotesystems.commanding

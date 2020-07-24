@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- RuntimeException
+nameWithType: SdkException
+syntax: public class SdkException
+summary: <p>Exception used to communicate a failure from the Connected Devices Platform SDK. This is an unchecked exception that will be thrown for unexpected platform-related errors. </p>
+type: class
+uid: com.microsoft.connecteddevices.SdkException
+fullName: com.microsoft.connecteddevices.SdkException
+name: SdkException
+package: com.microsoft.connecteddevices

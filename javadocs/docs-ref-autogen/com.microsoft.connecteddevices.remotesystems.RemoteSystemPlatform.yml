@@ -1,0 +1,55 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.ANDROID
+  name: ANDROID
+  nameWithType: RemoteSystemPlatform.ANDROID
+  summary: <p>Android OS. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.ANDROID
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.IOS
+  name: IOS
+  nameWithType: RemoteSystemPlatform.IOS
+  summary: <p>iOS. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.IOS
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.LINUX
+  name: LINUX
+  nameWithType: RemoteSystemPlatform.LINUX
+  summary: <p>Linux OS. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.LINUX
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.UNKNOWN
+  name: UNKNOWN
+  nameWithType: RemoteSystemPlatform.UNKNOWN
+  summary: <p>The platform is unknown. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.UNKNOWN
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.WINDOWS
+  name: WINDOWS
+  nameWithType: RemoteSystemPlatform.WINDOWS
+  summary: <p>Windows OS. </p>
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.WINDOWS
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;RemoteSystemPlatform&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.fromInt(int value)
+  name: fromInt(int value)
+  nameWithType: RemoteSystemPlatform.fromInt(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform?alt=com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform&text=RemoteSystemPlatform" data-throw-if-not-resolved="False"/>
+  syntax: public static RemoteSystemPlatform fromInt(int value)
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.fromInt(int)
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.getValue()
+  name: getValue()
+  nameWithType: RemoteSystemPlatform.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform.getValue()
+nameWithType: RemoteSystemPlatform
+syntax: public enum RemoteSystemPlatform
+summary: <p>Contains values that describe the OS platform that a remote system is running on. </p>
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemPlatform
+name: RemoteSystemPlatform
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

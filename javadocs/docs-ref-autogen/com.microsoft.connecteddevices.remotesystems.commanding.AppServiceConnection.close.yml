@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.close()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.close()
+  name: close()
+  nameWithType: AppServiceConnection.close()
+  summary: <p>Closes the connection to the remote app service. The client app should call this method whenever it is closed or stopped by the user or system. </p>
+  syntax: public void close()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.close()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.close*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.close()
+name: close()
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

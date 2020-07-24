@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserDataFeedSyncScope.setNotificationType(@Nullable String notificationType)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setNotificationType(@Nullable String notificationType)
+  name: setNotificationType(@Nullable String notificationType)
+  nameWithType: UserDataFeedSyncScope.setNotificationType(@Nullable String notificationType)
+  parameters:
+  - description: <p>type of notification to receive (see **UserDataFeedNotificationTypes**). </p>
+    name: notificationType
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set type of change notifications for **UserDataFeed** sync scope. </p>
+  syntax: public void setNotificationType(@Nullable String notificationType)
+  uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setNotificationType(@Nullable String)
+uid: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setNotificationType*
+fullName: com.microsoft.connecteddevices.userdata.UserDataFeedSyncScope.setNotificationType(@Nullable String notificationType)
+name: setNotificationType(@Nullable String notificationType)
+package: com.microsoft.connecteddevices.userdata
+metadata: {}

@@ -1,0 +1,53 @@
+### YamlMime:JavaEnum
+fields:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.LOCAL
+  name: LOCAL
+  nameWithType: ClipboardItemOriginFilters.LOCAL
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.LOCAL
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.LOCAL_ONLY
+  name: LOCAL_ONLY
+  nameWithType: ClipboardItemOriginFilters.LOCAL_ONLY
+  summary: <p>Clipboard item filter to only include items which originated on this device. </p>
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.LOCAL_ONLY
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.LOCAL_REMOTE
+  name: LOCAL_REMOTE
+  nameWithType: ClipboardItemOriginFilters.LOCAL_REMOTE
+  summary: <p>Clipboard item filter to include items which originated on this device or a remote device. </p>
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.LOCAL_REMOTE
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.REMOTE
+  name: REMOTE
+  nameWithType: ClipboardItemOriginFilters.REMOTE
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.REMOTE
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.REMOTE_ONLY
+  name: REMOTE_ONLY
+  nameWithType: ClipboardItemOriginFilters.REMOTE_ONLY
+  summary: <p>Clipboard item filter to only include items which originated on a remote device. </p>
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.REMOTE_ONLY
+inheritances:
+- java.lang.Object
+- java.lang.Enum&lt;ClipboardItemOriginFilters&gt;
+methods:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.fromInt(int origin)
+  name: fromInt(int origin)
+  nameWithType: ClipboardItemOriginFilters.fromInt(int origin)
+  parameters:
+  - name: origin
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters?alt=com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters&text=ClipboardItemOriginFilters" data-throw-if-not-resolved="False"/>
+  syntax: public static ClipboardItemOriginFilters fromInt(int origin)
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.fromInt(int)
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.getValue()
+  name: getValue()
+  nameWithType: ClipboardItemOriginFilters.getValue()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getValue()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters.getValue()
+nameWithType: ClipboardItemOriginFilters
+syntax: public enum ClipboardItemOriginFilters
+summary: <p>Values used to filter clipboard items by their origin. </p>
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItemOriginFilters
+name: ClipboardItemOriginFilters
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

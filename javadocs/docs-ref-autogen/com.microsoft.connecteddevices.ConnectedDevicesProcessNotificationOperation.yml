@@ -1,0 +1,15 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.getIsConnectedDevicesNotification()
+- com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation.waitForCompletionAsync()
+nameWithType: ConnectedDevicesProcessNotificationOperation
+syntax: public class ConnectedDevicesProcessNotificationOperation
+summary: <p>The result of giving a notification to the Rome platform for processing. <xrefsect id="deprecated_1_deprecated000006"><xreftitle>Deprecated</xreftitle><xrefdescription><p>Use ConnectedDevicesNotification instead </p></xrefdescription></xrefsect></p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation
+fullName: com.microsoft.connecteddevices.ConnectedDevicesProcessNotificationOperation
+name: ConnectedDevicesProcessNotificationOperation
+package: com.microsoft.connecteddevices

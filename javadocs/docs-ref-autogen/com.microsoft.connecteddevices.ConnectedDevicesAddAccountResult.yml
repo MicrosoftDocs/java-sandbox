@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+methods:
+- com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult.getStatus()
+nameWithType: ConnectedDevicesAddAccountResult
+syntax: public class ConnectedDevicesAddAccountResult
+summary: <p>Result of <xref uid="com.microsoft.connecteddevices.ConnectedDevicesAccountManager" data-throw-if-not-resolved="false">#addAccountAsync</xref></p>
+type: class
+uid: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAddAccountResult
+name: ConnectedDevicesAddAccountResult
+package: com.microsoft.connecteddevices

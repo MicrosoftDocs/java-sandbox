@@ -1,0 +1,12 @@
+### YamlMime:JavaType
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: UserNotificationReaderDataChangedEventArgs
+syntax: public class UserNotificationReaderDataChangedEventArgs
+summary: <p>EventArgs class for when the data in the UserNotificationReader changes </p>
+type: class
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderDataChangedEventArgs
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationReaderDataChangedEventArgs
+name: UserNotificationReaderDataChangedEventArgs
+package: com.microsoft.connecteddevices.userdata.usernotifications

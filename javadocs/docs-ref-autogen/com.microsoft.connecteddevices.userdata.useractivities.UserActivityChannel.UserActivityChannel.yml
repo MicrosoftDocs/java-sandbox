@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: UserActivityChannel.UserActivityChannel
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.UserActivityChannel(@NonNull UserDataFeed userDataFeed)
+  name: UserActivityChannel(@NonNull UserDataFeed userDataFeed)
+  nameWithType: UserActivityChannel.UserActivityChannel(@NonNull UserDataFeed userDataFeed)
+  parameters:
+  - description: <p>The account of the user whose activities will be accessed by this channel. </p>
+    name: userDataFeed
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.userdata.UserDataFeed?alt=com.microsoft.connecteddevices.userdata.UserDataFeed&text=UserDataFeed" data-throw-if-not-resolved="False"/>'
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public UserActivityChannel(@NonNull UserDataFeed userDataFeed)
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.UserActivityChannel(@NonNull UserDataFeed)
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.UserActivityChannel*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivityChannel.UserActivityChannel
+name: UserActivityChannel
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

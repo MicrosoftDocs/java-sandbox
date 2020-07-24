@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String token)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String token)
+  name: completeWithAccessToken(@NonNull final String token)
+  nameWithType: ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String token)
+  parameters:
+  - description: <p>Successfully generated token </p>
+    name: token
+    type: <xref href="%40NonNull+final+String?alt=@NonNull final String&text=%40NonNull+final+String" data-throw-if-not-resolved="False"/>
+  summary: <p>If a token with the requested scopes was successfully generated, call this method with the token to complete the request. </p>
+  syntax: public void completeWithAccessToken(@NonNull final String token)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesAccessTokenRequest.completeWithAccessToken(@NonNull final String token)
+name: completeWithAccessToken(@NonNull final String token)
+package: com.microsoft.connecteddevices
+metadata: {}

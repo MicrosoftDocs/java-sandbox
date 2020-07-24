@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemApp.getIsAvailableByProximity()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableByProximity()
+  name: getIsAvailableByProximity()
+  nameWithType: RemoteSystemApp.getIsAvailableByProximity()
+  returns:
+    description: <p>**true** if the application is available for proximal connection, otherwise **false**. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Indicates whether this application is currently available for proximal connection. </p>
+  syntax: public boolean getIsAvailableByProximity()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableByProximity()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableByProximity*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableByProximity()
+name: getIsAvailableByProximity()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

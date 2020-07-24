@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: AppServiceConnection.setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+  name: setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+  nameWithType: AppServiceConnection.setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+  parameters:
+  - description: <p>The info object for the app service. </p>
+    name: appServiceInfo
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.remotesystems.AppServiceInfo?alt=com.microsoft.connecteddevices.remotesystems.AppServiceInfo&text=AppServiceInfo" data-throw-if-not-resolved="False"/>'
+  summary: <p>Specifies the target app service to connect to. </p>
+  syntax: public void setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.setAppServiceInfo(@NonNull AppServiceInfo)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.setAppServiceInfo*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.AppServiceConnection.setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+name: setAppServiceInfo(@NonNull AppServiceInfo appServiceInfo)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

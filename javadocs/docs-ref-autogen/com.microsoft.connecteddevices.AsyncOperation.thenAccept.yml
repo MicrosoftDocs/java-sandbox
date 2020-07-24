@@ -1,0 +1,25 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.thenAccept(@NonNull ResultConsumer<? super T> action)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.thenAccept(@NonNull ResultConsumer<? super T> action)
+  name: thenAccept(@NonNull ResultConsumer<? super T> action)
+  nameWithType: AsyncOperation<T>.thenAccept(@NonNull ResultConsumer<? super T> action)
+  parameters:
+  - description: <p>ResultConsumer that will be executed upon completion of this operation </p>
+    name: action
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.AsyncOperation.ResultConsumer?alt=com.microsoft.connecteddevices.AsyncOperation.ResultConsumer&text=AsyncOperation.ResultConsumer" data-throw-if-not-resolved="False"/>&lt;? super T&gt;'
+  returns:
+    description: <p>A new async operation that will complete based on the outcome of passed in action </p>
+    type: <xref href="com.microsoft.connecteddevices.AsyncOperation?alt=com.microsoft.connecteddevices.AsyncOperation&text=AsyncOperation" data-throw-if-not-resolved="False"/>&lt;Void&gt;
+  summary: >-
+    <p>The thenAccept trio of functions (thenAccept(action), thenAcceptAsync(action), and thenAcceptAsync(action,Executor)) run a passed in ResultConsumer when this operation completes successfully. </p>
+
+    <p></p>
+  syntax: public AsyncOperation<Void> thenAccept(@NonNull ResultConsumer<? super T> action)
+  uid: com.microsoft.connecteddevices.AsyncOperation.thenAccept(@NonNull ResultConsumer<? super T>)
+uid: com.microsoft.connecteddevices.AsyncOperation.thenAccept*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.thenAccept(@NonNull ResultConsumer<? super T> action)
+name: thenAccept(@NonNull ResultConsumer<? super T> action)
+package: com.microsoft.connecteddevices
+metadata: {}

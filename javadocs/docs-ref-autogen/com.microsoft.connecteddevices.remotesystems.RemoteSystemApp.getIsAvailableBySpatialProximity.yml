@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemApp.getIsAvailableBySpatialProximity()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableBySpatialProximity()
+  name: getIsAvailableBySpatialProximity()
+  nameWithType: RemoteSystemApp.getIsAvailableBySpatialProximity()
+  returns:
+    description: <p>**true** if the application is available for spatial sharing, otherwise **false**. </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: <p>Indicates whether this application is currently available for spatial sharing connection. </p>
+  syntax: public boolean getIsAvailableBySpatialProximity()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableBySpatialProximity()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableBySpatialProximity*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getIsAvailableBySpatialProximity()
+name: getIsAvailableBySpatialProximity()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

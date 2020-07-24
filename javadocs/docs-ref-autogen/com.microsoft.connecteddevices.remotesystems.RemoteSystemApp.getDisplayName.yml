@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemApp.getDisplayName()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getDisplayName()
+  name: getDisplayName()
+  nameWithType: RemoteSystemApp.getDisplayName()
+  returns:
+    description: <p>A String of the display name. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the display-friendly name for this application. This is the name used by the device for Bluetooth identification. If this hasn't been set or the device doesn't support Bluetooth, this field will be empty. </p>
+  syntax: public String getDisplayName()
+  uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getDisplayName()
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getDisplayName*
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemApp.getDisplayName()
+name: getDisplayName()
+package: com.microsoft.connecteddevices.remotesystems
+metadata: {}

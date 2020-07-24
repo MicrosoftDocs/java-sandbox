@@ -1,0 +1,16 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardItem.getData()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getData()
+  name: getData()
+  nameWithType: ClipboardItem.getData()
+  returns:
+    type: <xref href="ClipData?alt=ClipData&text=ClipData" data-throw-if-not-resolved="False"/>
+  syntax: public ClipData getData()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getData()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getData*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardItem.getData()
+name: getData()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

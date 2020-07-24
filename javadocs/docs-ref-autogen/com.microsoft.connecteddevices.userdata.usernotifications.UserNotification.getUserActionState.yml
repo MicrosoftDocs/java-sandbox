@@ -1,0 +1,17 @@
+### YamlMime:JavaMember
+nameWithType: UserNotification.getUserActionState()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getUserActionState()
+  name: getUserActionState()
+  nameWithType: UserNotification.getUserActionState()
+  returns:
+    type: <xref href="com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState?alt=com.microsoft.connecteddevices.userdata.usernotifications.UserNotificationUserActionState&text=UserNotificationUserActionState" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the value of the user action state for a user notification to determine whether the notification is not interacted, dismissed, activated, or snoozed. </p>
+  syntax: public UserNotificationUserActionState getUserActionState()
+  uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getUserActionState()
+uid: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getUserActionState*
+fullName: com.microsoft.connecteddevices.userdata.usernotifications.UserNotification.getUserActionState()
+name: getUserActionState()
+package: com.microsoft.connecteddevices.userdata.usernotifications
+metadata: {}

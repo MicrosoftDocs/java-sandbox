@@ -1,0 +1,23 @@
+### YamlMime:JavaMember
+nameWithType: RemoteSystemAppRegistration.getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+  name: getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+  nameWithType: RemoteSystemAppRegistration.getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+  parameters:
+  - name: account
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesAccount?alt=com.microsoft.connecteddevices.ConnectedDevicesAccount&text=ConnectedDevicesAccount" data-throw-if-not-resolved="False"/>'
+  - name: platform
+    type: '@NonNull <xref href="com.microsoft.connecteddevices.ConnectedDevicesPlatform?alt=com.microsoft.connecteddevices.ConnectedDevicesPlatform&text=ConnectedDevicesPlatform" data-throw-if-not-resolved="False"/>'
+  returns:
+    description: <p>The current <xref uid="" data-throw-if-not-resolved="false">RemoteSystemAppRegistration</xref> associated with the provided account. </p>
+    type: <xref href="com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration?alt=com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration&text=RemoteSystemAppRegistration" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the current <xref uid="" data-throw-if-not-resolved="false">RemoteSystemAppRegistration</xref> associated with the provided account. If no registration already exists for this account, an empty one is created. </p>
+  syntax: public static RemoteSystemAppRegistration getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getForAccount(@NonNull ConnectedDevicesAccount,@NonNull ConnectedDevicesPlatform)
+uid: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getForAccount*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.RemoteSystemAppRegistration.getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+name: getForAccount( @NonNull ConnectedDevicesAccount account, @NonNull ConnectedDevicesPlatform platform)
+package: com.microsoft.connecteddevices.remotesystems.commanding
+metadata: {}

@@ -1,0 +1,14 @@
+### YamlMime:JavaMember
+nameWithType: ClipboardChannel.deleteAllItems()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItems()
+  name: deleteAllItems()
+  nameWithType: ClipboardChannel.deleteAllItems()
+  syntax: public void deleteAllItems()
+  uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItems()
+uid: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItems*
+fullName: com.microsoft.connecteddevices.userdata.clipboard.ClipboardChannel.deleteAllItems()
+name: deleteAllItems()
+package: com.microsoft.connecteddevices.userdata.clipboard
+metadata: {}

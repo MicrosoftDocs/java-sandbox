@@ -1,0 +1,14 @@
+### YamlMime:JavaType
+constructors:
+- com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter.RemoteSystemLocalVisibilityKindFilter(@NonNull RemoteSystemLocalVisibilityKind)
+inheritances:
+- java.lang.Object
+- NativeBase
+nameWithType: RemoteSystemLocalVisibilityKindFilter
+syntax: public class RemoteSystemLocalVisibilityKindFilter implements RemoteSystemFilter
+summary: <p>A class used to set the local (calling) application visibility preference when discovering remote systems. </p>
+type: class
+uid: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter
+fullName: com.microsoft.connecteddevices.remotesystems.RemoteSystemLocalVisibilityKindFilter
+name: RemoteSystemLocalVisibilityKindFilter
+package: com.microsoft.connecteddevices.remotesystems

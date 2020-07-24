@@ -1,0 +1,21 @@
+### YamlMime:JavaMember
+nameWithType: AsyncOperation<T>.isCompletedExceptionally()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.AsyncOperation<T>.isCompletedExceptionally()
+  name: isCompletedExceptionally()
+  nameWithType: AsyncOperation<T>.isCompletedExceptionally()
+  returns:
+    description: <p>if the operation is completed in an exceptional way (cancellation or explicitly) </p>
+    type: <xref href="boolean?alt=boolean&text=boolean" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Checks if the operation completed in any exceptional way (cancellation or completeExceptionally)</p>
+
+    <p></p>
+  syntax: public boolean isCompletedExceptionally()
+  uid: com.microsoft.connecteddevices.AsyncOperation.isCompletedExceptionally()
+uid: com.microsoft.connecteddevices.AsyncOperation.isCompletedExceptionally*
+fullName: com.microsoft.connecteddevices.AsyncOperation<T>.isCompletedExceptionally()
+name: isCompletedExceptionally()
+package: com.microsoft.connecteddevices
+metadata: {}

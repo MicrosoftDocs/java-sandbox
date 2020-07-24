@@ -1,0 +1,18 @@
+### YamlMime:JavaMember
+nameWithType: UserActivity.getFallbackUri()
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getFallbackUri()
+  name: getFallbackUri()
+  nameWithType: UserActivity.getFallbackUri()
+  returns:
+    description: <p>The fallback URI string. </p>
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Gets the fallback URI held by this activity. </p>
+  syntax: public String getFallbackUri()
+  uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getFallbackUri()
+uid: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getFallbackUri*
+fullName: com.microsoft.connecteddevices.userdata.useractivities.UserActivity.getFallbackUri()
+name: getFallbackUri()
+package: com.microsoft.connecteddevices.userdata.useractivities
+metadata: {}

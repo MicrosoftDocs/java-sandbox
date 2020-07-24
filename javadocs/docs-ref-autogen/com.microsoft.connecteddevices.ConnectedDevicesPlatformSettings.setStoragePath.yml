@@ -1,0 +1,19 @@
+### YamlMime:JavaMember
+nameWithType: ConnectedDevicesPlatformSettings.setStoragePath(@Nullable String path)
+type: method
+members:
+- fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.setStoragePath(@Nullable String path)
+  name: setStoragePath(@Nullable String path)
+  nameWithType: ConnectedDevicesPlatformSettings.setStoragePath(@Nullable String path)
+  parameters:
+  - description: <p>String format of the path </p>
+    name: path
+    type: <xref href="%40Nullable+String?alt=@Nullable String&text=%40Nullable+String" data-throw-if-not-resolved="False"/>
+  summary: <p>Set the storage path for storing the ConnectedDevices platform persisted files. </p>
+  syntax: public void setStoragePath(@Nullable String path)
+  uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.setStoragePath(@Nullable String)
+uid: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.setStoragePath*
+fullName: com.microsoft.connecteddevices.ConnectedDevicesPlatformSettings.setStoragePath(@Nullable String path)
+name: setStoragePath(@Nullable String path)
+package: com.microsoft.connecteddevices
+metadata: {}

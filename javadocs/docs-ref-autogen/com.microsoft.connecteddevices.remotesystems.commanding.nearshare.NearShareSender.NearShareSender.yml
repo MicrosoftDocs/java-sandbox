@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+nameWithType: NearShareSender.NearShareSender
+type: constructor
+members:
+- fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.NearShareSender()
+  name: NearShareSender()
+  nameWithType: NearShareSender.NearShareSender()
+  summary: <p>Creates and initializes a new instance of this class. </p>
+  syntax: public NearShareSender()
+  uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.NearShareSender()
+uid: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.NearShareSender*
+fullName: com.microsoft.connecteddevices.remotesystems.commanding.nearshare.NearShareSender.NearShareSender
+name: NearShareSender
+package: com.microsoft.connecteddevices.remotesystems.commanding.nearshare
+metadata: {}
