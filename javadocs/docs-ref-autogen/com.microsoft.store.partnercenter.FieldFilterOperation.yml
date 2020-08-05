@@ -16,8 +16,8 @@ inheritances:
 - <xref href="java.lang.Object?alt=java.lang.Object&text=Object" data-throw-if-not-resolved="False"/>
 - <xref href="java.lang.Enum?alt=java.lang.Enum&text=Enum" data-throw-if-not-resolved="False"/>
 inheritedMembers:
-- <xref href="java.lang.Enum.clone()?alt=java.lang.Enum.clone()&text=Enum.clone()" data-throw-if-not-resolved="False"/>
-- <xref href="java.lang.Enum.valueOf()?alt=java.lang.Enum.<T>valueOf()&text=Enum.<T>valueOf" data-throw-if-not-resolved="False"/>&#40;<xref href="java.lang.Enum.Class?alt=java.lang.Enum.Class<T>&text=Class&lt;T&gt;" data-throw-if-not-resolved="False"/>&#44;<xref href="java.lang.String?alt=java.lang.String&text=String" data-throw-if-not-resolved="False"/>&#41;
+- java.lang.Enum.clone()
+- java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)
 metadata: {}
 methods: 
 - fullName: com.microsoft.store.partnercenter.FieldFilterOperation.valueOf(String name)
