@@ -15,7 +15,6 @@ inheritances:
 inheritedMembers:
 - com.microsoft.store.partnercenter.PartnerOperations.getAgreementDetails()
 - com.microsoft.store.partnercenter.AggregatePartnerOperations.with(java.lang.string)
-- com.microsoft.store.partnercenter.AggregatePartnerOperations.with(java.lang.string)
 metadata: {}
 methods:
 - com.microsoft.store.partnercenter.AggregatePartnerOperations.with(com.microsoft.store.partnercenter.requestcontext.IRequestContext)
