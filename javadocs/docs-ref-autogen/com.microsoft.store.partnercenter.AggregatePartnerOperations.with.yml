@@ -19,7 +19,7 @@ members:
 - fullName: com.microsoft.store.partnercenter.AggregatePartnerOperations.with(String context)
   name: with(String context)
   nameWithType: AggregatePartnerOperations.with(String context)
-  overridden: <xref href="com.microsoft.identity.client.IAuthenticationResult.with()?alt=com.microsoft.identity.client.IAuthenticationResult.with()&text=IAuthenticationResult.with()" data-throw-if-not-resolved="False"/>
+  overridden:com.microsoft.identity.client.IAuthenticationResult.with()
   parameters:
   - name: context
     type: <xref href="java.lang.string?alt=java.lang.string&text=String" data-throw-if-not-resolved="False"/>
@@ -27,6 +27,9 @@ members:
   returns:
     type: <xref href="com.microsoft.store.partnercenter.IPartner?alt=com.microsoft.store.partnercenter.IPartner&text=IPartner" data-throw-if-not-resolved="False"/>
     description: A partner operations object which uses the provided operation context with a `String` type parameter.
+  exceptions:
+  - description: with reason message
+    type: <xref href="com.microsoft.store.partnercenter.CustomException" data-throw-if-not-resolved="False" />
   summary: Returns a partner operations object which uses the provided context when executing operations with a `String` type parameter.
   syntax: public IPartner with(String context)
   typeParameters:
