@@ -35,6 +35,7 @@ members:
   typeParameters:
   - name: T
     description: Test typeParameters.
+  - name: TResourceCollection
   uid: com.microsoft.store.partnercenter.AggregatePartnerOperations.with(java.lang.string)
 metadata: {}
 name: with
