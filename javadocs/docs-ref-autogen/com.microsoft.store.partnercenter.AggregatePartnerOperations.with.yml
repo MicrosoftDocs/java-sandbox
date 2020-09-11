@@ -30,6 +30,8 @@ members:
   exceptions:
   - description: with reason message
     type: <xref href="com.microsoft.store.partnercenter.CustomException" data-throw-if-not-resolved="False" />
+  - description: IOException
+    type: <xref href="java.io.IOException" data-throw-if-not-resolved="False" />
   summary: Returns a partner operations object which uses the provided context when executing operations with a `String` type parameter.
   syntax: public IPartner with(String context)
   typeParameters:
