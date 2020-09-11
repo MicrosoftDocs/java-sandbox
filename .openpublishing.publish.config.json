@@ -60,7 +60,7 @@
         {
           "path_to_root": "_themes",
           "url": "https://github.com/Microsoft/templates.docs.msft",
-          "branch": "develop",
+          "branch": "pr-33795",
           "branch_mapping": {}
         }
       ],
