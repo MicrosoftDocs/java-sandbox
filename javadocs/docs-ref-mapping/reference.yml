@@ -1,26 +1,34 @@
 - name: Reference
-  uid: com.microsoft.store.partnercenter.landingpage.reference
+  uid: com.microsoft.samples.landingpage.reference
   landingPageType: Root
   expanded: true
   items:
-    - uid: com.microsoft.store.partnercenter.landingpage.reference.partnercenter
-      name: Partner Center
+    - uid: ccom.microsoft.samples.landingpage.reference.agreements
+      name: Agreements
       landingPageType: Service
       children:
-      - com.microsoft.store.partnercenter
-    - uid: com.microsoft.store.partnercenter.landingpage.reference.domains
-      name: Domains
+      - com.microsoft.samples.agreements
+    - uid: com.microsoft.samples.landingpage.reference.commentinheritance
+      name: Comment Inheritance
       landingPageType: Service
       children:
-      - com.microsoft.store.partnercenter.domains
-    - uid: com.microsoft.store.partnercenter.landingpage.reference.network 
-      name: Network
+      - com.microsoft.samples.commentinheritance
+    - uid: com.microsoft.samples.landingpage.reference.reference.offers 
+      name: Offers
       landingPageType: Service
       children:
-      - com.microsoft.store.partnercenter.network
-    - uid: com.microsoft.store.partnercenter.landingpage.reference.models 
-      name: Models
+      - com.microsoft.samples.offers
+    - uid: com.microsoft.samples.landingpage.reference.subpackage 
+      name: Subpackage
       landingPageType: Service
       children:
-      - com.microsoft.store.partnercenter.models
-      - com.microsoft.store.partnercenter.models.*
+      - com.microsoft.samples.subpackage
+    - uid: com.microsoft.samples.landingpage.reference.others 
+      name: Others
+      landingPageType: Service
+      children:
+      - ccom.microsoft.samples.BasePartnerComponent
+      - com.microsoft.samples.BasePartnerComponentString
+      - com.microsoft.samples.IPartner
+      - com.microsoft.samples.KeyValuePair
+      - com.microsoft.samples.Link
