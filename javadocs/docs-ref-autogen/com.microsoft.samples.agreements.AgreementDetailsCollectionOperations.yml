@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 name: "AgreementDetailsCollectionOperations"
 nameWithType: "AgreementDetailsCollectionOperations"
-summary: "```java\nfinal byte[] data = \"Some Data\".getBytes(StandardCharsets.UTF_8);\n BinaryData binaryData = BinaryData.fromBytes(data);\n System.out.println(new String(binaryData.toBytes(), StandardCharsets.UTF_8));\n``"
+summary: "```java\nfinal byte[] data = \"Some loooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong Data\".getBytes(StandardCharsets.UTF_8);\n```"
 inheritances:
 - "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
