@@ -3,11 +3,11 @@ uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 name: "AgreementDetailsCollectionOperations"
 nameWithType: "AgreementDetailsCollectionOperations"
-summary: "Agreement details collection operations implementation class."
+summary: "Agreement details collection operations implementation class.\n\n**Deprecated.** for test class."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.BasePartnerComponent.testBase()"
 - "com.microsoft.samples.BasePartnerComponentString.testInherited()"
@@ -22,9 +22,11 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public class AgreementDetailsCollectionOperations extends BasePartnerComponentString implements IAgreementDetailsCollection"
+syntax: "@Deprecated\npublic class AgreementDetailsCollectionOperations extends BasePartnerComponentString implements IAgreementDetailsCollection"
 constructors:
 - "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(com.microsoft.samples.IPartner)"
+fields:
+- "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
 methods:
 - "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
 - "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)"
