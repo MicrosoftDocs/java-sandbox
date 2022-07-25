@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.KeyValuePair<K,V>"
 name: "KeyValuePair<K,V>"
 nameWithType: "KeyValuePair<K,V>"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -19,11 +19,44 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class KeyValuePair<K,V>"
 constructors:
-- "com.microsoft.samples.KeyValuePair.KeyValuePair()"
-- "com.microsoft.samples.KeyValuePair.KeyValuePair(K,V)"
+- uid: "com.microsoft.samples.KeyValuePair.KeyValuePair()"
+  fullName: "com.microsoft.samples.KeyValuePair<K,V>.KeyValuePair()"
+  name: "KeyValuePair()"
+  nameWithType: "KeyValuePair<K,V>.KeyValuePair()"
+  modifiers:
+  - "public"
+  syntax: "public KeyValuePair()"
+- uid: "com.microsoft.samples.KeyValuePair.KeyValuePair(K,V)"
+  fullName: "com.microsoft.samples.KeyValuePair<K,V>.KeyValuePair(K key, V value)"
+  name: "KeyValuePair(K key, V value)"
+  nameWithType: "KeyValuePair<K,V>.KeyValuePair(K key, V value)"
+  modifiers:
+  - "public"
+  parameters:
+  - name: "key"
+    type: "<xref href=\"K?alt=K&text=K\" data-throw-if-not-resolved=\"False\" />"
+  - name: "value"
+    type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public KeyValuePair(K key, V value)"
 methods:
-- "com.microsoft.samples.KeyValuePair.getKey()"
-- "com.microsoft.samples.KeyValuePair.getValue()"
+- uid: "com.microsoft.samples.KeyValuePair.getKey()"
+  fullName: "com.microsoft.samples.KeyValuePair<K,V>.getKey()"
+  name: "getKey()"
+  nameWithType: "KeyValuePair<K,V>.getKey()"
+  modifiers:
+  - "public"
+  syntax: "public K getKey()"
+  returns:
+    type: "<xref href=\"K?alt=K&text=K\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.samples.KeyValuePair.getValue()"
+  fullName: "com.microsoft.samples.KeyValuePair<K,V>.getValue()"
+  name: "getValue()"
+  nameWithType: "KeyValuePair<K,V>.getValue()"
+  modifiers:
+  - "public"
+  syntax: "public V getValue()"
+  returns:
+    type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 typeParameters:
 - name: "K"

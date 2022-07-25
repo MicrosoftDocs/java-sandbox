@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.commentinheritance.Herbivorous.Plant"
 name: "Herbivorous.Plant"
 nameWithType: "Herbivorous.Plant"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -19,7 +19,13 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public static class Herbivorous.Plant"
 constructors:
-- "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
+- uid: "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
+  fullName: "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
+  name: "Plant()"
+  nameWithType: "Herbivorous.Plant.Plant()"
+  modifiers:
+  - "public"
+  syntax: "public Plant()"
 type: "class"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

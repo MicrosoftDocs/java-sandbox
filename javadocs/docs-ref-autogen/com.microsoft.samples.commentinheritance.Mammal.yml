@@ -5,8 +5,8 @@ name: "Mammal"
 nameWithType: "Mammal"
 summary: "Mammal."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.commentinheritance.Animal\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.commentinheritance.Animal?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.commentinheritance.Animal.breathe()"
 - "com.microsoft.samples.commentinheritance.Animal.feed()"
@@ -25,9 +25,26 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class Mammal extends Animal"
 constructors:
-- "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+- uid: "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+  fullName: "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+  name: "Mammal()"
+  nameWithType: "Mammal.Mammal()"
+  modifiers:
+  - "public"
+  syntax: "public Mammal()"
 methods:
-- "com.microsoft.samples.commentinheritance.Mammal.getKind()"
+- uid: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
+  fullName: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
+  name: "getKind()"
+  nameWithType: "Mammal.getKind()"
+  summary: "Get kind from Organism. Get kind from Animal. Get kind from Mammal."
+  modifiers:
+  - "public"
+  - "abstract"
+  overridden: "com.microsoft.samples.commentinheritance.Animal.getKind()"
+  syntax: "public abstract String getKind()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

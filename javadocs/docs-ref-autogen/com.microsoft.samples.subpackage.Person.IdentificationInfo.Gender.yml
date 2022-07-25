@@ -5,8 +5,8 @@ name: "Person.IdentificationInfo.Gender"
 nameWithType: "Person.IdentificationInfo.Gender"
 summary: "Enum describes person's gender"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Enum\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
@@ -24,7 +24,7 @@ inheritedMembers:
 - "java.lang.Object.wait()"
 - "java.lang.Object.wait(long)"
 - "java.lang.Object.wait(long,int)"
-syntax: "public enum Person.IdentificationInfo.Gender extends Enum<Person.IdentificationInfo.Gender>"
+syntax: "@Deprecated\npublic enum Person.IdentificationInfo.Gender extends Enum<Person.IdentificationInfo.Gender>"
 fields:
 - uid: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender.FEMALE"
   fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender.FEMALE"
@@ -39,6 +39,9 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "Person.IdentificationInfo.Gender.valueOf(String name)"
+  modifiers:
+  - "public"
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -49,6 +52,9 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender.values()"
   name: "values()"
   nameWithType: "Person.IdentificationInfo.Gender.values()"
+  modifiers:
+  - "public"
+  - "static"
   syntax: "public static Person.IdentificationInfo.Gender[] values()"
   returns:
     type: "<xref href=\"com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender?alt=com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender&text=Gender\" data-throw-if-not-resolved=\"False\" />[]"

@@ -6,8 +6,30 @@ nameWithType: "Carnivorous"
 summary: "Marks an Animal that eats other animals."
 syntax: "public interface Carnivorous"
 methods:
-- "com.microsoft.samples.commentinheritance.Carnivorous.eat(com.microsoft.samples.commentinheritance.Animal)"
-- "com.microsoft.samples.commentinheritance.Carnivorous.getKind()"
+- uid: "com.microsoft.samples.commentinheritance.Carnivorous.eat(com.microsoft.samples.commentinheritance.Animal)"
+  fullName: "com.microsoft.samples.commentinheritance.Carnivorous.eat(Animal animalBeingEaten)"
+  name: "eat(Animal animalBeingEaten)"
+  nameWithType: "Carnivorous.eat(Animal animalBeingEaten)"
+  summary: "Eat the provided animal."
+  modifiers:
+  - "public"
+  - "abstract"
+  parameters:
+  - description: "Animal that will be eaten."
+    name: "animalBeingEaten"
+    type: "<xref href=\"com.microsoft.samples.commentinheritance.Animal?alt=com.microsoft.samples.commentinheritance.Animal&text=Animal\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void eat(Animal animalBeingEaten)"
+- uid: "com.microsoft.samples.commentinheritance.Carnivorous.getKind()"
+  fullName: "com.microsoft.samples.commentinheritance.Carnivorous.getKind()"
+  name: "getKind()"
+  nameWithType: "Carnivorous.getKind()"
+  summary: "Get kind from Carnivorous.\n\n**Deprecated.** test for Carnivorous inheritedDoc."
+  modifiers:
+  - "public"
+  - "abstract"
+  syntax: "public abstract String getKind()"
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

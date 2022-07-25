@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.Subpackage"
 name: "Subpackage"
 nameWithType: "Subpackage"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -19,7 +19,13 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class Subpackage"
 constructors:
-- "com.microsoft.samples.Subpackage.Subpackage()"
+- uid: "com.microsoft.samples.Subpackage.Subpackage()"
+  fullName: "com.microsoft.samples.Subpackage.Subpackage()"
+  name: "Subpackage()"
+  nameWithType: "Subpackage.Subpackage()"
+  modifiers:
+  - "public"
+  syntax: "public Subpackage()"
 type: "class"
 metadata: {}
 package: "com.microsoft.samples"
