@@ -3,11 +3,12 @@ uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
 name: "AgreementDetailsCollectionOperations"
 nameWithType: "AgreementDetailsCollectionOperations"
-summary: "Agreement details collection operations implementation class.\n\n**Deprecated.** for test class."
+summary: "Agreement details collection operations implementation class."
+deprecatedTag: "**Deprecated.** for test class."
 inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.BasePartnerComponent.testBase()"
 - "com.microsoft.samples.BasePartnerComponentString.testInherited()"
@@ -31,6 +32,7 @@ methods:
 - "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
 - "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)"
 type: "class"
+desc: "Agreement details collection operations implementation class. This is class second sentence."
 implements:
 - "<xref href=\"com.microsoft.samples.agreements.IAgreementDetailsCollection?alt=com.microsoft.samples.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}
