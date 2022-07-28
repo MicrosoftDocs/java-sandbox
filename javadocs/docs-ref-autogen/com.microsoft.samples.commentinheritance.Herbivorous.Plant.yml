@@ -23,8 +23,6 @@ constructors:
   fullName: "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
   name: "Plant()"
   nameWithType: "Herbivorous.Plant.Plant()"
-  modifiers:
-  - "public"
   syntax: "public Plant()"
 type: "class"
 metadata: {}

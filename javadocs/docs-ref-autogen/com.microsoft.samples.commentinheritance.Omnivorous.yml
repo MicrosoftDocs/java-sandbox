@@ -12,7 +12,6 @@ methods:
   nameWithType: "Omnivorous.eat(Animal animalToBeEaten)"
   summary: "Eat the provided animal."
   modifiers:
-  - "public"
   - "abstract"
   parameters:
   - name: "animalToBeEaten"
@@ -24,7 +23,6 @@ methods:
   nameWithType: "Omnivorous.eat(Herbivorous.Plant plantToBeEaten)"
   summary: "Eat the provided plant."
   modifiers:
-  - "public"
   - "abstract"
   parameters:
   - name: "plantToBeEaten"
@@ -36,7 +34,6 @@ methods:
   nameWithType: "Omnivorous.getKind()"
   summary: "Get kind from Carnivorous. Get kind from Omnivorous.\n\n**Deprecated.** test for Omnivorous inheritDoc."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract String getKind()"
   returns:

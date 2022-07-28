@@ -37,8 +37,6 @@ constructors:
   fullName: "com.microsoft.samples.subpackage.CustomException.CustomException(String message)"
   name: "CustomException(String message)"
   nameWithType: "CustomException.CustomException(String message)"
-  modifiers:
-  - "public"
   parameters:
   - name: "message"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -49,8 +47,6 @@ methods:
   name: "makeSomething()"
   nameWithType: "CustomException.makeSomething()"
   summary: "We need to have such method that throw exception declared in the same class"
-  modifiers:
-  - "public"
   syntax: "public void makeSomething()"
   exceptions:
   - description: "with reason message"

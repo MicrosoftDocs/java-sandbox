@@ -23,8 +23,6 @@ constructors:
   fullName: "com.microsoft.samples.subpackage.HttpStatusCode.HttpStatusCode()"
   name: "HttpStatusCode()"
   nameWithType: "HttpStatusCode.HttpStatusCode()"
-  modifiers:
-  - "public"
   syntax: "public HttpStatusCode()"
 fields:
 - uid: "com.microsoft.samples.subpackage.HttpStatusCode.BADREQUEST"
@@ -32,7 +30,6 @@ fields:
   name: "BADREQUEST"
   nameWithType: "HttpStatusCode.BADREQUEST"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:
@@ -44,7 +41,6 @@ fields:
   name: "CONFLICT"
   nameWithType: "HttpStatusCode.CONFLICT"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:
@@ -56,7 +52,6 @@ fields:
   name: "EXPECTATIONFAILED"
   nameWithType: "HttpStatusCode.EXPECTATIONFAILED"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:
@@ -68,7 +63,6 @@ fields:
   name: "FORBIDDEN"
   nameWithType: "HttpStatusCode.FORBIDDEN"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:
@@ -80,7 +74,6 @@ fields:
   name: "NOTFOUND"
   nameWithType: "HttpStatusCode.NOTFOUND"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:
@@ -92,7 +85,6 @@ fields:
   name: "SERVICEUNAVAILABLE"
   nameWithType: "HttpStatusCode.SERVICEUNAVAILABLE"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:
@@ -104,7 +96,6 @@ fields:
   name: "UNAUTHORIZED"
   nameWithType: "HttpStatusCode.UNAUTHORIZED"
   modifiers:
-  - "public"
   - "static"
   - "final"
   field:

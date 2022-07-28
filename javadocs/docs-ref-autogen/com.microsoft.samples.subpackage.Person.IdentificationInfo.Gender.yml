@@ -40,7 +40,6 @@ methods:
   name: "valueOf(String name)"
   nameWithType: "Person.IdentificationInfo.Gender.valueOf(String name)"
   modifiers:
-  - "public"
   - "static"
   parameters:
   - name: "name"
@@ -53,7 +52,6 @@ methods:
   name: "values()"
   nameWithType: "Person.IdentificationInfo.Gender.values()"
   modifiers:
-  - "public"
   - "static"
   syntax: "public static Person.IdentificationInfo.Gender[] values()"
   returns:

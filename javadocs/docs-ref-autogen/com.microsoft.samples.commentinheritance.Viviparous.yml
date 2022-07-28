@@ -12,7 +12,6 @@ methods:
   nameWithType: "Viviparous.getKind()"
   summary: "Get kind from Viviparous."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract String getKind()"
   returns:
@@ -22,7 +21,6 @@ methods:
   name: "giveBirth(int numberOfOffspring)"
   nameWithType: "Viviparous.giveBirth(int numberOfOffspring)"
   modifiers:
-  - "public"
   - "abstract"
   parameters:
   - name: "numberOfOffspring"

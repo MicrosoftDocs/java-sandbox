@@ -23,15 +23,11 @@ constructors:
   fullName: "com.microsoft.samples.KeyValuePair<K,V>.KeyValuePair()"
   name: "KeyValuePair()"
   nameWithType: "KeyValuePair<K,V>.KeyValuePair()"
-  modifiers:
-  - "public"
   syntax: "public KeyValuePair()"
 - uid: "com.microsoft.samples.KeyValuePair.KeyValuePair(K,V)"
   fullName: "com.microsoft.samples.KeyValuePair<K,V>.KeyValuePair(K key, V value)"
   name: "KeyValuePair(K key, V value)"
   nameWithType: "KeyValuePair<K,V>.KeyValuePair(K key, V value)"
-  modifiers:
-  - "public"
   parameters:
   - name: "key"
     type: "<xref href=\"K?alt=K&text=K\" data-throw-if-not-resolved=\"False\" />"
@@ -43,8 +39,6 @@ methods:
   fullName: "com.microsoft.samples.KeyValuePair<K,V>.getKey()"
   name: "getKey()"
   nameWithType: "KeyValuePair<K,V>.getKey()"
-  modifiers:
-  - "public"
   syntax: "public K getKey()"
   returns:
     type: "<xref href=\"K?alt=K&text=K\" data-throw-if-not-resolved=\"False\" />"
@@ -52,8 +46,6 @@ methods:
   fullName: "com.microsoft.samples.KeyValuePair<K,V>.getValue()"
   name: "getValue()"
   nameWithType: "KeyValuePair<K,V>.getValue()"
-  modifiers:
-  - "public"
   syntax: "public V getValue()"
   returns:
     type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"

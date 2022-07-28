@@ -12,7 +12,6 @@ methods:
   nameWithType: "IPartner.getCredentials()"
   summary: "Gets the partner credentials."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract String getCredentials()"
   returns:

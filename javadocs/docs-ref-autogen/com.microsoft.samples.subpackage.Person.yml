@@ -24,16 +24,12 @@ constructors:
   fullName: "com.microsoft.samples.subpackage.Person<T>.Person()"
   name: "Person()"
   nameWithType: "Person<T>.Person()"
-  modifiers:
-  - "public"
   syntax: "public Person()"
 fields:
 - uid: "com.microsoft.samples.subpackage.Person.age"
   fullName: "com.microsoft.samples.subpackage.Person<T>.age"
   name: "age"
   nameWithType: "Person<T>.age"
-  modifiers:
-  - "public"
   field:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public int age"
@@ -44,7 +40,6 @@ methods:
   nameWithType: "Person<T>.buildPerson(Person seed)"
   summary: "We need to have this method that takes parameter and return types declared in the current class Test link <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\" data-raw-source=\"String\"></xref> A person maybe a <xref uid=\"com.microsoft.samples.SuperHero\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SuperHero\"></xref>"
   modifiers:
-  - "public"
   - "static"
   parameters:
   - name: "seed"
@@ -56,8 +51,6 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person<T>.getFirstName()"
   name: "getFirstName()"
   nameWithType: "Person<T>.getFirstName()"
-  modifiers:
-  - "public"
   syntax: "public String getFirstName()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -65,8 +58,6 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person<T>.getLastName()"
   name: "getLastName()"
   nameWithType: "Person<T>.getLastName()"
-  modifiers:
-  - "public"
   syntax: "public String getLastName()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -74,8 +65,6 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person<T>.getSomeSet()"
   name: "getSomeSet()"
   nameWithType: "Person<T>.getSomeSet()"
-  modifiers:
-  - "public"
   syntax: "public Set<String> getSomeSet()"
   returns:
     type: "<xref href=\"java.util.Set?alt=java.util.Set&text=Set\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -83,8 +72,6 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person<T>.setFirstName(String firstName)"
   name: "setFirstName(String firstName)"
   nameWithType: "Person<T>.setFirstName(String firstName)"
-  modifiers:
-  - "public"
   parameters:
   - name: "firstName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -93,21 +80,18 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person<T>.setLastName()"
   name: "setLastName()"
   nameWithType: "Person<T>.setLastName()"
-  modifiers:
-  - "public"
   syntax: "public void setLastName()"
 - uid: "com.microsoft.samples.subpackage.Person.setLastName(java.lang.String)"
   fullName: "com.microsoft.samples.subpackage.Person<T>.setLastName(String lastName)"
   name: "setLastName(String lastName)"
   nameWithType: "Person<T>.setLastName(String lastName)"
-  modifiers:
-  - "public"
   parameters:
   - name: "lastName"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setLastName(String lastName)"
 type: "class"
 typeParameters:
-- name: "T"
+- description: "The type of person."
+  name: "T"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

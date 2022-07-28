@@ -25,16 +25,12 @@ constructors:
   name: "Offer()"
   nameWithType: "Offer.Offer()"
   summary: "Initializes a new instance of the Offer class."
-  modifiers:
-  - "public"
   syntax: "public Offer()"
 methods:
 - uid: "com.microsoft.samples.offers.Offer.getReselleeQualifications()"
   fullName: "com.microsoft.samples.offers.Offer.getReselleeQualifications()"
   name: "getReselleeQualifications()"
   nameWithType: "Offer.getReselleeQualifications()"
-  modifiers:
-  - "public"
   syntax: "public String[] getReselleeQualifications()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />[]"
@@ -42,8 +38,6 @@ methods:
   fullName: "com.microsoft.samples.offers.Offer.getResellerQualifications()"
   name: "getResellerQualifications()"
   nameWithType: "Offer.getResellerQualifications()"
-  modifiers:
-  - "public"
   syntax: "public String[] getResellerQualifications()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />[]"
@@ -51,8 +45,6 @@ methods:
   fullName: "com.microsoft.samples.offers.Offer.setReselleeQualifications(String[] value)"
   name: "setReselleeQualifications(String[] value)"
   nameWithType: "Offer.setReselleeQualifications(String[] value)"
-  modifiers:
-  - "public"
   parameters:
   - name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />[]"
@@ -61,8 +53,6 @@ methods:
   fullName: "com.microsoft.samples.offers.Offer.setResellerQualifications(String[] value)"
   name: "setResellerQualifications(String[] value)"
   nameWithType: "Offer.setResellerQualifications(String[] value)"
-  modifiers:
-  - "public"
   parameters:
   - name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />[]"

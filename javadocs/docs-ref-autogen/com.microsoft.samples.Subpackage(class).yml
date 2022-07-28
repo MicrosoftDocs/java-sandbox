@@ -23,8 +23,6 @@ constructors:
   fullName: "com.microsoft.samples.Subpackage.Subpackage()"
   name: "Subpackage()"
   nameWithType: "Subpackage.Subpackage()"
-  modifiers:
-  - "public"
   syntax: "public Subpackage()"
 type: "class"
 metadata: {}

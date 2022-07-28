@@ -24,8 +24,6 @@ constructors:
   fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.IdentificationInfo()"
   name: "IdentificationInfo()"
   nameWithType: "Person.IdentificationInfo.IdentificationInfo()"
-  modifiers:
-  - "public"
   syntax: "public IdentificationInfo()"
 type: "class"
 metadata: {}

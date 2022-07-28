@@ -12,7 +12,6 @@ methods:
   nameWithType: "IAgreementDetailsCollection.get()"
   summary: "Retrieves all current agreement metadata."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract ResourceCollection<AgreementMetaData> get()"
   returns:
@@ -23,7 +22,6 @@ methods:
   name: "get(String id)"
   nameWithType: "IAgreementDetailsCollection.get(String id)"
   modifiers:
-  - "public"
   - "abstract"
   parameters:
   - name: "id"

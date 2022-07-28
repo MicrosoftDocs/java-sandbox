@@ -12,7 +12,6 @@ methods:
   nameWithType: "Carnivorous.eat(Animal animalBeingEaten)"
   summary: "Eat the provided animal."
   modifiers:
-  - "public"
   - "abstract"
   parameters:
   - description: "Animal that will be eaten."
@@ -25,7 +24,6 @@ methods:
   nameWithType: "Carnivorous.getKind()"
   summary: "Get kind from Carnivorous.\n\n**Deprecated.** test for Carnivorous inheritedDoc."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract String getKind()"
   returns:

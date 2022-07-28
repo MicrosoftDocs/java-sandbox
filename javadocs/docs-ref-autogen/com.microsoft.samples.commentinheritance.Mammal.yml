@@ -29,8 +29,6 @@ constructors:
   fullName: "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
   name: "Mammal()"
   nameWithType: "Mammal.Mammal()"
-  modifiers:
-  - "public"
   syntax: "public Mammal()"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
@@ -39,7 +37,6 @@ methods:
   nameWithType: "Mammal.getKind()"
   summary: "Get kind from Organism. Get kind from Animal. Get kind from Mammal."
   modifiers:
-  - "public"
   - "abstract"
   overridden: "com.microsoft.samples.commentinheritance.Animal.getKind()"
   syntax: "public abstract String getKind()"

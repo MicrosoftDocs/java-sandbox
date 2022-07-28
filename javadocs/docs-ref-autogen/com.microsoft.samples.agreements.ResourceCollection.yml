@@ -24,8 +24,6 @@ constructors:
   fullName: "com.microsoft.samples.agreements.ResourceCollection<TResource>.ResourceCollection()"
   name: "ResourceCollection()"
   nameWithType: "ResourceCollection<TResource>.ResourceCollection()"
-  modifiers:
-  - "public"
   syntax: "public ResourceCollection()"
 type: "class"
 typeParameters:

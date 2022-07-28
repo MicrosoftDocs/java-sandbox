@@ -29,8 +29,6 @@ constructors:
   name: "AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   nameWithType: "AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   summary: "Initializes a new instance of the AgreementDetailsCollectionOperations class.\n\n**Deprecated.** for test constructor."
-  modifiers:
-  - "public"
   parameters:
   - description: "The root partner operations instance."
     name: "rootPartnerOperations"
@@ -42,8 +40,6 @@ fields:
   name: "deprecatedField"
   nameWithType: "AgreementDetailsCollectionOperations.deprecatedField"
   summary: "\n\n**Deprecated.** for test field."
-  modifiers:
-  - "public"
   field:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "@Deprecated(forRemoval=false)\npublic String deprecatedField"
@@ -53,8 +49,6 @@ methods:
   name: "get()"
   nameWithType: "AgreementDetailsCollectionOperations.get()"
   summary: "Retrieves the agreement details.\n\n**Deprecated.** for test method.Use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
-  modifiers:
-  - "public"
   syntax: "@Deprecated(since=\"11\", forRemoval=true)\npublic ResourceCollection<AgreementMetaData> get()"
   returns:
     description: "A list of agreement details."
@@ -63,8 +57,6 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(String id)"
   name: "get(String id)"
   nameWithType: "AgreementDetailsCollectionOperations.get(String id)"
-  modifiers:
-  - "public"
   parameters:
   - name: "id"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"

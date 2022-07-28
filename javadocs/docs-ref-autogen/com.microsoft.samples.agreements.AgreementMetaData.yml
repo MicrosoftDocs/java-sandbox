@@ -24,16 +24,12 @@ constructors:
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.AgreementMetaData()"
   name: "AgreementMetaData()"
   nameWithType: "AgreementMetaData.AgreementMetaData()"
-  modifiers:
-  - "public"
   syntax: "public AgreementMetaData()"
 methods:
 - uid: "com.microsoft.samples.agreements.AgreementMetaData.getAgreementLink()"
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.getAgreementLink()"
   name: "getAgreementLink()"
   nameWithType: "AgreementMetaData.getAgreementLink()"
-  modifiers:
-  - "public"
   syntax: "public String getAgreementLink()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -41,8 +37,6 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.getTemplateId()"
   name: "getTemplateId()"
   nameWithType: "AgreementMetaData.getTemplateId()"
-  modifiers:
-  - "public"
   syntax: "public String getTemplateId()"
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -50,8 +44,6 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.getVersionRank()"
   name: "getVersionRank()"
   nameWithType: "AgreementMetaData.getVersionRank()"
-  modifiers:
-  - "public"
   syntax: "public int getVersionRank()"
   returns:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
@@ -59,8 +51,6 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.setAgreementLink(String value)"
   name: "setAgreementLink(String value)"
   nameWithType: "AgreementMetaData.setAgreementLink(String value)"
-  modifiers:
-  - "public"
   parameters:
   - name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -69,8 +59,6 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(String value)"
   name: "setTemplateId(String value)"
   nameWithType: "AgreementMetaData.setTemplateId(String value)"
-  modifiers:
-  - "public"
   parameters:
   - name: "value"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -79,8 +67,6 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int value)"
   name: "setVersionRank(int value)"
   nameWithType: "AgreementMetaData.setVersionRank(int value)"
-  modifiers:
-  - "public"
   parameters:
   - name: "value"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"

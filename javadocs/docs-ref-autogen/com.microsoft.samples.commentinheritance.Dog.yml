@@ -30,8 +30,6 @@ constructors:
   fullName: "com.microsoft.samples.commentinheritance.Dog.Dog()"
   name: "Dog()"
   nameWithType: "Dog.Dog()"
-  modifiers:
-  - "public"
   syntax: "public Dog()"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Dog.eat(com.microsoft.samples.commentinheritance.Animal)"
@@ -39,8 +37,6 @@ methods:
   name: "eat(Animal otherAnimal)"
   nameWithType: "Dog.eat(Animal otherAnimal)"
   summary: "Eat the provided animal."
-  modifiers:
-  - "public"
   parameters:
   - description: "Tasty treat."
     name: "otherAnimal"
@@ -51,8 +47,6 @@ methods:
   name: "eat(Herbivorous.Plant plantToBeEaten)"
   nameWithType: "Dog.eat(Herbivorous.Plant plantToBeEaten)"
   summary: "Eat the provided plant."
-  modifiers:
-  - "public"
   parameters:
   - description: "Plant that this dog will eat."
     name: "plantToBeEaten"
@@ -63,8 +57,6 @@ methods:
   name: "feed()"
   nameWithType: "Dog.feed()"
   summary: "Feed offspring."
-  modifiers:
-  - "public"
   overridden: "com.microsoft.samples.commentinheritance.Animal.feed()"
   syntax: "public void feed()"
 - uid: "com.microsoft.samples.commentinheritance.Dog.getHairColor()"
@@ -72,8 +64,6 @@ methods:
   name: "getHairColor()"
   nameWithType: "Dog.getHairColor()"
   summary: "Provide the color of the dog's hair."
-  modifiers:
-  - "public"
   syntax: "public Color getHairColor()"
   returns:
     description: "Color of the dog's fur."
@@ -83,8 +73,6 @@ methods:
   name: "getKind()"
   nameWithType: "Dog.getKind()"
   summary: "Get kind from Organism. Get kind from Animal. Get kind from Mammal. Get kind from Dog."
-  modifiers:
-  - "public"
   overridden: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
   syntax: "public String getKind()"
   returns:
@@ -93,8 +81,6 @@ methods:
   fullName: "com.microsoft.samples.commentinheritance.Dog.giveBirth(int numberPuppies)"
   name: "giveBirth(int numberPuppies)"
   nameWithType: "Dog.giveBirth(int numberPuppies)"
-  modifiers:
-  - "public"
   parameters:
   - description: "Number of puppies being born."
     name: "numberPuppies"
@@ -105,8 +91,6 @@ methods:
   name: "verballyCommunicate()"
   nameWithType: "Dog.verballyCommunicate()"
   summary: "Communicate verbally. Bark."
-  modifiers:
-  - "public"
   overridden: "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
   syntax: "public void verballyCommunicate()"
 type: "class"

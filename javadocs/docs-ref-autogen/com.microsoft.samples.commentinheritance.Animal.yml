@@ -24,8 +24,6 @@ constructors:
   fullName: "com.microsoft.samples.commentinheritance.Animal.Animal()"
   name: "Animal()"
   nameWithType: "Animal.Animal()"
-  modifiers:
-  - "public"
   syntax: "public Animal()"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Animal.breathe()"
@@ -33,8 +31,6 @@ methods:
   name: "breathe()"
   nameWithType: "Animal.breathe()"
   summary: "Breathe."
-  modifiers:
-  - "public"
   syntax: "public void breathe()"
 - uid: "com.microsoft.samples.commentinheritance.Animal.feed()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.feed()"
@@ -42,7 +38,6 @@ methods:
   nameWithType: "Animal.feed()"
   summary: "Feed offspring."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract void feed()"
 - uid: "com.microsoft.samples.commentinheritance.Animal.getKind()"
@@ -51,7 +46,6 @@ methods:
   nameWithType: "Animal.getKind()"
   summary: "Get kind from Organism. Get kind from Animal."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract String getKind()"
   returns:
@@ -62,7 +56,6 @@ methods:
   nameWithType: "Animal.verballyCommunicate()"
   summary: "Communicate verbally."
   modifiers:
-  - "public"
   - "abstract"
   syntax: "public abstract void verballyCommunicate()"
 type: "class"
