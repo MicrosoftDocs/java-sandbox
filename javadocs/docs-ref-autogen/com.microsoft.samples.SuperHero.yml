@@ -103,7 +103,7 @@ methods:
   overridden: "com.microsoft.samples.subpackage.Person.getLastName()"
   syntax: "public String getLastName()"
   returns:
-    description: "lastName in uppercase. But it's not the end, because of multiline comment"
+    description: "lastName in uppercase. But it's not the end,\n because of multiline comment"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.samples.SuperHero.getUniquePower()"
   fullName: "com.microsoft.samples.SuperHero.getUniquePower()"
