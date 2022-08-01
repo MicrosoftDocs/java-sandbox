@@ -14,6 +14,7 @@ members:
     name: "plantToBeEaten"
     type: "<xref href=\"com.microsoft.samples.commentinheritance.Herbivorous.Plant?alt=com.microsoft.samples.commentinheritance.Herbivorous.Plant&text=Plant\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void eat(Herbivorous.Plant plantToBeEaten)"
+  desc: "Eat the provided plant."
 type: "method"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

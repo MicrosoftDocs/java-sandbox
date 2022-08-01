@@ -10,6 +10,7 @@ members:
   nameWithType: "Animal.verballyCommunicate()"
   summary: "Communicate verbally."
   syntax: "public abstract void verballyCommunicate()"
+  desc: "Communicate verbally."
 type: "method"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

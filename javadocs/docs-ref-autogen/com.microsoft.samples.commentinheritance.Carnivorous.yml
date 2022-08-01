@@ -9,5 +9,6 @@ methods:
 - "com.microsoft.samples.commentinheritance.Carnivorous.eat(com.microsoft.samples.commentinheritance.Animal)"
 - "com.microsoft.samples.commentinheritance.Carnivorous.getKind()"
 type: "interface"
+desc: "Marks an Animal that eats other animals."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

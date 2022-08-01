@@ -11,6 +11,7 @@ members:
   summary: "Feed offspring."
   overridden: "com.microsoft.samples.commentinheritance.Animal.feed()"
   syntax: "public void feed()"
+  desc: "Feed offspring."
 type: "method"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

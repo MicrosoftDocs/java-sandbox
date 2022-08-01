@@ -14,6 +14,7 @@ members:
     name: "animalBeingEaten"
     type: "<xref href=\"com.microsoft.samples.commentinheritance.Animal?alt=com.microsoft.samples.commentinheritance.Animal&text=Animal\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public abstract void eat(Animal animalBeingEaten)"
+  desc: "Eat the provided animal."
 type: "method"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

@@ -10,6 +10,7 @@ members:
   nameWithType: "Animal.breathe()"
   summary: "Breathe."
   syntax: "public void breathe()"
+  desc: "Breathe."
 type: "method"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

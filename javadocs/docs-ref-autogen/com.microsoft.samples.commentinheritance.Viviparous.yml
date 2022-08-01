@@ -9,5 +9,6 @@ methods:
 - "com.microsoft.samples.commentinheritance.Viviparous.getKind()"
 - "com.microsoft.samples.commentinheritance.Viviparous.giveBirth(int)"
 type: "interface"
+desc: "Mammals that give birth to young that develop within the mother's body."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"
