@@ -5,7 +5,7 @@ name: "Animal"
 nameWithType: "Animal"
 summary: "Animal."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -27,6 +27,7 @@ methods:
 - "com.microsoft.samples.commentinheritance.Animal.getKind()"
 - "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
 type: "class"
+desc: "Animal."
 implements:
 - "<xref href=\"com.microsoft.samples.commentinheritance.Organism?alt=com.microsoft.samples.commentinheritance.Organism&text=Organism\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

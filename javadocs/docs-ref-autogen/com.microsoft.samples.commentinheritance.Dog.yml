@@ -5,9 +5,9 @@ name: "Dog"
 nameWithType: "Dog"
 summary: "Canine and man's best friend."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.commentinheritance.Animal\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.commentinheritance.Mammal\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.commentinheritance.Animal?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.commentinheritance.Mammal?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.commentinheritance.Animal.breathe()"
 - "com.microsoft.samples.commentinheritance.Animal.feed()"
@@ -36,6 +36,7 @@ methods:
 - "com.microsoft.samples.commentinheritance.Dog.giveBirth(int)"
 - "com.microsoft.samples.commentinheritance.Dog.verballyCommunicate()"
 type: "class"
+desc: "Canine and man's best friend."
 implements:
 - "<xref href=\"com.microsoft.samples.commentinheritance.Omnivorous?alt=com.microsoft.samples.commentinheritance.Omnivorous&text=Omnivorous\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.commentinheritance.Viviparous?alt=com.microsoft.samples.commentinheritance.Viviparous&text=Viviparous\" data-throw-if-not-resolved=\"False\" />"

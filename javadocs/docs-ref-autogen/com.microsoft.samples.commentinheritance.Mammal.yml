@@ -5,8 +5,8 @@ name: "Mammal"
 nameWithType: "Mammal"
 summary: "Mammal."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.commentinheritance.Animal\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.commentinheritance.Animal?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.commentinheritance.Animal.breathe()"
 - "com.microsoft.samples.commentinheritance.Animal.feed()"
@@ -29,5 +29,6 @@ constructors:
 methods:
 - "com.microsoft.samples.commentinheritance.Mammal.getKind()"
 type: "class"
+desc: "Mammal."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

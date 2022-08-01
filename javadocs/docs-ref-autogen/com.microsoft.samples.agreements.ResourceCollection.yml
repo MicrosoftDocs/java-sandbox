@@ -5,7 +5,7 @@ name: "ResourceCollection<TResource>"
 nameWithType: "ResourceCollection<TResource>"
 summary: "Contains a collection of resources with JSON properties to represent the output Type of objects in collection"
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
@@ -24,5 +24,6 @@ constructors:
 type: "class"
 typeParameters:
 - name: "TResource"
+desc: "Contains a collection of resources with JSON properties to represent the output Type of objects in collection"
 metadata: {}
 package: "com.microsoft.samples.agreements"

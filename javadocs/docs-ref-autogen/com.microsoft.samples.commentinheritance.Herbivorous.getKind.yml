@@ -10,6 +10,7 @@ members:
   nameWithType: "Herbivorous.getKind()"
   summary: "Get kind from Herbivorous."
   syntax: "public abstract String getKind()"
+  desc: "Get kind from Herbivorous."
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

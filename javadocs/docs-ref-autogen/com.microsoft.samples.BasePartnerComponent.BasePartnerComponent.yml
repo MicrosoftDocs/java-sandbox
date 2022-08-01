@@ -17,6 +17,7 @@ members:
     name: "componentContext"
     type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  desc: "Initializes a new instance of the BasePartnerComponent class."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.samples"

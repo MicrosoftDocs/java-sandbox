@@ -10,6 +10,7 @@ methods:
 - "com.microsoft.samples.commentinheritance.Omnivorous.eat(com.microsoft.samples.commentinheritance.Herbivorous.Plant)"
 - "com.microsoft.samples.commentinheritance.Omnivorous.getKind()"
 type: "interface"
+desc: "Eats plants and animals."
 implements:
 - "<xref href=\"com.microsoft.samples.commentinheritance.Carnivorous?alt=com.microsoft.samples.commentinheritance.Carnivorous&text=Carnivorous\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.commentinheritance.Herbivorous?alt=com.microsoft.samples.commentinheritance.Herbivorous&text=Herbivorous\" data-throw-if-not-resolved=\"False\" />"

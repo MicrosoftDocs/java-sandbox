@@ -12,5 +12,6 @@ classes:
 - "com.microsoft.samples.SuperHero"
 interfaces:
 - "com.microsoft.samples.IPartner"
+desc: "This package contains the sample set of classes for testing DocFx doclet."
 metadata: {}
 package: "com.microsoft.samples"
