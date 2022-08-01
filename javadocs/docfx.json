@@ -61,7 +61,7 @@
       },
       {
         "files": [
-          "**/toc.yml"
+          "toc.yml"
         ],
         "src": "docs-ref-autogen",
         "dest": "api/java-sandbox",
