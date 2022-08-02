@@ -5,7 +5,7 @@ name: "BasePartnerComponent<TContext>"
 nameWithType: "BasePartnerComponent<TContext>"
 summary: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
 inheritances:
-- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "java.lang.Object.clone()"
 - "java.lang.Object.equals(java.lang.Object)"
