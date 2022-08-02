@@ -1,37 +1,128 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
-fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations"
-name: "AgreementDetailsCollectionOperations"
-nameWithType: "AgreementDetailsCollectionOperations"
-summary: "Agreement details collection operations implementation class.\n\n**Deprecated.** for test class."
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "com.microsoft.samples.BasePartnerComponent.testBase()"
-- "com.microsoft.samples.BasePartnerComponentString.testInherited()"
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "@Deprecated\npublic class AgreementDetailsCollectionOperations extends BasePartnerComponentString implements IAgreementDetailsCollection"
 constructors:
-- "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(com.microsoft.samples.IPartner)"
+- fullName: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)
+  name: AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)
+  nameWithType: AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)
+  parameters:
+  - description: <p>The root partner operations instance. </p>
+    name: rootPartnerOperations
+    type: <xref href="com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Initializes a new instance of the AgreementDetailsCollectionOperations class.</p>
+
+    <p>
+
+      <xrefsect id="deprecated_1_deprecated000003">
+
+        <xreftitle>Deprecated</xreftitle>
+
+        <xrefdescription>
+
+          <p>for test constructor. </p>
+
+        </xrefdescription>
+
+      </xrefsect>
+
+    </p>
+  syntax: public AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)
+  uid: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner)
 fields:
-- "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
+- field:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField
+  name: deprecatedField
+  nameWithType: AgreementDetailsCollectionOperations.deprecatedField
+  summary: >-
+    <p>
+
+      <xrefsect id="deprecated_1_deprecated000002">
+
+        <xreftitle>Deprecated</xreftitle>
+
+        <xrefdescription>
+
+          <p>for test field. </p>
+
+        </xrefdescription>
+
+      </xrefsect>
+
+    </p>
+  syntax: public String deprecatedField
+  uid: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+- <xref href="com.microsoft.samples.BasePartnerComponent" data-throw-if-not-resolved="False"/>
+- <xref href="com.microsoft.samples.BasePartnerComponentString?alt=com.microsoft.samples.BasePartnerComponentString&text=BasePartnerComponentString" data-throw-if-not-resolved="False"/>
+inheritedMembers:
+- com.microsoft.samples.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+- com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+- com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+- com.microsoft.samples.BasePartnerComponent.testBase()
+- com.microsoft.samples.BasePartnerComponentString.testInherited()
 methods:
-- "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
-- "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)"
-type: "class"
-implements:
-- "<xref href=\"com.microsoft.samples.agreements.IAgreementDetailsCollection?alt=com.microsoft.samples.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
+- fullName: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()
+  name: get()
+  nameWithType: AgreementDetailsCollectionOperations.get()
+  overridden: com.microsoft.samples.agreements.IAgreementDetailsCollection.get()
+  returns:
+    description: <p>A list of agreement details. </p>
+    type: <xref href="com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Retrieves the agreement details.</p>
+
+    <p>
+
+      <xrefsect id="deprecated_1_deprecated000004">
+
+        <xreftitle>Deprecated</xreftitle>
+
+        <xrefdescription>
+
+          <p>for test method.Use <xref uid="" data-throw-if-not-resolved="false" data-raw-source="get(String)"></xref> instead. </p>
+
+        </xrefdescription>
+
+      </xrefsect>
+
+    </p>
+  syntax: public ResourceCollection<AgreementMetaData> get()
+  uid: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()
+- fullName: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(String id)
+  name: get(String id)
+  nameWithType: AgreementDetailsCollectionOperations.get(String id)
+  overridden: com.microsoft.samples.agreements.IAgreementDetailsCollection.get(String)
+  parameters:
+  - name: id
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData" data-throw-if-not-resolved="False"/>&gt;
+  syntax: public ResourceCollection<AgreementMetaData> get(String id)
+  uid: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(String)
+nameWithType: AgreementDetailsCollectionOperations
+syntax: public class AgreementDetailsCollectionOperations extends BasePartnerComponentString implements IAgreementDetailsCollection
+type: class
+uid: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations
+fullName: com.microsoft.samples.agreements.AgreementDetailsCollectionOperations
+name: AgreementDetailsCollectionOperations
+package: com.microsoft.samples.agreements
+summary: >-
+  <p>Agreement details collection operations implementation class.</p>
+
+  <p>
+
+    <xrefsect id="deprecated_1_deprecated000001">
+
+      <xreftitle>Deprecated</xreftitle>
+
+      <xrefdescription>
+
+        <p>for test class. </p>
+
+      </xrefdescription>
+
+    </xrefsect>
+
+  </p>
 metadata: {}
-package: "com.microsoft.samples.agreements"

@@ -1,0 +1,11 @@
+### YamlMime:JavaType
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+nameWithType: Subpackage
+syntax: public class Subpackage
+type: class
+uid: com.microsoft.samples.Subpackage
+fullName: com.microsoft.samples.Subpackage
+name: Subpackage
+package: com.microsoft.samples
+metadata: {}

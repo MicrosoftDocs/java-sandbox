@@ -1,33 +1,58 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.agreements.AgreementMetaData"
-fullName: "com.microsoft.samples.agreements.AgreementMetaData"
-name: "AgreementMetaData"
-nameWithType: "AgreementMetaData"
-summary: "The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance."
 inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class AgreementMetaData"
-constructors:
-- "com.microsoft.samples.agreements.AgreementMetaData.AgreementMetaData()"
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
 methods:
-- "com.microsoft.samples.agreements.AgreementMetaData.getAgreementLink()"
-- "com.microsoft.samples.agreements.AgreementMetaData.getTemplateId()"
-- "com.microsoft.samples.agreements.AgreementMetaData.getVersionRank()"
-- "com.microsoft.samples.agreements.AgreementMetaData.setAgreementLink(java.lang.String)"
-- "com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(java.lang.String)"
-- "com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int)"
-type: "class"
+- fullName: com.microsoft.samples.agreements.AgreementMetaData.getAgreementLink()
+  name: getAgreementLink()
+  nameWithType: AgreementMetaData.getAgreementLink()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public String getAgreementLink()
+  uid: com.microsoft.samples.agreements.AgreementMetaData.getAgreementLink()
+- fullName: com.microsoft.samples.agreements.AgreementMetaData.getTemplateId()
+  name: getTemplateId()
+  nameWithType: AgreementMetaData.getTemplateId()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public String getTemplateId()
+  uid: com.microsoft.samples.agreements.AgreementMetaData.getTemplateId()
+- fullName: com.microsoft.samples.agreements.AgreementMetaData.getVersionRank()
+  name: getVersionRank()
+  nameWithType: AgreementMetaData.getVersionRank()
+  returns:
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public int getVersionRank()
+  uid: com.microsoft.samples.agreements.AgreementMetaData.getVersionRank()
+- fullName: com.microsoft.samples.agreements.AgreementMetaData.setAgreementLink(String value)
+  name: setAgreementLink(String value)
+  nameWithType: AgreementMetaData.setAgreementLink(String value)
+  parameters:
+  - name: value
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public void setAgreementLink(String value)
+  uid: com.microsoft.samples.agreements.AgreementMetaData.setAgreementLink(String)
+- fullName: com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(String value)
+  name: setTemplateId(String value)
+  nameWithType: AgreementMetaData.setTemplateId(String value)
+  parameters:
+  - name: value
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public void setTemplateId(String value)
+  uid: com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(String)
+- fullName: com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int value)
+  name: setVersionRank(int value)
+  nameWithType: AgreementMetaData.setVersionRank(int value)
+  parameters:
+  - name: value
+    type: <xref href="int?alt=int&text=int" data-throw-if-not-resolved="False"/>
+  syntax: public void setVersionRank(int value)
+  uid: com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int)
+nameWithType: AgreementMetaData
+syntax: public class AgreementMetaData
+type: class
+uid: com.microsoft.samples.agreements.AgreementMetaData
+fullName: com.microsoft.samples.agreements.AgreementMetaData
+name: AgreementMetaData
+package: com.microsoft.samples.agreements
+summary: <p>The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance. </p>
 metadata: {}
-package: "com.microsoft.samples.agreements"

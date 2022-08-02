@@ -1,30 +1,48 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.Link"
-fullName: "com.microsoft.samples.Link"
-name: "Link"
-nameWithType: "Link"
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class Link"
 constructors:
-- "com.microsoft.samples.Link.Link()"
+- fullName: com.microsoft.samples.Link.Link()
+  name: Link()
+  nameWithType: Link.Link()
+  syntax: public Link()
+  uid: com.microsoft.samples.Link.Link()
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
 methods:
-- "com.microsoft.samples.Link.getHeaders()"
-- "com.microsoft.samples.Link.getMethod()"
-- "com.microsoft.samples.Link.setHeaders(java.util.Collection<com.microsoft.samples.KeyValuePair<java.lang.String,java.lang.String>>)"
-- "com.microsoft.samples.Link.setMethod(java.lang.String)"
-type: "class"
+- fullName: com.microsoft.samples.Link.getHeaders()
+  name: getHeaders()
+  nameWithType: Link.getHeaders()
+  returns:
+    type: Collection&lt;<xref href="com.microsoft.samples.KeyValuePair?alt=com.microsoft.samples.KeyValuePair&text=KeyValuePair" data-throw-if-not-resolved="False"/>&lt;String, String&gt;&gt;
+  syntax: public Collection<KeyValuePair<String, String>> getHeaders()
+  uid: com.microsoft.samples.Link.getHeaders()
+- fullName: com.microsoft.samples.Link.getMethod()
+  name: getMethod()
+  nameWithType: Link.getMethod()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public String getMethod()
+  uid: com.microsoft.samples.Link.getMethod()
+- fullName: com.microsoft.samples.Link.setHeaders(Collection<KeyValuePair<String, String>> value)
+  name: setHeaders(Collection<KeyValuePair<String, String>> value)
+  nameWithType: Link.setHeaders(Collection<KeyValuePair<String, String>> value)
+  parameters:
+  - name: value
+    type: Collection&lt;<xref href="com.microsoft.samples.KeyValuePair?alt=com.microsoft.samples.KeyValuePair&text=KeyValuePair" data-throw-if-not-resolved="False"/>&lt;String, String&gt;&gt;
+  syntax: public void setHeaders(Collection<KeyValuePair<String, String>> value)
+  uid: com.microsoft.samples.Link.setHeaders(Collection<KeyValuePair<String, String>>)
+- fullName: com.microsoft.samples.Link.setMethod(String value)
+  name: setMethod(String value)
+  nameWithType: Link.setMethod(String value)
+  parameters:
+  - name: value
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public void setMethod(String value)
+  uid: com.microsoft.samples.Link.setMethod(String)
+nameWithType: Link
+syntax: public class Link
+type: class
+uid: com.microsoft.samples.Link
+fullName: com.microsoft.samples.Link
+name: Link
+package: com.microsoft.samples
 metadata: {}
-package: "com.microsoft.samples"

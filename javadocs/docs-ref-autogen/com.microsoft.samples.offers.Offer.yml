@@ -1,31 +1,50 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.offers.Offer"
-fullName: "com.microsoft.samples.offers.Offer"
-name: "Offer"
-nameWithType: "Offer"
-summary: "Represents a form of product availability to customer"
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class Offer"
 constructors:
-- "com.microsoft.samples.offers.Offer.Offer()"
+- fullName: com.microsoft.samples.offers.Offer.Offer()
+  name: Offer()
+  nameWithType: Offer.Offer()
+  summary: <p>Initializes a new instance of the Offer class. </p>
+  syntax: public Offer()
+  uid: com.microsoft.samples.offers.Offer.Offer()
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
 methods:
-- "com.microsoft.samples.offers.Offer.getReselleeQualifications()"
-- "com.microsoft.samples.offers.Offer.getResellerQualifications()"
-- "com.microsoft.samples.offers.Offer.setReselleeQualifications(java.lang.String[])"
-- "com.microsoft.samples.offers.Offer.setResellerQualifications(java.lang.String[])"
-type: "class"
+- fullName: com.microsoft.samples.offers.Offer.getReselleeQualifications()
+  name: getReselleeQualifications()
+  nameWithType: Offer.getReselleeQualifications()
+  returns:
+    type: <xref href="String+%5B%5D?alt=String+%5B%5D&text=String+%5B%5D" data-throw-if-not-resolved="False"/>
+  syntax: public String [] getReselleeQualifications()
+  uid: com.microsoft.samples.offers.Offer.getReselleeQualifications()
+- fullName: com.microsoft.samples.offers.Offer.getResellerQualifications()
+  name: getResellerQualifications()
+  nameWithType: Offer.getResellerQualifications()
+  returns:
+    type: <xref href="String+%5B%5D?alt=String+%5B%5D&text=String+%5B%5D" data-throw-if-not-resolved="False"/>
+  syntax: public String [] getResellerQualifications()
+  uid: com.microsoft.samples.offers.Offer.getResellerQualifications()
+- fullName: com.microsoft.samples.offers.Offer.setReselleeQualifications(String[] value)
+  name: setReselleeQualifications(String[] value)
+  nameWithType: Offer.setReselleeQualifications(String[] value)
+  parameters:
+  - name: value
+    type: <xref href="String+%5B%5D?alt=String+%5B%5D&text=String+%5B%5D" data-throw-if-not-resolved="False"/>
+  syntax: public void setReselleeQualifications(String[] value)
+  uid: com.microsoft.samples.offers.Offer.setReselleeQualifications(String [])
+- fullName: com.microsoft.samples.offers.Offer.setResellerQualifications(String[] value)
+  name: setResellerQualifications(String[] value)
+  nameWithType: Offer.setResellerQualifications(String[] value)
+  parameters:
+  - name: value
+    type: <xref href="String+%5B%5D?alt=String+%5B%5D&text=String+%5B%5D" data-throw-if-not-resolved="False"/>
+  syntax: public void setResellerQualifications(String[] value)
+  uid: com.microsoft.samples.offers.Offer.setResellerQualifications(String [])
+nameWithType: Offer
+syntax: public class Offer
+type: class
+uid: com.microsoft.samples.offers.Offer
+fullName: com.microsoft.samples.offers.Offer
+name: Offer
+package: com.microsoft.samples.offers
+summary: <p>Represents a form of product availability to customer </p>
 metadata: {}
-package: "com.microsoft.samples.offers"

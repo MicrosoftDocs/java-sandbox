@@ -1,0 +1,7 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage
+uid: com.microsoft.samples.someexcludedpackage
+fullName: com.microsoft.samples.someexcludedpackage
+name: com.microsoft.samples.someexcludedpackage
+metadata: {}

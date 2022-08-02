@@ -1,33 +1,61 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.subpackage.HttpStatusCode"
-fullName: "com.microsoft.samples.subpackage.HttpStatusCode"
-name: "HttpStatusCode"
-nameWithType: "HttpStatusCode"
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class HttpStatusCode"
-constructors:
-- "com.microsoft.samples.subpackage.HttpStatusCode.HttpStatusCode()"
 fields:
-- "com.microsoft.samples.subpackage.HttpStatusCode.BADREQUEST"
-- "com.microsoft.samples.subpackage.HttpStatusCode.CONFLICT"
-- "com.microsoft.samples.subpackage.HttpStatusCode.EXPECTATIONFAILED"
-- "com.microsoft.samples.subpackage.HttpStatusCode.FORBIDDEN"
-- "com.microsoft.samples.subpackage.HttpStatusCode.NOTFOUND"
-- "com.microsoft.samples.subpackage.HttpStatusCode.SERVICEUNAVAILABLE"
-- "com.microsoft.samples.subpackage.HttpStatusCode.UNAUTHORIZED"
-type: "class"
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.BADREQUEST
+  name: BADREQUEST
+  nameWithType: HttpStatusCode.BADREQUEST
+  syntax: public static final int BADREQUEST= 400
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.BADREQUEST
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.CONFLICT
+  name: CONFLICT
+  nameWithType: HttpStatusCode.CONFLICT
+  syntax: public static final int CONFLICT= 409
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.CONFLICT
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.EXPECTATIONFAILED
+  name: EXPECTATIONFAILED
+  nameWithType: HttpStatusCode.EXPECTATIONFAILED
+  syntax: public static final int EXPECTATIONFAILED= 417
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.EXPECTATIONFAILED
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.FORBIDDEN
+  name: FORBIDDEN
+  nameWithType: HttpStatusCode.FORBIDDEN
+  syntax: public static final int FORBIDDEN= 403
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.FORBIDDEN
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.NOTFOUND
+  name: NOTFOUND
+  nameWithType: HttpStatusCode.NOTFOUND
+  syntax: public static final int NOTFOUND= 404
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.NOTFOUND
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.SERVICEUNAVAILABLE
+  name: SERVICEUNAVAILABLE
+  nameWithType: HttpStatusCode.SERVICEUNAVAILABLE
+  syntax: public static final int SERVICEUNAVAILABLE= 503
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.SERVICEUNAVAILABLE
+- field:
+    type: <xref href="final+int?alt=final+int&text=final+int" data-throw-if-not-resolved="False"/>
+  fullName: com.microsoft.samples.subpackage.HttpStatusCode.UNAUTHORIZED
+  name: UNAUTHORIZED
+  nameWithType: HttpStatusCode.UNAUTHORIZED
+  syntax: public static final int UNAUTHORIZED= 401
+  uid: com.microsoft.samples.subpackage.HttpStatusCode.UNAUTHORIZED
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+nameWithType: HttpStatusCode
+syntax: public class HttpStatusCode
+type: class
+uid: com.microsoft.samples.subpackage.HttpStatusCode
+fullName: com.microsoft.samples.subpackage.HttpStatusCode
+name: HttpStatusCode
+package: com.microsoft.samples.subpackage
 metadata: {}
-package: "com.microsoft.samples.subpackage"

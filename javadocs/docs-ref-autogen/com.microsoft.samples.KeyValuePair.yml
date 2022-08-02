@@ -1,32 +1,45 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.KeyValuePair"
-fullName: "com.microsoft.samples.KeyValuePair<K,V>"
-name: "KeyValuePair<K,V>"
-nameWithType: "KeyValuePair<K,V>"
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class KeyValuePair<K,V>"
 constructors:
-- "com.microsoft.samples.KeyValuePair.KeyValuePair()"
-- "com.microsoft.samples.KeyValuePair.KeyValuePair(K,V)"
+- fullName: com.microsoft.samples.KeyValuePair<K, V>.KeyValuePair()
+  name: KeyValuePair()
+  nameWithType: KeyValuePair<K,V>.KeyValuePair()
+  syntax: public KeyValuePair()
+  uid: com.microsoft.samples.KeyValuePair.KeyValuePair()
+- fullName: com.microsoft.samples.KeyValuePair<K, V>.KeyValuePair(K key, V value)
+  name: KeyValuePair(K key, V value)
+  nameWithType: KeyValuePair<K,V>.KeyValuePair(K key, V value)
+  parameters:
+  - name: key
+    type: <xref href="K?alt=K&text=K" data-throw-if-not-resolved="False"/>
+  - name: value
+    type: <xref href="V?alt=V&text=V" data-throw-if-not-resolved="False"/>
+  syntax: public KeyValuePair(K key, V value)
+  uid: com.microsoft.samples.KeyValuePair.KeyValuePair(K,V)
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
 methods:
-- "com.microsoft.samples.KeyValuePair.getKey()"
-- "com.microsoft.samples.KeyValuePair.getValue()"
-type: "class"
+- fullName: com.microsoft.samples.KeyValuePair<K, V>.getKey()
+  name: getKey()
+  nameWithType: KeyValuePair<K,V>.getKey()
+  returns:
+    type: <xref href="K?alt=K&text=K" data-throw-if-not-resolved="False"/>
+  syntax: public K getKey()
+  uid: com.microsoft.samples.KeyValuePair.getKey()
+- fullName: com.microsoft.samples.KeyValuePair<K, V>.getValue()
+  name: getValue()
+  nameWithType: KeyValuePair<K,V>.getValue()
+  returns:
+    type: <xref href="V?alt=V&text=V" data-throw-if-not-resolved="False"/>
+  syntax: public V getValue()
+  uid: com.microsoft.samples.KeyValuePair.getValue()
+nameWithType: KeyValuePair<K,V>
+syntax: public class KeyValuePair<K,V>
+type: class
 typeParameters:
-- name: "K"
-- name: "V"
+- name: K
+- name: V
+uid: com.microsoft.samples.KeyValuePair
+fullName: com.microsoft.samples.KeyValuePair<K,V>
+name: KeyValuePair<K,V>
+package: com.microsoft.samples
 metadata: {}
-package: "com.microsoft.samples"

@@ -1,19 +1,29 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.subpackage.Display"
-fullName: "com.microsoft.samples.subpackage.Display<T,R>"
-name: "Display<T,R>"
-nameWithType: "Display<T,R>"
-summary: "Do you see some `First` code block?\n\nOr this `Second` code block?"
-syntax: "public interface Display<T,R> extends Serializable, List<Person<T>>"
 methods:
-- "com.microsoft.samples.subpackage.Display.hide()"
-- "com.microsoft.samples.subpackage.Display.show()"
-type: "interface"
+- fullName: com.microsoft.samples.subpackage.Display<T, R>.hide()
+  name: hide()
+  nameWithType: Display<T,R>.hide()
+  syntax: public void hide()
+  uid: com.microsoft.samples.subpackage.Display.hide()
+- fullName: com.microsoft.samples.subpackage.Display<T, R>.show()
+  name: show()
+  nameWithType: Display<T,R>.show()
+  syntax: public void show()
+  uid: com.microsoft.samples.subpackage.Display.show()
+nameWithType: Display<T,R>
+syntax: public interface Display<T,R>
+type: interface
 typeParameters:
-- name: "T"
-- name: "R"
-implements:
-- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- name: T
+- name: R
+uid: com.microsoft.samples.subpackage.Display
+fullName: com.microsoft.samples.subpackage.Display<T,R>
+name: Display<T,R>
+package: com.microsoft.samples.subpackage
+summary: >-
+  <p>Do you see some  code block? </p>
+
+  <p>Or this<code>Second 
+
+      </code> code block? </p>
 metadata: {}
-package: "com.microsoft.samples.subpackage"

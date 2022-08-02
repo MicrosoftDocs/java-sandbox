@@ -1,0 +1,27 @@
+### YamlMime:JavaType
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+methods:
+- fullName: com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage.getField()
+  name: getField()
+  nameWithType: SomeClassInExcludedPackage.getField()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public String getField()
+  uid: com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage.getField()
+- fullName: com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage.setField(String field)
+  name: setField(String field)
+  nameWithType: SomeClassInExcludedPackage.setField(String field)
+  parameters:
+  - name: field
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public void setField(String field)
+  uid: com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage.setField(String)
+nameWithType: SomeClassInExcludedPackage
+syntax: public class SomeClassInExcludedPackage
+type: class
+uid: com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage
+fullName: com.microsoft.samples.someexcludedpackage.SomeClassInExcludedPackage
+name: SomeClassInExcludedPackage
+package: com.microsoft.samples.someexcludedpackage
+metadata: {}

@@ -1,13 +1,33 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.agreements.IAgreementDetailsCollection"
-fullName: "com.microsoft.samples.agreements.IAgreementDetailsCollection"
-name: "IAgreementDetailsCollection"
-nameWithType: "IAgreementDetailsCollection"
-summary: "Encapsulates the operations on the agreement metadata collection."
-syntax: "public interface IAgreementDetailsCollection"
 methods:
-- "com.microsoft.samples.agreements.IAgreementDetailsCollection.get()"
-- "com.microsoft.samples.agreements.IAgreementDetailsCollection.get(java.lang.String)"
-type: "interface"
+- fullName: com.microsoft.samples.agreements.IAgreementDetailsCollection.get()
+  name: get()
+  nameWithType: IAgreementDetailsCollection.get()
+  returns:
+    description: <p>The current agreement metadata. </p>
+    type: <xref href="com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData" data-throw-if-not-resolved="False"/>&gt;
+  summary: >-
+    <p>Retrieves all current agreement metadata.</p>
+
+    <p></p>
+  syntax: public ResourceCollection<AgreementMetaData> get()
+  uid: com.microsoft.samples.agreements.IAgreementDetailsCollection.get()
+- fullName: com.microsoft.samples.agreements.IAgreementDetailsCollection.get(String id)
+  name: get(String id)
+  nameWithType: IAgreementDetailsCollection.get(String id)
+  parameters:
+  - name: id
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  returns:
+    type: <xref href="com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection" data-throw-if-not-resolved="False"/>&lt;<xref href="com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData" data-throw-if-not-resolved="False"/>&gt;
+  syntax: public ResourceCollection<AgreementMetaData> get(String id)
+  uid: com.microsoft.samples.agreements.IAgreementDetailsCollection.get(String)
+nameWithType: IAgreementDetailsCollection
+syntax: public interface IAgreementDetailsCollection
+type: interface
+uid: com.microsoft.samples.agreements.IAgreementDetailsCollection
+fullName: com.microsoft.samples.agreements.IAgreementDetailsCollection
+name: IAgreementDetailsCollection
+package: com.microsoft.samples.agreements
+summary: <p>Encapsulates the operations on the agreement metadata collection. </p>
 metadata: {}
-package: "com.microsoft.samples.agreements"

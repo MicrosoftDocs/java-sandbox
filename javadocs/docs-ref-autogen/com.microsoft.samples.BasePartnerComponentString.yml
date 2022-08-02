@@ -1,32 +1,52 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.BasePartnerComponentString"
-fullName: "com.microsoft.samples.BasePartnerComponentString"
-name: "BasePartnerComponentString"
-nameWithType: "BasePartnerComponentString"
-summary: "Holds common partner component properties and behavior. The context is string type by default."
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "com.microsoft.samples.BasePartnerComponent.testBase()"
-- "com.microsoft.samples.BasePartnerComponent.testInherited()"
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public abstract class BasePartnerComponentString extends BasePartnerComponent<String>"
 constructors:
-- "com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(com.microsoft.samples.IPartner)"
-- "com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(com.microsoft.samples.IPartner,java.lang.String)"
+- fullName: com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  name: BasePartnerComponentString(IPartner rootPartnerOperations)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)
+  parameters:
+  - description: <p>The root partner operations that created this component. </p>
+    name: rootPartnerOperations
+    type: <xref href="com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Initializes a new instance of the BasePartnerComponent class.</p>
+
+    <p></p>
+  syntax: protected BasePartnerComponentString(IPartner rootPartnerOperations)
+  uid: com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner)
+- fullName: com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  name: BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  nameWithType: BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  parameters:
+  - description: <p>The root partner operations that created this component. </p>
+    name: rootPartnerOperations
+    type: <xref href="com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner" data-throw-if-not-resolved="False"/>
+  - description: <p>A component context object to work with. </p>
+    name: componentContext
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Initializes a new instance of the BasePartnerComponent class.</p>
+
+    <p></p>
+  syntax: protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)
+  uid: com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner,String)
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+- <xref href="com.microsoft.samples.BasePartnerComponent?alt=com.microsoft.samples.BasePartnerComponent&text=BasePartnerComponent%3CTContext%3E" data-throw-if-not-resolved="False"/>
+inheritedMembers:
+- com.microsoft.samples.BasePartnerComponent.BasePartnerComponent(IPartner,TContext)
+- com.microsoft.samples.BasePartnerComponent.testBase()
 methods:
-- "com.microsoft.samples.BasePartnerComponentString.testInherited()"
-type: "class"
+- fullName: com.microsoft.samples.BasePartnerComponentString.testInherited()
+  name: testInherited()
+  nameWithType: BasePartnerComponentString.testInherited()
+  syntax: protected void testInherited()
+  uid: com.microsoft.samples.BasePartnerComponentString.testInherited()
+nameWithType: BasePartnerComponentString
+syntax: public class BasePartnerComponentString extends BasePartnerComponent<String>
+type: class
+uid: com.microsoft.samples.BasePartnerComponentString
+fullName: com.microsoft.samples.BasePartnerComponentString
+name: BasePartnerComponentString
+package: com.microsoft.samples
+summary: <p>Holds common partner component properties and behavior. The context is string type by default. </p>
 metadata: {}
-package: "com.microsoft.samples"

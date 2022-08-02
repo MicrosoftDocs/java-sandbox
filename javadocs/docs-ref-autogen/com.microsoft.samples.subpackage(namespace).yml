@@ -1,0 +1,34 @@
+### YamlMime:JavaPackage
+classes:
+- com.microsoft.samples.subpackage.CustomException
+- com.microsoft.samples.subpackage.HttpStatusCode
+- com.microsoft.samples.subpackage.Person
+- com.microsoft.samples.subpackage.SomeExcludedClass
+- com.microsoft.samples.subpackage.Tuple
+- com.microsoft.samples.subpackage.Person.IdentificationInfo
+enums:
+- com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender
+interfaces:
+- com.microsoft.samples.subpackage.Display
+uid: com.microsoft.samples.subpackage
+fullName: com.microsoft.samples.subpackage
+name: com.microsoft.samples.subpackage
+summary: >-
+  <p>This subpackage contains the sample set of classes for testing DocFx doclet.</p>
+
+  <p>
+
+    <xrefsect id="deprecated_1_deprecated000007">
+
+      <xreftitle>Deprecated</xreftitle>
+
+      <xrefdescription>
+
+        <p>for test packages. </p>
+
+      </xrefdescription>
+
+    </xrefsect>
+
+  </p>
+metadata: {}

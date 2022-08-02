@@ -1,41 +1,34 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.subpackage.CustomException"
-fullName: "com.microsoft.samples.subpackage.CustomException"
-name: "CustomException"
-nameWithType: "CustomException"
-inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Throwable?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Exception?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-- "java.lang.Throwable.addSuppressed(java.lang.Throwable)"
-- "java.lang.Throwable.fillInStackTrace()"
-- "java.lang.Throwable.getCause()"
-- "java.lang.Throwable.getLocalizedMessage()"
-- "java.lang.Throwable.getMessage()"
-- "java.lang.Throwable.getStackTrace()"
-- "java.lang.Throwable.getSuppressed()"
-- "java.lang.Throwable.initCause(java.lang.Throwable)"
-- "java.lang.Throwable.printStackTrace()"
-- "java.lang.Throwable.printStackTrace(java.io.PrintStream)"
-- "java.lang.Throwable.printStackTrace(java.io.PrintWriter)"
-- "java.lang.Throwable.setStackTrace(java.lang.StackTraceElement[])"
-- "java.lang.Throwable.toString()"
-syntax: "public class CustomException extends Exception"
 constructors:
-- "com.microsoft.samples.subpackage.CustomException.CustomException(java.lang.String)"
+- fullName: com.microsoft.samples.subpackage.CustomException.CustomException(String message)
+  name: CustomException(String message)
+  nameWithType: CustomException.CustomException(String message)
+  parameters:
+  - name: message
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  syntax: public CustomException(String message)
+  uid: com.microsoft.samples.subpackage.CustomException.CustomException(String)
+inheritances:
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+- <xref href="Exception" data-throw-if-not-resolved="False"/>
 methods:
-- "com.microsoft.samples.subpackage.CustomException.makeSomething()"
-type: "class"
+- fullName: com.microsoft.samples.subpackage.CustomException.makeSomething()
+  name: makeSomething()
+  nameWithType: CustomException.makeSomething()
+  exceptions:
+  - type: <xref href="CustomException?alt=CustomException&text=CustomException" data-throw-if-not-resolved="False"/>
+    description: <p>with reason message </p>
+  summary: >-
+    <p>We need to have such method that throw exception declared in the same class</p>
+
+    <p></p>
+  syntax: public void makeSomething()
+  uid: com.microsoft.samples.subpackage.CustomException.makeSomething()
+nameWithType: CustomException
+syntax: public class CustomException
+type: class
+uid: com.microsoft.samples.subpackage.CustomException
+fullName: com.microsoft.samples.subpackage.CustomException
+name: CustomException
+package: com.microsoft.samples.subpackage
 metadata: {}
-package: "com.microsoft.samples.subpackage"

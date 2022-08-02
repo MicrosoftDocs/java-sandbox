@@ -1,11 +1,18 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.commentinheritance.Organism"
-fullName: "com.microsoft.samples.commentinheritance.Organism"
-name: "Organism"
-nameWithType: "Organism"
-syntax: "public interface Organism"
 methods:
-- "com.microsoft.samples.commentinheritance.Organism.getKind()"
-type: "interface"
+- fullName: com.microsoft.samples.commentinheritance.Organism.getKind()
+  name: getKind()
+  nameWithType: Organism.getKind()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: <p>Get kind from Organism. </p>
+  syntax: public String getKind()
+  uid: com.microsoft.samples.commentinheritance.Organism.getKind()
+nameWithType: Organism
+syntax: public interface Organism
+type: interface
+uid: com.microsoft.samples.commentinheritance.Organism
+fullName: com.microsoft.samples.commentinheritance.Organism
+name: Organism
+package: com.microsoft.samples.commentinheritance
 metadata: {}
-package: "com.microsoft.samples.commentinheritance"

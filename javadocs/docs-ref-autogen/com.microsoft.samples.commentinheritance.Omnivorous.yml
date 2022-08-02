@@ -1,17 +1,83 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.commentinheritance.Omnivorous"
-fullName: "com.microsoft.samples.commentinheritance.Omnivorous"
-name: "Omnivorous"
-nameWithType: "Omnivorous"
-summary: "Eats plants and animals."
-syntax: "public interface Omnivorous extends Carnivorous, Herbivorous"
 methods:
-- "com.microsoft.samples.commentinheritance.Omnivorous.eat(com.microsoft.samples.commentinheritance.Animal)"
-- "com.microsoft.samples.commentinheritance.Omnivorous.eat(com.microsoft.samples.commentinheritance.Herbivorous.Plant)"
-- "com.microsoft.samples.commentinheritance.Omnivorous.getKind()"
-type: "interface"
-implements:
-- "<xref href=\"com.microsoft.samples.commentinheritance.Carnivorous?alt=com.microsoft.samples.commentinheritance.Carnivorous&text=Carnivorous\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.commentinheritance.Herbivorous?alt=com.microsoft.samples.commentinheritance.Herbivorous&text=Herbivorous\" data-throw-if-not-resolved=\"False\" />"
+- fullName: com.microsoft.samples.commentinheritance.Omnivorous.eat(Animal animalToBeEaten)
+  name: eat(Animal animalToBeEaten)
+  nameWithType: Omnivorous.eat(Animal animalToBeEaten)
+  overridden: com.microsoft.samples.commentinheritance.Carnivorous.eat(Animal)
+  parameters:
+  - description: <p>Animal that will be eaten. </p>
+    name: animalBeingEaten
+    type: <xref href="com.microsoft.samples.commentinheritance.Animal?alt=com.microsoft.samples.commentinheritance.Animal&text=Animal" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Eat the provided animal.</p>
+
+    <p></p>
+  syntax: public void eat(Animal animalToBeEaten)
+  uid: com.microsoft.samples.commentinheritance.Omnivorous.eat(Animal)
+- fullName: com.microsoft.samples.commentinheritance.Omnivorous.eat(Plant plantToBeEaten)
+  name: eat(Plant plantToBeEaten)
+  nameWithType: Omnivorous.eat(Plant plantToBeEaten)
+  overridden: com.microsoft.samples.commentinheritance.Herbivorous.eat(Plant)
+  parameters:
+  - description: <p>Plant that will be eaten. </p>
+    name: plantToBeEaten
+    type: <xref href="com.microsoft.samples.commentinheritance.Herbivorous.Plant?alt=com.microsoft.samples.commentinheritance.Herbivorous.Plant&text=Herbivorous.Plant" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>Eat the provided plant.</p>
+
+    <p></p>
+  syntax: public void eat(Plant plantToBeEaten)
+  uid: com.microsoft.samples.commentinheritance.Omnivorous.eat(Plant)
+- fullName: com.microsoft.samples.commentinheritance.Omnivorous.getKind()
+  name: getKind()
+  nameWithType: Omnivorous.getKind()
+  overridden: com.microsoft.samples.commentinheritance.Carnivorous.getKind()
+  returns:
+    type: <xref href="String?alt=String&text=String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>
+
+      <p>Get kind from Carnivorous.</p>
+
+      <p>
+
+        <xrefsect id="deprecated_1_deprecated000005">
+
+          <xreftitle>Deprecated</xreftitle>
+
+          <xrefdescription>
+
+            <p>test for Carnivorous inheritedDoc. </p>
+
+          </xrefdescription>
+
+        </xrefsect>
+
+      </p> Get kind from Omnivorous.</p>
+
+    <p>
+
+      <xrefsect id="deprecated_1_deprecated000006">
+
+        <xreftitle>Deprecated</xreftitle>
+
+        <xrefdescription>
+
+          <p>test for Omnivorous inheritDoc. </p>
+
+        </xrefdescription>
+
+      </xrefsect>
+
+    </p>
+  syntax: public String getKind()
+  uid: com.microsoft.samples.commentinheritance.Omnivorous.getKind()
+nameWithType: Omnivorous
+syntax: public interface Omnivorous extends Carnivorous,Herbivorous
+type: interface
+uid: com.microsoft.samples.commentinheritance.Omnivorous
+fullName: com.microsoft.samples.commentinheritance.Omnivorous
+name: Omnivorous
+package: com.microsoft.samples.commentinheritance
+summary: <p>Eats plants and animals. </p>
 metadata: {}
-package: "com.microsoft.samples.commentinheritance"

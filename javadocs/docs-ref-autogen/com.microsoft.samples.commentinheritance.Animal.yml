@@ -1,33 +1,48 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.commentinheritance.Animal"
-fullName: "com.microsoft.samples.commentinheritance.Animal"
-name: "Animal"
-nameWithType: "Animal"
-summary: "Animal."
 inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public abstract class Animal implements Organism"
-constructors:
-- "com.microsoft.samples.commentinheritance.Animal.Animal()"
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+- <xref href="com.microsoft.samples.commentinheritance.Organism?alt=com.microsoft.samples.commentinheritance.Organism&text=Organism" data-throw-if-not-resolved="False"/>
 methods:
-- "com.microsoft.samples.commentinheritance.Animal.breathe()"
-- "com.microsoft.samples.commentinheritance.Animal.feed()"
-- "com.microsoft.samples.commentinheritance.Animal.getKind()"
-- "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
-type: "class"
-implements:
-- "<xref href=\"com.microsoft.samples.commentinheritance.Organism?alt=com.microsoft.samples.commentinheritance.Organism&text=Organism\" data-throw-if-not-resolved=\"False\" />"
+- fullName: com.microsoft.samples.commentinheritance.Animal.breathe()
+  name: breathe()
+  nameWithType: Animal.breathe()
+  summary: <p>Breathe. </p>
+  syntax: public void breathe()
+  uid: com.microsoft.samples.commentinheritance.Animal.breathe()
+- fullName: com.microsoft.samples.commentinheritance.Animal.feed()
+  name: feed()
+  nameWithType: Animal.feed()
+  returns:
+    type: <xref href="abstract+void?alt=abstract+void&text=abstract+void" data-throw-if-not-resolved="False"/>
+  summary: <p>Feed offspring. </p>
+  syntax: public abstract void feed()
+  uid: com.microsoft.samples.commentinheritance.Animal.feed()
+- fullName: com.microsoft.samples.commentinheritance.Animal.getKind()
+  name: getKind()
+  nameWithType: Animal.getKind()
+  overridden: com.microsoft.samples.commentinheritance.Organism.getKind()
+  returns:
+    type: <xref href="abstract+String?alt=abstract+String&text=abstract+String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>
+
+      <p>Get kind from Organism.</p> Get kind from Animal. </p>
+  syntax: public abstract String getKind()
+  uid: com.microsoft.samples.commentinheritance.Animal.getKind()
+- fullName: com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()
+  name: verballyCommunicate()
+  nameWithType: Animal.verballyCommunicate()
+  returns:
+    type: <xref href="abstract+void?alt=abstract+void&text=abstract+void" data-throw-if-not-resolved="False"/>
+  summary: <p>Communicate verbally. </p>
+  syntax: public abstract void verballyCommunicate()
+  uid: com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()
+nameWithType: Animal
+syntax: public class Animal implements Organism
+type: class
+uid: com.microsoft.samples.commentinheritance.Animal
+fullName: com.microsoft.samples.commentinheritance.Animal
+name: Animal
+package: com.microsoft.samples.commentinheritance
+summary: <p>Animal. </p>
 metadata: {}
-package: "com.microsoft.samples.commentinheritance"

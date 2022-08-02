@@ -1,33 +1,31 @@
 ### YamlMime:JavaType
-uid: "com.microsoft.samples.commentinheritance.Mammal"
-fullName: "com.microsoft.samples.commentinheritance.Mammal"
-name: "Mammal"
-nameWithType: "Mammal"
-summary: "Mammal."
 inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.commentinheritance.Animal?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- <xref href="java.lang.Object" data-throw-if-not-resolved="False"/>
+- <xref href="com.microsoft.samples.commentinheritance.Organism" data-throw-if-not-resolved="False"/>
+- <xref href="com.microsoft.samples.commentinheritance.Animal?alt=com.microsoft.samples.commentinheritance.Animal&text=Animal" data-throw-if-not-resolved="False"/>
 inheritedMembers:
-- "com.microsoft.samples.commentinheritance.Animal.breathe()"
-- "com.microsoft.samples.commentinheritance.Animal.feed()"
-- "com.microsoft.samples.commentinheritance.Animal.getKind()"
-- "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public abstract class Mammal extends Animal"
-constructors:
-- "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+- com.microsoft.samples.commentinheritance.Animal.breathe()
+- com.microsoft.samples.commentinheritance.Animal.feed()
+- com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()
 methods:
-- "com.microsoft.samples.commentinheritance.Mammal.getKind()"
-type: "class"
+- fullName: com.microsoft.samples.commentinheritance.Mammal.getKind()
+  name: getKind()
+  nameWithType: Mammal.getKind()
+  overridden: com.microsoft.samples.commentinheritance.Organism.getKind()
+  returns:
+    type: <xref href="abstract+String?alt=abstract+String&text=abstract+String" data-throw-if-not-resolved="False"/>
+  summary: >-
+    <p>
+
+      <p>Get kind from Organism.</p> Get kind from Mammal. </p>
+  syntax: public abstract String getKind()
+  uid: com.microsoft.samples.commentinheritance.Mammal.getKind()
+nameWithType: Mammal
+syntax: public class Mammal extends Animal
+type: class
+uid: com.microsoft.samples.commentinheritance.Mammal
+fullName: com.microsoft.samples.commentinheritance.Mammal
+name: Mammal
+package: com.microsoft.samples.commentinheritance
+summary: <p>Mammal. </p>
 metadata: {}
-package: "com.microsoft.samples.commentinheritance"
