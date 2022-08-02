@@ -5,8 +5,8 @@ name: "SuperHero"
 nameWithType: "SuperHero"
 summary: "Hero is the main entity we will be using to something"
 inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.subpackage.Person?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.subpackage.Person\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.subpackage.Person.buildPerson(com.microsoft.samples.subpackage.Person)"
 - "com.microsoft.samples.subpackage.Person.getFirstName()"

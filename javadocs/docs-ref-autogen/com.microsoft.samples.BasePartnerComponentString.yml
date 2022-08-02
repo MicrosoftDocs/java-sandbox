@@ -5,8 +5,8 @@ name: "BasePartnerComponentString"
 nameWithType: "BasePartnerComponentString"
 summary: "Holds common partner component properties and behavior. The context is string type by default."
 inheritances:
-- "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"java.lang.Object\" data-throw-if-not-resolved=\"False\" />"
+- "<xref href=\"com.microsoft.samples.BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
 - "com.microsoft.samples.BasePartnerComponent.testBase()"
 - "com.microsoft.samples.BasePartnerComponent.testInherited()"
