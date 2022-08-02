@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.BasePartnerComponent"
 fullName: "com.microsoft.samples.BasePartnerComponent<TContext>"
 name: "BasePartnerComponent<TContext>"
 nameWithType: "BasePartnerComponent<TContext>"
-summary: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
+summary: "Holds common partner component properties and behavior."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
@@ -20,12 +20,39 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class BasePartnerComponent<TContext>"
 constructors:
-- "com.microsoft.samples.BasePartnerComponent.BasePartnerComponent(com.microsoft.samples.IPartner,TContext)"
+- uid: "com.microsoft.samples.BasePartnerComponent.BasePartnerComponent(com.microsoft.samples.IPartner,TContext)"
+  fullName: "com.microsoft.samples.BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  name: "BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  nameWithType: "BasePartnerComponent<TContext>.BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  summary: "Initializes a new instance of the BasePartnerComponent class."
+  modifiers:
+  - "protected"
+  parameters:
+  - description: "The root partner operations that created this component."
+    name: "rootPartnerOperations"
+    type: "<xref href=\"com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
+  - description: "A component context object to work with."
+    name: "componentContext"
+    type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
 methods:
-- "com.microsoft.samples.BasePartnerComponent.testBase()"
-- "com.microsoft.samples.BasePartnerComponent.testInherited()"
+- uid: "com.microsoft.samples.BasePartnerComponent.testBase()"
+  fullName: "com.microsoft.samples.BasePartnerComponent<TContext>.testBase()"
+  name: "testBase()"
+  nameWithType: "BasePartnerComponent<TContext>.testBase()"
+  modifiers:
+  - "protected"
+  syntax: "protected void testBase()"
+- uid: "com.microsoft.samples.BasePartnerComponent.testInherited()"
+  fullName: "com.microsoft.samples.BasePartnerComponent<TContext>.testInherited()"
+  name: "testInherited()"
+  nameWithType: "BasePartnerComponent<TContext>.testInherited()"
+  modifiers:
+  - "protected"
+  syntax: "protected void testInherited()"
 type: "class"
 typeParameters:
 - name: "TContext"
+desc: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
 metadata: {}
 package: "com.microsoft.samples"

@@ -33,9 +33,24 @@ inheritedMembers:
 - "java.lang.Throwable.toString()"
 syntax: "public class CustomException extends Exception"
 constructors:
-- "com.microsoft.samples.subpackage.CustomException.CustomException(java.lang.String)"
+- uid: "com.microsoft.samples.subpackage.CustomException.CustomException(java.lang.String)"
+  fullName: "com.microsoft.samples.subpackage.CustomException.CustomException(String message)"
+  name: "CustomException(String message)"
+  nameWithType: "CustomException.CustomException(String message)"
+  parameters:
+  - name: "message"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public CustomException(String message)"
 methods:
-- "com.microsoft.samples.subpackage.CustomException.makeSomething()"
+- uid: "com.microsoft.samples.subpackage.CustomException.makeSomething()"
+  fullName: "com.microsoft.samples.subpackage.CustomException.makeSomething()"
+  name: "makeSomething()"
+  nameWithType: "CustomException.makeSomething()"
+  summary: "We need to have such method that throw exception declared in the same class"
+  syntax: "public void makeSomething()"
+  exceptions:
+  - description: "with reason message"
+    type: "<xref href=\"com.microsoft.samples.subpackage.CustomException?alt=com.microsoft.samples.subpackage.CustomException&text=CustomException\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

@@ -11,6 +11,7 @@ inheritedMembers:
 - "java.lang.Enum.<T>valueOf(java.lang.Class<T>,java.lang.String)"
 - "java.lang.Enum.clone()"
 - "java.lang.Enum.compareTo(E)"
+- "java.lang.Enum.describeConstable()"
 - "java.lang.Enum.equals(java.lang.Object)"
 - "java.lang.Enum.finalize()"
 - "java.lang.Enum.getDeclaringClass()"
@@ -39,6 +40,8 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender.valueOf(String name)"
   name: "valueOf(String name)"
   nameWithType: "Person.IdentificationInfo.Gender.valueOf(String name)"
+  modifiers:
+  - "static"
   parameters:
   - name: "name"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -49,8 +52,11 @@ methods:
   fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender.values()"
   name: "values()"
   nameWithType: "Person.IdentificationInfo.Gender.values()"
+  modifiers:
+  - "static"
   syntax: "public static Person.IdentificationInfo.Gender[] values()"
   returns:
     type: "<xref href=\"com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender?alt=com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender&text=Gender\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Enum describes person's gender"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

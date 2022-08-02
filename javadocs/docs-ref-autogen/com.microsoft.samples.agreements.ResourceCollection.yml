@@ -20,9 +20,14 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public class ResourceCollection<TResource>"
 constructors:
-- "com.microsoft.samples.agreements.ResourceCollection.ResourceCollection()"
+- uid: "com.microsoft.samples.agreements.ResourceCollection.ResourceCollection()"
+  fullName: "com.microsoft.samples.agreements.ResourceCollection<TResource>.ResourceCollection()"
+  name: "ResourceCollection()"
+  nameWithType: "ResourceCollection<TResource>.ResourceCollection()"
+  syntax: "public ResourceCollection()"
 type: "class"
 typeParameters:
 - name: "TResource"
+desc: "Contains a collection of resources with JSON properties to represent the output Type of objects in collection"
 metadata: {}
 package: "com.microsoft.samples.agreements"

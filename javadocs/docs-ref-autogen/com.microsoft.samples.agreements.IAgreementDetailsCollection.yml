@@ -6,8 +6,30 @@ nameWithType: "IAgreementDetailsCollection"
 summary: "Encapsulates the operations on the agreement metadata collection."
 syntax: "public interface IAgreementDetailsCollection"
 methods:
-- "com.microsoft.samples.agreements.IAgreementDetailsCollection.get()"
-- "com.microsoft.samples.agreements.IAgreementDetailsCollection.get(java.lang.String)"
+- uid: "com.microsoft.samples.agreements.IAgreementDetailsCollection.get()"
+  fullName: "com.microsoft.samples.agreements.IAgreementDetailsCollection.get()"
+  name: "get()"
+  nameWithType: "IAgreementDetailsCollection.get()"
+  summary: "Retrieves all current agreement metadata."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract ResourceCollection<AgreementMetaData> get()"
+  returns:
+    description: "The current agreement metadata."
+    type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"
+- uid: "com.microsoft.samples.agreements.IAgreementDetailsCollection.get(java.lang.String)"
+  fullName: "com.microsoft.samples.agreements.IAgreementDetailsCollection.get(String id)"
+  name: "get(String id)"
+  nameWithType: "IAgreementDetailsCollection.get(String id)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "id"
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract ResourceCollection<AgreementMetaData> get(String id)"
+  returns:
+    type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
+desc: "Encapsulates the operations on the agreement metadata collection."
 metadata: {}
 package: "com.microsoft.samples.agreements"
