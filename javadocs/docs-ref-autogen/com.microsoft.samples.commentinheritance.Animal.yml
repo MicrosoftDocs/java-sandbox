@@ -32,6 +32,7 @@ methods:
   nameWithType: "Animal.breathe()"
   summary: "Breathe."
   syntax: "public void breathe()"
+  desc: "Breathe."
 - uid: "com.microsoft.samples.commentinheritance.Animal.feed()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.feed()"
   name: "feed()"
@@ -40,6 +41,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract void feed()"
+  desc: "Feed offspring."
 - uid: "com.microsoft.samples.commentinheritance.Animal.getKind()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.getKind()"
   name: "getKind()"
@@ -48,6 +50,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getKind()"
+  desc: "Get kind from Organism. Get kind from Animal."
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
@@ -58,6 +61,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract void verballyCommunicate()"
+  desc: "Communicate verbally."
 type: "class"
 desc: "Animal."
 implements:

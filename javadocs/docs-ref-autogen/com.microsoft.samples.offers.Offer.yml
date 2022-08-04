@@ -26,6 +26,7 @@ constructors:
   nameWithType: "Offer.Offer()"
   summary: "Initializes a new instance of the Offer class."
   syntax: "public Offer()"
+  desc: "Initializes a new instance of the Offer class."
 methods:
 - uid: "com.microsoft.samples.offers.Offer.getReselleeQualifications()"
   fullName: "com.microsoft.samples.offers.Offer.getReselleeQualifications()"

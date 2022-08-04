@@ -35,6 +35,7 @@ constructors:
     name: "componentContext"
     type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  desc: "Initializes a new instance of the BasePartnerComponent class."
 methods:
 - uid: "com.microsoft.samples.BasePartnerComponent.testBase()"
   fullName: "com.microsoft.samples.BasePartnerComponent<TContext>.testBase()"

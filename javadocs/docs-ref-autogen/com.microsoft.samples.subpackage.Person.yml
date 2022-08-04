@@ -45,6 +45,7 @@ methods:
   - name: "seed"
     type: "<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public static Person buildPerson(Person seed)"
+  desc: "We need to have this method that takes parameter and return types declared in the current class Test link <xref uid=\"java.lang.String\" data-throw-if-not-resolved=\"false\" data-raw-source=\"String\"></xref> A person maybe a <xref uid=\"com.microsoft.samples.SuperHero\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SuperHero\"></xref>"
   returns:
     type: "<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.samples.subpackage.Person.getFirstName()"

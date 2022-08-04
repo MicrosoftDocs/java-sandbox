@@ -14,6 +14,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getCredentials()"
+  desc: "Gets the partner credentials."
   returns:
     description: "The partner credentials."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
