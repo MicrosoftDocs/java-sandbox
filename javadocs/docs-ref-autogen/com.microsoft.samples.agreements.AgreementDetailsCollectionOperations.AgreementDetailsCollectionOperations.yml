@@ -8,7 +8,7 @@ members:
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   name: "AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   nameWithType: "AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
-  summary: "Initializes a new instance of the AgreementDetailsCollectionOperations class.\n\n**Deprecated.** for test constructor."
+  summary: "Initializes a new instance of the AgreementDetailsCollectionOperations class. This is construct second sentence.\n\n**Deprecated.** for test constructor."
   parameters:
   - description: "The root partner operations instance."
     name: "rootPartnerOperations"
