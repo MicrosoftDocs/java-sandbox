@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations
 name: "AgreementDetailsCollectionOperations"
 nameWithType: "AgreementDetailsCollectionOperations"
 summary: "Agreement details collection operations implementation class."
-deprecatedTag: "**Deprecated.** for test class."
+deprecatedTag: "for test class."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -30,33 +30,36 @@ constructors:
   name: "AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   nameWithType: "AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   summary: "Initializes a new instance of the AgreementDetailsCollectionOperations class."
-  deprecatedTag: "**Deprecated.** for test constructor."
+  deprecatedTag: "for test constructor."
   parameters:
   - description: "The root partner operations instance."
     name: "rootPartnerOperations"
     type: "<xref href=\"com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "@Deprecated(since=\"11\")\npublic AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   desc: "Initializes a new instance of the AgreementDetailsCollectionOperations class. This is construct second sentence."
+  hasDeprecatedTag: true
 fields:
 - uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
   name: "deprecatedField"
   nameWithType: "AgreementDetailsCollectionOperations.deprecatedField"
   summary: "Just a test field of deprecated."
-  deprecatedTag: "**Deprecated.** for test field."
+  deprecatedTag: "for test field."
   field:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "@Deprecated(forRemoval=false)\npublic String deprecatedField"
   desc: "Just a test field of deprecated. This is field second sentence."
+  hasDeprecatedTag: true
 methods:
 - uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
   name: "get()"
   nameWithType: "AgreementDetailsCollectionOperations.get()"
   summary: "Retrieves the agreement details."
-  deprecatedTag: "**Deprecated.** for test method and use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
+  deprecatedTag: "for test method and use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
   syntax: "@Deprecated(since=\"11\", forRemoval=true)\npublic ResourceCollection<AgreementMetaData> get()"
   desc: "Retrieves the agreement details. This is method second sentence."
+  hasDeprecatedTag: true
   returns:
     description: "A list of agreement details."
     type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -72,6 +75,7 @@ methods:
     type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "class"
 desc: "Agreement details collection operations implementation class. This is class second sentence."
+hasDeprecatedTag: true
 implements:
 - "<xref href=\"com.microsoft.samples.agreements.IAgreementDetailsCollection?alt=com.microsoft.samples.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
 metadata: {}

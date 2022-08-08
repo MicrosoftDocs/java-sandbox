@@ -35,11 +35,12 @@ methods:
   name: "getKind()"
   nameWithType: "Omnivorous.getKind()"
   summary: "Get kind from Carnivorous."
-  deprecatedTag: "**Deprecated.** test for Omnivorous inheritDoc."
+  deprecatedTag: "test for Omnivorous inheritDoc."
   modifiers:
   - "abstract"
   syntax: "public abstract String getKind()"
   desc: "Get kind from Carnivorous. This is second sentence. Get kind from Omnivorous."
+  hasDeprecatedTag: true
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
