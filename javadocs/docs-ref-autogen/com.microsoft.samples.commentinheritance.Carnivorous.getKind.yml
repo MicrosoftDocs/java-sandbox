@@ -8,8 +8,10 @@ members:
   fullName: "com.microsoft.samples.commentinheritance.Carnivorous.getKind()"
   name: "getKind()"
   nameWithType: "Carnivorous.getKind()"
-  summary: "Get kind from Carnivorous.\n\n**Deprecated.** test for Carnivorous inheritedDoc."
+  summary: "Get kind from Carnivorous."
+  deprecatedTag: "**Deprecated.** test for Carnivorous inheritedDoc."
   syntax: "public abstract String getKind()"
+  desc: "Get kind from Carnivorous. This is second sentence."
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

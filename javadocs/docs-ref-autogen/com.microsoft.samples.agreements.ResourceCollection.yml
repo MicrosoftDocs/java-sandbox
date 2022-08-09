@@ -24,5 +24,6 @@ constructors:
 type: "class"
 typeParameters:
 - name: "TResource"
+desc: "Contains a collection of resources with JSON properties to represent the output Type of objects in collection"
 metadata: {}
 package: "com.microsoft.samples.agreements"

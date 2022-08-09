@@ -52,5 +52,6 @@ methods:
   syntax: "public static Person.IdentificationInfo.Gender[] values()"
   returns:
     type: "<xref href=\"com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender?alt=com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender&text=Gender\" data-throw-if-not-resolved=\"False\" />[]"
+desc: "Enum describes person's gender"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

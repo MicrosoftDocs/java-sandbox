@@ -10,6 +10,7 @@ members:
   nameWithType: "Animal.feed()"
   summary: "Feed offspring."
   syntax: "public abstract void feed()"
+  desc: "Feed offspring."
 type: "method"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

@@ -9,5 +9,6 @@ methods:
 - "com.microsoft.samples.agreements.IAgreementDetailsCollection.get()"
 - "com.microsoft.samples.agreements.IAgreementDetailsCollection.get(java.lang.String)"
 type: "interface"
+desc: "Encapsulates the operations on the agreement metadata collection."
 metadata: {}
 package: "com.microsoft.samples.agreements"

@@ -29,5 +29,6 @@ methods:
 - "com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(java.lang.String)"
 - "com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int)"
 type: "class"
+desc: "The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance."
 metadata: {}
 package: "com.microsoft.samples.agreements"

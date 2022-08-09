@@ -8,8 +8,10 @@ members:
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
   name: "get()"
   nameWithType: "AgreementDetailsCollectionOperations.get()"
-  summary: "Retrieves the agreement details.\n\n**Deprecated.** for test method.Use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
+  summary: "Retrieves the agreement details."
+  deprecatedTag: "**Deprecated.** for test method and use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
   syntax: "@Deprecated(since=\"11\", forRemoval=true)\npublic ResourceCollection<AgreementMetaData> get()"
+  desc: "Retrieves the agreement details. This is method second sentence."
   returns:
     description: "A list of agreement details."
     type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"

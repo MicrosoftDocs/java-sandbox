@@ -36,6 +36,7 @@ methods:
 - "com.microsoft.samples.commentinheritance.Dog.giveBirth(int)"
 - "com.microsoft.samples.commentinheritance.Dog.verballyCommunicate()"
 type: "class"
+desc: "Canine and man's best friend."
 implements:
 - "<xref href=\"com.microsoft.samples.commentinheritance.Omnivorous?alt=com.microsoft.samples.commentinheritance.Omnivorous&text=Omnivorous\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.commentinheritance.Viviparous?alt=com.microsoft.samples.commentinheritance.Viviparous&text=Viviparous\" data-throw-if-not-resolved=\"False\" />"

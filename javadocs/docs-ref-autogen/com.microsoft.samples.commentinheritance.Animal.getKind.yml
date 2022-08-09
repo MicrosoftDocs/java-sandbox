@@ -8,8 +8,9 @@ members:
   fullName: "com.microsoft.samples.commentinheritance.Animal.getKind()"
   name: "getKind()"
   nameWithType: "Animal.getKind()"
-  summary: "Get kind from Organism. Get kind from Animal."
+  summary: "Get kind from Organism."
   syntax: "public abstract String getKind()"
+  desc: "Get kind from Organism. Get kind from Animal."
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "method"

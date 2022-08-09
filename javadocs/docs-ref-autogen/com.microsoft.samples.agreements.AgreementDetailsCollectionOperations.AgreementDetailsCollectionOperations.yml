@@ -8,12 +8,14 @@ members:
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   name: "AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   nameWithType: "AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
-  summary: "Initializes a new instance of the AgreementDetailsCollectionOperations class. This is construct second sentence.\n\n**Deprecated.** for test constructor."
+  summary: "Initializes a new instance of the AgreementDetailsCollectionOperations class."
+  deprecatedTag: "**Deprecated.** for test constructor."
   parameters:
   - description: "The root partner operations instance."
     name: "rootPartnerOperations"
     type: "<xref href=\"com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "@Deprecated(since=\"11\")\npublic AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
+  desc: "Initializes a new instance of the AgreementDetailsCollectionOperations class. This is construct second sentence."
 type: "constructor"
 metadata: {}
 package: "com.microsoft.samples.agreements"

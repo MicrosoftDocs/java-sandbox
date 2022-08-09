@@ -29,5 +29,6 @@ constructors:
 methods:
 - "com.microsoft.samples.commentinheritance.Mammal.getKind()"
 type: "class"
+desc: "Mammal."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

@@ -45,6 +45,7 @@ methods:
 - "com.microsoft.samples.SuperHero.setUniquePower(java.lang.String)"
 - "com.microsoft.samples.SuperHero.successfullyAttacked(int,java.lang.String)"
 type: "class"
+desc: "Hero is the main entity we will be using to something"
 implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Cloneable?alt=java.lang.Cloneable&text=Cloneable\" data-throw-if-not-resolved=\"False\" />"
