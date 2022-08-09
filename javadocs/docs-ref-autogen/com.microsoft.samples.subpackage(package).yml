@@ -2,7 +2,7 @@
 uid: "com.microsoft.samples.subpackage"
 fullName: "com.microsoft.samples.subpackage"
 name: "com.microsoft.samples.subpackage"
-summary: "This subpackage contains the sample set of classes for testing DocFx doclet."
+summary: "This subpackage contains the sample set of classes for testing DocFx doclet.<br></br><b>Deprecated.</b> for test packages."
 classes:
 - "com.microsoft.samples.subpackage.CustomException"
 - "com.microsoft.samples.subpackage.HttpStatusCode"
