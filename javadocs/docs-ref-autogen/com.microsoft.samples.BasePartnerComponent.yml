@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.BasePartnerComponent"
 fullName: "com.microsoft.samples.BasePartnerComponent<TContext>"
 name: "BasePartnerComponent<TContext>"
 nameWithType: "BasePartnerComponent<TContext>"
-summary: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
+summary: "Holds common partner component properties and behavior."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
@@ -35,6 +35,7 @@ constructors:
     name: "componentContext"
     type: "<xref href=\"TContext?alt=TContext&text=TContext\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected BasePartnerComponent(IPartner rootPartnerOperations, TContext componentContext)"
+  desc: "Initializes a new instance of the BasePartnerComponent class."
 methods:
 - uid: "com.microsoft.samples.BasePartnerComponent.testBase()"
   fullName: "com.microsoft.samples.BasePartnerComponent<TContext>.testBase()"
@@ -53,5 +54,6 @@ methods:
 type: "class"
 typeParameters:
 - name: "TContext"
+desc: "Holds common partner component properties and behavior. All components should inherit from this class. The context object type."
 metadata: {}
 package: "com.microsoft.samples"

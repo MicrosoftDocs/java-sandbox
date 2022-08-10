@@ -51,6 +51,7 @@ methods:
   exceptions:
   - description: "with reason message"
     type: "<xref href=\"com.microsoft.samples.subpackage.CustomException?alt=com.microsoft.samples.subpackage.CustomException&text=CustomException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "We need to have such method that throw exception declared in the same class"
 type: "class"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

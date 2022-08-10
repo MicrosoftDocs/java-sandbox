@@ -14,6 +14,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract ResourceCollection<AgreementMetaData> get()"
+  desc: "Retrieves all current agreement metadata."
   returns:
     description: "The current agreement metadata."
     type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"
@@ -30,5 +31,6 @@ methods:
   returns:
     type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"
 type: "interface"
+desc: "Encapsulates the operations on the agreement metadata collection."
 metadata: {}
 package: "com.microsoft.samples.agreements"

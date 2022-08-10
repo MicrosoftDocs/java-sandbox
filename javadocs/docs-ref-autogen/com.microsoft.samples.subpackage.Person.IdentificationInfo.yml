@@ -26,5 +26,6 @@ constructors:
   nameWithType: "Person.IdentificationInfo.IdentificationInfo()"
   syntax: "public IdentificationInfo()"
 type: "class"
+desc: "Class that describes person's identification"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

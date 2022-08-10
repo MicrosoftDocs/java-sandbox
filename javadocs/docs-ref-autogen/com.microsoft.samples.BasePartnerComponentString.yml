@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.BasePartnerComponentString"
 fullName: "com.microsoft.samples.BasePartnerComponentString"
 name: "BasePartnerComponentString"
 nameWithType: "BasePartnerComponentString"
-summary: "Holds common partner component properties and behavior. The context is string type by default."
+summary: "Holds common partner component properties and behavior."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
@@ -35,6 +35,7 @@ constructors:
     name: "rootPartnerOperations"
     type: "<xref href=\"com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected BasePartnerComponentString(IPartner rootPartnerOperations)"
+  desc: "Initializes a new instance of the BasePartnerComponent class."
 - uid: "com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(com.microsoft.samples.IPartner,java.lang.String)"
   fullName: "com.microsoft.samples.BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)"
   name: "BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)"
@@ -50,6 +51,7 @@ constructors:
     name: "componentContext"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
   syntax: "protected BasePartnerComponentString(IPartner rootPartnerOperations, String componentContext)"
+  desc: "Initializes a new instance of the BasePartnerComponent class."
 methods:
 - uid: "com.microsoft.samples.BasePartnerComponentString.testInherited()"
   fullName: "com.microsoft.samples.BasePartnerComponentString.testInherited()"
@@ -60,5 +62,6 @@ methods:
   overridden: "com.microsoft.samples.BasePartnerComponent.testInherited()"
   syntax: "protected void testInherited()"
 type: "class"
+desc: "Holds common partner component properties and behavior. The context is string type by default."
 metadata: {}
 package: "com.microsoft.samples"

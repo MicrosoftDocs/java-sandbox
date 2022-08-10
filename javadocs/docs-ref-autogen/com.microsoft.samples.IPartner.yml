@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.IPartner"
 fullName: "com.microsoft.samples.IPartner"
 name: "IPartner"
 nameWithType: "IPartner"
-summary: "The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more."
+summary: "The main entry point into using the partner SDK functionality."
 syntax: "public interface IPartner"
 methods:
 - uid: "com.microsoft.samples.IPartner.getCredentials()"
@@ -14,9 +14,11 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getCredentials()"
+  desc: "Gets the partner credentials."
   returns:
     description: "The partner credentials."
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "interface"
+desc: "The main entry point into using the partner SDK functionality. Represents a partner and encapsulates all the behavior attached to partners. Use this interface to get to the partner's customers, profiles, and customer orders, profiles and subscriptions and more."
 metadata: {}
 package: "com.microsoft.samples"

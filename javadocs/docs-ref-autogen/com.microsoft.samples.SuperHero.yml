@@ -63,12 +63,13 @@ methods:
   fullName: "com.microsoft.samples.SuperHero.<V>ReturnNull(Class<V> aClass)"
   name: "<V>ReturnNull(Class<V> aClass)"
   nameWithType: "SuperHero.<V>ReturnNull(Class<V> aClass)"
-  summary: "Returns a FileStoreAttributeView of the given type.\n\nThis method always returns null as no <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FileStoreAttributeView\"></xref> is currently supported."
+  summary: "Returns a FileStoreAttributeView of the given type."
   parameters:
   - description: "a class"
     name: "aClass"
     type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public V <V>ReturnNull(Class<V> aClass)"
+  desc: "Returns a FileStoreAttributeView of the given type.\n\nThis method always returns null as no <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FileStoreAttributeView\"></xref> is currently supported."
   returns:
     description: "null"
     type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"
@@ -99,9 +100,10 @@ methods:
   fullName: "com.microsoft.samples.SuperHero.getLastName()"
   name: "getLastName()"
   nameWithType: "SuperHero.getLastName()"
-  summary: "Get capitalized last name. But it's not the end, because of multiline comment"
+  summary: "Get capitalized last name."
   overridden: "com.microsoft.samples.subpackage.Person.getLastName()"
   syntax: "public String getLastName()"
+  desc: "Get capitalized last name. But it's not the end, because of multiline comment"
   returns:
     description: "lastName in uppercase. But it's not the end,\n because of multiline comment"
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
@@ -150,7 +152,8 @@ methods:
   fullName: "com.microsoft.samples.SuperHero.successfullyAttacked(int incomingDamage, String damageType)"
   name: "successfullyAttacked(int incomingDamage, String damageType)"
   nameWithType: "SuperHero.successfullyAttacked(int incomingDamage, String damageType)"
-  summary: "This is a simple description of the method. . . [Superman!][Superman]\n\n\n\n**Deprecated.** As of version 1.1, use . . . instead\n\n\n[Superman]: http://www.supermanisthegreatest.com"
+  summary: "This is a simple description of the method."
+  deprecatedTag: "As of version 1.1, use . . . instead"
   parameters:
   - description: "the amount of incoming damage for <xref uid=\"com.microsoft.samples.SuperHero\" data-throw-if-not-resolved=\"false\" data-raw-source=\"SuperHero\"></xref>"
     name: "incomingDamage"
@@ -162,10 +165,13 @@ methods:
   exceptions:
   - description: "when incomingDamage is negative and thanks for <xref uid=\"Exception\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Exception\"></xref>"
     type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
+  desc: "This is a simple description of the method. . . [Superman!][Superman]\n\n\n[Superman]: http://www.supermanisthegreatest.com"
+  hasDeprecatedTag: true
   returns:
     description: "the amount of health hero has after attack"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
+desc: "Hero is the main entity we will be using to something"
 implements:
 - "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Cloneable?alt=java.lang.Cloneable&text=Cloneable\" data-throw-if-not-resolved=\"False\" />"

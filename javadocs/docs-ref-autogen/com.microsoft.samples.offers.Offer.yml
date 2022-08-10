@@ -26,6 +26,7 @@ constructors:
   nameWithType: "Offer.Offer()"
   summary: "Initializes a new instance of the Offer class."
   syntax: "public Offer()"
+  desc: "Initializes a new instance of the Offer class."
 methods:
 - uid: "com.microsoft.samples.offers.Offer.getReselleeQualifications()"
   fullName: "com.microsoft.samples.offers.Offer.getReselleeQualifications()"
@@ -58,5 +59,6 @@ methods:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />[]"
   syntax: "public void setResellerQualifications(String[] value)"
 type: "class"
+desc: "Represents a form of product availability to customer"
 metadata: {}
 package: "com.microsoft.samples.offers"

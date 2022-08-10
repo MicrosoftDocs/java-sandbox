@@ -35,13 +35,15 @@ methods:
   fullName: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
   name: "getKind()"
   nameWithType: "Mammal.getKind()"
-  summary: "Get kind from Organism. Get kind from Animal. Get kind from Mammal."
+  summary: "Get kind from Organism."
   modifiers:
   - "abstract"
   overridden: "com.microsoft.samples.commentinheritance.Animal.getKind()"
   syntax: "public abstract String getKind()"
+  desc: "Get kind from Organism. Get kind from Animal. Get kind from Mammal."
   returns:
     type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
+desc: "Mammal."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"
