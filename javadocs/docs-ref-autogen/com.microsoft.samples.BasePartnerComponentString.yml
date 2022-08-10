@@ -28,8 +28,6 @@ constructors:
   name: "BasePartnerComponentString(IPartner rootPartnerOperations)"
   nameWithType: "BasePartnerComponentString.BasePartnerComponentString(IPartner rootPartnerOperations)"
   summary: "Initializes a new instance of the BasePartnerComponent class."
-  modifiers:
-  - "protected"
   parameters:
   - description: "The root partner operations that created this component."
     name: "rootPartnerOperations"
