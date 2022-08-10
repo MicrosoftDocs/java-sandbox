@@ -4,7 +4,6 @@ fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender"
 name: "Person.IdentificationInfo.Gender"
 nameWithType: "Person.IdentificationInfo.Gender"
 summary: "Enum describes person's gender"
-deprecatedTag: "for test enum."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"java.lang.Enum?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
