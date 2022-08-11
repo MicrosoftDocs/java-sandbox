@@ -3,7 +3,7 @@ uid: "com.azure.resourcemanager.appservice.models.AppServiceCertificateOrderProp
 fullName: "com.azure.resourcemanager.appservice.models.AppServiceCertificateOrderPropertiesAppServiceCertificateNotRenewableReasonsItem"
 name: "AppServiceCertificateOrderPropertiesAppServiceCertificateNotRenewableReasonsItem"
 nameWithType: "AppServiceCertificateOrderPropertiesAppServiceCertificateNotRenewableReasonsItem"
-summary: "Defines values for AppServiceCertificateOrderPropertiesAppServiceCertificateNotRenewableReasonsItem."
+summary: "Defines values for App<wbr>Service<wbr>Certificate<wbr>Order<wbr>Properties<wbr>App<wbr>Service<wbr>Certificate<wbr>Not<wbr>Renewable<wbr>Reasons<wbr>Item."
 inheritances:
   - '<xref href="java.lang.Object" data-throw-if-not-resolved="False" />'
   - '<xref href="com.azure.core.util.ExpandableStringEnum" data-throw-if-not-resolved="False" />'
