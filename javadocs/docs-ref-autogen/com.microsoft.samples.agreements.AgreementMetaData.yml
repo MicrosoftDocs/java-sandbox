@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.agreements.AgreementMetaData"
 fullName: "com.microsoft.samples.agreements.AgreementMetaData"
 name: "AgreementMetaData"
 nameWithType: "AgreementMetaData"
-summary: "The Agreement<wbr>Meta<wbr>Data provides metadata about the agreement type that partner can provide confirmation of customer acceptance and test.<wbr>Break.<wbr>In.<wbr>class.<wbr>Summary.<wbr>With<wbr>Dot<wbr>Pattern<wbr>And<wbr>Different<wbr>Case.<wbr>Pattern."
+summary: "The Agreement<wbr>Meta<wbr>Data provides metadata about the agreement type that partner can provide confirmation of customer acceptance and test.<wbr>Break.<wbr>In.<wbr>class.<wbr>Summary.<wbr>With<wbr>Dot.<wbr>Pattern<wbr>And<wbr>Different<wbr>Case.<wbr>Pattern."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 inheritedMembers:
@@ -72,7 +72,8 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   syntax: "public void setVersionRank(int value)"
 type: "class"
-desc: "The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance and test.Break.In.class.Summary.WithDotPatternAndDifferentCase.Pattern."
+desc: "The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance and test.Break.In.class.Summary.WithDot.PatternAndDifferentCase.Pattern."
 metadata: {}
 package: "com.microsoft.samples.agreements"
+
 
