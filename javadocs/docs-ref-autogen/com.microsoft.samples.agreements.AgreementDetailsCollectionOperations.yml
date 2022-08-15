@@ -55,10 +55,10 @@ methods:
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get()"
   name: "get()"
   nameWithType: "AgreementDetailsCollectionOperations.get()"
-  summary: "Retrieves the agreement details."
+  summary: "Retrieves the agreement details and test<wbr>Break<wbr>InLong<wbr>Summary<wbr>With<wbr>Upper<wbr>And<wbr>Low<wbr>Case<wbr>Pattern."
   deprecatedTag: "for test method and use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
   syntax: "@Deprecated(since=\"11\", forRemoval=true)\npublic ResourceCollection<AgreementMetaData> get()"
-  desc: "Retrieves the agreement details. This is method second sentence."
+  desc: "Retrieves the agreement details and testBreakInLongSummaryWithUpperAndLowCasePattern. This is method second sentence."
   hasDeprecatedTag: true
   returns:
     description: "A list of agreement details."
