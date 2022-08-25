@@ -19,7 +19,11 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public static class Herbivorous.Plant"
 constructors:
-- "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
+- uid: "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
+  fullName: "com.microsoft.samples.commentinheritance.Herbivorous.Plant.Plant()"
+  name: "Plant()"
+  nameWithType: "Herbivorous.Plant.Plant()"
+  syntax: "public Plant()"
 type: "class"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

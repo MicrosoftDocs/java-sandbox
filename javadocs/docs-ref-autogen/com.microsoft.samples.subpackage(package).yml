@@ -2,7 +2,8 @@
 uid: "com.microsoft.samples.subpackage"
 fullName: "com.microsoft.samples.subpackage"
 name: "com.microsoft.samples.subpackage"
-summary: "This subpackage contains the sample set of classes for testing DocFx doclet.<br></br><b>Deprecated.</b> for test packages."
+summary: "This subpackage contains the sample set of classes for testing DocFx doclet."
+deprecatedTag: "for test packages."
 classes:
 - "com.microsoft.samples.subpackage.CustomException"
 - "com.microsoft.samples.subpackage.HttpStatusCode"
@@ -13,5 +14,7 @@ enums:
 - "com.microsoft.samples.subpackage.Person.IdentificationInfo.Gender"
 interfaces:
 - "com.microsoft.samples.subpackage.Display"
+desc: "This subpackage contains the sample set of classes for testing DocFx doclet."
+hasDeprecatedTag: true
 metadata: {}
 package: "com.microsoft.samples.subpackage"
