@@ -6,8 +6,28 @@ nameWithType: "Viviparous"
 summary: "Mammals that give birth to young that develop within the mother's body."
 syntax: "public interface Viviparous"
 methods:
-- "com.microsoft.samples.commentinheritance.Viviparous.getKind()"
-- "com.microsoft.samples.commentinheritance.Viviparous.giveBirth(int)"
+- uid: "com.microsoft.samples.commentinheritance.Viviparous.getKind()"
+  fullName: "com.microsoft.samples.commentinheritance.Viviparous.getKind()"
+  name: "getKind()"
+  nameWithType: "Viviparous.getKind()"
+  summary: "Get kind from Viviparous."
+  modifiers:
+  - "abstract"
+  syntax: "public abstract String getKind()"
+  desc: "Get kind from Viviparous."
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+- uid: "com.microsoft.samples.commentinheritance.Viviparous.giveBirth(int)"
+  fullName: "com.microsoft.samples.commentinheritance.Viviparous.giveBirth(int numberOfOffspring)"
+  name: "giveBirth(int numberOfOffspring)"
+  nameWithType: "Viviparous.giveBirth(int numberOfOffspring)"
+  modifiers:
+  - "abstract"
+  parameters:
+  - name: "numberOfOffspring"
+    type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
+  syntax: "public abstract void giveBirth(int numberOfOffspring)"
 type: "interface"
+desc: "Mammals that give birth to young that develop within the mother's body."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

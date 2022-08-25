@@ -20,7 +20,12 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public static class Person.IdentificationInfo"
 constructors:
-- "com.microsoft.samples.subpackage.Person.IdentificationInfo.IdentificationInfo()"
+- uid: "com.microsoft.samples.subpackage.Person.IdentificationInfo.IdentificationInfo()"
+  fullName: "com.microsoft.samples.subpackage.Person.IdentificationInfo.IdentificationInfo()"
+  name: "IdentificationInfo()"
+  nameWithType: "Person.IdentificationInfo.IdentificationInfo()"
+  syntax: "public IdentificationInfo()"
 type: "class"
+desc: "Class that describes person's identification"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

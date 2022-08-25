@@ -25,9 +25,25 @@ inheritedMembers:
 - "java.lang.Object.wait(long,int)"
 syntax: "public abstract class Mammal extends Animal"
 constructors:
-- "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+- uid: "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+  fullName: "com.microsoft.samples.commentinheritance.Mammal.Mammal()"
+  name: "Mammal()"
+  nameWithType: "Mammal.Mammal()"
+  syntax: "public Mammal()"
 methods:
-- "com.microsoft.samples.commentinheritance.Mammal.getKind()"
+- uid: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
+  fullName: "com.microsoft.samples.commentinheritance.Mammal.getKind()"
+  name: "getKind()"
+  nameWithType: "Mammal.getKind()"
+  summary: "Get kind from Organism."
+  modifiers:
+  - "abstract"
+  overridden: "com.microsoft.samples.commentinheritance.Animal.getKind()"
+  syntax: "public abstract String getKind()"
+  desc: "Get kind from Organism. Get kind from Animal. Get kind from Mammal."
+  returns:
+    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
 type: "class"
+desc: "Mammal."
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"
