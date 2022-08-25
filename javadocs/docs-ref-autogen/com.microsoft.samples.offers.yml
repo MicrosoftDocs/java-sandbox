@@ -1,8 +1,0 @@
-### YamlMime:JavaPackage
-uid: "com.microsoft.samples.offers"
-fullName: "com.microsoft.samples.offers"
-name: "com.microsoft.samples.offers"
-classes:
-- "com.microsoft.samples.offers.Offer"
-metadata: {}
-package: "com.microsoft.samples.offers"
