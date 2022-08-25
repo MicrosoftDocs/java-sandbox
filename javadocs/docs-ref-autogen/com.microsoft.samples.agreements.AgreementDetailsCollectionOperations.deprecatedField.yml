@@ -1,0 +1,15 @@
+### YamlMime:JavaMember
+uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField*"
+fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
+name: "deprecatedField"
+nameWithType: "AgreementDetailsCollectionOperations.deprecatedField"
+members:
+- uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
+  fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.deprecatedField"
+  name: "deprecatedField"
+  nameWithType: "AgreementDetailsCollectionOperations.deprecatedField"
+  summary: "\n\n**Deprecated.** for test field."
+  syntax: "@Deprecated(forRemoval=false)\npublic String deprecatedField"
+type: "field"
+metadata: {}
+package: "com.microsoft.samples.agreements"
