@@ -29,7 +29,7 @@ inheritedClassMethods:
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
   - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
-syntax: "[@Deprecated](https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html)\n\npublic class **AgreementDetailsCollectionOperations**\n\nextends "@com.microsoft.samples.BasePartnerComponentString?alt=com.microsoft.samples.BasePartnerComponentString&text=BasePartnerComponentString&data-throw-if-not-resolved=False"\n\nimplements <xref href=\"com.microsoft.samples.agreements.IAgreementDetailsCollection?alt=com.microsoft.samples.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
+syntax: "[@Deprecated](https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html)\n\npublic class **AgreementDetailsCollectionOperations**\n\nextends \"@com.microsoft.samples.BasePartnerComponentString?alt=com.microsoft.samples.BasePartnerComponentString&text=BasePartnerComponentString&data-throw-if-not-resolved=False\"\n\nimplements <xref href=\"com.microsoft.samples.agreements.IAgreementDetailsCollection?alt=com.microsoft.samples.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(com.microsoft.samples.IPartner)"
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
