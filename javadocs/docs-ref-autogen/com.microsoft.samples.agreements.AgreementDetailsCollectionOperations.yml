@@ -9,21 +9,27 @@ inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.BasePartnerComponent?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.BasePartnerComponentString?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "com.microsoft.samples.BasePartnerComponent.testBase()"
-- "com.microsoft.samples.BasePartnerComponentString.testInherited()"
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "@Deprecated\npublic class AgreementDetailsCollectionOperations extends BasePartnerComponentString implements IAgreementDetailsCollection"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.samples.BasePartnerComponent?alt=com.microsoft.samples.BasePartnerComponent&text=BasePartnerComponent\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.samples.BasePartnerComponent.testBase()?alt=com.microsoft.samples.BasePartnerComponent.testBase&text=testBase\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "<xref href=\"com.microsoft.samples.BasePartnerComponentString?alt=com.microsoft.samples.BasePartnerComponentString&text=BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.samples.BasePartnerComponentString.testInherited(java.lang.String)?alt=com.microsoft.samples.BasePartnerComponentString.testInherited&text=testInherited\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public class **AgreementDetailsCollectionOperations**</br> extends <xref href=\"com.microsoft.samples.BasePartnerComponentString?alt=com.microsoft.samples.BasePartnerComponentString&text=BasePartnerComponentString\" data-throw-if-not-resolved=\"False\" /></br> implements <xref href=\"com.microsoft.samples.agreements.IAgreementDetailsCollection?alt=com.microsoft.samples.agreements.IAgreementDetailsCollection&text=IAgreementDetailsCollection\" data-throw-if-not-resolved=\"False\" />"
 constructors:
 - uid: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(com.microsoft.samples.IPartner)"
   fullName: "com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
@@ -35,7 +41,7 @@ constructors:
   - description: "The root partner operations instance."
     name: "rootPartnerOperations"
     type: "<xref href=\"com.microsoft.samples.IPartner?alt=com.microsoft.samples.IPartner&text=IPartner\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "@Deprecated(since=\"11\")\npublic AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a>(<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html#since--\">since</a>=11)</br>public AgreementDetailsCollectionOperations(IPartner rootPartnerOperations)"
   desc: "Initializes a new instance of the AgreementDetailsCollectionOperations class. This is construct second sentence."
   hasDeprecatedTag: true
 fields:
@@ -46,8 +52,8 @@ fields:
   summary: "Just a test field of deprecated."
   deprecatedTag: "for test field."
   field:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "@Deprecated(forRemoval=false)\npublic String deprecatedField"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a>(<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html#forRemoval--\">forRemoval</a>=false)</br>public String deprecatedField"
   desc: "Just a test field of deprecated. This is field second sentence."
   hasDeprecatedTag: true
 methods:
@@ -57,7 +63,7 @@ methods:
   nameWithType: "AgreementDetailsCollectionOperations.get()"
   summary: "Retrieves the agreement details and test<wbr>Break<wbr>InLong<wbr>Summary<wbr>With<wbr>Upper<wbr>And<wbr>Low<wbr>Case<wbr>Pattern."
   deprecatedTag: "for test method and use <xref uid=\"com.microsoft.samples.agreements.AgreementDetailsCollectionOperations.get(java.lang.String)\" data-throw-if-not-resolved=\"false\" data-raw-source=\"#get(String)\"></xref> instead."
-  syntax: "@Deprecated(since=\"11\", forRemoval=true)\npublic ResourceCollection<AgreementMetaData> get()"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a>(<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html#since--\">since</a>=11,<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html#forRemoval--\">forRemoval</a>=true)</br>public ResourceCollection<AgreementMetaData> get()"
   desc: "Retrieves the agreement details and testBreakInLongSummaryWithUpperAndLowCasePattern. This is method second sentence."
   hasDeprecatedTag: true
   returns:
@@ -69,7 +75,7 @@ methods:
   nameWithType: "AgreementDetailsCollectionOperations.get(String id)"
   parameters:
   - name: "id"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public ResourceCollection<AgreementMetaData> get(String id)"
   returns:
     type: "<xref href=\"com.microsoft.samples.agreements.ResourceCollection?alt=com.microsoft.samples.agreements.ResourceCollection&text=ResourceCollection\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.agreements.AgreementMetaData?alt=com.microsoft.samples.agreements.AgreementMetaData&text=AgreementMetaData\" data-throw-if-not-resolved=\"False\" />&gt;"

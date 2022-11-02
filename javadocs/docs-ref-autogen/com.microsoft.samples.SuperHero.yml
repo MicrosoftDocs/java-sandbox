@@ -7,26 +7,30 @@ summary: "Hero is the main entity we will be using to something"
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
 - "<xref href=\"com.microsoft.samples.subpackage.Person?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "com.microsoft.samples.subpackage.Person.buildPerson(com.microsoft.samples.subpackage.Person)"
-- "com.microsoft.samples.subpackage.Person.getFirstName()"
-- "com.microsoft.samples.subpackage.Person.getLastName()"
-- "com.microsoft.samples.subpackage.Person.getSomeSet()"
-- "com.microsoft.samples.subpackage.Person.setFirstName(java.lang.String)"
-- "com.microsoft.samples.subpackage.Person.setLastName()"
-- "com.microsoft.samples.subpackage.Person.setLastName(java.lang.String)"
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class SuperHero extends Person implements Serializable, Cloneable"
+inheritedClassMethods:
+- classRef: "<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />"
+  methodsRef:
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.buildPerson(com.microsoft.samples.subpackage.Person)?alt=com.microsoft.samples.subpackage.Person.buildPerson&text=buildPerson\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.getFirstName()?alt=com.microsoft.samples.subpackage.Person.getFirstName&text=getFirstName\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.getLastName()?alt=com.microsoft.samples.subpackage.Person.getLastName&text=getLastName\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.getSomeSet()?alt=com.microsoft.samples.subpackage.Person.getSomeSet&text=getSomeSet\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.setFirstName(java.lang.String)?alt=com.microsoft.samples.subpackage.Person.setFirstName&text=setFirstName\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.setLastName()?alt=com.microsoft.samples.subpackage.Person.setLastName&text=setLastName\" data-throw-if-not-resolved=\"False\" />"
+  - "<xref href=\"com.microsoft.samples.subpackage.Person.setLastName(java.lang.String)?alt=com.microsoft.samples.subpackage.Person.setLastName&text=setLastName\" data-throw-if-not-resolved=\"False\" />"
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **SuperHero**</br> extends <xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" /></br> implements <a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>, <a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Cloneable.html\">Cloneable</a>"
 constructors:
 - uid: "com.microsoft.samples.SuperHero.SuperHero()"
   fullName: "com.microsoft.samples.SuperHero.SuperHero()"
@@ -39,9 +43,9 @@ constructors:
   nameWithType: "SuperHero.SuperHero(String heroName, String uniquePower, int health, int defense)"
   parameters:
   - name: "heroName"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - name: "uniquePower"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   - name: "health"
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   - name: "defense"
@@ -56,7 +60,7 @@ fields:
   - "final"
   field:
     value: "So important string value"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public final String SOME_PUBLIC_STRING"
 methods:
 - uid: "com.microsoft.samples.SuperHero.<V>ReturnNull(java.lang.Class<V>)"
@@ -67,7 +71,7 @@ methods:
   parameters:
   - description: "a class"
     name: "aClass"
-    type: "<xref href=\"java.lang.Class?alt=java.lang.Class&text=Class\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />&gt;"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />&gt;"
   syntax: "public V <V>ReturnNull(Class<V> aClass)"
   desc: "Returns a FileStoreAttributeView of the given type.\n\nThis method always returns null as no <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FileStoreAttributeView\"></xref> is currently supported."
   returns:
@@ -95,7 +99,7 @@ methods:
   nameWithType: "SuperHero.getHeroName()"
   syntax: "public String getHeroName()"
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.samples.SuperHero.getLastName()"
   fullName: "com.microsoft.samples.SuperHero.getLastName()"
   name: "getLastName()"
@@ -106,14 +110,14 @@ methods:
   desc: "Get capitalized last name. But it's not the end, because of multiline comment"
   returns:
     description: "lastName in uppercase. But it's not the end,\n because of multiline comment"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.samples.SuperHero.getUniquePower()"
   fullName: "com.microsoft.samples.SuperHero.getUniquePower()"
   name: "getUniquePower()"
   nameWithType: "SuperHero.getUniquePower()"
   syntax: "public String getUniquePower()"
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.samples.SuperHero.setDefense(int)"
   fullName: "com.microsoft.samples.SuperHero.setDefense(int defense)"
   name: "setDefense(int defense)"
@@ -138,7 +142,7 @@ methods:
   nameWithType: "SuperHero.setHeroName(String heroName)"
   parameters:
   - name: "heroName"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public void setHeroName(String heroName)"
 - uid: "com.microsoft.samples.SuperHero.setUniquePower(java.lang.String)"
   fullName: "com.microsoft.samples.SuperHero.setUniquePower(String uniquePower)"
@@ -146,7 +150,7 @@ methods:
   nameWithType: "SuperHero.setUniquePower(String uniquePower)"
   parameters:
   - name: "uniquePower"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public void setUniquePower(String uniquePower)"
 - uid: "com.microsoft.samples.SuperHero.successfullyAttacked(int,java.lang.String)"
   fullName: "com.microsoft.samples.SuperHero.successfullyAttacked(int incomingDamage, String damageType)"
@@ -160,11 +164,11 @@ methods:
     type: "<xref href=\"int?alt=int&text=int\" data-throw-if-not-resolved=\"False\" />"
   - description: "type of damage with similar word damageTypeLong, sure"
     name: "damageType"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
-  syntax: "@Deprecated\npublic int successfullyAttacked(int incomingDamage, String damageType)"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
+  syntax: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Deprecated.html\">@Deprecated</a></br>public int successfullyAttacked(int incomingDamage, String damageType)"
   exceptions:
   - description: "when incomingDamage is negative and thanks for <xref uid=\"Exception\" data-throw-if-not-resolved=\"false\" data-raw-source=\"Exception\"></xref>"
-    type: "<xref href=\"java.lang.IllegalArgumentException?alt=java.lang.IllegalArgumentException&text=IllegalArgumentException\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/IllegalArgumentException.html\">IllegalArgumentException</a>"
   desc: "This is a simple description of the method. . . [Superman!][Superman]\n\n\n[Superman]: http://www.supermanisthegreatest.com"
   hasDeprecatedTag: true
   returns:
@@ -173,7 +177,7 @@ methods:
 type: "class"
 desc: "Hero is the main entity we will be using to something"
 implements:
-- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.lang.Cloneable?alt=java.lang.Cloneable&text=Cloneable\" data-throw-if-not-resolved=\"False\" />"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Cloneable.html\">Cloneable</a>"
 metadata: {}
 package: "com.microsoft.samples"

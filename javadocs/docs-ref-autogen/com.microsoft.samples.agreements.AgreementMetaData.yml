@@ -6,19 +6,21 @@ nameWithType: "AgreementMetaData"
 summary: "The Agreement<wbr>Meta<wbr>Data provides metadata about the agreement type that partner can provide confirmation of customer acceptance and test.<wbr>Break.<wbr>In.<wbr>class.<wbr>Summary.<wbr>With<wbr>Dot.<wbr>Pattern<wbr>And<wbr>Different<wbr>Case.<wbr>Pattern."
 inheritances:
 - "<xref href=\"java.lang.Object?displayProperty=fullName\" data-throw-if-not-resolved=\"False\" />"
-inheritedMembers:
-- "java.lang.Object.clone()"
-- "java.lang.Object.equals(java.lang.Object)"
-- "java.lang.Object.finalize()"
-- "java.lang.Object.getClass()"
-- "java.lang.Object.hashCode()"
-- "java.lang.Object.notify()"
-- "java.lang.Object.notifyAll()"
-- "java.lang.Object.toString()"
-- "java.lang.Object.wait()"
-- "java.lang.Object.wait(long)"
-- "java.lang.Object.wait(long,int)"
-syntax: "public class AgreementMetaData"
+inheritedClassMethods:
+- classRef: "java.lang.<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html\">Object</a>"
+  methodsRef:
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#clone--\">clone</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#equals-java.lang.Object-\">equals</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#finalize--\">finalize</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#getClass--\">getClass</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#hashCode--\">hashCode</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notify--\">notify</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#notifyAll--\">notifyAll</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#toString--\">toString</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait--\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-\">wait</a>"
+  - "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html#wait-long-int-\">wait</a>"
+syntax: "public class **AgreementMetaData**</br> implements <a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>"
 constructors:
 - uid: "com.microsoft.samples.agreements.AgreementMetaData.AgreementMetaData()"
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.AgreementMetaData()"
@@ -32,14 +34,14 @@ methods:
   nameWithType: "AgreementMetaData.getAgreementLink()"
   syntax: "public String getAgreementLink()"
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.samples.agreements.AgreementMetaData.getTemplateId()"
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.getTemplateId()"
   name: "getTemplateId()"
   nameWithType: "AgreementMetaData.getTemplateId()"
   syntax: "public String getTemplateId()"
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.samples.agreements.AgreementMetaData.getVersionRank()"
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.getVersionRank()"
   name: "getVersionRank()"
@@ -53,7 +55,7 @@ methods:
   nameWithType: "AgreementMetaData.setAgreementLink(String value)"
   parameters:
   - name: "value"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public void setAgreementLink(String value)"
 - uid: "com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(java.lang.String)"
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.setTemplateId(String value)"
@@ -61,7 +63,7 @@ methods:
   nameWithType: "AgreementMetaData.setTemplateId(String value)"
   parameters:
   - name: "value"
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
   syntax: "public void setTemplateId(String value)"
 - uid: "com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int)"
   fullName: "com.microsoft.samples.agreements.AgreementMetaData.setVersionRank(int value)"
@@ -73,5 +75,7 @@ methods:
   syntax: "public void setVersionRank(int value)"
 type: "class"
 desc: "The AgreementMetaData provides metadata about the agreement type that partner can provide confirmation of customer acceptance and test.Break.In.class.Summary.WithDot.PatternAndDifferentCase.Pattern."
+implements:
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>"
 metadata: {}
 package: "com.microsoft.samples.agreements"

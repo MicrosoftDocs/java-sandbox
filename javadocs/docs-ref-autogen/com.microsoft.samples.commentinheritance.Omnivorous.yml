@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.commentinheritance.Omnivorous"
 name: "Omnivorous"
 nameWithType: "Omnivorous"
 summary: "Eats plants and animals."
-syntax: "public interface Omnivorous extends Carnivorous, Herbivorous"
+syntax: "public interface **Omnivorous**</br> extends <xref href=\"com.microsoft.samples.commentinheritance.Carnivorous?alt=com.microsoft.samples.commentinheritance.Carnivorous&text=Carnivorous\" data-throw-if-not-resolved=\"False\" />, <xref href=\"com.microsoft.samples.commentinheritance.Herbivorous?alt=com.microsoft.samples.commentinheritance.Herbivorous&text=Herbivorous\" data-throw-if-not-resolved=\"False\" />"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Omnivorous.eat(com.microsoft.samples.commentinheritance.Animal)"
   fullName: "com.microsoft.samples.commentinheritance.Omnivorous.eat(Animal animalToBeEaten)"
@@ -39,10 +39,10 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getKind()"
-  desc: "Get kind from Carnivorous. This is second sentence. Get kind from Omnivorous."
+  desc: "Get kind from Carnivorous. This is second sentence. Test external link <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"org.apache.commons.lang3.StringUtils\"></xref>. Get kind from Omnivorous."
   hasDeprecatedTag: true
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 desc: "Eats plants and animals."
 implements:

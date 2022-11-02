@@ -3,7 +3,7 @@ uid: "com.microsoft.samples.commentinheritance.Organism"
 fullName: "com.microsoft.samples.commentinheritance.Organism"
 name: "Organism"
 nameWithType: "Organism"
-syntax: "public interface Organism"
+syntax: "public interface **Organism**"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Organism.getKind()"
   fullName: "com.microsoft.samples.commentinheritance.Organism.getKind()"
@@ -15,7 +15,7 @@ methods:
   syntax: "public abstract String getKind()"
   desc: "Get kind from Organism."
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 metadata: {}
 package: "com.microsoft.samples.commentinheritance"

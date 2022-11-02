@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.commentinheritance.Viviparous"
 name: "Viviparous"
 nameWithType: "Viviparous"
 summary: "Mammals that give birth to young that develop within the mother's body."
-syntax: "public interface Viviparous"
+syntax: "public interface **Viviparous**"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Viviparous.getKind()"
   fullName: "com.microsoft.samples.commentinheritance.Viviparous.getKind()"
@@ -16,7 +16,7 @@ methods:
   syntax: "public abstract String getKind()"
   desc: "Get kind from Viviparous."
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 - uid: "com.microsoft.samples.commentinheritance.Viviparous.giveBirth(int)"
   fullName: "com.microsoft.samples.commentinheritance.Viviparous.giveBirth(int numberOfOffspring)"
   name: "giveBirth(int numberOfOffspring)"

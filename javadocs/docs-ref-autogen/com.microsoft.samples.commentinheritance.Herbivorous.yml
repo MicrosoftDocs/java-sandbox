@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.commentinheritance.Herbivorous"
 name: "Herbivorous"
 nameWithType: "Herbivorous"
 summary: "Marks animals that eat plants."
-syntax: "public interface Herbivorous"
+syntax: "public interface **Herbivorous**"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Herbivorous.eat(com.microsoft.samples.commentinheritance.Herbivorous.Plant)"
   fullName: "com.microsoft.samples.commentinheritance.Herbivorous.eat(Herbivorous.Plant plantToBeEaten)"
@@ -29,7 +29,7 @@ methods:
   syntax: "public abstract String getKind()"
   desc: "Get kind from Herbivorous."
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 desc: "Marks animals that eat plants."
 metadata: {}

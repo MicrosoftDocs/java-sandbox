@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.subpackage.Display<T,R>"
 name: "Display<T,R>"
 nameWithType: "Display<T,R>"
 summary: "Do you see some `First` code block?"
-syntax: "public interface Display<T,R> extends Serializable, List<Person<T>>"
+syntax: "public interface **Display<T,R>**</br> extends <a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>, <a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 methods:
 - uid: "com.microsoft.samples.subpackage.Display.hide()"
   fullName: "com.microsoft.samples.subpackage.Display<T,R>.hide()"
@@ -26,7 +26,7 @@ typeParameters:
 - name: "R"
 desc: "Do you see some `First` code block?\n\nOr this `Second` code block?"
 implements:
-- "<xref href=\"java.io.Serializable?alt=java.io.Serializable&text=Serializable\" data-throw-if-not-resolved=\"False\" />"
-- "<xref href=\"java.util.List?alt=java.util.List&text=List\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html\">Serializable</a>"
+- "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/util/List.html\">List</a>&lt;<xref href=\"com.microsoft.samples.subpackage.Person?alt=com.microsoft.samples.subpackage.Person&text=Person\" data-throw-if-not-resolved=\"False\" />&lt;<xref href=\"T?alt=T&text=T\" data-throw-if-not-resolved=\"False\" />&gt;&gt;"
 metadata: {}
 package: "com.microsoft.samples.subpackage"

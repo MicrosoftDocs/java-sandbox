@@ -4,7 +4,7 @@ fullName: "com.microsoft.samples.commentinheritance.Carnivorous"
 name: "Carnivorous"
 nameWithType: "Carnivorous"
 summary: "Marks an Animal that eats other animals."
-syntax: "public interface Carnivorous"
+syntax: "public interface **Carnivorous**"
 methods:
 - uid: "com.microsoft.samples.commentinheritance.Carnivorous.eat(com.microsoft.samples.commentinheritance.Animal)"
   fullName: "com.microsoft.samples.commentinheritance.Carnivorous.eat(Animal animalBeingEaten)"
@@ -28,10 +28,10 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getKind()"
-  desc: "Get kind from Carnivorous. This is second sentence."
+  desc: "Get kind from Carnivorous. This is second sentence. Test external link <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"org.apache.commons.lang3.StringUtils\"></xref>."
   hasDeprecatedTag: true
   returns:
-    type: "<xref href=\"java.lang.String?alt=java.lang.String&text=String\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
 type: "interface"
 desc: "Marks an Animal that eats other animals."
 metadata: {}
