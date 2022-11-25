@@ -72,11 +72,11 @@ methods:
   - description: "a class"
     name: "aClass"
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>&lt;<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />&gt;"
-  syntax: "public V <V>ReturnNull(Class<V> aClass)"
+  syntax: "public Class <V>ReturnNull(Class<V> aClass)"
   desc: "Returns a FileStoreAttributeView of the given type.\n\nThis method always returns null as no <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"FileStoreAttributeView\"></xref> is currently supported."
   returns:
     description: "null"
-    type: "<xref href=\"V?alt=V&text=V\" data-throw-if-not-resolved=\"False\" />"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html\">Class</a>"
 - uid: "com.microsoft.samples.SuperHero.getDefense()"
   fullName: "com.microsoft.samples.SuperHero.getDefense()"
   name: "getDefense()"
