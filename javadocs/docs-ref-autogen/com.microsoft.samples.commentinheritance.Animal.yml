@@ -41,7 +41,7 @@ methods:
   nameWithType: "Animal.feed()"
   summary: "Feed offspring."
   modifiers:
-  - "abstractAbcdefgHijklmnOpqrst"
+  - "abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst"
   syntax: "public abstract void feed()"
   desc: "Feed offspring."
 - uid: "com.microsoft.samples.commentinheritance.Animal.getKind()"
