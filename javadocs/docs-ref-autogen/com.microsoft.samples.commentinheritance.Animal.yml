@@ -35,6 +35,8 @@ methods:
   summary: "Breathe."
   syntax: "public void breathe()"
   desc: "Breathe."
+  returns:
+    type: "<xref href=\"com.microsoft.samples.commentinheritance.Organism?alt=com.microsoft.samples.commentinheritance.Organism&text=Organism\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.samples.commentinheritance.Animal.feed()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.feed()"
   name: "feed()"
