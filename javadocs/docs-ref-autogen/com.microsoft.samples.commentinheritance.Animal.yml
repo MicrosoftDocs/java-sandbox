@@ -56,7 +56,7 @@ methods:
   syntax: "public abstract String getKind()"
   desc: "Get kind from Organism. Get kind from Animal."
   returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst.html\">String</a>"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst.html\">abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst</a>"
 - uid: "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
   name: "verballyCommunicate()"
