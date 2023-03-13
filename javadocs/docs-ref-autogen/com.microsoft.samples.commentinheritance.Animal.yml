@@ -36,14 +36,14 @@ methods:
   syntax: "public void breathe()"
   desc: "Breathe."
   returns:
-    type: "<xref href=\"com.microsoft.samples.commentinheritance.Organism?alt=com.microsoft.samples.commentinheritance.Organism&text=abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst\" data-throw-if-not-resolved=\"False\" />"
+    type: "<xref href=\"com.microsoft.samples.commentinheritance.Organism?alt=com.microsoft.samples.commentinheritance.Organism&text=xrefAbstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst\" data-throw-if-not-resolved=\"False\" />"
 - uid: "com.microsoft.samples.commentinheritance.Animal.feed()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.feed()"
   name: "feed()"
   nameWithType: "Animal.feed()"
   summary: "Feed offspring."
   modifiers:
-  - "abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst"
+  - "public"
   syntax: "public abstract void feed()"
   desc: "Feed offspring."
 - uid: "com.microsoft.samples.commentinheritance.Animal.getKind()"
@@ -56,7 +56,7 @@ methods:
   syntax: "public abstract String getKind()"
   desc: "Get kind from Organism. Get kind from Animal."
   returns:
-    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst.html\">abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst</a>"
+    type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/abstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst.html\">hrefAbstractAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrstAbcdefgHijklmnOpqrst</a>"
 - uid: "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
   fullName: "com.microsoft.samples.commentinheritance.Animal.verballyCommunicate()"
   name: "verballyCommunicate()"
