@@ -28,7 +28,7 @@ methods:
   modifiers:
   - "abstract"
   syntax: "public abstract String getKind()"
-  desc: "Get kind from Carnivorous. This is second sentence. Test external link <xref uid=\"\" data-throw-if-not-resolved=\"false\" data-raw-source=\"org.apache.commons.lang3.StringUtils\"></xref>."
+  desc: "Get kind from Carnivorous. This is second sentence. Test external link [StringUtils][].\n\n\n[StringUtils]: https://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/StringUtils.html"
   hasDeprecatedTag: true
   returns:
     type: "<a href=\"https://docs.oracle.com/javase/8/docs/api/java/lang/String.html\">String</a>"
